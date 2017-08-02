@@ -38,9 +38,9 @@ Bare PCB, older version \(1.1\) that only has 1 2u slot, but the same as the cur
 
 Solder on the TRRS jack, diodes, and resistors \(optional\):![](http://i.imgur.com/UVY8ShN.jpg)
 
-Soldering of diodes complete:
+Soldering of diodes complete:![](http://i.imgur.com/PxDnA8H.jpg)
 
-![](http://i.imgur.com/PxDnA8H.jpg)
+Solder the TRRS jumpers on the side with the jack:![](http://i.imgur.com/6AIYGB1.jpg)
 
-
+Make sure the jumpers on the side without the jack are not soldered:![](http://i.imgur.com/CpzkAcz.jpg)
 
