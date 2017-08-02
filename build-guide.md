@@ -6,15 +6,14 @@
 
 Here's a list of parts needed for the build:
 
-* 2 Nyquist PCBs
-* 60 diodes \(through-hole and SMD diodes supported\)
-* 2 Arduino Pro Micros
+* 2 [Nyquist PCBs](https://keeb.io/products/nyquist-keyboard)
+* 60 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
+* 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 2 push buttons for resetting
-* 2 4.7kΩ resistors for I2C \(optional\)
-* 60 switches \(MX-compatible and Alps switches are supported\)
+* 60 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
 * Case
-* 2 TRRS jacks
-* 1 TRRS cable
+* 2 [TRRS jacks](https://keeb.io/products/trrs-jacks-3-5mm-one-pair)
+* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * Optional parts
   * 2 4.7kΩ resistors if doing I2C
   * 2u PCB mount MX stabilizers if using 2u keys
