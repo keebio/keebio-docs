@@ -6,6 +6,8 @@ The Nyquist is a 60% split ortholinear keyboard, comprised of two halves with a 
 
 There's also a spot on the PCB for a pushbutton switch to reset the Pro Micro for flashing. No more taking a wire/tweezers/screwdriver to jump the Reset and GND pins!
 
+The two halves are connected to each other via a TRRS cable, which is a 4-pin cable.
+
 ## Firmware
 
 The Nyquist uses QMK, and the code is basically a fork of the lets-split keyboard files. The pins used on the Pro Micro are the same as the ones used by the Let's Split, with the exception of the additional row of course, so it is actually backwards-compatible with a Let's Split \(if you flash both with the Nyquist firmware\).

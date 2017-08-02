@@ -21,16 +21,26 @@ Here's a list of parts needed for the build:
 
 Here's a summary of the build steps:
 
-1. Solder diodes
-2. Solder resistors \(optional\)
-3. Solder push button
-4. Solder Pro Micro header pins
-5. Add 2u stabilizers
-6. Solder switches
-7. Flash Pro Micros
-8. Solder Pro Micros
+1. Solder components
+   1. Solder diodes
+   2. Solder resistors \(optional\)
+   3. Solder push button
+   4. Solder Pro Micro header pins
+2. Add 2u stabilizers
+3. Solder switches
+4. Flash Pro Micros
+5. Solder Pro Micros
+6. Solder RGB strip \(optional\)
 
+## Soldering the Components
 
+Bare PCB, older version \(1.1\) that only has 1 2u slot, but the same as the current version otherwise: ![](http://i.imgur.com/UnRgaYM.jpg)
+
+Solder on the TRRS jack, diodes, and resistors \(optional\):![](http://i.imgur.com/UVY8ShN.jpg)
+
+Soldering of diodes complete:
+
+![](http://i.imgur.com/PxDnA8H.jpg)
 
 
 
