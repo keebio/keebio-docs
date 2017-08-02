@@ -56,3 +56,11 @@ Solder on the right-angle reset pushbutton:![](http://i.imgur.com/qSDyQE9.jpg)
 
 Finished halves:![](http://i.imgur.com/q0zkbeV.jpg)
 
+## Add 2u stabilizers \(optional\)
+
+If you are doing 2u keys with stabilizers, install the stabilizers now. Make sure the bottom of the stabilizer snaps into the PCB.
+
+## Add switches
+
+
+
