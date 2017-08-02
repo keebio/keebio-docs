@@ -1,5 +1,7 @@
 ## 
 
+# Build Guide
+
 ## Parts List
 
 Here's a list of parts needed for the build:
