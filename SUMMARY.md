@@ -1,7 +1,9 @@
 # Summary
 
-* [Introduction](README.md)
-* [First Chapter](chapter1.md)
+* [About the Nyquist](README.md)
 * Build Guide
 * Adding RGB Underglow
+* Flashing Firmware
+* Troubleshooting
+* FAQ
 

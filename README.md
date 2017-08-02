@@ -1,3 +1,4 @@
-# My Awesome Book
+# About the Nyquist
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+The Nyquist is a 60% split ortholinear keyboard, comprised of two halves with a 5x6 arrangement of keys.
+
