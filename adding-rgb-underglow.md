@@ -34,5 +34,5 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 * GND on strip to GND pad
 * +5V on strip to VCC pad
 
-![](http://i.imgur.com/KgUvtxe.jpg)
+[![](http://i.imgur.com/KgUvtxe.jpg)](http://i.imgur.com/KgUvtxe.jpg)
 
