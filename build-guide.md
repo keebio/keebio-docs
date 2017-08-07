@@ -63,5 +63,7 @@ If you are doing 2u keys with stabilizers, install the stabilizers now. Make sur
 
 ## Add switches
 
+Work in progress...
 
+If using Alps switches, you will need to modify the two switches that will sit on top of the Pro Micro, since the width of the switch will touch the header pins of the Pro Micro.To modify the switches, you will have to shave off about 1-2mm on each side of the switch. \(TODO: add picture here\).
 
