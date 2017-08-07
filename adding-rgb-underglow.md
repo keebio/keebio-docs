@@ -8,7 +8,7 @@ To add RGB underglow to your board, you'll need the following parts:
 
 There are 4 pins of note on the WS2812B strip:
 
-* VCC
+* VCC or +5V
 * GND
 * Din \(Data in\)
 * Do or Dout \(Data out\) - Only used by the strip on the master \(left\) side of the board
@@ -19,19 +19,20 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 
 * TX0 Pin on Pro Micro --&gt; Din on master strip --&gt; Dout on master strip --&gt; Extra data line of TRRS cable --&gt; Din on slave strip
 
-
-
 ### Master \(left\) side
 
 * Din on strip connects to PD3 breakout pad on PCB
-
 * GND on strip to GND pad
-
 * +5V on strip to VCC pad
-
 * DO/Dout on strip to Extra Data pad
 
+![](http://i.imgur.com/mE5hgF8.jpg)
 
+### Slave \(right\) side
 
+* Din on strip connects to Extra Data pad
+* GND on strip to GND pad
+* +5V on strip to VCC pad
 
+![](http://i.imgur.com/KgUvtxe.jpg)
 
