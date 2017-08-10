@@ -2,31 +2,33 @@
 
 Still in progress...
 
-- Pro Micro lights up but no presses register
+* Pro Micro lights up but no presses register
 
-	- Inverted Pro Micro
+  * Inverted Pro Micro
 
-	- inverted diodes
+  * inverted diodes
 
-	- Check with default hex
+  * Check with default hex
 
-- My right side is inverted if I plug it in by itself
+* My right side is inverted if I plug it in by itself
 
-- Doesn't work if I insert the Pro Micro and have it touch the pins but haven't soldered yet
+* Doesn't work if I insert the Pro Micro and have it touch the pins but haven't soldered yet
 
-- left side works, right side doesn't
+* left side works, right side doesn't
 
-	 - Check cable type
+  * Check cable type
 
-	 - Does Pro Micro on right side light up?
+  * Does Pro Micro on right side light up?
 
-		 - No? Multimeter continuity and VCC checks
+    * No? Multimeter continuity and VCC checks
 
-	 - If I2C, check jumper
+  * If I2C, check jumper
 
-- Dead column
+* Dead column
 
-	- Try jumping directly on Pro Micro, if works, solder jumper wire to column
+  * Try jumping directly on Pro Micro, if works, solder jumper wire to column
 
-- Check USB cable in case it's power only
+* Check USB cable in case it's power only
+
+
 
