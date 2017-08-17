@@ -1,4 +1,4 @@
-## 
+## ![](/assets/lets_split_rev2_default.hex)
 
 # Build Guide
 
