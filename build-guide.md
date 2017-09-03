@@ -43,7 +43,7 @@ Soldering of diodes complete:![](http://i.imgur.com/PxDnA8H.jpg)
 
 \(Rev. 1.0 to 1.3 only\) Solder the TRRS jumpers on the side with the jack:
 
-**Starting with Rev. 1.4**, the TRRS jack has been changed to a slimmer one and the PCB has been designed to not need TRRS jumpers, making the build easier.![](http://i.imgur.com/6AIYGB1.jpg)
+**Starting with Rev. 1.4**, the TRRS jack has been changed to a slimmer one and the PCB has been designed to not need TRRS jumpers, making the build easier. There are no solder jumpers anymore.![](http://i.imgur.com/6AIYGB1.jpg)
 
 ![](http://i.imgur.com/6AIYGB1.jpg)
 
