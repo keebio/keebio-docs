@@ -8,7 +8,7 @@ Still in progress...
   * Check with default hex
 * My right side is inverted if I plug it in by itself
 * Doesn't work if I insert the Pro Micro and have it touch the pins but haven't soldered yet
-* left side works, right side doesn't
+* Left side works, right side doesn't
   * Check cable type
   * Does Pro Micro on right side light up?
     * No? Multimeter continuity and VCC checks
