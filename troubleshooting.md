@@ -4,7 +4,7 @@ Still in progress...
 
 * Pro Micro lights up but no presses register
   * Inverted Pro Micro
-  * inverted diodes
+  * Inverted diodes
   * Check with default hex
 * My right side is inverted if I plug it in by itself
   * That's normal, see explanation in the FAQ
