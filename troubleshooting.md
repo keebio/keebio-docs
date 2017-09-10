@@ -7,6 +7,7 @@ Still in progress...
   * inverted diodes
   * Check with default hex
 * My right side is inverted if I plug it in by itself
+  * That's normal, see explanation in the FAQ
 * Doesn't work if I insert the Pro Micro and have it touch the pins but haven't soldered yet
 * Left side works, right side doesn't
   * Check cable type
