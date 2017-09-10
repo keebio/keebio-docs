@@ -10,7 +10,7 @@ Still in progress...
   * That's normal, see explanation in the FAQ
 * Doesn't work if I insert the Pro Micro and have it touch the pins but haven't soldered yet
 * Left side works, right side doesn't
-  * Check cable type
+  * Check cable type, it should have 4 metal rings on it \(for Tip, Ring, Ring, Sleeve\)
   * If you're using real Pro Micros from Sparkfun, the J1 jumpers on each one need to be desoldered.
   * Does Pro Micro on right side light up?
     * No? Multimeter continuity and VCC checks
