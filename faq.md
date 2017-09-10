@@ -19,7 +19,7 @@
 
   * Version 1.0: Fixed flaw in Version 1 \(only available in Blue\)
 
-  * Version 1.1:
+  * Version 1.1: Added holes for PCB mount 2u stabilizer
 
     * Was only available in Green
 
