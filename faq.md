@@ -19,9 +19,11 @@
 
   * Version 1.0: Fixed flaw in Version 1 \(only available in Blue\)
 
-  * Version 1.1: 
+  * Version 1.1:
 
-  * Version 1.2: 
+    * Was only available in Green
+
+  * Version 1.2: Added 2nd 2u key in opposite corner of PCB
 
   * Version 1.3: Fixed flaw with missing VCC trace between resistors in Version 1.2
 
