@@ -1,7 +1,7 @@
 # Summary
 
-* [About the Keyboards](about-the-keyboards.md)
-  * [About the Nyquist](README.md)
+* [Keyboards at Keebio](about-the-keyboards.md)
+  * [Nyquist](README.md)
 * [Build Guide](build-guide.md)
   * [Parts List](build-guide.md#parts-list)
   * [Build Steps](build-guide.md#build-steps)
@@ -11,6 +11,4 @@
 * [Troubleshooting](troubleshooting.md)
 * [FAQ](faq.md)
 * [Acknowledgements](acknowledgements.md)
-
-
 
