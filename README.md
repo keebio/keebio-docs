@@ -1,4 +1,4 @@
-# About the Nyquist
+# Nyquist
 
 ![](/assets/fully-assembled.jpg)
 
