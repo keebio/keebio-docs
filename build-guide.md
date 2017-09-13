@@ -1,4 +1,4 @@
-# Build Guide
+# Nyquist Build Guide
 
 ## Parts List {#parts-list}
 

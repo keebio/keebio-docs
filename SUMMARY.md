@@ -2,7 +2,7 @@
 
 * [Keyboards at Keebio](about-the-keyboards.md)
   * [Nyquist](README.md)
-* [Build Guide](build-guide.md)
+* [Nyquist Build Guide](build-guide.md)
   * [Parts List](build-guide.md#parts-list)
   * [Build Steps](build-guide.md#build-steps)
   * [Adding RGB Underglow](adding-rgb-underglow.md)
