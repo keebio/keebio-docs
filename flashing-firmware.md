@@ -2,9 +2,9 @@
 
 Still in progress...
 
-[Default .hex for the Nyquist](/assets/nyquist_rev1_default.hex)
-
 ## Creating your own layout
+
+Checkout the [QMK Documentation](https://docs.qmk.fm/) on setting up QMK and creating your own layout.
 
 
 
