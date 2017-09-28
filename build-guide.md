@@ -35,7 +35,7 @@ Here's a summary of the build steps:
 
 Bare PCB, older version \(1.1\) that only has 1 2u slot, but the same as the current version otherwise: ![](http://i.imgur.com/UnRgaYM.jpg)
 
-Solder on the TRRS jack, diodes, and resistors \(optional\):![](http://i.imgur.com/UVY8ShN.jpg)
+Solder on the TRRS jack, diodes, and resistors \(optional\). The resistors for I2C only need to be soldered on one half of the board:![](http://i.imgur.com/UVY8ShN.jpg)
 
 The line on the diodes should face the square pad:![](http://i.imgur.com/khwqsVL.jpg)
 
