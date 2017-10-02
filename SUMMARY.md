@@ -6,6 +6,7 @@
   * [Parts List](build-guide.md#parts-list)
   * [Build Steps](build-guide.md#build-steps)
   * [Adding RGB Underglow](adding-rgb-underglow.md)
+* [Iris Build Guide](iris-build-guide.md)
 * [Soldering Tools](soldering-tools.md)
 * [Flashing Firmware](flashing-firmware.md)
 * [Troubleshooting](troubleshooting.md)

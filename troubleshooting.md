@@ -18,6 +18,8 @@ Still in progress...
 * Dead column
   * Try jumping directly on Pro Micro, if works, solder jumper wire to column
 * Check USB cable in case it's power only
+* Pro Micro testing, short row and column pins together to see if keypresses register
+  * Nyquist Pinout:![](https://i.imgur.com/CNxRMGg.png)
 
 
 
