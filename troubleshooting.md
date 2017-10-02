@@ -19,6 +19,7 @@ Still in progress...
   * Try jumping directly on Pro Micro, if works, solder jumper wire to column
 * Check USB cable in case it's power only
 * Pro Micro testing, short row and column pins together to see if keypresses register
+  * If columns 1 and 2 are the only ones not working and it doesn't work either when shorting the pins, it's unlikely, but possible that the fuses on the Pro Micro set that to enable JTAG, which disables PORTF. See this message: https://www.reddit.com/r/olkb/comments/71um69/nyquist\_column\_12\_left\_side\_and\_56\_right\_side/dndu4jh/
   * Nyquist Pinout:![](https://i.imgur.com/CNxRMGg.png)
 
 
