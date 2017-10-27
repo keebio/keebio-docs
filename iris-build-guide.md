@@ -7,10 +7,10 @@ Sorry, we haven't gotten around to completing this guide yet, but here's a link 
 Here's a list of parts needed for the build:
 
 * 2 [Iris PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
-* 56-58 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
+* 54-56 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 2 push buttons for resetting
-* 56-58 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
+* 54-56 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
 * Case
 * 2 [TRRS jacks](https://keeb.io/products/trrs-jacks-3-5mm-one-pair)
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable)
@@ -21,7 +21,7 @@ Here's a list of parts needed for the build:
     * 2 100Ω resistors
     * 2 100kΩ resistors
     * 2 N-channel MOSFETs
-    * 56-58 470Ω resistors
+    * 54-56 470Ω resistors
 
 ## Build Steps {#build-steps}
 
