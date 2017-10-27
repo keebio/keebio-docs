@@ -21,7 +21,7 @@ Here's a list of parts needed for the build:
     * 2 100Ω resistors
     * 2 100kΩ resistors
     * 2 N-channel MOSFETs
-    * 54-56 470Ω resistors
+    * 56 470Ω resistors
 
 ## Build Steps {#build-steps}
 
