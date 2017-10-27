@@ -21,7 +21,7 @@ Here's a list of parts needed for the build:
     * 2 100Ω resistors
     * 2 100kΩ resistors
     * 2 N-channel MOSFETs
-    * 56 470Ω resistors
+    * 56 470Ω resistors \(or whatever value is appropriate for the LEDs you are using\)
 
 ## Build Steps {#build-steps}
 
