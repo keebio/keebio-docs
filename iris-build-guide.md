@@ -1,6 +1,6 @@
 # Iris Build Guide
 
-Sorry, we haven't gotten around to completing this guide yet, but here's a link to a build log detailing the steps: Iris Build Log
+Sorry, we haven't gotten around to completing this guide yet, but here's a link to a build log detailing the steps: [Iris Build Log](https://imgur.com/a/iQH2W)
 
 ## Parts List {#parts-list}
 
