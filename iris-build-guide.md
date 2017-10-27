@@ -30,7 +30,7 @@ Here's a summary of the build steps:
 1. Solder components
    1. Solder diodes
    2. Solder I2C resistors \(optional\)
-   3. Solder LED components \(MOSFET and resistors\)
+   3. Solder LED components \(MOSFET and resistors\) \(optional\)
    4. Solder push button
    5. Solder Pro Micro header pins
 2. Add 2u stabilizers
