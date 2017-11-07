@@ -2,6 +2,8 @@
 
 Sorry, we haven't gotten around to completing this guide yet, but here's a link to a build log detailing the steps: [Iris Build Log](https://imgur.com/a/iQH2W)
 
+## ![](https://i.imgur.com/uqIwtGy.jpg) {#parts-list}
+
 ## Parts List {#parts-list}
 
 Here's a list of parts needed for the build:
