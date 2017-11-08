@@ -94,3 +94,11 @@ Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
 
 
 
+### Solder switches
+
+
+
+### Solder LEDs
+
+
+
