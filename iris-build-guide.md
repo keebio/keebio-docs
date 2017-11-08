@@ -31,9 +31,9 @@ Here's a summary of the build steps:
 
 1. Solder components
    1. Solder diodes
-   2. Solder I2C resistors \(optional\)
-   3. Solder LED components \(MOSFET and resistors\) \(optional\)
-   4. Solder push button
+   2. Solder push button and TRRS jacks
+   3. Solder I2C resistors \(optional\)
+   4. Solder LED components \(MOSFET and resistors\) \(optional\)
    5. Solder Pro Micro header pins
 2. Add 2u stabilizers
 3. Solder switches
@@ -41,6 +41,26 @@ Here's a summary of the build steps:
 5. Flash Pro Micros
 6. Solder Pro Micros
 7. Solder RGB strip \(optional\)
+
+## Solder Components
+
+The diodes, resistors, MOSFETs, push buttons, TRRS jacks,, and Pro Micro header pins can be soldered in any order.
+
+### Solder diodes
+
+All the diodes are oriented with the line towards the bottom. All the resistors are oriented horizontally, direction doesn't matter. The PCB supports both SMD and through-hole diodes and resistors, SMD ones are shown here. For through hole diodes, the black line will be at the bottom, towards the square pad.
+
+![](https://i.imgur.com/PS0GEXA.jpg)
+
+### Solder reset push buttons and TRRS jacks
+
+### ![](https://i.imgur.com/YqDm7vj.jpg)Info about resistors in the kit
+
+The color coded lines on the resistors can be hard to read/decipher, so the paper from the tape reel have been marked with different color lines.
+
+* No Line - 4.7kΩ resistors for I2C \(only used on master half\)
+* Blue Line - 100kΩ resistors for MOSFET \(1 for each half\)
+* Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](https://i.imgur.com/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](https://i.imgur.com/HmEYzag.png)
 
 
 
