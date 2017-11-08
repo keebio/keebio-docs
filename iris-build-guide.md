@@ -72,7 +72,9 @@ However, in the future, there might be additional parts that you can add, like a
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
-![](https://i.imgur.com/CUjnMP3.png)
+Left half shown here:![](https://i.imgur.com/CUjnMP3.png)
+
+Right half, note that the two spot for the 4.7kΩ resistors are left empty:![](https://i.imgur.com/MQFqGEo.jpg)
 
 ### Solder LED support components \(optional\)
 
