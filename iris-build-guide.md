@@ -52,6 +52,8 @@ All the diodes are oriented with the line towards the bottom. All the resistors 
 
 ![](https://i.imgur.com/PS0GEXA.jpg)
 
+Through-hole resistors shown here, note that the black line on the diodes are all facing down at the square pad.![](https://i.imgur.com/j3do2SU.png)
+
 ### Solder reset push buttons and TRRS jacks
 
 ### ![](https://i.imgur.com/YqDm7vj.jpg)Info about resistors in the kit
