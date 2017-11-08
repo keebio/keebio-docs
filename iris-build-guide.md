@@ -84,7 +84,11 @@ To solder the MOSET on, first add a little bit of solder to one of the pads on t
 
 Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.![](https://i.imgur.com/FXKesdZ.png)
 
-Next, add all of the resistors for each switch. 470Ω resistors are commonly used, but this value might vary, based on the LEDs you use and the amount of current they draw.![](https://i.imgur.com/dOefhjL.png)
+Next, add all of the resistors for each switch. 470Ω resistors are commonly used, but this value might vary, based on the LEDs you use and the amount of current they draw.
+
+Solder the resistor in the area of the Pro Micro on the other side \(top side\), so it is out of the way of the Pro Micro when you install it. Alternatively, you can just install all of the resistors on the top side.![](https://i.imgur.com/tazkMue.png)
+
+Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
 
 ### Solder Pro Micro header pins
 
