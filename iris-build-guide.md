@@ -62,5 +62,19 @@ The color coded lines on the resistors can be hard to read/decipher, so the pape
 * Blue Line - 100kΩ resistors for MOSFET \(1 for each half\)
 * Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](https://i.imgur.com/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](https://i.imgur.com/HmEYzag.png)
 
+### Solder I2C resistors \(optional\)
+
+The default firmware for the Iris uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
+
+However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
+
+tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
+
+![](https://i.imgur.com/CUjnMP3.png)
+
+### Solder LED support components \(optional\)
+
+![](https://i.imgur.com/2rwjJRf.jpg)
+
 
 
