@@ -74,7 +74,15 @@ tl;dr: Adding this is optional, but you might as well do it as it's only 2 more 
 
 ### Solder LED support components \(optional\)
 
-![](https://i.imgur.com/2rwjJRf.jpg)
+For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
+
+To solder the MOSET on, first add a little bit of solder to one of the pads on the PCB. Then position the MOSFET over the pads and heat up the pad to solder the first leg into place. It helps to use a pair of tweezers to hold the MOSFET and position it while heating up the pad.![](https://i.imgur.com/k3cwV69.png)
+
+Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.
+
+![](https://i.imgur.com/FXKesdZ.png)
+
+### Solder Pro Micro header pins
 
 
 
