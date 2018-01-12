@@ -11,6 +11,10 @@
 
     When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
 
+* What's the pinout on the ICSP header on some of the PCBs?
+
+  ![](/assets/ICSP_header.png)
+
 * What are the difference between the various Nyquist versions/revisions?
 
   * Version 1: Very first PCB, had serial/I2C pins on the wrong side of the Pro Micro, required a manual jump of the pins
