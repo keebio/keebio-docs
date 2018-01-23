@@ -20,8 +20,11 @@ Here's a list of parts needed for the build:
   * 2 4.7kΩ resistors if doing I2C
   * 2u PCB mount MX stabilizers if using 2u keys
   * For LEDs:
-    * 2 100Ω resistors
-    * 2 100kΩ resistors
+    * Rev. 2.1a and lower:
+      * 2 100Ω resistors \(one used for each half\)
+      * 2 100kΩ resistors \(one used for each half\)
+    * Rev. 2.1b and newer:
+      * 2 4.7kΩ resistors \(one used for each half\)
     * 2 N-channel MOSFETs
     * 56 470Ω resistors \(or whatever value is appropriate for the LEDs you are using\)
 
@@ -92,11 +95,7 @@ Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
 
 ### Solder Pro Micro header pins
 
-
-
 ### Solder switches
-
-
 
 ### Solder LEDs
 
