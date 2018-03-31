@@ -1,8 +1,20 @@
 # Iris Build Guide
 
-Sorry, we haven't gotten around to completing this guide yet, but here's a link to a build log detailing the steps: [Iris Build Log](https://imgur.com/a/iQH2W)
+## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](https://imgur.com/a/wc0bO)
 
-[Updated build log for Rev. 2.1b](https://imgur.com/a/wc0bO)
+LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+
+## 
+
+## 
+
+## 
+
+## Older Build Log for Rev. 2.0 to 2.1a:
+
+**The guide below is just for reference for those with older PCBs, please see the link above for newer PCBs**
+
+Imgur Album: [Iris Build Log](https://imgur.com/a/iQH2W)
 
 ## ![](https://i.imgur.com/uqIwtGy.jpg) {#parts-list}
 
