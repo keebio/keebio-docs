@@ -2,7 +2,7 @@
 
 ## Keyboard Info
 
-[Nyquist](/README.md)
+* [Nyquist](/README.md)
 
 ## Build Guides
 
