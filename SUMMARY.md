@@ -12,4 +12,5 @@
 * [Troubleshooting](troubleshooting.md)
 * [FAQ](faq.md)
 * [Acknowledgements](acknowledgements.md)
+* [Build Guides](build-guides.md)
 
