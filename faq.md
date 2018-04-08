@@ -1,37 +1,29 @@
 # Frequently Asked Questions
 
-* Are both sides flashed when the left side is plugged into USB and the TRRS cable is connected between halves?
-  * No, only the left side is flashed in this case, flashing does not occur over the TRRS cable, so it does not matter if the TRRS cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
-* When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?
+- Do I need to have the TRRS cable plugged in while trying to flash both halves?
+    - Having the TRRS cable plugged in while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
+Flashing does not occur over the TRRS cable, so it does not matter if the TRRS cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
+- When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?
+    - Nope, this is perfectly normal!
+    - Here's the explanation why:  
+        - Unless you explicitly do `#define EE_HANDS` in your keymap \(this is not the default\), QMK automatically assumes that whatever half the USB cable is plugged into is the left hand board. Even flashing the .eep files in this case does nothing, as it's ignored unless `EE_HANDS` is explicitly set.
+        - So when you plug in the right board itself, it thinks it's the left one. The reason it's flipped is because the PCB has been physically flipped compared to the actual left board.
+        - When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
 
-  * Nope, this is perfectly normal! Here's the explanation why:  
-    Unless you explicitly do`#define EE_HANDS`in your keymap \(this is not the default\), QMK automatically assumes that whatever half the USB cable is plugged into is the left hand board. Even flashing the .eep files in this case does nothing, as it's ignored unless`EE_HANDS`is explicitly set.
+- What's the pinout on the ICSP header on some of the PCBs?
 
-    So when you plug in the right board itself, it thinks it's the left one. The reason it's flipped is because the PCB has been physically flipped compared to the actual left board.
+    ![](/assets/ICSP_header.png)
 
-    When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
-
-* What's the pinout on the ICSP header on some of the PCBs?
-
-  ![](/assets/ICSP_header.png)
-
-* What are the difference between the various Nyquist versions/revisions?
-
-  * Version 1: Very first PCB, had serial/I2C pins on the wrong side of the Pro Micro, required a manual jump of the pins
-
-    * Only available in Blue
-
-  * Version 1.0: Fixed flaw in Version 1 \(only available in Blue\)
-
-  * Version 1.1: Simplified TRRS jumpers, added SMD diode support
-
-    * Was only available in Green
-
-  * Version 1.2: Added 2nd 2u key in opposite corner of PCB
-
-  * Version 1.3: Fixed flaw with missing VCC trace between resistors in Version 1.1 and 1.2
-
-  * Version 1.4: New TRRS jack that removes the need for TRRS solder jumpers
-
-
-
+- Which way do I orient the diodes?
+    - For all of the boards made by Keebio, the band on the diode (the cathode) is always associated with the square pad. On most boards, the square pad is pointing towards the bottom. For some PCBs that support Kailh Low-Profile switches, the square pad may be pointing towards the top.
+    - **Simple rule to remember:** Band = Square Pad
+- Which way do I orient the resistors?
+    - Resistors have no polarity, so the direction they are installed does not matter
+- Do any of the PCBs have individually addressable LEDs?
+    - No, the PCBs that do have LED support can only be controlled as a group
+    - One option around this is to use a switch with clear housing like a Zealio or Alias switch and point RGB LEDs upwards through the switch
+- Which in-switch LEDs are compatible?
+    - Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can interfere with the keycaps
+- Which RGB LED strips are compatible?
+    - WS2811 and variants (WS2812, WS2812B, WS2812C, etc.)
+    - SK6812
