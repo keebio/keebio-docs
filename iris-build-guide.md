@@ -158,4 +158,23 @@ Trim down the switch pins, LED pins, and resistor pins that the Pro Micro will s
 
 ## Flash Pro Micros
 
+![](https://i.imgur.com/Ca93q9s.jpg)
+
+The last thing to install is the Pro Micros. Before soldering them to the board, it is highly recommended to flash them first, in case one or both of them are defective.
+
 Refer to the [Flashing Firmware](flashing-firmware.md) Guide for steps on performing a flash to test the Pro Micro controllers.
+
+## Solder Pro Micros
+
+If using a bottom plate that conducts electricity, like a stainless steel or aluminum plate, add Kapton or electric tape on top of the TRRS jack. Also put some down where the Pro Micro will be:
+![](https://i.imgur.com/Qw7qrWA.jpg?1)
+
+Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly with the markings on the PCB. The orientation on both PCBs is different. (Left half shown here):
+![](https://i.imgur.com/IMDAm28.jpg)
+
+MYTH: Keys will be reversed if the Pro Micro is reversed
+TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+
+Right half:![](https://i.imgur.com/2KMFIE4.jpg?1)
+
+Left PCB on the left, right PCB on the right:![](https://i.imgur.com/x950DTT.jpg?1)
