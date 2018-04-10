@@ -45,11 +45,12 @@ Here's a summary of the build steps:
    3. Solder I2C resistors \(optional\)
    4. Solder LED components \(MOSFET and resistors\) \(optional\)
    5. Solder Pro Micro header pins
-3. Solder switches
-4. Solder LEDs
-5. Flash Pro Micros
-6. Solder Pro Micros
-7. Solder RGB strip \(optional\)
+3. Add 2u stabilizers \(optional\)
+4. Solder switches
+5. Solder LEDs \(optional\)
+6. Flash Pro Micros
+7. Solder Pro Micros
+8. Solder RGB strip \(optional\)
 
 ## Prepare components
 
@@ -118,21 +119,22 @@ Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation does
 
 Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
 
-To add the MOSFET, tin one of the pins on the PCB first. **NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T @@ :![](https://i.imgur.com/nsehRiB.jpg)
+**NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T
 
-For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
+To add the MOSFET, tin one of the pins on the PCB first:![](https://i.imgur.com/nsehRiB.jpg)
 
-To solder the MOSET on, first add a little bit of solder to one of the pads on the PCB. Then position the MOSFET over the pads and heat up the pad to solder the first leg into place. It helps to use a pair of tweezers to hold the MOSFET and position it while heating up the pad.![](https://i.imgur.com/k3cwV69.png)
+Hold the MOSFET with a pair of tweezers and align it over the footprint. Then solder the first pin:
+![](https://i.imgur.com/tNMOzPH.jpg?1)
 
-Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.![](https://i.imgur.com/FXKesdZ.png)
+Once you're satisfied with the alignment, solder the other 2 pins:![](https://i.imgur.com/Zm2iJfF.jpg?1)
 
-Next, add all of the resistors for each switch. 470Ω resistors are commonly used, but this value might vary, based on the LEDs you use and the amount of current they draw.
-
-Solder the resistor in the area of the Pro Micro on the other side \(top side\), so it is out of the way of the Pro Micro when you install it. Alternatively, you can just install all of the resistors on the top side.![](https://i.imgur.com/tazkMue.png)
-
-Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
+Repeat the MOSFET installation process on the other PCB:![](https://i.imgur.com/e4EfGla.jpg?1)
 
 ### Solder Pro Micro header pins
+
+## Add 2u stabilizers \(optional\)
+
+Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:![](https://i.imgur.com/m0mqljb.jpg)
 
 ### Solder switches
 
