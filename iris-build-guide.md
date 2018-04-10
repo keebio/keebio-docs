@@ -38,18 +38,40 @@ Here's a list of parts needed for the build:
 
 Here's a summary of the build steps:
 
-1. Solder components
+1. Prepare components
+2. Solder components
    1. Solder diodes
    2. Solder push button and TRRS jacks
    3. Solder I2C resistors \(optional\)
    4. Solder LED components \(MOSFET and resistors\) \(optional\)
    5. Solder Pro Micro header pins
-2. Add 2u stabilizers
 3. Solder switches
 4. Solder LEDs
 5. Flash Pro Micros
 6. Solder Pro Micros
 7. Solder RGB strip \(optional\)
+
+## Prepare components
+
+![](https://i.imgur.com/rrey3ej.jpg)
+
+Bending the diodes. Here, I'm just bending it around my finger
+
+![](https://i.imgur.com/sKo655O.jpg)
+
+Another way to do it, resistors shown here
+
+![](https://i.imgur.com/2D39Ojx.jpg)
+
+Strip of diodes bent
+
+![](https://i.imgur.com/Ys0X30w.jpg)
+
+Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
+
+![](https://i.imgur.com/4cFrb2D.jpg)
+
+All separated from the paper
 
 ## Solder Components
 
