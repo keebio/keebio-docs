@@ -79,21 +79,26 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks,, and Pro Micro header 
 
 ### Solder diodes
 
-All the diodes are oriented with the line towards the bottom. All the resistors are oriented horizontally, direction doesn't matter. The PCB supports both SMD and through-hole diodes and resistors, SMD ones are shown here. For through hole diodes, the black line will be at the bottom, towards the square pad.
+On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:![](https://i.imgur.com/Pft9ufA.jpg)
 
-![](https://i.imgur.com/PS0GEXA.jpg)
+NOTE for Kailh Low-Profile PCBs (Rev. 2.2-KLP): The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
 
-Through-hole resistors shown here, note that the black line on the diodes are all facing down at the square pad.![](https://i.imgur.com/j3do2SU.png)
+Some people stick the diodes on the top side of the PCB, I don't recommend doing it that way, because you can't replace them once everything is assembled using that method.
+
+Bend the legs out to hold the diodes in place for when you solder them in:![](https://i.imgur.com/TaYV4vF.jpg)
+
+Diode insertion complete:![](https://i.imgur.com/xoO48or.jpg)
+
+Left PCB:![](https://i.imgur.com/O4wuLju.jpg)
+
+Right PCB:![](https://i.imgur.com/ZD4B4PR.jpg)
+
+
 
 ### Solder reset push buttons and TRRS jacks
 
-### ![](https://i.imgur.com/YqDm7vj.jpg)Info about resistors in the kit
+Add the TRRS jacks and reset switches:![](https://i.imgur.com/dFTBf3h.jpg)
 
-The color coded lines on the resistors can be hard to read/decipher, so the paper from the tape reel have been marked with different color lines.
-
-* No Line - 4.7kΩ resistors for I2C \(only used on master half\)
-* Blue Line - 100kΩ resistors for MOSFET \(1 for each half\)
-* Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](https://i.imgur.com/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](https://i.imgur.com/HmEYzag.png)
 
 ### Solder I2C resistors \(optional\)
 
@@ -103,11 +108,17 @@ However, in the future, there might be additional parts that you can add, like a
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
-Left half shown here:![](https://i.imgur.com/CUjnMP3.png)
-
-Right half, note that the two spot for the 4.7kΩ resistors are left empty:![](https://i.imgur.com/MQFqGEo.jpg)
+Add the 2 4.7kΩ resistors for I2C on only one half (I normally do this on the master/left half). Left half shown here:![](https://i.imgur.com/ncxMpI2.jpg)
 
 ### Solder LED support components \(optional\)
+
+Add a 4.7kΩ resistor for LED support in the R3 slot:![](https://i.imgur.com/Jvg2o4d.jpg)
+
+Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. **Note that the resistor that's seated with the Pro Micro has been inserted on the top side of the PCB, which prevents it from touching the Pro Micro.** (This resistor will be relocated out of the way in future versions of the PCB) Left side shown here:![](https://i.imgur.com/SERhlBs.jpg)
+
+Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
+
+To add the MOSFET, tin one of the pins on the PCB first. **NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T :![](https://i.imgur.com/nsehRiB.jpg)
 
 For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
 
