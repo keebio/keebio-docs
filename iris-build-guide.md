@@ -1,10 +1,10 @@
-# Iris Build Guide
+# Iris Build Guides
 
 #### Previous Guides/Info
 * LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
 * Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
-## Iris 2.1b/2.4/2.5 Build Guide
+# Iris 2.1b/2.4/2.5 Build Guide
 [Imgur Album](https://imgur.com/a/wc0bO)
 
 ## ![](https://i.imgur.com/JMq4iIA.jpg) {#parts-list}
@@ -13,38 +13,26 @@
 
 Here's a list of parts needed for the build:
 
-*All of the parts needed are shown here, except for Pro Micros and TRRS cable*
+*All of the parts needed are shown here, except for Pro Micros, TRRS cable, and switches*
 
 * 2 sets [Top/Bottom plates with M2 screws and standoffs](https://keeb.io/products/iris-keyboard-case-plates)
 * 2 [Iris PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
 * 2 TRRS jacks
+* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * 2 reset switches
 * 4 4.7kΩ resistors
     * 2 used for I2C
     * 1 used for LED support on left half
     * 1 used for LED support on right half)
 * 54-56 1N4148 diodes - through-hole \(shown\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
-* 54-56 470Ω resistors (optional, for LED backlight)
-* 54-56 LEDs (optional, for LED backlight)
-* WS2812B RGB LED Strip (optional, for underglow)
+* 54-56 470Ω resistors \(optional, for LED backlight\)
+* 54-56 LEDs \(optional, for LED backlight\)
+* 2 N-channel MOSFETs \(optional, for LED control\)
+* WS2812B RGB LED Strip \(optional, for underglow\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-
-*Parts needed, but not shown:*
 * 54-56 switches (MX-compatible and Alps switches are supported)
-
-
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
-* Optional parts
-  * 2 4.7kΩ resistors if doing I2C
-  * 2u PCB mount MX stabilizers if using 2u keys
-  * For LEDs:
-    * Rev. 2.1a and lower:
-      * 2 100Ω resistors \(one used for each half\)
-      * 2 100kΩ resistors \(one used for each half\)
-    * Rev. 2.1b and newer:
-      * 2 4.7kΩ resistors \(one used for each half\)
-    * 2 N-channel MOSFETs
-
+* Optional parts \(*not shown*\)
+    * 2u PCB mount MX stabilizers if using 2u keys
 
 ## Build Steps {#build-steps}
 
