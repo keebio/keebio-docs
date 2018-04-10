@@ -118,7 +118,7 @@ Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation does
 
 Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
 
-To add the MOSFET, tin one of the pins on the PCB first. **NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T :![](https://i.imgur.com/nsehRiB.jpg)
+To add the MOSFET, tin one of the pins on the PCB first. **NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T @@ :![](https://i.imgur.com/nsehRiB.jpg)
 
 For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
 
