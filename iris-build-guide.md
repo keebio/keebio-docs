@@ -1,34 +1,38 @@
 # Iris Build Guide
 
-## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](https://imgur.com/a/wc0bO)
+#### Previous Guides/Info
+* LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+* Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
-LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+## Iris 2.1b/2.4/2.5 Build Guide
+[Imgur Album](https://imgur.com/a/wc0bO)
 
-## 
-
-## 
-
-## 
-
-## Older Build Log for Rev. 2.0 to 2.1a:
-
-**The guide below is just for reference for those with older PCBs, please see the link above for newer PCBs**
-
-Imgur Album: [Iris Build Log](https://imgur.com/a/iQH2W)
-
-## ![](https://i.imgur.com/uqIwtGy.jpg) {#parts-list}
+## ![](https://i.imgur.com/JMq4iIA.jpg) {#parts-list}
 
 ## Parts List {#parts-list}
 
 Here's a list of parts needed for the build:
 
+*All of the parts needed are shown here, except for Pro Micros and TRRS cable*
+
+* 2 sets [Top/Bottom plates with M2 screws and standoffs](https://keeb.io/products/iris-keyboard-case-plates)
 * 2 [Iris PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
-* 54-56 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
+* 2 TRRS jacks
+* 2 reset switches
+* 4 4.7kΩ resistors
+    * 2 used for I2C
+    * 1 used for LED support on left half
+    * 1 used for LED support on right half)
+* 54-56 1N4148 diodes - through-hole \(shown\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
+* 54-56 470Ω resistors (optional, for LED backlight)
+* 54-56 LEDs (optional, for LED backlight)
+* WS2812B RGB LED Strip (optional, for underglow)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 2 push buttons for resetting
-* 54-56 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
-* Case
-* 2 [TRRS jacks](https://keeb.io/products/trrs-jacks-3-5mm-one-pair)
+
+*Parts needed, but not shown:*
+* 54-56 switches (MX-compatible and Alps switches are supported)
+
+
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * Optional parts
   * 2 4.7kΩ resistors if doing I2C
@@ -40,7 +44,7 @@ Here's a list of parts needed for the build:
     * Rev. 2.1b and newer:
       * 2 4.7kΩ resistors \(one used for each half\)
     * 2 N-channel MOSFETs
-    * 56 470Ω resistors \(or whatever value is appropriate for the LEDs you are using\)
+
 
 ## Build Steps {#build-steps}
 
@@ -112,6 +116,3 @@ Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
 ### Solder switches
 
 ### Solder LEDs
-
-
-
