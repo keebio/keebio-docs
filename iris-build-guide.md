@@ -155,3 +155,7 @@ Install the LEDs. Longer leg is the anode and goes with the circular pad marked 
 I normally pry off the plastic parts of the header pins to made the Pro Micro sit more flush with the PCB. An added benefit of this is that the Micro USB port for the left half is sandwiched between the Iris PCB and the Pro Micro PCB, making it less likely to be ripped off.
 
 Trim down the switch pins, LED pins, and resistor pins that the Pro Micro will sit on top of with a flush cutter:![](https://i.imgur.com/vh0WAXg.jpg)
+
+## Flash Pro Micros
+
+Refer to the [Flashing Firmware](flashing-firmware.md) Guide for steps on performing a flash to test the Pro Micro controllers.
