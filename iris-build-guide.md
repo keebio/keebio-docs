@@ -178,3 +178,7 @@ TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Mic
 Right half:![](https://i.imgur.com/2KMFIE4.jpg?1)
 
 Left PCB on the left, right PCB on the right:![](https://i.imgur.com/x950DTT.jpg?1)
+
+## Solder RGB strip \(optional\)
+
+Refer to the [RGB Underglow](adding-rgb-underglow.md) Guide for steps to install the RGB light strip.
