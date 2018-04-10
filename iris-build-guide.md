@@ -115,7 +115,7 @@ Add the 2 4.7kΩ resistors for I2C on only one half (I normally do this on the m
 
 Add a 4.7kΩ resistor for LED support in the R3 slot:![](https://i.imgur.com/Jvg2o4d.jpg)
 
-Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. **Note that the resistor that's seated with the Pro Micro has been inserted on the top side of the PCB, which prevents it from touching the Pro Micro.** (This resistor will be relocated out of the way in future versions of the PCB) Left side shown here:![](https://i.imgur.com/SERhlBs.jpg)
+Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. **Note that the resistor that's seated with the Pro Micro has been inserted on the top side of the PCB, which prevents it from touching the Pro Micro.** (This resistor will be relocated out of the way in future versions of the PCB). Left side shown here:![](https://i.imgur.com/SERhlBs.jpg)
 
 Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
 
@@ -142,6 +142,10 @@ Right PCB shown:![](https://i.imgur.com/3WUkRM7.jpg?1)
 
 Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:![](https://i.imgur.com/m0mqljb.jpg)
 
-### Solder switches
+## Solder switches
+
+Add switches. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](https://i.imgur.com/deDoaSq.jpg)
+
+All installed:![](https://i.imgur.com/tztl5XA.jpg)
 
 ### Solder LEDs
