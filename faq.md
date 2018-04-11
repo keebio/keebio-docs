@@ -10,7 +10,7 @@ Flashing does not occur over the TRRS cable, so it does not matter if the TRRS c
         - So when you plug in the right board itself, it thinks it's the left one. The reason it's flipped is because the PCB has been physically flipped compared to the actual left board.
         - When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
 
-- What's the pinout on the ICSP header on some of the PCBs?
+- What's the pinout of the ICSP header on some of the PCBs?
 
     ![](/assets/ICSP_header.png)
 
@@ -27,3 +27,7 @@ Flashing does not occur over the TRRS cable, so it does not matter if the TRRS c
 - Which RGB LED strips are compatible?
     - WS2811 and variants (WS2812, WS2812B, WS2812C, etc.)
     - SK6812
+- Will you be making the PCB files available for download?
+    - No, the PCB files will not be made available except for the Rorschach
+- How do I contribute to the documentation here?
+    - The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
