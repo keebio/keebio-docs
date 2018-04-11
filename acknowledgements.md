@@ -6,3 +6,4 @@ Max Hernandez \(/u/wootpatoot\) for creating the Let's Split and porting the spl
 
 Raleigh/Durham Area Keyboard community, including /u/That-Canadian, /u/OfTheWild, and others.
 
+Grant Gardner for his help in updating this documentation site.
