@@ -1,63 +1,78 @@
-# Iris Build Guide
+# Iris Build Guides
 
-## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](https://imgur.com/a/wc0bO)
+#### Previous Guides/Info
+* LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+* Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
-LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+# Iris 2.1b/2.4/2.5 Build Guide
+[Imgur Album](https://imgur.com/a/wc0bO)
 
-## 
-
-## 
-
-## 
-
-## Older Build Log for Rev. 2.0 to 2.1a:
-
-**The guide below is just for reference for those with older PCBs, please see the link above for newer PCBs**
-
-Imgur Album: [Iris Build Log](https://imgur.com/a/iQH2W)
-
-## ![](https://i.imgur.com/uqIwtGy.jpg) {#parts-list}
+## ![](https://i.imgur.com/JMq4iIA.jpg) {#parts-list}
 
 ## Parts List {#parts-list}
 
 Here's a list of parts needed for the build:
 
+*All of the parts needed are shown here, except for Pro Micros, TRRS cable, and switches*
+
+* 2 sets [Top/Bottom plates with M2 screws and standoffs](https://keeb.io/products/iris-keyboard-case-plates)
 * 2 [Iris PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
-* 54-56 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
-* 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 2 push buttons for resetting
-* 54-56 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
-* Case
-* 2 [TRRS jacks](https://keeb.io/products/trrs-jacks-3-5mm-one-pair)
+* 2 TRRS jacks
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable)
-* Optional parts
-  * 2 4.7kΩ resistors if doing I2C
-  * 2u PCB mount MX stabilizers if using 2u keys
-  * For LEDs:
-    * Rev. 2.1a and lower:
-      * 2 100Ω resistors \(one used for each half\)
-      * 2 100kΩ resistors \(one used for each half\)
-    * Rev. 2.1b and newer:
-      * 2 4.7kΩ resistors \(one used for each half\)
-    * 2 N-channel MOSFETs
-    * 56 470Ω resistors \(or whatever value is appropriate for the LEDs you are using\)
+* 2 reset switches
+* 4 4.7kΩ resistors
+    * 2 used for I2C
+    * 1 used for LED support on left half
+    * 1 used for LED support on right half)
+* 54-56 1N4148 diodes - through-hole \(shown\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
+* 54-56 470Ω resistors \(optional, for LED backlight\)
+* 54-56 LEDs \(optional, for LED backlight\)
+* 2 N-channel MOSFETs \(optional, for LED control\)
+* WS2812B RGB LED Strip \(optional, for underglow\)
+* 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
+* 54-56 switches (MX-compatible and Alps switches are supported)
+* Optional parts \(*not shown*\)
+    * 2u PCB mount MX stabilizers if using 2u keys
 
 ## Build Steps {#build-steps}
 
 Here's a summary of the build steps:
 
-1. Solder components
+1. Prepare components
+2. Solder components
    1. Solder diodes
    2. Solder push button and TRRS jacks
    3. Solder I2C resistors \(optional\)
    4. Solder LED components \(MOSFET and resistors\) \(optional\)
    5. Solder Pro Micro header pins
-2. Add 2u stabilizers
-3. Solder switches
-4. Solder LEDs
-5. Flash Pro Micros
-6. Solder Pro Micros
-7. Solder RGB strip \(optional\)
+3. Add 2u stabilizers \(optional\)
+4. Solder switches
+5. Solder LEDs \(optional\)
+6. Flash Pro Micros
+7. Solder Pro Micros
+8. Solder RGB strip \(optional\)
+
+## Prepare components
+
+![](https://i.imgur.com/rrey3ej.jpg)
+
+Bending the diodes. Here, I'm just bending it around my finger
+
+![](https://i.imgur.com/sKo655O.jpg)
+
+Another way to do it, resistors shown here
+
+![](https://i.imgur.com/2D39Ojx.jpg)
+
+Strip of diodes bent
+
+![](https://i.imgur.com/Ys0X30w.jpg)
+
+Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
+
+![](https://i.imgur.com/4cFrb2D.jpg)
+
+All separated from the paper
 
 ## Solder Components
 
@@ -65,21 +80,26 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks,, and Pro Micro header 
 
 ### Solder diodes
 
-All the diodes are oriented with the line towards the bottom. All the resistors are oriented horizontally, direction doesn't matter. The PCB supports both SMD and through-hole diodes and resistors, SMD ones are shown here. For through hole diodes, the black line will be at the bottom, towards the square pad.
+On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:![](https://i.imgur.com/Pft9ufA.jpg)
 
-![](https://i.imgur.com/PS0GEXA.jpg)
+NOTE for Kailh Low-Profile PCBs (Rev. 2.2-KLP): The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
 
-Through-hole resistors shown here, note that the black line on the diodes are all facing down at the square pad.![](https://i.imgur.com/j3do2SU.png)
+Some people stick the diodes on the top side of the PCB, I don't recommend doing it that way, because you can't replace them once everything is assembled using that method.
+
+Bend the legs out to hold the diodes in place for when you solder them in:![](https://i.imgur.com/TaYV4vF.jpg)
+
+Diode insertion complete:![](https://i.imgur.com/xoO48or.jpg)
+
+Left PCB:![](https://i.imgur.com/O4wuLju.jpg)
+
+Right PCB:![](https://i.imgur.com/ZD4B4PR.jpg)
+
+
 
 ### Solder reset push buttons and TRRS jacks
 
-### ![](https://i.imgur.com/YqDm7vj.jpg)Info about resistors in the kit
+Add the TRRS jacks and reset switches:![](https://i.imgur.com/dFTBf3h.jpg)
 
-The color coded lines on the resistors can be hard to read/decipher, so the paper from the tape reel have been marked with different color lines.
-
-* No Line - 4.7kΩ resistors for I2C \(only used on master half\)
-* Blue Line - 100kΩ resistors for MOSFET \(1 for each half\)
-* Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](https://i.imgur.com/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](https://i.imgur.com/HmEYzag.png)
 
 ### Solder I2C resistors \(optional\)
 
@@ -89,29 +109,76 @@ However, in the future, there might be additional parts that you can add, like a
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
-Left half shown here:![](https://i.imgur.com/CUjnMP3.png)
-
-Right half, note that the two spot for the 4.7kΩ resistors are left empty:![](https://i.imgur.com/MQFqGEo.jpg)
+Add the 2 4.7kΩ resistors for I2C on only one half (I normally do this on the master/left half). Left half shown here:![](https://i.imgur.com/ncxMpI2.jpg)
 
 ### Solder LED support components \(optional\)
 
-For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
+Add a 4.7kΩ resistor for LED support in the R3 slot:![](https://i.imgur.com/Jvg2o4d.jpg)
 
-To solder the MOSET on, first add a little bit of solder to one of the pads on the PCB. Then position the MOSFET over the pads and heat up the pad to solder the first leg into place. It helps to use a pair of tweezers to hold the MOSFET and position it while heating up the pad.![](https://i.imgur.com/k3cwV69.png)
+Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. **Note that the resistor that's seated with the Pro Micro has been inserted on the top side of the PCB, which prevents it from touching the Pro Micro.** (This resistor will be relocated out of the way in future versions of the PCB). Left side shown here:![](https://i.imgur.com/SERhlBs.jpg)
 
-Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.![](https://i.imgur.com/FXKesdZ.png)
+Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
 
-Next, add all of the resistors for each switch. 470Ω resistors are commonly used, but this value might vary, based on the LEDs you use and the amount of current they draw.
+**NOTE: For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB)** If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T
 
-Solder the resistor in the area of the Pro Micro on the other side \(top side\), so it is out of the way of the Pro Micro when you install it. Alternatively, you can just install all of the resistors on the top side.![](https://i.imgur.com/tazkMue.png)
+To add the MOSFET, tin one of the pins on the PCB first:![](https://i.imgur.com/nsehRiB.jpg)
 
-Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
+Hold the MOSFET with a pair of tweezers and align it over the footprint. Then solder the first pin:
+![](https://i.imgur.com/tNMOzPH.jpg?1)
+
+Once you're satisfied with the alignment, solder the other 2 pins:![](https://i.imgur.com/Zm2iJfF.jpg?1)
+
+Repeat the MOSFET installation process on the other PCB:![](https://i.imgur.com/e4EfGla.jpg?1)
 
 ### Solder Pro Micro header pins
 
-### Solder switches
+Install the header pins for the Pro Micro on the underside of the PCB (left PCB shown). You can use some tape to hold the header pins in place while soldering. Solder one pin on and re-adjust/re-solder as needed before doing the rest of the row:![](https://i.imgur.com/TdZ9a23.jpg?1)
 
-### Solder LEDs
+Completed left PCB:![](https://i.imgur.com/ijqRWEo.jpg?1)
 
+Right PCB shown:![](https://i.imgur.com/3WUkRM7.jpg?1)
 
+## Add 2u stabilizers \(optional\)
 
+Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:![](https://i.imgur.com/m0mqljb.jpg)
+
+## Solder switches
+
+Add switches. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](https://i.imgur.com/deDoaSq.jpg)
+
+All installed:![](https://i.imgur.com/tztl5XA.jpg)
+
+## Solder LEDs
+
+Install the LEDs. Longer leg is the anode and goes with the circular pad marked with \+. The shorter leg is the cathode and goes with the square pad marked with \-:![](https://i.imgur.com/A10RlbS.jpg)
+
+I normally pry off the plastic parts of the header pins to made the Pro Micro sit more flush with the PCB. An added benefit of this is that the Micro USB port for the left half is sandwiched between the Iris PCB and the Pro Micro PCB, making it less likely to be ripped off.
+
+Trim down the switch pins, LED pins, and resistor pins that the Pro Micro will sit on top of with a flush cutter:![](https://i.imgur.com/vh0WAXg.jpg)
+
+## Flash Pro Micros
+
+![](https://i.imgur.com/Ca93q9s.jpg)
+
+The last thing to install is the Pro Micros. Before soldering them to the board, it is highly recommended to flash them first, in case one or both of them are defective.
+
+Refer to the [Flashing Firmware](flashing-firmware.md) Guide for steps on performing a flash to test the Pro Micro controllers.
+
+## Solder Pro Micros
+
+If using a bottom plate that conducts electricity, like a stainless steel or aluminum plate, add Kapton or electric tape on top of the TRRS jack. Also put some down where the Pro Micro will be:
+![](https://i.imgur.com/Qw7qrWA.jpg?1)
+
+Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly with the markings on the PCB. The orientation on both PCBs is different. (Left half shown here):
+![](https://i.imgur.com/IMDAm28.jpg)
+
+MYTH: Keys will be reversed if the Pro Micro is reversed
+TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+
+Right half:![](https://i.imgur.com/2KMFIE4.jpg?1)
+
+Left PCB on the left, right PCB on the right:![](https://i.imgur.com/x950DTT.jpg?1)
+
+## Solder RGB strip \(optional\)
+
+Refer to the [RGB Underglow](adding-rgb-underglow.md) Guide for steps to install the RGB light strip.
