@@ -74,14 +74,11 @@ Work in progress...
 If using Alps switches, you will need to modify the two switches that will sit on top of the Pro Micro, since the width of the switch will touch the header pins of the Pro Micro.To modify the switches, you will have to shave off about 1-2mm on each side of the switch. \(TODO: add picture here\).
 
 
-
 ## Add the Pro Micros \(make sure you do this last!\)
 
 Work in progress...![](https://i.imgur.com/Cz00HJX.jpg)
 
 
+## Solder RGB strip \(optional\)
 
-
-
-
-
+Refer to the [Adding RGB Underglow](adding-rgb-underglow.md) Guide for steps to install the RGB light strip.

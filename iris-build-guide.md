@@ -181,4 +181,4 @@ Left PCB on the left, right PCB on the right:![](https://i.imgur.com/x950DTT.jpg
 
 ## Solder RGB strip \(optional\)
 
-Refer to the [RGB Underglow](adding-rgb-underglow.md) Guide for steps to install the RGB light strip.
+Refer to the [Adding RGB Underglow](adding-rgb-underglow.md) Guide for steps to install the RGB light strip.
