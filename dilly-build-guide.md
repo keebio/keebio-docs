@@ -3,9 +3,9 @@
 #### Previous Guides/Info
 * Transfered Build Log from [Imgur](https://imgur.com/a/oJtOt) over into full guide for Rev 1.1.
 
-#Dilly 1.1 Build Guide
+# Dilly 1.1 Build Guide
 
-##Parts List
+## Parts List
 
 Here's a list of parts needed for the build:
 
@@ -101,5 +101,3 @@ After soldering the LEDs and switches, use some flush cutters to clip the switch
 Put some electrical or Kapton tape on top of the area the Pro Micro will be:![](https://i.imgur.com/aunL0hO.jpg)
 
 Insert Pro Micro over the header pins and solder. But only do this after you've flashed your Pro Micro to ensure that it works:![](https://i.imgur.com/G49qh0J.jpg)
-
-
