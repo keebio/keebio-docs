@@ -22,3 +22,18 @@ Here's a list of parts needed for the build:
 * 30 Kailh "Chow" Low Profile Keycaps - [Available at Novelkeys](https://www.novelkeys.xyz/product-category/keycaps/)
 
 ## Build Steps
+
+Here's a summary of the build steps:
+
+1. Prepare components
+2. Solder components
+  1. Solder diodes
+  2. Solder push button
+  3. Solder 4.7kΩ resistor
+  4. Solder LED components \(MOSFET and resistors\) \(optional\)
+  5. Solder Pro Micro header pins
+3. Solder switches
+4. Solder LEDs \(optional\)
+5. Flash Pro Micro
+6. Solder Pro Micro
+7. Solder RGB strip \(optional\)
