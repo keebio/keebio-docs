@@ -77,7 +77,6 @@ After soldering the LEDs and switches, use some flush cutters to clip the switch
 
 ![](https://i.imgur.com/SedSI13.jpg)
 
-
 Put some electrical or Kapton tape on top of the area the Pro Micro will be:
 
 ![](https://i.imgur.com/aunL0hO.jpg)
