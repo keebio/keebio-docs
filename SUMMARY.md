@@ -1,11 +1,13 @@
 # Summary
 
 * [Main Page](README.md)
-    * [Build Guides](README.md#build-guides)
 * [Nyquist Build Guide](nyquist-build-guide.md)
   * [Parts List](nyquist-build-guide.md#parts-list)
   * [Build Steps](nyquist-build-guide.md#build-steps)
 * [Iris Build Guide](iris-build-guide.md)
+* [Laplace Build Guide](laplace-build-log.md)
+* [Dilly Build Guide](dilly-build-guide.md)
+* [Chocopad Build Guide](chocopad-build-guide.md)
 * [Adding RGB Underglow](adding-rgb-underglow.md)
 * [Soldering Tools](soldering-tools.md)
 * [Flashing Firmware](flashing-firmware.md)
