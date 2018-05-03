@@ -20,4 +20,6 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 * [Nyquist/Viterbi](nyquist-build-guide.md)
 * [Iris/Levinson](iris-build-guide.md)
 * [Fourier](https://imgur.com/a/wl0fS)
-* [Dilly/Chocopad](https://imgur.com/a/oJtOt)
+* [Dilly](dilly-build-guide.md)
+* [Chocopad](chocopad-build-guide.md)
+* [Laplace](laplace-build-log.md)
