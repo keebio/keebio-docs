@@ -12,6 +12,7 @@
 * Additional Info
 
   * [Adding RGB Underglow](adding-rgb-underglow.md)
+  * [Case/Plate Files](case-files.md)
   * [Soldering Tools](soldering-tools.md)
   * [Flashing Firmware](flashing-firmware.md)
   * [Schematics](schematics.md)
