@@ -23,3 +23,9 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 * [Dilly](dilly-build-guide.md)
 * [Chocopad](chocopad-build-guide.md)
 * [Laplace](laplace-build-log.md)
+
+## Contributing
+
+The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests.
+
+The documentation is generated using [Docsify](https://docsify.js.org/). See the [Docsify Quick start info](https://docsify.js.org/#/quickstart) to find out how to setup `docsify-cli` and preview changes on-the-fly.

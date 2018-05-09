@@ -36,6 +36,6 @@ Flashing does not occur over the TRRS cable, so it does not matter if the TRRS c
 ## Miscellaneous
 
 - Will you be making the PCB files available for download?
-    - No, the PCB files will not be made available except for the Rorschach
+    - No, the PCB files will not be made available
 - How do I contribute to the documentation here?
     - The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
