@@ -1,9 +1,4 @@
-#Chocopad Build Guides
-
-#### Previous Guides/Info
-* Transferred Build Log from Imgur over into full guide for Rev 1.3
-
-# Chocopad 1.3 Build Guide
+# Chocopad Build Guide
 
 ## Parts List
 

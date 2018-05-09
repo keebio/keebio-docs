@@ -1,9 +1,4 @@
-# Dilly Build Guides
-
-#### Previous Guides/Info
-* Transfered Build Log from [Imgur](https://imgur.com/a/oJtOt) over into full guide for Rev 1.1.
-
-# Dilly 1.1 Build Guide
+# Dilly Build Guide
 
 ## Parts List
 
