@@ -15,7 +15,7 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
   * Fourier - 40% split staggered keyboard \(13u wide\)
   * Laplace - 40% staggered keyboard \(13u wide\) - non-split version of Fourier
 
-## Build Guides {#build-guides}
+## Build Guides
 
 * [Nyquist/Viterbi](nyquist-build-guide.md)
 * [Iris/Levinson](iris-build-guide.md)

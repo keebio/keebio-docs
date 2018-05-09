@@ -7,9 +7,9 @@
 # Iris 2.1b/2.4/2.5 Build Guide
 [Imgur Album](https://imgur.com/a/wc0bO)
 
-## ![](https://i.imgur.com/JMq4iIA.jpg) {#parts-list}
+![](https://i.imgur.com/JMq4iIA.jpg)
 
-## Parts List {#parts-list}
+## Parts List
 
 Here's a list of parts needed for the build:
 
@@ -34,7 +34,7 @@ Here's a list of parts needed for the build:
 * Optional parts \(*not shown*\)
     * 2u PCB mount MX stabilizers if using 2u keys
 
-## Build Steps {#build-steps}
+## Build Steps
 
 Here's a summary of the build steps:
 

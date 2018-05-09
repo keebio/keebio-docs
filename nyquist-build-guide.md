@@ -1,6 +1,6 @@
 # Nyquist Build Guide
 
-## Parts List {#parts-list}
+## Parts List
 
 Here's a list of parts needed for the build:
 
@@ -16,7 +16,7 @@ Here's a list of parts needed for the build:
   * 2 4.7kΩ resistors if doing I2C
   * 2u PCB mount MX stabilizers if using 2u keys
 
-## Build Steps {#build-steps}
+## Build Steps
 
 Here's a summary of the build steps:
 
