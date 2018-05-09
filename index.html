@@ -18,6 +18,7 @@
       repo: 'keebio/keebio-docs',
       loadSidebar: true,
       subMaxLevel: 2,
+      auto2top: true,
       search: {
         paths: 'auto',
         placeholder: 'Search Documentation...',
@@ -25,6 +26,10 @@
         depth: 6
       }
 
+    }
+    // Register service worker for offline cache
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
