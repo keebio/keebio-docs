@@ -17,8 +17,16 @@
       repo: 'keebio/keebio-docs',
       loadSidebar: true,
       subMaxLevel: 2,
+      search: {
+        paths: 'auto',
+        placeholder: 'Search Documentation...',
+        noData: 'We could not find any documents matching your search.',
+        depth: 6
+      }
+
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
