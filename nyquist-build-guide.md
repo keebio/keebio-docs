@@ -1,4 +1,6 @@
-# Nyquist Build Guide
+# Nyquist Rev. 1 Build Guide
+
+For the Nyquist Rev. 2 PCB, see the [Iris Build Guide](iris-build-guide.md) instead, as that is more applicable.
 
 ## Parts List
 
