@@ -46,3 +46,7 @@ extra:
 
 extra_javascript:
   - 'extra.js'
+
+markdown_extensions:
+  - admonition
+  
