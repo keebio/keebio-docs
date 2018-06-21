@@ -13,7 +13,7 @@ copyright: 'Copyright &copy; 2018 Hexwire, LLC'
 
 # Page setup
 pages:
-- Home: 'README.md'
+- Home: 'index.md'
 - Build Guides:
   - 'Nyquist Rev. 1/Viterbi': 'nyquist-build-guide.md'
   - 'Iris/Levinson/Nyquist Rev. 2': 'iris-build-guide.md'
