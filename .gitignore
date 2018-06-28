@@ -13,3 +13,5 @@ _book
 # eBook build output
 *.epub
 *.mobi
+
+site/
