@@ -3,6 +3,7 @@ site_name: 'Keebio Documentation'
 site_description: 'Documentation for Keyboards at Keebio'
 site_author: 'Keebio'
 #site_url:
+google_analytics: ['UA-98651741-2', 'docs.keeb.io']
 
 # Repository
 repo_name: 'keebio/keebio-docs'
