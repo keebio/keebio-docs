@@ -49,6 +49,8 @@ Here's some additional items you might find to be handy during builds:
 - Hookup Wire
 - Helping hands/PCB holder
 - Multimeter
+- Solder Spool Holder
+- Flux
 
 ### Tip Cleaner/Tinner
 
@@ -68,10 +70,14 @@ You're bound to screw up a build at some point, and you're going to need some wa
 - [Blue and Metal Solder Sucker ($)](https://amzn.to/2MVlxXD) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
     - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](https://i.imgur.com/a2uIqMq.jpg)
 - [Engineer SS-02 Solder Sucker ($$)](https://amzn.to/2m3s7jv) - A favorite among many people
+- [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
 
 - Desoldering Irons
     - [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://amzn.to/2IZZGMp) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
     - [Hakko FR300-05/P Desoldering Tool ($$$)](https://amzn.to/2MPWANd) - If you're going to be desoldering whole boards
+- Wick
+    - [Chemtronics 80-3-5 Desoldering Braid](https://amzn.to/2NvLheb)
+    - [MG Chemicals #3 No Clean Super Wick Desoldering Braid](https://amzn.to/2tXrHzw)
 
 ### Hookup Wire
 
@@ -95,3 +101,16 @@ Needed for attaching an RGB LED strip, using as jumper wires, or handwiring. Rec
 No specific recommendations, main thing you'll probably use it for is checking for continuity, so having one that beeps is nice (most multimeters have beep option). The free/cheap ones from Harbor Freight will do the job.
 
 - [Innova 3320 Auto-Ranging Digital Multimeter](https://amzn.to/2KzsKzT)
+
+### Solder Spool Holder
+
+Better than just leaving the solder spool sitting on its side.
+
+- [Delcast SL-RL Solder Dispenser Reel](https://amzn.to/2u8bSoN)
+
+### Flux
+
+Helps solder stick better. Usually the flux in solder will do just fine, but this can help sometimes.
+
+- [SRA Rosin Flux Pen](https://amzn.to/2KUUpYf)
+- [https://amzn.to/2KUUpYf](https://amzn.to/2MRMc7K)
