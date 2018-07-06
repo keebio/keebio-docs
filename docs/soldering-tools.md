@@ -65,7 +65,7 @@ Tip Tinner: Good to use once at the beginning of a soldering session instead of 
 
 ### Solder Sucker and Wick
 
-You're bound to screw up a build at some point, and you're going to need some way to remove that solder. Highly recommended to by a solder sucker of some sort, wick is not that important to have.
+You're bound to screw up a build at some point, and you're going to need some way to remove that solder. Highly recommended to buy a solder sucker of some sort, wick is not that important to have.
 
 - [Blue and Metal Solder Sucker ($)](https://amzn.to/2MVlxXD) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
     - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](https://i.imgur.com/a2uIqMq.jpg)
