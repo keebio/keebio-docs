@@ -45,9 +45,11 @@ extra:
     - type: 'instagram'
       link: 'https://instagram.com/keebio'
 
+extra_css:
+  - 'css/lightgallery.min.css'
 extra_javascript:
-  - 'extra.js'
-
+  - 'js/lightgallery.js'
+  - 'js/extra.js'
 markdown_extensions:
   - admonition
   
