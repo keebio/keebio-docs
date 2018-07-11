@@ -114,3 +114,7 @@ Helps solder stick better. Usually the flux in solder will do just fine, but thi
 
 - [SRA Rosin Flux Pen](https://amzn.to/2KUUpYf)
 - [https://amzn.to/2KUUpYf](https://amzn.to/2MRMc7K)
+
+<br><br><br><br>
+
+<sub>*As an Amazon Associate, Keebio may earn a commission from qualifying purchases.*</sub>
