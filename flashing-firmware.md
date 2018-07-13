@@ -11,7 +11,7 @@ In the meantime, checkout the resources and information about test flashing belo
 
 ## Resources
 
-* [The Complete Newbs Guide for QMK](https://docs.qmk.fm/newbs.html)
+* [The Complete Newbs Guide for QMK](https://docs.qmk.fm/#/newbs)
 * [Chokkan's QMK Guide | Your First Steps to an All Powerful Keyboard](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG) Video Series
 * [Flashing guide for the Let's Split](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
 
@@ -22,15 +22,15 @@ Please follow the [QMK Documentation](https://docs.qmk.fm/) for the most up-to-d
 
 ## Performing an initial test flash on Windows
 
-You can flash the microcontrollers in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally. To do so, you will need to have QMK setup on your computer. We recommend following [the Complete Newbs Guide for QMK](https://docs.qmk.fm/newbs.html) to get setup.
+You can flash the microcontrollers in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally. To do so, you will need to have QMK setup on your computer. We recommend following [the Complete Newbs Guide for QMK](https://docs.qmk.fm/#/newbs) to get setup.
 
-The Complete Newbs Guide has a section for [Flashing Firmware](https://docs.qmk.fm/newbs.html), but it can be unclear as to how to do so for a microcontroller that isn't yet installed in a board.
+The Complete Newbs Guide has a section for [Flashing Firmware](https://docs.qmk.fm/#/newbs), but it can be unclear as to how to do so for a microcontroller that isn't yet installed in a board.
 
-The steps below assume your are using Windows and you have completed the QMK setup as outlined in the Complete Newbs Guide [Getting Started](https://docs.qmk.fm/newbs_getting_started.html), have built your first firmware with [Building Your First Firmware](https://docs.qmk.fm/newbs_building_firmware.html), and have installed [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
+The steps below assume your are using Windows and you have completed the QMK setup as outlined in the Complete Newbs Guide [Getting Started](https://docs.qmk.fm/#/newbs_getting_started), have built your first firmware with [Building Your First Firmware](https://docs.qmk.fm/#/newbs_building_firmware), and have installed [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
 
 1. First, attach a USB cable into the controller and plug it into a USB port on your computer and let any drivers install that need to install. You should see LEDs light on your controller.
 2. Once any drivers have finished installing, unplug from the USB port on the computer.
-3. Start working through the steps in [Flashing Firmware](https://docs.qmk.fm/newbs.html) from the Newb Guide.
+3. Start working through the steps in [Flashing Firmware](https://docs.qmk.fm/#/newbs) from the Newb Guide.
 4. To place your microcontroller into DFU (Bootloader) Mode, you will need to short the `BOOT0` or `RESET` or `RST` pins/holes to ground.
    1. Ensure the USB cable is unplugged from the computer.
    2. Ensure the QMK Toolbox is open and your firmware file has been opened.
@@ -42,8 +42,8 @@ The steps below assume your are using Windows and you have completed the QMK set
     *** DFU device connected
     ```
     or
-    ```  
+    ```
     *** Caterina device connected
     ```
 
-5. Complete the remaining steps in [Flashing Firmware](https://docs.qmk.fm/newbs.html) from the Newb Guide.
+5. Complete the remaining steps in [Flashing Firmware](https://docs.qmk.fm/#/newbs) from the Newb Guide.
