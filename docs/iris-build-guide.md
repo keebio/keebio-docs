@@ -86,7 +86,9 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks,, and Pro Micro header 
 
 On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:![](https://i.imgur.com/Pft9ufA.jpg)
 
-?> NOTE for Kailh Low-Profile PCBs (Rev. 2.2-KLP): The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
+!!! warning "For Kailh Low-Profile PCBs (Rev. 2.2-KLP):"
+
+    The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
 
 Some people stick the diodes on the top side of the PCB, I don't recommend doing it that way, because you can't replace them once everything is assembled using that method.
 
@@ -123,7 +125,8 @@ Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation does
 
 Right PCB:![](https://i.imgur.com/3CJVPlx.jpg)
 
-!> For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T
+!!! warning "For the 2.1b and 2.4 PCBs:"
+    There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T
 
 To add the MOSFET, tin one of the pins on the PCB first:![](https://i.imgur.com/nsehRiB.jpg)
 
@@ -176,8 +179,8 @@ If using a bottom plate that conducts electricity, like a stainless steel or alu
 Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly with the markings on the PCB. The orientation on both PCBs is different. (Left half shown here):
 ![](https://i.imgur.com/IMDAm28.jpg)
 
-!> MYTH: Keys will be reversed if the Pro Micro is reversed  
-TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+!!! info "MYTH: Keys will be reversed if the Pro Micro is reversed"
+    TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
 
 Right half:![](https://i.imgur.com/2KMFIE4.jpg?1)
 

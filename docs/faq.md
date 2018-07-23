@@ -3,6 +3,8 @@
 
 ## Flashing
 
+- How do I flash my keyboard with Keyboard Firmware Builder (a.k.a kbfirmware.com)?
+    - Don't use kbfirmware.com as it is outdated and does not support split keyboards. Use [QMK Configurator](https://config.qmk.fm/) instead.
 - Do I need to have the TRRS cable plugged in while trying to flash both halves?
     - Having the TRRS cable plugged in while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
 Flashing does not occur over the TRRS cable, so it does not matter if the TRRS cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
@@ -39,3 +41,5 @@ Flashing does not occur over the TRRS cable, so it does not matter if the TRRS c
     - No, the PCB files will not be made available
 - How do I contribute to the documentation here?
     - The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
+- Which type of switches do I have to use, PCB mount or Plate mount ones?
+    - The only difference between the two is that PCB mount has two additional plastic legs for better alignment on a PCB. Either type is compatible, and if given the choice, PCB mount is preferable to keep switches aligned better.

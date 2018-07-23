@@ -1,0 +1,55 @@
+# Project information
+site_name: 'Keebio Documentation'
+site_description: 'Documentation for Keyboards at Keebio'
+site_author: 'Keebio'
+#site_url:
+google_analytics: ['UA-98651741-2', 'docs.keeb.io']
+
+# Repository
+repo_name: 'keebio/keebio-docs'
+repo_url: 'https://github.com/keebio/keebio-docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 Hexwire, LLC'
+
+# Page setup
+pages:
+- Home: 'index.md'
+- Build Guides:
+  - 'Nyquist Rev. 1/Viterbi': 'nyquist-build-guide.md'
+  - 'Iris/Levinson/Nyquist Rev. 2': 'iris-build-guide.md'
+  - 'Laplace': 'laplace-build-log.md'
+  - 'Dilly': 'dilly-build-guide.md'
+  - 'Chocopad': 'chocopad-build-guide.md'
+  #- 'Fourier': 'https://imgur.com/a/wl0fS'
+- Additional Info:
+  - 'Adding RGB Underglow': 'adding-rgb-underglow.md'
+  - 'Case/Plate Files': 'case-files.md'
+  - 'Soldering Tools': 'soldering-tools.md'
+  - 'Flashing Firmware': 'flashing-firmware.md'
+  - 'Schematics': 'schematics.md'
+  - 'Troubleshooting': 'troubleshooting.md'
+  - 'FAQ': 'faq.md'
+  - 'Acknowledgements': 'acknowledgements.md'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'amber'
+  favicon: 'assets/keebio-favicon.png'
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/keebio'
+    - type: 'instagram'
+      link: 'https://instagram.com/keebio'
+
+extra_css:
+  - 'css/lightgallery.min.css'
+extra_javascript:
+  - 'js/lightgallery.js'
+  - 'js/extra.js'
+markdown_extensions:
+  - admonition
+  
