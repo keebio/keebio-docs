@@ -15,9 +15,9 @@ Here's a list of parts needed for the build:
   * 14 M2 10mm standoffs \(included with plates\)
   
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 1 TRRS Cable()
-* 1 Micro USB Cable()
-* PCB-mount MX stabilizers()
+* 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable?variant=8131954704490)
+* 1 Micro USB Cable
+* [PCB-mount MX stabilizers](https://keeb.io/collections/frontpage/products/cherry-mx-stabilizer?variant=43449871046)
 * MX or Alps compatible keyswitches
 * [WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
 
@@ -50,7 +50,7 @@ If you're using through hole diodes, bend 'em up. Here, I'm just bending it arou
 
 Another way to do it, resistors shown here
 
-![]((https://i.imgur.com/2D39Ojx.jpg)
+![](https://i.imgur.com/2D39Ojx.jpg)
 
 
 Strip of diodes bent
