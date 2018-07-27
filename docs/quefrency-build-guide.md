@@ -136,6 +136,6 @@ Assemble the case by adding screws, standoffs, and bottom plates.
 
 If you have some bumpons, stick one on each corner. Repeat on the other half and that's it!
 
-![](https://i.imgur.com/ib1PC0o.jpg)
+![](https://i.imgur.com/cjNzAik.jpg)
 
 If you haven't yet, slap some caps on your new board. Now clack away!
