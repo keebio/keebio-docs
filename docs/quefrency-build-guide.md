@@ -8,7 +8,7 @@ Here's a list of parts needed for the build:
   * 2 Reset Switches \(included in kit\)
   * 2 4.7kΩ resistors \(included in kit\)
   * 2 TRRS Jacks \(included in kit\)
-  * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes]((https://keeb.io/products/1n4148-diodes) supported
+  * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
 
 * 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-split-staggered-keyboard)
   * 29 M2 6mm screws \(included with plates\)
@@ -48,7 +48,7 @@ Make sure to let kitty know it's build time, if you don't she'll forget to disru
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger. Then tear the paper off carefully as not to bend them.
 
-![](https://i.imgur.com/E6WgUsd.jpg)
+![](https://i.imgur.com/NgokqZH.jpg)
 
 Insert the diodes. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
 
