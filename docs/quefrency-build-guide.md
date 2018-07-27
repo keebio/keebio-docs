@@ -19,7 +19,7 @@ Here's a list of parts needed for the build:
 * 1 Micro USB Cable()
 * PCB-mount MX stabilizers()
 * MX or Alps compatible keyswitches
-* WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
+* ![]WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
 
 ## Build Steps
 
