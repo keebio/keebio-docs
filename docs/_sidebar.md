@@ -7,7 +7,7 @@
   * [Laplace Build Guide](laplace-build-log.md)
   * [Dilly Build Guide](dilly-build-guide.md)
   * [Chocopad Build Guide](chocopad-build-guide.md)
-  * [Fourier](https://imgur.com/a/wl0fS)
+  * [Fourier](fourier-build-guide.md)
 
 * Additional Info
 
