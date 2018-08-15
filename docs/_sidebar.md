@@ -8,6 +8,7 @@
   * [Dilly Build Guide](dilly-build-guide.md)
   * [Chocopad Build Guide](chocopad-build-guide.md)
   * [Fourier](fourier-build-guide.md)
+  * [Quefrency](quefrency-build-guide.md)
 
 * Additional Info
 

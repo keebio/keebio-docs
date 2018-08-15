@@ -14,6 +14,7 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 * Traditional/horizontal Stagger
   * Fourier - 40% split staggered keyboard \(13u wide\)
   * Laplace - 40% staggered keyboard \(13u wide\) - non-split version of Fourier
+  * Quefrency - 60% split staggered keyboard
 
 ## Build Guides
 
@@ -23,6 +24,7 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 * [Dilly](dilly-build-guide.md)
 * [Chocopad](chocopad-build-guide.md)
 * [Laplace](laplace-build-log.md)
+* [Quefrency](quefrency-build-guide.md)
 
 ## Contributing
 

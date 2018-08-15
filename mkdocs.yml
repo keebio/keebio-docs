@@ -21,7 +21,10 @@ pages:
   - 'Laplace': 'laplace-build-log.md'
   - 'Dilly': 'dilly-build-guide.md'
   - 'Chocopad': 'chocopad-build-guide.md'
-  #- 'Fourier': 'https://imgur.com/a/wl0fS'
+  - 'Fourier': 'fourier-build-guide.md'
+  - 'Quefrency': 'quefrency-build-guide.md'
+  - Old Build Guides:
+    - 'Iris 2.0/2.1a': 'iris-build-guide-archive.md'
 - Additional Info:
   - 'Adding RGB Underglow': 'adding-rgb-underglow.md'
   - 'Case/Plate Files': 'case-files.md'

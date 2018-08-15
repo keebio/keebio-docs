@@ -1,4 +1,4 @@
- # Fourier Build Guide
+# Fourier Build Guide
 
 ## Parts List
 
