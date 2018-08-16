@@ -35,23 +35,23 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](https://i.imgur.com/rrey3ej.jpg)
+![](assets/images/dilly/rrey3ej.jpg)
 
 Bending the diodes. Here, I'm just bending it around my finger
 
-![](https://i.imgur.com/sKo655O.jpg)
+![](assets/images/dilly/sKo655O.jpg)
 
 Another way to do it, resistors shown here
 
-![](https://i.imgur.com/2D39Ojx.jpg)
+![](assets/images/dilly/2D39Ojx.jpg)
 
 Strip of diodes bent
 
-![](https://i.imgur.com/Ys0X30w.jpg)
+![](assets/images/dilly/Ys0X30w.jpg)
 
 Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
 
-![](https://i.imgur.com/4cFrb2D.jpg)
+![](assets/images/dilly/4cFrb2D.jpg)
 
 All separated from the paper
 
@@ -67,52 +67,52 @@ NOTE you do not want the diodes top side on this board, as they will not be hidd
 
 Bend the legs out to hole the diodes in place when you solder them in:
 
-![](https://i.imgur.com/AFw8KJ6.jpg)
+![](assets/images/dilly/AFw8KJ6.jpg)
 
 ### Solder the reset button
 
 Add the reset switch and solder it in:
 
-![](https://i.imgur.com/VUBghZk.jpg)
+![](assets/images/dilly/VUBghZk.jpg)
 
 ### Solder the Resistors & MOSFET \(optional\)
 
 If adding LEDs, add the 4.7k Ohm resistor to the R3 slot:
 
-![](https://i.imgur.com/m0LmE0p.jpg)
+![](assets/images/dilly/m0LmE0p.jpg)
 
 Add a bit of solder to one leg of the MOSFET pad Q1. Solder one leg of the MOSFET first and once that is aligned, solder the other two legs. Also add 470 Ohm resistors to all the resistor slots (all horizontally oriented):
 
-![](https://i.imgur.com/8RGevKf.jpg)
+![](assets/images/dilly/8RGevKf.jpg)
 
 ### Solder Pro Micro header pins
 
 Prepare the Pro Micro header pins \(optional)\. If needed, you can use some tape to hold the header pins in place while soldering:
 
-![](https://i.imgur.com/JB9pNgO.jpg)
+![](assets/images/dilly/JB9pNgO.jpg)
 
 NOTE if your header pins are not soldered flush to the board, you'll need trim them. Do this very carefully as not to damage any traces with your flush cutter.
 
 Solder the Pro Micro header pins:
 
-![](https://i.imgur.com/lt8GR2G.jpg)
+![](assets/images/dilly/lt8GR2G.jpg)
 
 ### Add and solder LEDs \(optional)\ and switches
 
 Add LEDs and then place the switch on top of it. Make sure the LED does not get in the way of the switch clickbar if it is a clicky switch:
 
-![](https://i.imgur.com/2ZklBbt.jpg)
+![](assets/images/dilly/2ZklBbt.jpg)
 
 After soldering the LEDs and switches, use some flush cutters to clip the switch legs and plastic pieces of the 2 switches that sit on top of the Pro Micro, so they don't interfere with the Pro Micro:
 
-![](https://i.imgur.com/SedSI13.jpg)
+![](assets/images/dilly/SedSI13.jpg)
 
 ### Prepare and solder the Pro Micro
 
 Put some electrical or Kapton tape on top of the area the Pro Micro will be:
 
-![](https://i.imgur.com/aunL0hO.jpg)
+![](assets/images/dilly/aunL0hO.jpg)
 
 Insert Pro Micro over the header pins and solder. But only do this after you've flashed your Pro Micro to ensure that it works:
 
-![](https://i.imgur.com/G49qh0J.jpg)
+![](assets/images/dilly/G49qh0J.jpg)

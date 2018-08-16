@@ -68,7 +68,7 @@ Tip Tinner: Good to use once at the beginning of a soldering session instead of 
 You're bound to screw up a build at some point, and you're going to need some way to remove that solder. Highly recommended to buy a solder sucker of some sort, wick is not that important to have.
 
 - [Blue and Metal Solder Sucker ($)](https://amzn.to/2MVlxXD) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
-    - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](https://i.imgur.com/a2uIqMq.jpg)
+    - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](assets/images/misc/desoldering-pump-cut.jpg)
 - [Engineer SS-02 Solder Sucker ($$)](https://amzn.to/2m3s7jv) - A favorite among many people
 - [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
 
