@@ -44,7 +44,7 @@ Get your parts all set and make sure you have all the components.
 
 Make sure to let kitty know it's build time, if you don't she'll forget to disrupt you every step of the way.
 
-[]!(https://i.imgur.com/NXZVbjx.jpg)
+![](https://i.imgur.com/NXZVbjx.jpg)
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger. Then tear the paper off carefully as not to bend them.
 
