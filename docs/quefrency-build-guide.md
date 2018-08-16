@@ -36,19 +36,19 @@ Here's a list of parts needed for the build:
 
 ## Prepare Components
 
-![](https://i.imgur.com/x96LIyE.jpg)
+![](assets/images/quefrency/x96LIyE.jpg)
 
 Get your parts all set and make sure you have all the components.
 
-![](https://i.imgur.com/h7aNdeq.jpg)
+![](assets/images/quefrency/h7aNdeq.jpg)
 
 Make sure to let kitty know it's build time, if you don't she'll forget to disrupt you every step of the way.
 
-![](https://i.imgur.com/NXZVbjx.jpg)
+![](assets/images/quefrency/NXZVbjx.jpg)
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger. Then tear the paper off carefully as not to bend them.
 
-![](https://i.imgur.com/NgokqZH.jpg)
+![](assets/images/quefrency/NgokqZH.jpg)
 
 Insert the diodes. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
 
@@ -56,86 +56,86 @@ Through-hole diodes will have a black band, SMD diodes have a white band.
 
 **Note**bakingpy suggests always installing the diodes on the bottom of the PCB. This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this. I've done it before, I hope never to do it again, yet I put them topside for some reason. Don't be me, listen to bakingpy's advice!
 
-![](https://i.imgur.com/XNP7s38.jpg)
+![](assets/images/quefrency/XNP7s38.jpg)
 
 All the diodes installed on the left PCB.
 
-![](https://i.imgur.com/Ed8bK7H.jpg)
+![](assets/images/quefrency/Ed8bK7H.jpg)
 
 After installing the diodes, add your TRRS jacks and reset buttons.
 
-![]https://i.imgur.com/Ed8bK7H.jpg)
+![]assets/images/quefrency/Ed8bK7H.jpg)
 
 Add your 4.7k ohm resistors for i2c on the left half(optional). There are no resistors for the right half. Resistors also do not have a polarity, so the orientation doesn't matter when placing them.
 
-![](https://i.imgur.com/cphn8ym.png)
+![](assets/images/quefrency/cphn8ym.png)
 
 Repeat the same process with the diodes, TRRS jack, and reset switch with the right half. Remember no I2C resistor slots on this side, as they're only needed on one half. Then, take a moment to pet kitty before she hates you for ignoring her.
 
 ## Solder Components
 
-![](https://i.imgur.com/2Q538Hq.jpg)
+![](assets/images/quefrency/2Q538Hq.jpg)
 
 Solder on the header pins for the Pro Micro.
 
-![](https://i.imgur.com/Qh0KWho.jpg)
+![](assets/images/quefrency/Qh0KWho.jpg)
 
 You can use the PM to get the alignment set, and\/\or tape it there to keep it from rocking to one side or the other, then solder the 4 corner pins on the top of the board. Do not solder the pro micro to the PCB.
 
-![](https://i.imgur.com/p7CfEY9.jpg)
+![](assets/images/quefrency/p7CfEY9.jpg)
 
 After the 4 corners are soldered in place, remove the PM. You don't want to space out and start soldering it to the pins, so just get it out of there.
 
-![](https://i.imgur.com/V0mHYMG.jpg)
+![](assets/images/quefrency/V0mHYMG.jpg)
 
 Finish soldering the remaining pins on each half, with the PM safely set aside.
 
-![](https://i.imgur.com/dNWDczS.jpg)
+![](assets/images/quefrency/dNWDczS.jpg)
 
 Add stabilizers to the keys you want to stabilize.
 
-![](https://i.imgur.com/bJlyXbw.jpg)
+![](assets/images/quefrency/bJlyXbw.jpg)
 
 Time to add the switches. Put a few switches into the corners of the switch plate and then attach the switches to the PCB. Make sure the switches are pushed all the way down onto the PCB.
 
-![](https://i.imgur.com/undefined.png)
+
 
 Due to the multiple layout options, it may be helpful to put keycaps on the switches to make sure everything is in the correct slots, however, the layout options are labelled on the topside of the PCB.
 
-![](https://i.imgur.com/Rzx33qt.jpg)
+![](assets/images/quefrency/Rzx33qt.jpg)
 
 All the switches installed and soldered in.
 
-![](https://i.imgur.com/J5FGu3J.jpg)
+![](assets/images/quefrency/J5FGu3J.jpg)
 
 Time to install the Pro Micro now that the switches have been soldered in.
 
-![](https://i.imgur.com/LLAJ1tE.jpg)
+![](assets/images/quefrency/LLAJ1tE.jpg)
 
 Flash those pro micros! We want to be sure they work before we install them.
 
-![](https://i.imgur.com/dYbFoZB.jpg)
+![](assets/images/quefrency/dYbFoZB.jpg)
 
 To make sure that the switch pins don't touch the Pro Micro, clip them flush with the PCB. Afterwards, add Kapton or electrical tape on top of it.
 
-![](https://i.imgur.com/9GeXjZC.jpg)
+![](assets/images/quefrency/9GeXjZC.jpg)
 
 Place the Pro Micro on the header pins. Match the PM pinouts to the pinouts on the PCB.
 
 Don't install it backwards, it may damage the pro micro.
 
-![](https://i.imgur.com/AFBcIes.jpg)
+![](assets/images/quefrency/AFBcIes.jpg)
 
 Trim down the pins with a flush cutter after it's soldered, then repeat on the other half.
 
-![](https://i.imgur.com/nwlfdoH.jpg)
+![](assets/images/quefrency/nwlfdoH.jpg)
 
 Assemble the case by adding screws, standoffs, and bottom plates.
 
-![](https://i.imgur.com/3y6AzeE.jpg)
+![](assets/images/quefrency/3y6AzeE.jpg)
 
 If you have some bumpons, stick one on each corner. Repeat on the other half and that's it!
 
-![](https://i.imgur.com/cjNzAik.jpg)
+![](assets/images/quefrency/cjNzAik.jpg)
 
 If you haven't yet, slap some caps on your new board. Now clack away!
