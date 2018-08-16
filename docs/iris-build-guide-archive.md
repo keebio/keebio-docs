@@ -1,8 +1,8 @@
 # Iris Build Guide Archive
 
-## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](https://imgur.com/a/wc0bO)
+## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](iris-build-guide.md)
 
-LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 
 ##
 
@@ -16,7 +16,7 @@ LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to th
 
 Imgur Album: [Iris Build Log](https://imgur.com/a/iQH2W)
 
-## ![](https://i.imgur.com/uqIwtGy.jpg) {#parts-list}
+## ![](assets/images/iris/uqIwtGy.jpg) {#parts-list}
 
 ## Parts List {#parts-list}
 
@@ -67,19 +67,19 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks,, and Pro Micro header 
 
 All the diodes are oriented with the line towards the bottom. All the resistors are oriented horizontally, direction doesn't matter. The PCB supports both SMD and through-hole diodes and resistors, SMD ones are shown here. For through hole diodes, the black line will be at the bottom, towards the square pad.
 
-![](https://i.imgur.com/PS0GEXA.jpg)
+![](assets/images/iris/PS0GEXA.jpg)
 
-Through-hole resistors shown here, note that the black line on the diodes are all facing down at the square pad.![](https://i.imgur.com/j3do2SU.png)
+Through-hole resistors shown here, note that the black line on the diodes are all facing down at the square pad.![](assets/images/iris/j3do2SU.png)
 
 ### Solder reset push buttons and TRRS jacks
 
-### ![](https://i.imgur.com/YqDm7vj.jpg)Info about resistors in the kit
+### ![](assets/images/iris/YqDm7vj.jpg)Info about resistors in the kit
 
 The color coded lines on the resistors can be hard to read/decipher, so the paper from the tape reel have been marked with different color lines.
 
 * No Line - 4.7kΩ resistors for I2C \(only used on master half\)
 * Blue Line - 100kΩ resistors for MOSFET \(1 for each half\)
-* Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](https://i.imgur.com/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](https://i.imgur.com/HmEYzag.png)
+* Red Line - 100Ω resistors for MOSFET \(1 for each half\)![](assets/images/iris/zz1rnXv.png)Some of the PCB kits may have these unlabeled resistors instead of the ones in the previous picture. Here's how to distinguish between them by looking at the bands:![](assets/images/iris/HmEYzag.png)
 
 ### Solder I2C resistors \(optional\)
 
@@ -89,23 +89,23 @@ However, in the future, there might be additional parts that you can add, like a
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
-Left half shown here:![](https://i.imgur.com/CUjnMP3.png)
+Left half shown here:![](assets/images/iris/CUjnMP3.png)
 
-Right half, note that the two spot for the 4.7kΩ resistors are left empty:![](https://i.imgur.com/MQFqGEo.jpg)
+Right half, note that the two spot for the 4.7kΩ resistors are left empty:![](assets/images/iris/MQFqGEo.jpg)
 
 ### Solder LED support components \(optional\)
 
-For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](https://i.imgur.com/2rwjJRf.jpg)
+For each half, add 1 MOSFET, 100Ω resistor, and 100kΩ resistor.![](assets/images/iris/2rwjJRf.jpg)
 
-To solder the MOSET on, first add a little bit of solder to one of the pads on the PCB. Then position the MOSFET over the pads and heat up the pad to solder the first leg into place. It helps to use a pair of tweezers to hold the MOSFET and position it while heating up the pad.![](https://i.imgur.com/k3cwV69.png)
+To solder the MOSET on, first add a little bit of solder to one of the pads on the PCB. Then position the MOSFET over the pads and heat up the pad to solder the first leg into place. It helps to use a pair of tweezers to hold the MOSFET and position it while heating up the pad.![](assets/images/iris/k3cwV69.png)
 
-Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.![](https://i.imgur.com/FXKesdZ.png)
+Once the first leg of the MOSFET has been positioned properly, solder the other 2 pads.![](assets/images/iris/FXKesdZ.png)
 
 Next, add all of the resistors for each switch. 470Ω resistors are commonly used, but this value might vary, based on the LEDs you use and the amount of current they draw.
 
-Solder the resistor in the area of the Pro Micro on the other side \(top side\), so it is out of the way of the Pro Micro when you install it. Alternatively, you can just install all of the resistors on the top side.![](https://i.imgur.com/tazkMue.png)
+Solder the resistor in the area of the Pro Micro on the other side \(top side\), so it is out of the way of the Pro Micro when you install it. Alternatively, you can just install all of the resistors on the top side.![](assets/images/iris/tazkMue.png)
 
-Lone resistor soldered on the top side.![](https://i.imgur.com/DGoQ3U0.png)
+Lone resistor soldered on the top side.![](assets/images/iris/DGoQ3U0.png)
 
 ### Solder Pro Micro header pins
 

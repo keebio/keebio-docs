@@ -5,7 +5,7 @@
 While this build guide shows parts for the Iris, the build is very similar to that of the Levinson, as well as the Nyquist Rev. 2, since they all have in-switch LED support.
 
 #### Previous Guides/Info
-* LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](https://imgur.com/a/uqt6T)
+* LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 * Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
 # Iris 2.1b/2.4/2.5 Build Guide
@@ -126,7 +126,7 @@ Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation does
 Right PCB:![](assets/images/iris/3CJVPlx.jpg)
 
 !!! warning "For the 2.1b and 2.4 PCBs:"
-    There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: https://imgur.com/a/uqt6T
+    There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: [Iris 2.1b/2.4 LED MOSFET Fix](iris-led-fix.md)
 
 To add the MOSFET, tin one of the pins on the PCB first:![](assets/images/iris/nsehRiB.jpg)
 
