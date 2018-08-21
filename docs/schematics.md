@@ -6,8 +6,8 @@
 - [Nyquist Rev. 2](schematics/Nyquist Rev 2 Schematic.pdf ':ignore')
 - [BFO-9000](schematics/BFO-9000 Schematic.pdf ':ignore')
 - [Viterbi](schematics/Viterbi Rev 1 Schematic.pdf ':ignore')
+- [Iris](schematics/Iris Rev 2 Schematic.pdf ':ignore')
 - Levinson
-- Iris
 - Fourier
 - Laplace
 - Dilly
