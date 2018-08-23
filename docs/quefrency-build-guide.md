@@ -64,9 +64,20 @@ All the diodes installed on the left PCB.
 
 After installing the diodes, add your TRRS jacks and reset buttons.
 
-![]assets/images/quefrency/Ed8bK7H.jpg)
+### Solder I2C resistors \(optional\)
 
-Add your 4.7k ohm resistors for i2c on the left half(optional). There are no resistors for the right half. Resistors also do not have a polarity, so the orientation doesn't matter when placing them.
+![](assets/images/quefrency/Ed8bK7H.jpg)
+
+Add your 4.7k ohm resistors for I2C on the left half. There are no resistors for the right half. Resistors also do not have a polarity, so the orientation doesn't matter when placing them.
+
+!!! info "What the heck is I2C, and what do I need it for?"
+    The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
+
+    However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
+    
+    To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
+
+    tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
 ![](assets/images/quefrency/cphn8ym.png)
 
