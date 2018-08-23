@@ -48,13 +48,17 @@ Make sure to let kitty know it's build time, if you don't she'll forget to disru
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger. Then tear the paper off carefully as not to bend them.
 
+
+## Solder diodes, reset push buttons, TRRS jacks
+
 ![](assets/images/quefrency/NgokqZH.jpg)
+
+!!! info "It is recommened to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures"
+    This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this, as you won't be able to replace the faulty component easily.
 
 Insert the diodes. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
 
 Through-hole diodes will have a black band, SMD diodes have a white band.
-
-**Note**bakingpy suggests always installing the diodes on the bottom of the PCB. This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this. I've done it before, I hope never to do it again, yet I put them topside for some reason. Don't be me, listen to bakingpy's advice!
 
 ![](assets/images/quefrency/XNP7s38.jpg)
 
@@ -64,7 +68,7 @@ All the diodes installed on the left PCB.
 
 After installing the diodes, add your TRRS jacks and reset buttons.
 
-### Solder I2C resistors \(optional\)
+## Solder I2C resistors \(optional\)
 
 ![](assets/images/quefrency/Ed8bK7H.jpg)
 
@@ -83,7 +87,7 @@ Add your 4.7k ohm resistors for I2C on the left half. There are no resistors for
 
 Repeat the same process with the diodes, TRRS jack, and reset switch with the right half. Remember no I2C resistor slots on this side, as they're only needed on one half. Then, take a moment to pet kitty before she hates you for ignoring her.
 
-## Solder Components
+## Solder Pro Micro header pins
 
 ![](assets/images/quefrency/2Q538Hq.jpg)
 
@@ -101,15 +105,17 @@ After the 4 corners are soldered in place, remove the PM. You don't want to spac
 
 Finish soldering the remaining pins on each half, with the PM safely set aside.
 
+## Add stabilizers
+
 ![](assets/images/quefrency/dNWDczS.jpg)
 
 Add stabilizers to the keys you want to stabilize.
 
+## Add switches
+
 ![](assets/images/quefrency/bJlyXbw.jpg)
 
 Time to add the switches. Put a few switches into the corners of the switch plate and then attach the switches to the PCB. Make sure the switches are pushed all the way down onto the PCB.
-
-
 
 Due to the multiple layout options, it may be helpful to put keycaps on the switches to make sure everything is in the correct slots, however, the layout options are labelled on the topside of the PCB.
 
@@ -117,13 +123,15 @@ Due to the multiple layout options, it may be helpful to put keycaps on the swit
 
 All the switches installed and soldered in.
 
+## Test/flash Pro Micro
+
 ![](assets/images/quefrency/J5FGu3J.jpg)
 
 Time to install the Pro Micro now that the switches have been soldered in.
 
 ![](assets/images/quefrency/LLAJ1tE.jpg)
 
-Flash those pro micros! We want to be sure they work before we install them.
+[Flash those pro micros](flashing-firmware.md)! We want to be sure they work before we install them.
 
 ![](assets/images/quefrency/dYbFoZB.jpg)
 
@@ -131,13 +139,19 @@ To make sure that the switch pins don't touch the Pro Micro, clip them flush wit
 
 ![](assets/images/quefrency/9GeXjZC.jpg)
 
+## Solder Pro Micros
+
 Place the Pro Micro on the header pins. Match the PM pinouts to the pinouts on the PCB.
 
-Don't install it backwards, it may damage the pro micro.
+Don't install it backwards, it won't work that way, and there's no software solution to fix that.
 
 ![](assets/images/quefrency/AFBcIes.jpg)
 
 Trim down the pins with a flush cutter after it's soldered, then repeat on the other half.
+
+Not shown in these pictures, but add electrical tape or Kapton tape on top of the Pro Micros and TRRS jacks to prevent the metal portions of them from touching the bottom plate.
+
+## Assemble case
 
 ![](assets/images/quefrency/nwlfdoH.jpg)
 

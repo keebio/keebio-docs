@@ -4,16 +4,13 @@
 
 While this build guide shows parts for the Iris, the build is very similar to that of the Levinson, as well as the Nyquist Rev. 2, since they all have in-switch LED support.
 
-#### Previous Guides/Info
+### Previous Guides/Info
 * LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 * Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
-# Iris 2.1b/2.4/2.5 Build Guide
-[Imgur Album](https://imgur.com/a/wc0bO)
+## Parts List
 
 ![](assets/images/iris/JMq4iIA.jpg)
-
-## Parts List
 
 Here's a list of parts needed for the build:
 
