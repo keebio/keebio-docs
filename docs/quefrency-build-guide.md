@@ -111,6 +111,13 @@ Finish soldering the remaining pins on each half, with the PM safely set aside.
 
 Add stabilizers to the keys you want to stabilize.
 
+!!! warning "Note for the 1.0 left PCB on clipping diode legs"
+    For the Rev. 1.0 left PCB, one of the stabilizer mounts sits right next to a diode. If using through-hole diodes, make sure that the diode legs for spot shown below are clipped as flush as possible, so that the stabilizer can clip in correctly.
+
+    This issue has been fixed on the 1.1 PCB.
+
+    ![](assets/images/quefrency/stab-diode-clip.jpg)
+
 ## Add switches
 
 ![](assets/images/quefrency/bJlyXbw.jpg)
