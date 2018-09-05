@@ -8,6 +8,14 @@ While this build guide shows parts for the Iris, the build is very similar to th
 * LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 * Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
 
+## Videos of Builds
+
+Here's a list of Iris build videos various people have created:
+
+* [TaeKeyboards - Iris Split Ergonomic Mechanical Keyboard Build](https://youtu.be/0P6oIOB-whM)
+* [Juju - Iris Split Mechanical Keyboard Build!](https://youtu.be/FBD-LC1K2ds)
+* [Missouri Valley Tech - Iris Split Ergonomic Keyboard Build Log](https://youtu.be/aZQpGw9KoQE)
+
 ## Parts List
 
 ![](assets/images/iris/JMq4iIA.jpg)
