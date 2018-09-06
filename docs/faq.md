@@ -43,3 +43,12 @@ Flashing does not occur over the TRRS cable, so it does not matter if the TRRS c
     - The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
 - Which type of switches do I have to use, PCB mount or Plate mount ones?
     - The only difference between the two is that PCB mount has two additional plastic legs for better alignment on a PCB. Either type is compatible, and if given the choice, PCB mount is preferable to keep switches aligned better.
+    
+!!! info "What the heck is I2C, and what do I need it for?"
+    The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
+
+    However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
+    
+    To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
+
+    tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
