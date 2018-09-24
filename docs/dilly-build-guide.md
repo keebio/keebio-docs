@@ -1,5 +1,11 @@
 # Dilly Build Guide
 
+## Video of Build
+
+Here's a build video someone has created:
+
+* [TaeKeyboards - DILLY Choc/olate Mechanical Keyboard Build](https://youtu.be/1yP-3AFCBWg)
+
 ## Parts List
 
 Here's a list of parts needed for the build:
