@@ -9,10 +9,11 @@
 - [Iris](schematics/Iris Rev 2 Schematic.pdf ':ignore')
 - Quefrency
     - [Left Half](schematics/Quefrency Rev 1 Left Schematic.pdf ':ignore')
-    - [Right Half](schematics/Quefrency Rev 1 Right Schematic.pdf ':ignore')
+    - [60% Right Half](schematics/Quefrency Rev 1 Right Schematic.pdf ':ignore')
+    - [65% Right Half](schematics/Quefrency 65 Rev 1 Right Schematic.pdf ':ignore')
+- [Dilly](schematics/Dilly Schematic.pdf ':ignore')
 - Levinson
 - Fourier
 - Laplace
-- Dilly
 - Chocopoad
 - Rorschach
