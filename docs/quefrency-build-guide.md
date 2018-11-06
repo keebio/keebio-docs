@@ -95,7 +95,7 @@ Solder on the header pins for the Pro Micro.
 
 ![](assets/images/quefrency/Qh0KWho.jpg)
 
-You can use the PM to get the alignment set, and\/\or tape it there to keep it from rocking to one side or the other, then solder the 4 corner pins on the top of the board. Do not solder the pro micro to the PCB.
+You can use the PM to get the alignment set, and/or tape it there to keep it from rocking to one side or the other, then solder the 4 corner pins on the top of the board. Do not solder the pro micro to the PCB.
 
 ![](assets/images/quefrency/p7CfEY9.jpg)
 
