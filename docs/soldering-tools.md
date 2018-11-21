@@ -49,7 +49,7 @@ Tin/Lead Ratio: 63/37 or 60/40 are good ratios to go with. 63/37 stands for 63% 
 You'll need flush cutters for clipping diode legs, resistor legs, and Pro Micro header pins.
 
 - [Hakko CHP-170 Micro Cutter](https://amzn.to/2MOv8iE)
-- ★ [Plato 170 Flush Cutter](https://amzn.to/2KU815S) - A bit cheaper and bakingpy's cutter of choice, since the cuts are a bit more flush than the Hakko ones
+- ★ [Plato 170 Flush Cutter](https://amzn.to/2KU815S) - A bit cheaper and our cutter of choice, since the cuts are a bit more flush than the Hakko ones
 
 ## Extras
 
@@ -57,6 +57,7 @@ Here's some additional items you might find to be handy during builds:
 
 - Soldering Iron Tip Cleaner
 - Solder Sucker and Wick
+- Tweezers
 - Hookup Wire
 - Helping hands/PCB holder
 - Multimeter
@@ -89,6 +90,12 @@ You're bound to screw up a build at some point, and you're going to need some wa
 - Wick
     - [Chemtronics 80-3-5 Desoldering Braid](https://amzn.to/2NvLheb)
     - ★ [MG Chemicals #3 No Clean Super Wick Desoldering Braid](https://amzn.to/2tXrHzw)
+
+### Tweezers
+
+If you're going to be doing any kind of SMD work, you'll need some tweezers to handle all those small parts.
+
+- [ESD Tweezers Tools Kit, Precision Anti-static Set of Tweezers](https://amzn.to/2zkweia)
 
 ### Hookup Wire
 
