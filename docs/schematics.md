@@ -11,9 +11,9 @@
     - [Left Half](schematics/Quefrency Rev 1 Left Schematic.pdf ':ignore')
     - [60% Right Half](schematics/Quefrency Rev 1 Right Schematic.pdf ':ignore')
     - [65% Right Half](schematics/Quefrency 65 Rev 1 Right Schematic.pdf ':ignore')
+- [Laplace](schematics/Laplace Schematic.pdf ':ignore')
 - [Dilly](schematics/Dilly Schematic.pdf ':ignore')
+- [Chocopad](schematics/Chocopad Schematic.pdf ':ignore')
 - Levinson
 - Fourier
-- Laplace
-- Chocopoad
 - Rorschach
