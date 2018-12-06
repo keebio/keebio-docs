@@ -1,47 +1,8 @@
-# Iris Build Guides
+# Iris Choc/Kailh Low-Profile Build Guide
 
-## Build guide compatibility
+This guide applies to just the Iris PCB for Kailh Low-Profile switches, where the order of the build steps are slightly different. If you're looking for the guide to the normal PCB, see [Iris Build Guide](iris-build-guide.md)
 
-While this build guide shows parts for the Iris, the build is very similar to that of the Levinson, as well as the Nyquist Rev. 2, since they all have in-switch LED support.
-
-### Previous Guides/Info
-* LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
-* Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
-
-## Videos of Builds
-
-Here's a list of Iris build videos various people have created:
-
-* [TaeKeyboards - Iris Split Ergonomic Mechanical Keyboard Build](https://youtu.be/0P6oIOB-whM)
-* [Juju - Iris Split Mechanical Keyboard Build!](https://youtu.be/FBD-LC1K2ds)
-* [Missouri Valley Tech - Iris Split Ergonomic Keyboard Build Log](https://youtu.be/aZQpGw9KoQE)
-
-## Parts List
-
-![](assets/images/iris/JMq4iIA.jpg)
-
-Here's a list of parts needed for the build:
-
-*All of the parts needed are shown here, except for Pro Micros, TRRS cable, and switches*
-
-* 2 sets [Top/Bottom plates with M2 screws and standoffs](https://keeb.io/products/iris-keyboard-case-plates)
-* 2 [Iris PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
-* 2 TRRS jacks
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
-* 2 reset switches
-* 4 4.7kΩ resistors
-    * 2 used for I2C
-    * 1 used for LED support on left half
-    * 1 used for LED support on right half)
-* 54-56 1N4148 diodes - through-hole \(shown\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
-* 54-56 470Ω resistors \(optional, for LED backlight\)
-* 54-56 LEDs \(optional, for LED backlight\)
-* 2 N-channel MOSFETs \(optional, for LED control\)
-* WS2812B RGB LED Strip \(optional, for underglow\)
-* 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 54-56 switches (MX-compatible and Alps switches are supported)
-* Optional parts \(*not shown*\)
-    * 2u PCB mount MX stabilizers if using 2u keys
+Note that some pictures from the normal Iris PCB have been used here, main thing to ignore from those pictures is the diode orientation.
 
 ## Build Steps
 
@@ -54,9 +15,9 @@ Here's a summary of the build steps:
     3. Solder I2C resistors \(optional\)
     4. Solder LED components \(MOSFET and resistors\) \(optional\)
     5. Solder Pro Micro header pins
-3. Add 2u stabilizers \(optional\)
-4. Solder switches
-5. Solder LEDs \(optional\)
+3. Solder LEDs \(optional\)
+4. Insert all switches into plate
+5. Solder switches
 6. Flash Pro Micros
 7. Solder Pro Micros
 8. Solder RGB strip \(optional\)
@@ -89,27 +50,17 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks, and Pro Micro header p
 
 ### Solder diodes
 
-On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:![](assets/images/iris/Pft9ufA.jpg)
+On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. The black line will point towards the top on these PCBs. All of the diodes are oriented vertically on the PCB:![](assets/images/iris/Pft9ufA.jpg)
 
-!!! warning "For Kailh Low-Profile PCBs (Rev. 2.2-KLP):"
-
-    The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
-
-Some people stick the diodes on the top side of the PCB, I don't recommend doing it that way, because you can't replace them once everything is assembled using that method.
+Some people stick the diodes on the top side of the PCB, which **is not** recommended, because you can't replace them once everything is assembled using that method.
 
 Bend the legs out to hold the diodes in place for when you solder them in:![](assets/images/iris/TaYV4vF.jpg)
-
-Diode insertion complete:![](assets/images/iris/xoO48or.jpg)
-
-Left PCB:![](assets/images/iris/O4wuLju.jpg)
-
-Right PCB:![](assets/images/iris/ZD4B4PR.jpg)
-
-
 
 ### Solder reset push buttons and TRRS jacks
 
 Add the TRRS jacks and reset switches:![](assets/images/iris/dFTBf3h.jpg)
+
+Make sure you clip down the leads for the jacks and reset switches after soldering them in, since there is not that much clearance between the top of the PCB and the switch plate. Failing to do this can make the pins touch the switch plate.
 
 
 ### Solder I2C resistors \(optional\)
@@ -126,12 +77,9 @@ Add the 2 4.7kΩ resistors for I2C on only one half (I normally do this on the m
 
 Add a 4.7kΩ resistor for LED support in the R3 slot:![](assets/images/iris/Jvg2o4d.jpg)
 
-Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. **Note that the resistor that's seated with the Pro Micro has been inserted on the top side of the PCB, which prevents it from touching the Pro Micro.** (This resistor will be relocated out of the way in future versions of the PCB). Left side shown here:![](assets/images/iris/SERhlBs.jpg)
+Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation doesn't matter. All of the resistor slots are oriented horizontally.
 
 Right PCB:![](assets/images/iris/3CJVPlx.jpg)
-
-!!! warning "For the 2.1b and 2.4 PCBs:"
-    There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: [Iris 2.1b/2.4 LED MOSFET Fix](iris-led-fix.md)
 
 To add the MOSFET, tin one of the pins on the PCB first:![](assets/images/iris/nsehRiB.jpg)
 
@@ -144,29 +92,30 @@ Repeat the MOSFET installation process on the other PCB:![](assets/images/iris/e
 
 ### Solder Pro Micro header pins
 
+!!! warning "Do not use Peel-A-Way sockets with this PCB if socketing the Pro Micro"
+    Due to the small clearance between the switch plate and PCB, do not use Peel-A-Way sockets to socket the Pro Micro, as the Peel-A-Way sockets will come in contact with the top plate. Using other types of sockets are fine.
+
 Install the header pins for the Pro Micro on the underside of the PCB (left PCB shown). You can use some tape to hold the header pins in place while soldering. Solder one pin on and re-adjust/re-solder as needed before doing the rest of the row:![](assets/images/iris/TdZ9a23.jpg)
 
 Completed left PCB:![](assets/images/iris/ijqRWEo.jpg)
 
 Right PCB shown:![](assets/images/iris/3WUkRM7.jpg)
 
-## Add 2u stabilizers \(optional\)
+Prying off the plastic parts of the header pins to made the Pro Micro sit more flush with the PCB is suggested if you are up for it. An added benefit of this is that the Micro USB port for the left half is sandwiched between the Iris PCB and the Pro Micro PCB, making it less likely to be ripped off.
 
-Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:![](assets/images/iris/m0mqljb.jpg)
-
-## Solder switches
-
-Add switches. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](assets/images/iris/deDoaSq.jpg)
-
-All installed:![](assets/images/iris/tztl5XA.jpg)
-
-## Solder LEDs
+## Solder LEDs \(optional\)
 
 Install the LEDs. Longer leg is the anode and goes with the circular pad marked with \+. The shorter leg is the cathode and goes with the square pad marked with \-:![](assets/images/iris/A10RlbS.jpg)
 
-I normally pry off the plastic parts of the header pins to made the Pro Micro sit more flush with the PCB. An added benefit of this is that the Micro USB port for the left half is sandwiched between the Iris PCB and the Pro Micro PCB, making it less likely to be ripped off.
-
 Trim down the switch pins, LED pins, and resistor pins that the Pro Micro will sit on top of with a flush cutter:![](assets/images/iris/vh0WAXg.jpg)
+
+## Insert switches into plate
+
+Due to the tight fit of the Choc switches into the switch plate, insert all of the switches into the switch plate before soldering them in. If you don't do this, you may have trouble getting the switches in the middle of the plate to clip in properly if you've done the outer switches first.
+
+## Solder switches
+
+Fit the switch plate with all the switches onto the PCB, making sure that none of the switch pins are bent prior to doing so. Also make sure the LEDs don't interfere with the actuation of each switch. Solder all of the switches in.
 
 ## Flash Pro Micros
 

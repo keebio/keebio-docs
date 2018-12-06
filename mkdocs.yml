@@ -13,11 +13,12 @@ repo_url: 'https://github.com/keebio/keebio-docs'
 copyright: 'Copyright &copy; 2018 Hexwire, LLC'
 
 # Page setup
-pages:
+nav:
 - Home: 'index.md'
 - Build Guides:
   - 'Nyquist Rev. 1/Viterbi': 'nyquist-build-guide.md'
   - 'Iris/Levinson/Nyquist Rev. 2': 'iris-build-guide.md'
+  - 'Iris Kailh Low-Profile': 'iris-choc-build-guide.md'
   - 'Laplace': 'laplace-build-log.md'
   - 'Dilly': 'dilly-build-guide.md'
   - 'Chocopad': 'chocopad-build-guide.md'
