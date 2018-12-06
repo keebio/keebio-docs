@@ -4,6 +4,10 @@
 
 While this build guide shows parts for the Iris, the build is very similar to that of the Levinson, as well as the Nyquist Rev. 2, since they all have in-switch LED support.
 
+!!! warning "For Kailh Low-Profile PCBs:"
+
+    Do not use this guide due to the difference in the order of build steps. For that PCB, use the [Iris Kailh Low-Profile Build Guide](iris-choc-build-guide.md) instead.
+
 ### Previous Guides/Info
 * LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 * Older Build Log for Rev. 2.0 to 2.1a: [Iris Build Guide Archive](iris-build-guide-archive.md)
