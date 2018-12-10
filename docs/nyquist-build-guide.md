@@ -12,9 +12,9 @@ Here's a list of parts needed for the build:
 * 60 [diodes](https://keeb.io/products/1n4148-diodes) \(through-hole and SMD diodes supported\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 2 push buttons for resetting
-* 60 [switches](https://keeb.io/products/gateron-switches) \(MX-compatible and Alps switches are supported\)
+* 60 switches \(MX-compatible and Alps switches are supported\)
 * Case
-* 2 [TRRS jacks](https://keeb.io/products/trrs-jacks-3-5mm-one-pair)
+* 2 TRRS jacks \(included in kit\)
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * Optional parts
   * 2 4.7kΩ resistors if doing I2C
