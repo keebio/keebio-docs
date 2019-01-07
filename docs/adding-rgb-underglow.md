@@ -22,7 +22,7 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 
 ### Master \(left\) side
 
-* Din on strip connects to PD3 breakout pad on PCB
+* Din on strip connects to PD3 breakout pad on PCB (on some boards, this may be marked as RGB instead)
 * GND on strip to GND pad
 * +5V on strip to VCC pad
 * DO/Dout on strip to Extra Data pad
