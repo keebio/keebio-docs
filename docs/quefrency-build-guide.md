@@ -5,21 +5,28 @@
 Here's a list of parts needed for the build:
 
 * 1 [Quefrency PCB Kit](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-split-staggered-keyboard)
+
   * 2 Reset Switches \(included in kit\)
   * 2 4.7kΩ resistors \(included in kit\)
   * 2 TRRS Jacks \(included in kit\)
   * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
 
 * 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-split-staggered-keyboard)
+
   * 29 M2 6mm screws \(included with plates\)
   * 14 M2 10mm standoffs \(included with plates\)
   
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 1 TRRS Cable()
-* 1 Micro USB Cable()
-* PCB-mount MX stabilizers()
+* 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable)
+* 1 [Micro USB Cable](https://keeb.io/products/micro-usb-cable)
+* [PCB-mount MX stabilizers (2u)](https://keeb.io/products/cherry-mx-stabilizer?variant=43449871046)
 * MX or Alps compatible keyswitches
 * [WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
+
+!!! info "How many stabilizers do I need?"
+    Depending on your chosen layout ([60%](http://www.keyboard-layout-editor.com/#/gists/bab126983802c185181a0d19226ebd39) or [65%](http://www.keyboard-layout-editor.com/#/gists/af508840e15315503bb5f74b986e433a)), you'll need a different amount of stabilizers.
+
+    Any 2u key (or wider) will need a 2u stabilizer.
 
 ## Build Steps
 
@@ -53,7 +60,7 @@ If you're using through hole diodes, bend 'em up. Here, I'm just bending it arou
 
 ![](assets/images/quefrency/NgokqZH.jpg)
 
-!!! info "It is recommened to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures"
+!!! info "It is recommended to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures"
     This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this, as you won't be able to replace the faulty component easily.
 
 Insert the diodes. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
