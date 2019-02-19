@@ -19,6 +19,7 @@ nav:
   - 'Nyquist Rev. 1/Viterbi': 'nyquist-build-guide.md'
   - 'Iris/Levinson/Nyquist Rev. 2': 'iris-build-guide.md'
   - 'Iris Kailh Low-Profile': 'iris-choc-build-guide.md'
+  - 'BDN9': 'bdn9-build-guide.md'
   - 'Laplace': 'laplace-build-log.md'
   - 'Dilly': 'dilly-build-guide.md'
   - 'Chocopad': 'chocopad-build-guide.md'
