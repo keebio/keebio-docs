@@ -160,12 +160,10 @@ Add the 2u stabilizer if desired. Do this before installing the switch plate and
 
 ## Solder switches
 
-!!! info "Important: If using a case top, place it on top of your PCB now, and
-put the switches through it" You will not be able to add the case top later, as
-the switch tops are too big.
+!!! info "Place switches into switch plate before soldering"
+    You will not be able to install the switch plate after soldering the switches, as the switches need to go on top of the switch plate.
 
-Add switches. Usually, I add switches to the corners first and then solder them
-before installing the rest of them:![](assets/images/iris/deDoaSq.jpg)
+Add switches into the switch plate. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](assets/images/iris/deDoaSq.jpg)
 
 All installed:![](assets/images/iris/tztl5XA.jpg)
 
