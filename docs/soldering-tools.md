@@ -29,7 +29,8 @@ Here's a list of some suggested ones:
 
 If you plan on doing some work with SMD components in the future, having a hot air station is great to have and sometimes doesn't cost that much more than a regular iron.
 
-- ★ [F2C 2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://amzn.to/2BnseyK)
+- ★ [2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://amzn.to/2IbxsCk)
+- [BACOENG 2in1 SMD Soldering Station 862D+ ($$)](https://amzn.to/2D4EIeY)
 - [F2C 2 in 1 898D+ Hot Air and Iron Gun Soldering Station ($$)](https://amzn.to/2qYMxww)
 
 
