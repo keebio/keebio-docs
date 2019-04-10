@@ -18,7 +18,7 @@ A temperature-controlled soldering iron is recommended. Even though you can get 
 
 Here's a list of some suggested ones:
 
-- [Aoyue 469 60W Soldering Station ($)](https://www.amazon.com/gp/product/B00MCVCHJM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00MCVCHJM&linkCode=as2&tag=keebio-20&linkId=fc47f439d4e40d4c004a0ab02e98dc92) - Decent budget option
+- [Aoyue 469 60W Soldering Station ($)](https://amzn.to/2I9htVf) - Decent budget option
 - [F2C 937D+ SMD Soldering Iron Rework Station LED Display ($)](https://amzn.to/2FAjZ6B) - Easy to adjust temperature using the knob
 - ★ [Aoyue 937+ Pro Series 45W Digitial Soldering Station ($$)](https://amzn.to/2yRIjNX) - Having a digital readout is very nice to have so you know what temperature the iron is at
 - [Hakko FX888D ($$$)](https://amzn.to/2Kwb47s) - You'll see a lot of recommendations out there for this iron, and rightly so, as this is a quality soldering iron
