@@ -150,9 +150,9 @@ Repeat the MOSFET installation process on the other PCB:![](assets/images/iris/e
 
 Install the header pins for the Pro Micro on the underside of the PCB (left PCB shown). You can use some tape to hold the header pins in place while soldering. Solder one pin on and re-adjust/re-solder as needed before doing the rest of the row:![](assets/images/iris/TdZ9a23.jpg)
 
-Completed left PCB:![](assets/images/iris/ijqRWEo.jpg)
+Completed right PCB:![](assets/images/iris/ijqRWEo.jpg)
 
-Right PCB shown:![](assets/images/iris/3WUkRM7.jpg)
+Left PCB shown:![](assets/images/iris/3WUkRM7.jpg)
 
 ## Add 2u stabilizers \(optional\)
 
