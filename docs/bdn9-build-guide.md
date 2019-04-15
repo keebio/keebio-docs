@@ -151,7 +151,7 @@ Solder the pins and clips the legs off.
 
 ### Add RGB LED Strip \(optional\)
 
-If using an RGB LED strip, see the [Adding RGB Underglow](adding-rgb-underglow) guide.
+If using an RGB LED strip, see the [Adding RGB Underglow](/adding-rgb-underglow) guide.
 
 ### Add individual RGB LEDs \(optional\)
 
