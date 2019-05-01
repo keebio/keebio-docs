@@ -194,6 +194,10 @@ Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly
 !!! info "MYTH: Keys will be reversed if the Pro Micro is reversed"
     TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
 
+
+!!! warning "For Viterbi 2.0:"
+    Both of the Pro Micro boards are oriented the same way (flat side towards you), unlike the Iris/Levinson/Nyquist. Make sure you match up the PCB markings to confirm. Ignore the images of the Iris Right half here.
+
 Right half:![](assets/images/iris/2KMFIE4.jpg)
 
 Left PCB on the left, right PCB on the right:![](assets/images/iris/x950DTT.jpg)
