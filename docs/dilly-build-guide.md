@@ -19,8 +19,8 @@ Here's a list of parts needed for the build:
 * 30 LEDs \(optional, for LED backlight\)
 * WS2812B RGB LED strip \(optional, for underglow\)
 * 1 [Arduino Pro Micro](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-* 30 Kailh "Choc" Low Profile Switches - [Available at Novelkeys](https://www.novelkeys.xyz/product-category/switches/)
-* 30 Kailh "Chow" Low Profile Keycaps - [Available at Novelkeys](https://www.novelkeys.xyz/product-category/keycaps/)
+* 30 Kailh "Choc" Low Profile Switches - [Available at Novelkeys](https://www.novelkeys.xyz/collections/switches/)
+* 30 Kailh "Chow" Low Profile Keycaps - [Available at Novelkeys](https://www.novelkeys.xyz/collections/keycaps/)
 
 ## Build Steps
 
