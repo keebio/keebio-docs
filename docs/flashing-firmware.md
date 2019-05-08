@@ -48,3 +48,26 @@ The steps below assume your are using Windows and you have completed the QMK set
     ```
 
 5. Complete the remaining steps in [Flashing Firmware](https://docs.qmk.fm/#/newbs) from the Newb Guide.
+
+
+## Flashing the Elite-C 
+
+If you've bought the [Elite-C](https://keeb.io/products/elite-c-usb-c-pro-micro-replacement-arduino-compatible-atmega32u4) you're in luck, since it has a reset button right on the chip. Just like in the instructions above, you will need a [working setup of QMK](https://docs.qmk.fm/#/newbs).
+
+1. Plug in the microcontroller into your computer using a USB-C to USB-A cable.
+2. Reset the microcontoller by pressing the reset button on the chip (it's white). If you've already soldered it onto the PCB, use the reset switch provided. If it's not present, you will need to short the pins. See the above section for instructions.
+3. To flash your firmware, run `make keebio/levinson/rev2:default:dfu` from the root of the QMK checkout. 
+
+**MAKE SURE you pick the right keyboard!!** The command provided is for the "levinson" board. It's not the same as a "Let's Split", and if you flash the "let's split" firmware your rows will be all messed up. Double check that you are flashing the correct keyboard firmware! In order to avoid an additional level of potential bugs, it's recommended to use the default firmware for each board for testing purposes. Once you get a clean a clean flash and confirm the wiring works, you can start experimenting with layouts.
+
+If you would like to run the flashing commands manually instead of the make `:dfu` rule, use this:
+```
+make keebio/levinson/rev2:default # compile firmware
+dfu-programmer atmega32u4 erase --force
+dfu-programmer atmega32u4 flash lets_split_rev2_default.hex
+dfu-programmer atmega32u4 reset # needed to reboot the controller into a working state
+```
+
+If all goes well, your computer should inform you that a new keyboard has been connected and ask you to identify it. Refer to the standard [detection](https://ergodox-ez.com/pages/configuring-the-keyboard-type-on-os-x) workflow to get your keyboard up and running.
+
+If you would like to test the microcontroller before soldering it on, simply short the pins for the relevant column and row. For example, on a [Viterbi Schematic](https://docs.keeb.io/schematics/Viterbi%20Rev%201%20Schematic.pdf) we can see that shorting the `A0` and `B4` pins will simulate a keypress of the 4th row 3rd switch. 
