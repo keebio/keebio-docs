@@ -12,8 +12,8 @@ Here's a list of parts needed for the build:
 * 1 MOSFET (Included in Full Kit) \(optional, for LED control\)
 * 1 4.7k Ohm resistor (for R1 slot) (Included in Full Kit) \(optional, for LEDs\)
 * 16 1.8mm or 2mm LEDs (3mm will not fit in Kailh Low Profile switches) \(optional\)
-* 16 Kailh "Choc" Low Profile Switches - [Available at Novelkeys](https://www.novelkeys.xyz/product-category/switches/)
-* 16 Kailh "Chow" Low Profile Keycaps - [Available at Novelkeys](https://www.novelkeys.xyz/product-category/keycaps/)
+* 16 Kailh "Choc" Low Profile Switches - [Available at Novelkeys](https://www.novelkeys.xyz/collections/switches/)
+* 16 Kailh "Chow" Low Profile Keycaps - [Available at Novelkeys](https://www.novelkeys.xyz/collections/keycaps/)
 
 ## Build Steps
 

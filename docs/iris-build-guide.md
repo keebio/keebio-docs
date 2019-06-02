@@ -150,9 +150,9 @@ Repeat the MOSFET installation process on the other PCB:![](assets/images/iris/e
 
 Install the header pins for the Pro Micro on the underside of the PCB (left PCB shown). You can use some tape to hold the header pins in place while soldering. Solder one pin on and re-adjust/re-solder as needed before doing the rest of the row:![](assets/images/iris/TdZ9a23.jpg)
 
-Completed left PCB:![](assets/images/iris/ijqRWEo.jpg)
+Completed right PCB:![](assets/images/iris/ijqRWEo.jpg)
 
-Right PCB shown:![](assets/images/iris/3WUkRM7.jpg)
+Left PCB shown:![](assets/images/iris/3WUkRM7.jpg)
 
 ## Add 2u stabilizers \(optional\)
 
@@ -160,7 +160,10 @@ Add the 2u stabilizer if desired. Do this before installing the switch plate and
 
 ## Solder switches
 
-Add switches. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](assets/images/iris/deDoaSq.jpg)
+!!! info "Place switches into switch plate before soldering"
+    You will not be able to install the switch plate after soldering the switches, as the switches need to go on top of the switch plate.
+
+Add switches into the switch plate. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](assets/images/iris/deDoaSq.jpg)
 
 All installed:![](assets/images/iris/tztl5XA.jpg)
 
@@ -190,6 +193,10 @@ Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly
 
 !!! info "MYTH: Keys will be reversed if the Pro Micro is reversed"
     TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+
+
+!!! warning "For Viterbi 2.0:"
+    Both of the Pro Micro boards are oriented the same way (flat side towards you), unlike the Iris/Levinson/Nyquist. Make sure you match up the PCB markings to confirm. Ignore the images of the Iris Right half here.
 
 Right half:![](assets/images/iris/2KMFIE4.jpg)
 

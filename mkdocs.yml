@@ -16,9 +16,9 @@ copyright: 'Copyright &copy; 2018 Hexwire, LLC'
 nav:
 - Home: 'index.md'
 - Build Guides:
-  - 'Nyquist Rev. 1/Viterbi': 'nyquist-build-guide.md'
-  - 'Iris/Levinson/Nyquist Rev. 2': 'iris-build-guide.md'
+  - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-build-guide.md'
   - 'Iris Kailh Low-Profile': 'iris-choc-build-guide.md'
+  - 'BDN9': 'bdn9-build-guide.md'
   - 'Laplace': 'laplace-build-log.md'
   - 'Dilly': 'dilly-build-guide.md'
   - 'Chocopad': 'chocopad-build-guide.md'
@@ -27,6 +27,7 @@ nav:
   - Old Build Guides:
     - 'Iris 2.0/2.1a': 'iris-build-guide-archive.md'
     - 'Iris 2.1b/2.4 LED MOSFET Fix': 'iris-led-fix.md'
+    - 'Nyquist Rev. 1/Viterbi Rev. 1': 'nyquist-build-guide.md'
 - Additional Info:
   - 'Adding RGB Underglow': 'adding-rgb-underglow.md'
   - 'Case/Plate Files': 'case-files.md'

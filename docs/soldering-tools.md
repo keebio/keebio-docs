@@ -18,19 +18,20 @@ A temperature-controlled soldering iron is recommended. Even though you can get 
 
 Here's a list of some suggested ones:
 
-- [Aoyue 469 60W Soldering Station ($)](https://www.amazon.com/gp/product/B00MCVCHJM/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00MCVCHJM&linkCode=as2&tag=keebio-20&linkId=fc47f439d4e40d4c004a0ab02e98dc92) - Decent budget option
-- [F2C 937D+ SMD Soldering Iron Rework Station LED Display ($)](https://amzn.to/2FAjZ6B) - Easy to adjust temperature using the knob
-- ★ [Aoyue 937+ Pro Series 45W Digitial Soldering Station ($$)](https://amzn.to/2yRIjNX) - Having a digital readout is very nice to have so you know what temperature the iron is at
-- [Hakko FX888D ($$$)](https://amzn.to/2Kwb47s) - You'll see a lot of recommendations out there for this iron, and rightly so, as this is a quality soldering iron
-- [TS100 Pocket-size Soldering Iron ($$)](https://amzn.to/2tYnM5m) - Nice little soldering iron with a digitial readout of the temperature
-- ★ [Weller WESD51 Digital Soldering Station ($$$)](https://amzn.to/2PEUq8S) - The temperature control knob is nice to have so you don't have to mash a button to change the temperature
+- [Aoyue 469 60W Soldering Station ($)](https://www.amazon.com/Aoyue-Variable-Soldering-Station-Removable/dp/B00MCVCHJM/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=f136b5fe148e146456b20f7667ab01ca&language=en_US) - Decent budget option
+- [F2C 937D+ SMD Soldering Iron Rework Station LED Display ($)](https://www.amazon.com/dp/B01B4FELB8/ref=as_li_ss_tl?_encoding=UTF8&linkCode=ll1&tag=keebio-20&linkId=49e1e9c1eb856bd709ea5f667885190e&language=en_US) - Easy to adjust temperature using the knob
+- ★ [Aoyue 937+ Pro Series 45W Digitial Soldering Station ($$)](https://www.amazon.com/gp/product/B000I30QBW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=787bbcb5d20c26e36bd927ba124b50c2&language=en_US) - Having a digital readout is very nice to have so you know what temperature the iron is at
+- [Hakko FX888D ($$$)](https://www.amazon.com/gp/product/B00ANZRT4M/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=29b2b3842b2687b17e8cc6cc98e3ef11&language=en_US) - You'll see a lot of recommendations out there for this iron, and rightly so, as this is a quality soldering iron
+- [TS100 Pocket-size Soldering Iron ($$)](https://www.amazon.com/UY-CHAN-Programmable-Pocket-size-Acceleration/dp/B01MDTO6X7/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=0c58d1029ca0228c71d9b6d7adb569e5&language=en_US) - Nice little soldering iron with a digitial readout of the temperature
+- ★ [Weller WESD51 Digital Soldering Station ($$$)](https://www.amazon.com/Weller-WESD51-Digital-Soldering-Station/dp/B000ARU9PO/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=e5530908a7dfd62e56e9a0e9e6c75b08&language=en_US) - The temperature control knob is nice to have so you don't have to mash a button to change the temperature
 
 #### Integrated soldering iron and hot air stations
 
 If you plan on doing some work with SMD components in the future, having a hot air station is great to have and sometimes doesn't cost that much more than a regular iron.
 
-- ★ [F2C 2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://amzn.to/2BnseyK)
-- [F2C 2 in 1 898D+ Hot Air and Iron Gun Soldering Station ($$)](https://amzn.to/2qYMxww)
+- ★ [2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://www.amazon.com/Rework-Station-Soldering-Display-Version/dp/B01ANKPGAK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=1a1a144925b5d50705980ffee16393f4&language=en_US)
+- [BACOENG 2in1 SMD Soldering Station 862D+ ($$)](https://www.amazon.com/gp/product/B07BRWY427/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=55cf76aff914b482e569580c9f877c85&language=en_US)
+- [F2C 2 in 1 898D+ Hot Air and Iron Gun Soldering Station ($$)](https://www.amazon.com/dp/B013DQQ4R0/ref=as_li_ss_tl?_encoding=UTF8&linkCode=ll1&tag=keebio-20&linkId=a44a2122ab5489a15e2c4d4d86b82f07&language=en_US)
 
 
 
@@ -42,16 +43,16 @@ Diameter: 0.031" solder is good for general usage. For SMD components which are 
 
 Tin/Lead Ratio: 63/37 or 60/40 are good ratios to go with. 63/37 stands for 63% tin, 37% lead.
 
-- ★ [Kester 24-6337-0027 Solder Roll, Core Size 66, 63/37 Alloy, 0.031" Diameter](https://amzn.to/2zcpvcl)
-- ★ [Kester 24-6337-0010 44 Rosin Core Solder 63/37 .020" Diameter](https://amzn.to/2KSbB3M)
-- [Kester 83-4000-0000 SN60PB40 Solder Pocket Pack, 0.031" Wire Diameter](https://amzn.to/2u659LS) - Good for if you don't need so much solder
+- ★ [Kester 24-6337-0027 Solder Roll, Core Size 66, 63/37 Alloy, 0.031" Diameter](https://www.amazon.com/Kester-24-6337-0027-Solder-Alloy-Diameter/dp/B0149K4JTY/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=5b11a1cceea42951c2929d842cfb7b14&language=en_US)
+- ★ [Kester 24-6337-0010 44 Rosin Core Solder 63/37 .020" Diameter](https://www.amazon.com/dp/B00068IJWC/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=935ab7f8a3102675ef2814748616ef91&language=en_US)
+- [Kester 83-4000-0000 SN60PB40 Solder Pocket Pack, 0.031" Wire Diameter](https://www.amazon.com/Kester-83-4000-0000-SN60PB40-Solder-Diameter/dp/B00068IJNQ/ref=as_li_ss_tl?_encoding=UTF8&linkCode=ll1&tag=keebio-20&linkId=872764431470f06683bf23fad9bd2c15&language=en_US) - Good for if you don't need so much solder
 
 ### Flush Cutters
 
 You'll need flush cutters for clipping diode legs, resistor legs, and Pro Micro header pins.
 
-- [Hakko CHP-170 Micro Cutter](https://amzn.to/2MOv8iE)
-- ★ [Plato 170 Flush Cutter](https://amzn.to/2KU815S) - A bit cheaper and our cutter of choice, since the cuts are a bit more flush than the Hakko ones
+- [Hakko CHP-170 Micro Cutter](https://www.amazon.com/Hakko-CHP-170-Micro-Cutter/dp/B00FZPDG1K/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=a74eb8074b0897da9a21718132075265&language=en_US)
+- ★ [Plato 170 Flush Cutter](https://www.amazon.com/Pliers-Electrical-Cutters-Cutting-Diagonal/dp/B0188DHO40/ref=as_li_ss_tl?pf_rd_m=ATVPDKIKX0DER&linkCode=ll1&tag=keebio-20&linkId=36bb31bebc9d51e3f1fbc8f701c87638&language=en_US) - A bit cheaper and our cutter of choice, since the cuts are a bit more flush than the Hakko ones
 
 ## Extras
 
@@ -70,28 +71,28 @@ Here's some additional items you might find to be handy during builds:
 
 Using a wet sponge to clean your tip is okay, but using a brass wire ball cleans better and doesn't reduce the temperature of the soldering iron tip. Highly recommended.
 
-- [Hakko 599B-02 Wire-type soldering iron tip cleaner](https://amzn.to/2MT57id)
+- [Hakko 599B-02 Wire-type soldering iron tip cleaner](https://www.amazon.com/Hakko-599B-02-Wire-type-soldering-cleaner/dp/B00FZPGDLA/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=c51683fd3e9f46a1dd24abcedb5d3ed0&language=en_US)
 - ★ [Aoyue Soldering Iron Tip Cleaner](https://amzn.to/2IY77Uj) - A bit easier to swipe the iron tip across than the Hakko one, also has an iron holder arm on it
 
 Tip Tinner: Good to use once at the beginning of a soldering session instead of tinning with solder and helps restore tips
 
-- ★ [Thermaltronics FBA_TMT-TC-2 Lead Free Tip Tinner](https://amzn.to/2J45STC)
+- ★ [Thermaltronics FBA_TMT-TC-2 Lead Free Tip Tinner](https://www.amazon.com/Thermaltronics-FBA_TMT-TC-2-Lead-Tinner-Container/dp/B00NS4J6BY/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=86661a5d933e89db8ff7850501d23c37&language=en_US)
 
 ### Solder Sucker and Wick
 
 You're bound to screw up a build at some point, and you're going to need some way to remove that solder. Highly recommended to buy a solder sucker of some sort, wick is not that important to have.
 
-- ★ [Blue and Metal Solder Sucker ($)](https://amzn.to/2MVlxXD) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
+- ★ [Blue and Metal Solder Sucker ($)](https://www.amazon.com/OMorc-Desoldering-Solder-Sucker-Length/dp/B01I14V4X8/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=1b842ea0c42919ce3a55b4d286ec9651&language=en_US) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
     - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](assets/images/misc/desoldering-pump-cut.jpg)
-- [Engineer SS-02 Solder Sucker ($$)](https://amzn.to/2m3s7jv) - A favorite among many people
+- [Engineer SS-02 Solder Sucker ($$)](https://www.amazon.com/Engineer-SS-02-Solder-Sucker/dp/B002MJMXD4/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=7871903be569afcf5f3fd1af23306faf&language=en_US) - A favorite among many people
 - ★ [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
 
 - Desoldering Irons
-    - ★ [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://amzn.to/2IZZGMp) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
-    - [Hakko FR300-05/P Desoldering Tool ($$$)](https://amzn.to/2MPWANd) - If you're going to be desoldering whole boards
+    - ★ [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://www.amazon.com/Velleman-VTDESOL3U-Vacuum-Desoldering-Heater/dp/B00B88FRME/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=ee8d28b76bb7b031bd8440fb9f73d50d&language=en_US) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
+    - [Hakko FR300-05/P Desoldering Tool ($$$)](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c8c3105fd78098279de1ae469cdb0c7b&language=en_US) - If you're going to be desoldering whole boards
 - Wick
-    - [Chemtronics 80-3-5 Desoldering Braid](https://amzn.to/2NvLheb)
-    - ★ [MG Chemicals #3 No Clean Super Wick Desoldering Braid](https://amzn.to/2tXrHzw)
+    - [Chemtronics 80-3-5 Desoldering Braid](https://www.amazon.com/CHEMTRONICS-80-3-5-BRAID-DESOLDERING-ROSIN/dp/B00DJVY1PW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=ba3cde1ec71287d1c38053493fe6d90c&language=en_US)
+    - ★ [MG Chemicals #3 No Clean Super Wick Desoldering Braid](https://www.amazon.com/MG-Chemicals-Clean-Desoldering-Length/dp/B00424S2C8/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=b844cf5b17be4a1542a064e770383495&language=en_US)
 
 ### Tweezers
 

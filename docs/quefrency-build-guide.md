@@ -4,14 +4,14 @@
 
 Here's a list of parts needed for the build:
 
-* 1 [Quefrency PCB Kit](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-split-staggered-keyboard)
+* 1 [Quefrency PCB Kit](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
 
   * 2 Reset Switches \(included in kit\)
   * 2 4.7kΩ resistors \(included in kit\)
   * 2 TRRS Jacks \(included in kit\)
   * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
 
-* 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-split-staggered-keyboard)
+* 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
 
   * 29 M2 6mm screws \(included with plates\)
   * 14 M2 10mm standoffs \(included with plates\)
