@@ -72,7 +72,7 @@ Here's some additional items you might find to be handy during builds:
 Using a wet sponge to clean your tip is okay, but using a brass wire ball cleans better and doesn't reduce the temperature of the soldering iron tip. Highly recommended.
 
 - [Hakko 599B-02 Wire-type soldering iron tip cleaner](https://www.amazon.com/Hakko-599B-02-Wire-type-soldering-cleaner/dp/B00FZPGDLA/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=c51683fd3e9f46a1dd24abcedb5d3ed0&language=en_US)
-- ★ [Aoyue Soldering Iron Tip Cleaner](https://amzn.to/2IY77Uj) - A bit easier to swipe the iron tip across than the Hakko one, also has an iron holder arm on it
+- ★ [Aoyue Soldering Iron Tip Cleaner](https://www.amazon.com/Aoyue-Soldering-Cleaner-sponge-needed/dp/B005C789EU/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=f3f9b94f164f08e0db0c3d747df171af&language=en_US) - A bit easier to swipe the iron tip across than the Hakko one, also has an iron holder arm on it
 
 Tip Tinner: Good to use once at the beginning of a soldering session instead of tinning with solder and helps restore tips
 
@@ -87,9 +87,10 @@ You're bound to screw up a build at some point, and you're going to need some wa
 - [Engineer SS-02 Solder Sucker ($$)](https://www.amazon.com/Engineer-SS-02-Solder-Sucker/dp/B002MJMXD4/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=7871903be569afcf5f3fd1af23306faf&language=en_US) - A favorite among many people
 - ★ [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
 
-- Desoldering Irons
+- Desoldering Irons/Stations
     - ★ [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://www.amazon.com/Velleman-VTDESOL3U-Vacuum-Desoldering-Heater/dp/B00B88FRME/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=ee8d28b76bb7b031bd8440fb9f73d50d&language=en_US) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
     - [Hakko FR300-05/P Desoldering Tool ($$$)](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c8c3105fd78098279de1ae469cdb0c7b&language=en_US) - If you're going to be desoldering whole boards
+    - [ZD-915 Desoldering Station ($$)](https://www.amazon.com/Digital-Desoldering-Station-Anesty-Professional/dp/B07542D82F/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=f4f09b107050b2f07d875a8b7e5099e6&language=en_US) - If you're going to be desoldering whole boards
 - Wick
     - [Chemtronics 80-3-5 Desoldering Braid](https://www.amazon.com/CHEMTRONICS-80-3-5-BRAID-DESOLDERING-ROSIN/dp/B00DJVY1PW/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=ba3cde1ec71287d1c38053493fe6d90c&language=en_US)
     - ★ [MG Chemicals #3 No Clean Super Wick Desoldering Braid](https://www.amazon.com/MG-Chemicals-Clean-Desoldering-Length/dp/B00424S2C8/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=b844cf5b17be4a1542a064e770383495&language=en_US)
@@ -98,44 +99,44 @@ You're bound to screw up a build at some point, and you're going to need some wa
 
 If you're going to be doing any kind of SMD work, you'll need some tweezers to handle all those small parts.
 
-- [ESD Tweezers Tools Kit, Precision Anti-static Set of Tweezers](https://amzn.to/2zkweia)
+- [ESD Tweezers Tools Kit, Precision Anti-static Set of Tweezers](https://www.amazon.com/Precision-Anti-static-Non-magnetic-Multi-standard-Electronics/dp/B06XXXQHS8/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=3572bd0e6bc33ed65085f4cdf81b197f&language=en_US)
 
 ### Hookup Wire
 
 Needed for attaching an RGB LED strip, using as jumper wires, or handwiring. Recommended wire gauge is 22 AWG to 28 AWG, make sure it's solid core and not stranded. Having multiple colors is also recommended.
 
 - 24 AWG
-    - ★ [Remington Industries 24UL1007SLDKIT UL1007 24 AWG Gauge Solid Hook-Up Wire Kit](https://amzn.to/2KSCaSW)
-    - [Striveday™ 24 AWG Hook Up Wire 1007 PVC Solid wire Kit](https://amzn.to/2zfTP5X)
+    - ★ [Remington Industries 24UL1007SLDKIT UL1007 24 AWG Gauge Solid Hook-Up Wire Kit](https://www.amazon.com/Remington-Industries-24UL1007SLDKIT-Hook-Up-Diameter/dp/B010IBYABA/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=6cd06f31a7f4a885396d94b46912dd34&language=en_US)
+    - [Striveday™ 24 AWG Hook Up Wire 1007 PVC Solid wire Kit](https://www.amazon.com/StrivedayTM-Solid-Electric-gauge-32-8ft/dp/B077HWS5XV/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=5c55bbbc99146ccecb8ac50d624b14e4&language=en_US)
 - 22 AWG
-    - [Electronix Express Hook up Wire Kit (Solid Wire Kit) 22 Gauge](https://amzn.to/2KRj9QN)
-    - ★ [Remington Industries 22UL1007SLDKIT UL1007 22 AWG Gauge Solid Hook-Up Wire Kit](https://amzn.to/2tXw3Xa)
+    - [Electronix Express Hook up Wire Kit (Solid Wire Kit) 22 Gauge](https://www.amazon.com/Electronix-Express-Hook-Wire-Solid/dp/B00B4ZRPEY/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=17637e0b02ed3875e7c6ea0adf91837f&language=en_US)
+    - ★ [Remington Industries 22UL1007SLDKIT UL1007 22 AWG Gauge Solid Hook-Up Wire Kit](https://www.amazon.com/Remington-Industries-22UL1007SLDKIT-Hook-Up-Diameter/dp/B010IBY5QU/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=04cb4ebed73b00f2a0139fae9f68b7e9&language=en_US)
 
 ### Helping hands/PCB holder
 
-- ★ [Aven 17010 Adjustable Circuit Board Holder](https://amzn.to/2KDd6mT)
-- ★ [Neiko 01902 Adjustable Helping Hand With Magnifying Glass](https://amzn.to/2DNnZ1G)
-- [Pro'sKit 900-015 Helping Hands Soldering Aid](https://amzn.to/2lWEnlu)
-- [QuadHands Helping Hands](https://amzn.to/2NtNUNL)
+- ★ [Aven 17010 Adjustable Circuit Board Holder](https://www.amazon.com/Aven-17010-Adjustable-Circuit-Holder/dp/B00Q2TTQEE/ref=as_li_ss_tl?_encoding=UTF8&linkCode=ll1&tag=keebio-20&linkId=d6720b32a4f0e483f039daad5ece47e2&language=en_US)
+- ★ [Neiko 01902 Adjustable Helping Hand With Magnifying Glass](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=03a350aba9f81bd77d04e3c8ffb6b596&language=en_US)
+- [Pro'sKit 900-015 Helping Hands Soldering Aid](https://www.amazon.com/ProsKit-900-015-Helping-Hands-Soldering/dp/B002PIA6Z4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=1b449a3b141a734d29f6f9b8b2bf3d40&language=en_US)
+- [QuadHands Helping Hands](https://www.amazon.com/QuadHands-Helping-Hands-Third-Soldering/dp/B00GIKVP5K/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c3d5358ea9f79d387d58219a17524bd2&language=en_US)
 
 ### Multimeter
 
 No specific recommendations, main thing you'll probably use it for is checking for continuity, so having one that beeps is nice (most multimeters have beep option). The free/cheap ones from Harbor Freight will do the job.
 
-- [Innova 3320 Auto-Ranging Digital Multimeter](https://amzn.to/2KzsKzT)
+- [Innova 3320 Auto-Ranging Digital Multimeter](https://www.amazon.com/Innova-3320-Auto-Ranging-Digital-Multimeter/dp/B000EVYGZA/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=ba421ecf86e31fec2f3383096d64b3dc&language=en_US)
 
 ### Solder Spool Holder
 
 Better than just leaving the solder spool sitting on its side.
 
-- ★ [Delcast SL-RL Solder Dispenser Reel](https://amzn.to/2u8bSoN)
+- ★ [Delcast SL-RL Solder Dispenser Reel](https://www.amazon.com/Delcast-SL-RL-Solder-Dispenser-Reel/dp/B00PQF98X4/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=929c3d8f054e78664d835ebe35ed5b3e&language=en_US)
 
 ### Flux
 
 Helps solder stick better. Usually the flux in solder will do just fine, but this can help sometimes.
 
-- ★ [SRA Rosin Flux Pen](https://amzn.to/2KUUpYf)
-- [Kester 186 Soldering Flux Pen](https://amzn.to/2MRMc7K)
+- ★ [SRA Rosin Flux Pen](https://www.amazon.com/SRA-Soldering-Products-PEN_RMA-99-20/dp/B008OC3VMU/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=2e8e5104d8059090efd3539c25d1f477&language=en_US)
+- [Kester 186 Soldering Flux Pen](https://www.amazon.com/Tools-Harware-8310000186-Kester-Soldering/dp/B00YL1D3US/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=31c80be77d72a27ba00555707effdbfd&language=en_US)
 
 <br><br><br><br>
 
