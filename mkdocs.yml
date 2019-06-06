@@ -16,6 +16,7 @@ copyright: 'Copyright &copy; 2018 Hexwire, LLC'
 nav:
 - Home: 'index.md'
 - Build Guides:
+  - 'Iris Rev. 3': 'iris-rev3-build-guide.md'
   - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-build-guide.md'
   - 'Iris Kailh Low-Profile': 'iris-choc-build-guide.md'
   - 'BDN9': 'bdn9-build-guide.md'
