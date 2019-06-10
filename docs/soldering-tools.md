@@ -125,6 +125,13 @@ No specific recommendations, main thing you'll probably use it for is checking f
 
 - [Innova 3320 Auto-Ranging Digital Multimeter](https://www.amazon.com/Innova-3320-Auto-Ranging-Digital-Multimeter/dp/B000EVYGZA/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=ba421ecf86e31fec2f3383096d64b3dc&language=en_US)
 
+### Soldering Mat
+
+Nice for protecting the surface that you're working on.
+
+- ★ [Kaisi Heat Insulation Silicone Repair Mat - 13.7 x 9.8 Inches](https://www.amazon.com/gp/product/B07DGVJ17H/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DGVJ17H&linkCode=as2&tag=keebio-20&linkId=cf175952101d8a2c8bfd2714008cce98)
+- ★ [Kaisi Heat Insulation Silicone Repair Mat - 17.7 x 11.8 Inches](https://www.amazon.com/gp/product/B07DGVRYL3/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=keebio-20&creative=9325&linkCode=as2&creativeASIN=B07DGVRYL3&linkId=92a08c8b0d5e33ebe9f4e45baca69e2f)
+
 ### Solder Spool Holder
 
 Better than just leaving the solder spool sitting on its side.
