@@ -7,3 +7,4 @@ The case/plate design files for the various keyboards can be found here:
   * [Levinson/Let's Split](https://github.com/keebio/lets-split-levinson-case)
   * [Iris](https://github.com/keebio/iris-case)
   * [Fourier](https://github.com/keebio/fourier-case)
+  * [Quefrency](https://github.com/keebio/quefrency-case)
