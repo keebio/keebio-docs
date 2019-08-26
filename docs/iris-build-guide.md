@@ -25,7 +25,7 @@ Here's a list of Iris build videos various people have created:
 Here's alist of Iris build guides, blogs, and other things people have created:
 * [Luke Geeson - Iris Build Log](https://lukegeeson.com/blog/2019-07-17-Iris-Split-Mech-Keyboard-Build/)
 * [Thomas Baart - My first custom keyboard](https://thomasbaart.nl/2018/11/16/my-first-custom-keyboard-an-iris-build-log/)
-* [Alex Johnstone Build Log](https://alexjj.com/blog/2019/building-my-iris-keyboard/)
+* [Alex Johnstone - Build Log](https://alexjj.com/blog/2019/building-my-iris-keyboard/)
 * [Olivier Poitrey - Iris Ice](https://github.com/rs/iris-ice)
 
 ## Parts List
