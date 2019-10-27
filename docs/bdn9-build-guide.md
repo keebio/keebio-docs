@@ -102,7 +102,7 @@ Insert the rotary encoders from the top-side of the PCB.
 Solder them in. Soldering in the side-clips of the encoders is optional, but recommended.
 
 !!! warning "If using Choc low-profile switches, double check/add Kapton tape to solder/metal connections on top of the PCB"
-   When using Choc low-profile switches, there is very little clearance between the switch plate and the top of the PCB. Any exposed metal/solder can cause a short if it touches the switch plate, so before you solder the add switches to the plate, it's advised that you double check that all solder joints on the top of the PCB are cut flush. Alternatively, you can add Kapton tape to any that are raised. It doesn't hurt to add Kapton tape to the encoder legs as well.  
+   When using Choc low-profile switches, there is very little clearance between the switch plate and the top of the PCB. Any exposed metal/solder can cause a short if it touches the switch plate, so before you add the switches to the plate and solder them to the PCB, it's advised that you double check that all solder joints on the top of the PCB are cut flush. Alternatively, you can add Kapton tape to any that are raised. It doesn't hurt to add Kapton tape to the encoder legs as well.  
 
 ## Solder Switches
 
