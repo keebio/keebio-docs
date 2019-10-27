@@ -167,6 +167,10 @@ Add solder to one pad of each LED footprint.
 
 Using a pair of tweezers, hold each LED in place and solder it in.
 
+![](assets/images/bdn9/led-notches.jpg)
+
+Note: Before soldering ensure each LED is properly aligned, with the corner notch on the top-right pad.
+
 ![](assets/images/bdn9/NbAWSPH.jpeg)
 
 Once the LEDs are aligned properly, solder the other 3 pads.
