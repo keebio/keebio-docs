@@ -1,8 +1,8 @@
-# Iris Rev. 3 Build Guide
+# Iris Rev. 3 & 4 Build Guide
 
 ## Build guide compatibility
 
-This build guide is exclusively for Rev. 3 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-build-guide.md)
+This build guide is exclusively for Rev. 3 & 4 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-build-guide.md)
 
 NOTE: Guide is still a work in progress and is currently missing pictures.
 
@@ -11,7 +11,7 @@ NOTE: Guide is still a work in progress and is currently missing pictures.
 
 Here's a list of parts needed for the build:
 
-* [Set of Iris Rev. 3 PCBs](https://keeb.io/products/iris-rev-3-keyboard-pcbs)
+* [Set of Iris Rev. 4 PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
 * [Iris Case/Plates](https://keeb.io/products/iris-keyboard-case-plates)
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * 54-56 switches (MX-compatible and Alps switches are supported)
