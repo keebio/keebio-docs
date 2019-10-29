@@ -47,7 +47,13 @@ Parts from the kit. The encoders shown are optional and are not included as part
 
 ![](assets/images/bdn9/BMyPYRZ.jpeg)
 
-Insert all of the resistors into the PCB and solder them in.
+Insert all of the resistors into the PCB and solder them in. Resistors don't have polarity, so orientation doesn't matter.
+
+Note: The resistor 'R1' can interfere with the placement of the switches on the other side if the leads poke through the PCB. Solder the resistor's leads on the same side the resistor is on and then trim the leads flush with the PCB on the other side.
+
+![](assets/images/bdn9/resistor-r1.jpg)
+
+![](assets/images/bdn9/resistor-leads.jpg)
 
 ### Solder the MOSFET \(optional\)
 
