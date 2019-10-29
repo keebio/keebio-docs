@@ -19,6 +19,7 @@ Here's a list of Iris build videos various people have created:
 * [TaeKeyboards - Iris Split Ergonomic Mechanical Keyboard Build](https://youtu.be/0P6oIOB-whM)
 * [Juju - Iris Split Mechanical Keyboard Build!](https://youtu.be/FBD-LC1K2ds)
 * [Missouri Valley Tech - Iris Split Ergonomic Keyboard Build Log](https://youtu.be/aZQpGw9KoQE)
+* [iammeuru - Build: Iris](https://youtu.be/CfLMx9lmpls)
 
 ## Other Blogs/Guides
 
