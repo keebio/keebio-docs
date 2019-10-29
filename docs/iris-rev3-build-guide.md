@@ -27,8 +27,9 @@ Here's a summary of the build steps:
 1. Add switches to switch plate
 2. Add 2u stabilizers to PCB \(optional\)
 3. Solder rotary encoder \(optional\)
+    1. For Rev. 4 PCB, clip off the 2 side mounting legs of the rotary encoder.
 4. Solder switches
-5. Solder in-switch LEDs \(optional\)
+5. Solder in-switch LEDs \(optional\) Note: For Choc switches, LEDs must be installed before the switches.
 6. Assemble case
     1. Insert standoffs into middle layer \(optional\)
     2. Screw standoffs into switch plate
