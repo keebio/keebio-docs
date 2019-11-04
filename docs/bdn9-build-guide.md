@@ -12,7 +12,7 @@ Here's a list of parts needed for the build:
 * WS2812B RGB LED strip or 4 loose WS2812B RGB LEDs \(optional, for underglow\)
 * 1 Microcontroller (1 of the following)
     * [Arduino Pro Micro](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
-    * [Elite-C](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
+    * [Elite-C](https://keeb.io/products/elite-c-usb-c-pro-micro-replacement-arduino-compatible-atmega32u4)
     * [Proton C](https://keeb.io/products/qmk-proton-c)
 * 7-9 MX-compatible or Alps-compatible switches
 * 2 [EC11 or EC12 Rotary Encoders](https://keeb.io/products/rotary-encoder-ec11) \(optional)
