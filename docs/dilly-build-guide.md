@@ -41,23 +41,23 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](assets/images/dilly/rrey3ej.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/rrey3ej.jpg)
 
 Bending the diodes. Here, I'm just bending it around my finger
 
-![](assets/images/dilly/sKo655O.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/sKo655O.jpg)
 
 Another way to do it, resistors shown here
 
-![](assets/images/dilly/2D39Ojx.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/2D39Ojx.jpg)
 
 Strip of diodes bent
 
-![](assets/images/dilly/Ys0X30w.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/Ys0X30w.jpg)
 
 Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
 
-![](assets/images/dilly/4cFrb2D.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/4cFrb2D.jpg)
 
 All separated from the paper
 
@@ -73,52 +73,52 @@ NOTE you do not want the diodes top side on this board, as they will not be hidd
 
 Bend the legs out to hole the diodes in place when you solder them in:
 
-![](assets/images/dilly/AFw8KJ6.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/AFw8KJ6.jpg)
 
 ### Solder the reset button
 
 Add the reset switch and solder it in:
 
-![](assets/images/dilly/VUBghZk.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/VUBghZk.jpg)
 
 ### Solder the Resistors & MOSFET \(optional\)
 
 If adding LEDs, add the 4.7k Ohm resistor to the R3 slot:
 
-![](assets/images/dilly/m0LmE0p.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/m0LmE0p.jpg)
 
 Add a bit of solder to one leg of the MOSFET pad Q1. Solder one leg of the MOSFET first and once that is aligned, solder the other two legs. Also add 470 Ohm resistors to all the resistor slots (all horizontally oriented):
 
-![](assets/images/dilly/8RGevKf.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/8RGevKf.jpg)
 
 ### Solder Pro Micro header pins
 
 Prepare the Pro Micro header pins \(optional)\. If needed, you can use some tape to hold the header pins in place while soldering:
 
-![](assets/images/dilly/JB9pNgO.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/JB9pNgO.jpg)
 
 NOTE if your header pins are not soldered flush to the board, you'll need trim them. Do this very carefully as not to damage any traces with your flush cutter.
 
 Solder the Pro Micro header pins:
 
-![](assets/images/dilly/lt8GR2G.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/lt8GR2G.jpg)
 
 ### Add and solder LEDs \(optional)\ and switches
 
 Add LEDs and then place the switch on top of it. Make sure the LED does not get in the way of the switch clickbar if it is a clicky switch:
 
-![](assets/images/dilly/2ZklBbt.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/2ZklBbt.jpg)
 
 After soldering the LEDs and switches, use some flush cutters to clip the switch legs and plastic pieces of the 2 switches that sit on top of the Pro Micro, so they don't interfere with the Pro Micro:
 
-![](assets/images/dilly/SedSI13.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/SedSI13.jpg)
 
 ### Prepare and solder the Pro Micro
 
 Put some electrical or Kapton tape on top of the area the Pro Micro will be:
 
-![](assets/images/dilly/aunL0hO.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/aunL0hO.jpg)
 
 Insert Pro Micro over the header pins and solder. But only do this after you've flashed your Pro Micro to ensure that it works:
 
-![](assets/images/dilly/G49qh0J.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/dilly/G49qh0J.jpg)

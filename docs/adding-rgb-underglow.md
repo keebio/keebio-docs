@@ -27,7 +27,7 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 * +5V on strip to VCC pad
 * DO/Dout on strip to Extra Data pad
 
-![](assets/images/misc/mE5hgF8.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/mE5hgF8.jpg)
 
 ### Slave \(right\) side
 
@@ -35,5 +35,5 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 * GND on strip to GND pad
 * +5V on strip to VCC pad
 
-![](assets/images/misc/KgUvtxe.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/KgUvtxe.jpg)
 

@@ -34,50 +34,50 @@ Here's a summary of the build steps:
 
 Dude, you're getting a Chocopad:
 
-![](assets/images/chocopad/huAjSY6.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/huAjSY6.jpg)
 
 Bend those diodes:
 
-![](assets/images/chocopad/9a8OGmB.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/9a8OGmB.jpg)
 
 Stick them in, bend the legs out to hold them in place when you flip it over. Black band points towards the square pad. Solder, and clip the legs:
 
-![](assets/images/chocopad/mVlWCSP.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/mVlWCSP.jpg)
 
 Add reset switch and solder it in:
 
-![](assets/images/chocopad/M6FHtw3.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/M6FHtw3.jpg)
 
 If you're doing LEDs, add the resistors. SMD reistors shown here, but it's cool if you feel like going with through hole ones. Orientation does not matter for resistors:
 
-![](assets/images/chocopad/kRlKoXY.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/kRlKoXY.jpg)
 
 If adding LEDs, add the 4.7k Ohm resistor to the R3 slot:
 
-![](assets/images/chocopad/m0LmE0p.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/m0LmE0p.jpg)
 
 Add a bit of solder to one leg of the MOSFET pad Q1. Solder one leg of the MOSFET first and once that is aligned, solder the other two legs. Also add 470 Ohm resistors to all the resistor slots (all horizontally oriented):
 
-![](assets/images/chocopad/8RGevKf.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/8RGevKf.jpg)
 
 Solder the Pro Micro header pins:
 
-![](assets/images/chocopad/lt8GR2G.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/lt8GR2G.jpg)
 
 Add LEDs and then place the switch on top of it. Make sure the LED does not get in the way of the switch clickbar if it is a clicky switch:
 
-![](assets/images/chocopad/2ZklBbt.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/2ZklBbt.jpg)
 
 After soldering the LEDs and switches, use some flush cutters to clip the switch legs and plastic pieces of the 2 switches that sit on top of the Pro Micro, so they don't interfere with the Pro Micro:
 
-![](assets/images/chocopad/SedSI13.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/SedSI13.jpg)
 
 Put some electrical or Kapton tape on top of the area the Pro Micro will be:
 
-![](assets/images/chocopad/aunL0hO.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/aunL0hO.jpg)
 
 Insert Pro Micro over the header pins and solder. But only do this after you've flashed your Pro Micro to ensure that it works:
 
-![](assets/images/chocopad/G49qh0J.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/chocopad/G49qh0J.jpg)
 
 Slap some keycaps on it and clack away!

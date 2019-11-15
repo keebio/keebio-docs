@@ -1,6 +1,6 @@
 # Nyquist
 
-![](/assets/fully-assembled.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/fully-assembled.jpg)
 
 The Nyquist is a 60% split ortholinear keyboard, comprised of two halves with a 5x6 arrangement of keys. Just like how the Let's Split is a split version of the Planck, the Nyquist is a split version of the Preonic. There is the option to have 2u keys in place of 1u keys in both the lower left and right corners with holes for Cherry PCB mounted stabilizers.
 
