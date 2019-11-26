@@ -2,7 +2,7 @@
 
 ## Build guide compatibility
 
-This build guide is exclusively for Rev. 3 & 4 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-build-guide.md)
+This build guide is exclusively for Rev. 3 & 4 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-rev2-build-guide.md)
 
 NOTE: Guide is still a work in progress and is currently missing pictures.
 

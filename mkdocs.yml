@@ -16,9 +16,8 @@ copyright: 'Copyright &copy; 2018 Hexwire, LLC'
 nav:
 - Home: 'index.md'
 - Build Guides:
-  - 'Iris Rev. 3': 'iris-rev3-build-guide.md'
-  - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-build-guide.md'
-  - 'Iris Kailh Low-Profile': 'iris-choc-build-guide.md'
+  - 'Iris Rev. 3 & 4': 'iris-rev3-build-guide.md'
+  - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-rev2-build-guide.md'
   - 'BDN9': 'bdn9-build-guide.md'
   - 'Laplace': 'laplace-build-log.md'
   - 'Dilly': 'dilly-build-guide.md'
@@ -26,6 +25,7 @@ nav:
   - 'Fourier': 'fourier-build-guide.md'
   - 'Quefrency': 'quefrency-build-guide.md'
   - Old Build Guides:
+    - 'Iris Kailh Low-Profile Rev. 2': 'iris-choc-build-guide.md'
     - 'Iris 2.0/2.1a': 'iris-build-guide-archive.md'
     - 'Iris 2.1b/2.4 LED MOSFET Fix': 'iris-led-fix.md'
     - 'Nyquist Rev. 1/Viterbi Rev. 1': 'nyquist-build-guide.md'

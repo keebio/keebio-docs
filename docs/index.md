@@ -18,8 +18,9 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 
 ## Build Guides
 
-* [Nyquist/Viterbi](nyquist-build-guide.md)
-* [Iris/Levinson](iris-build-guide.md)
+* [Nyquist/Viterbi Rev. 1](nyquist-build-guide.md)
+* [Iris Rev. 3/4](iris-rev3-build-guide.md)
+* [Iris/Levinson Rev. 2](iris-rev2-build-guide.md)
 * [Fourier](fourier-build-guide.md)
 * [Dilly](dilly-build-guide.md)
 * [Chocopad](chocopad-build-guide.md)

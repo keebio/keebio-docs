@@ -1,6 +1,6 @@
 # Iris Build Guide Archive
 
-## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](iris-build-guide.md)
+## Please use the following guide: [Updated build log for Rev. 2.1b/2.4/2.5](iris-rev2-build-guide.md)
 
 LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
 

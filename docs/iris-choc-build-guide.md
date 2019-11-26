@@ -1,6 +1,6 @@
 # Iris Choc/Kailh Low-Profile Build Guide
 
-This guide applies to just the Iris PCB for Kailh Low-Profile switches, where the order of the build steps are slightly different. If you're looking for the guide to the normal PCB, see [Iris Build Guide](iris-build-guide.md)
+This guide applies to just the Iris PCB for Kailh Low-Profile switches, where the order of the build steps are slightly different. If you're looking for the guide to the normal PCB, see [Iris Build Guide](iris-rev2-build-guide.md)
 
 Note that some pictures from the normal Iris PCB have been used here, main thing to ignore from those pictures is the diode orientation.
 
