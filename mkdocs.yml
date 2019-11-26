@@ -17,6 +17,7 @@ nav:
 - Home: 'index.md'
 - Build Guides:
   - 'Iris Rev. 3 & 4': 'iris-rev3-build-guide.md'
+  - 'Nyquist Rev. 3': 'iris-rev3-build-guide.md'
   - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-rev2-build-guide.md'
   - 'BDN9': 'bdn9-build-guide.md'
   - 'Laplace': 'laplace-build-log.md'
