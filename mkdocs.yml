@@ -1,64 +1,65 @@
 # Project information
-site_name: 'Keebio Documentation'
-site_description: 'Documentation for Keyboards at Keebio'
-site_author: 'Keebio'
+site_name: "Keebio Documentation"
+site_description: "Documentation for Keyboards at Keebio"
+site_author: "Keebio"
 #site_url:
-google_analytics: ['UA-98651741-2', 'docs.keeb.io']
+google_analytics: ["UA-98651741-2", "docs.keeb.io"]
 
 # Repository
-repo_name: 'keebio/keebio-docs'
-repo_url: 'https://github.com/keebio/keebio-docs'
+repo_name: "keebio/keebio-docs"
+repo_url: "https://github.com/keebio/keebio-docs"
 
 # Copyright
-copyright: 'Copyright &copy; 2018 Hexwire, LLC'
+copyright: "Copyright &copy; 2018 Hexwire, LLC"
 
 # Page setup
 nav:
-- Home: 'index.md'
-- Build Guides:
-  - 'Iris Rev. 3 & 4': 'iris-rev3-build-guide.md'
-  - 'Nyquist Rev. 3': 'iris-rev3-build-guide.md'
-  - 'Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2': 'iris-rev2-build-guide.md'
-  - 'BDN9': 'bdn9-build-guide.md'
-  - 'Laplace': 'laplace-build-log.md'
-  - 'Dilly': 'dilly-build-guide.md'
-  - 'Chocopad': 'chocopad-build-guide.md'
-  - 'Fourier': 'fourier-build-guide.md'
-  - 'Quefrency': 'quefrency-build-guide.md'
-  - Old Build Guides:
-    - 'Iris Kailh Low-Profile Rev. 2': 'iris-choc-build-guide.md'
-    - 'Iris 2.0/2.1a': 'iris-build-guide-archive.md'
-    - 'Iris 2.1b/2.4 LED MOSFET Fix': 'iris-led-fix.md'
-    - 'Nyquist Rev. 1/Viterbi Rev. 1': 'nyquist-build-guide.md'
-- Additional Info:
-  - 'Adding RGB Underglow': 'adding-rgb-underglow.md'
-  - 'Case/Plate Files': 'case-files.md'
-  - 'Soldering Tools': 'soldering-tools.md'
-  - 'Flashing Firmware': 'flashing-firmware.md'
-  - 'Schematics': 'schematics.md'
-  - 'Troubleshooting': 'troubleshooting.md'
-  - 'FAQ': 'faq.md'
-  - 'Acknowledgements': 'acknowledgements.md'
+  - Home: "index.md"
+  - Build Guides:
+      - "Iris Rev. 3 & 4": "iris-rev3-build-guide.md"
+      - "Nyquist Rev. 3": "iris-rev3-build-guide.md"
+      - "Levinson Rev. 3": "levinson-rev3-build-guide.md"
+      - "Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2": "iris-rev2-build-guide.md"
+      - "BDN9": "bdn9-build-guide.md"
+      - "Laplace": "laplace-build-log.md"
+      - "Dilly": "dilly-build-guide.md"
+      - "Chocopad": "chocopad-build-guide.md"
+      - "Fourier": "fourier-build-guide.md"
+      - "Quefrency": "quefrency-build-guide.md"
+      - Old Build Guides:
+          - "Iris Kailh Low-Profile Rev. 2": "iris-choc-build-guide.md"
+          - "Iris 2.0/2.1a": "iris-build-guide-archive.md"
+          - "Iris 2.1b/2.4 LED MOSFET Fix": "iris-led-fix.md"
+          - "Nyquist Rev. 1/Viterbi Rev. 1": "nyquist-build-guide.md"
+  - Additional Info:
+      - "Adding RGB Underglow": "adding-rgb-underglow.md"
+      - "Case/Plate Files": "case-files.md"
+      - "Soldering Tools": "soldering-tools.md"
+      - "Flashing Firmware": "flashing-firmware.md"
+      - "Schematics": "schematics.md"
+      - "Troubleshooting": "troubleshooting.md"
+      - "FAQ": "faq.md"
+      - "Acknowledgements": "acknowledgements.md"
 
 theme:
-  name: 'material'
+  name: "material"
   palette:
-    primary: 'teal'
-    accent: 'amber'
-  favicon: 'assets/keebio-favicon.png'
+    primary: "teal"
+    accent: "amber"
+  favicon: "assets/keebio-favicon.png"
 extra:
   social:
-    - type: 'twitter'
-      link: 'https://twitter.com/keebio'
-    - type: 'instagram'
-      link: 'https://instagram.com/keebio'
+    - type: "twitter"
+      link: "https://twitter.com/keebio"
+    - type: "instagram"
+      link: "https://instagram.com/keebio"
 
 extra_css:
-  - 'css/lightgallery.min.css'
-  - 'css/extra.css'
+  - "css/lightgallery.min.css"
+  - "css/extra.css"
 extra_javascript:
-  - 'js/lightgallery.js'
-  - 'js/extra.js'
+  - "js/lightgallery.js"
+  - "js/extra.js"
 markdown_extensions:
   - admonition
   - markdown.extensions.attr_list
