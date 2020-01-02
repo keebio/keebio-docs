@@ -34,6 +34,20 @@ Right half shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/l
 
 Both halves shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/levinson-rev3/IMG_3760.JPG)
 
+### QMK configuration
+
+For the newer method of wiring, the `RGBLED_SPLIT` option needs to be used. Currently, it is not the default option for Keebio Pro Micro-based split keyboards yet (pending PR approval right now), so you will need to add it in manually in your keymap's `config.h` file.
+
+Add the following lines to your keymap's `config.h` file:
+
+```c
+#undef RGBLED_NUM
+#define RGBLED_NUM 12
+#define RGBLED_SPLIT { 6, 6 }
+```
+
+This assumes 6 RGB LEDs for each half, if using a different amount, change the numbers above accordingly.
+
 ## Older Method (single chain controlled by master)
 
 As for the other two pins, Din needs to be connected on the first LED on the strip, and Dout needs to be connected to the last LED on the strip on the master side of the board. The flow of RGB data from the Pro Micro and through the strip is like this:
@@ -56,3 +70,13 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 - +5V on strip to VCC pad
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/KgUvtxe.jpg)
+
+
+### QMK configuration
+
+For the older method of wiring, make sure the `RGBLED_NUM` setting in `config.h` matches the total number of RGB LEDs you are using. If it does not match, then you'll need to add the following lines to your keymap's `config.h` file (change the number below accordingly):
+
+```c
+#undef RGBLED_NUM
+#define RGBLED_NUM 12
+```
