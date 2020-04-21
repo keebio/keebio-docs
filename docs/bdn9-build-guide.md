@@ -17,6 +17,12 @@ Here's a list of parts needed for the build:
 * 7-9 MX-compatible or Alps-compatible switches
 * 2 [EC11 or EC12 Rotary Encoders](https://keeb.io/products/rotary-encoder-ec11) \(optional)
 
+## Video of Build
+
+Here's a build video someone has created:
+
+* [BDN9 Build Guide](https://youtu.be/C8SqN7PSAs4)
+
 ## Build Steps
 
 Here's a summary of the build steps:
