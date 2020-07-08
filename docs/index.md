@@ -25,7 +25,8 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 * [Dilly](dilly-build-guide.md)
 * [Chocopad](chocopad-build-guide.md)
 * [Laplace](laplace-build-log.md)
-* [Quefrency](quefrency-build-guide.md)
+* [Quefrency Rev. 1](quefrency-rev1-build-guide.md)
+* [Quefrency Rev. 2 & Sinc](quefrency-rev2-sinc-build-guide.md)
 * [BDN9](bdn9-build-guide.md)
 
 ## Contributing

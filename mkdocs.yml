@@ -16,6 +16,7 @@ copyright: "Copyright &copy; 2018 Hexwire, LLC"
 nav:
   - Home: "index.md"
   - Build Guides:
+      - "Quefrency Rev. 2 & Sinc": "quefrency-rev2-sinc-build-guide.md"
       - "Iris Rev. 3 & 4": "iris-rev3-build-guide.md"
       - "Nyquist Rev. 3": "iris-rev3-build-guide.md"
       - "Levinson Rev. 3": "levinson-rev3-build-guide.md"
@@ -25,7 +26,7 @@ nav:
       - "Dilly": "dilly-build-guide.md"
       - "Chocopad": "chocopad-build-guide.md"
       - "Fourier": "fourier-build-guide.md"
-      - "Quefrency": "quefrency-build-guide.md"
+      - "Quefrency Rev. 1": "quefrency-rev1-build-guide.md"
       - Old Build Guides:
           - "Iris Kailh Low-Profile Rev. 2": "iris-choc-build-guide.md"
           - "Iris 2.0/2.1a": "iris-build-guide-archive.md"
