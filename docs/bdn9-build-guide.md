@@ -101,7 +101,9 @@ Solder the header pins to the PCB.
 
 ## Solder Rotary Encoders
 
-!!! warning "Rotary encoders must be soldered on before switches are added"
+{% hint style="warning" %}
+Rotary encoders must be soldered on before switches are added
+{% endhint %}
 
     It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
 
