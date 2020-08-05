@@ -158,7 +158,9 @@ Solder the pins and clips the legs off.
 
 ## Solder RGB underglow LEDs or strip \(optional\)
 
-!!! info "RGB LED pads"
+{% hint style="info" %}
+RGB LED pads
+{% endhint %}
 
     The BDN9 Rev. 1.0 only has three breakout pads (RGB, GND, and VCC) to solder an RGB LED strip to.
     
