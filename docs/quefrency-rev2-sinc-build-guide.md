@@ -51,52 +51,56 @@ Here's a summary of the build steps:
 
 ## Add 2u stabilizers to PCB
 
-Add the 2u stabilizers. Do this before installing the switch plate and switches.
+Add the 2u stabilizers into the PCB. The stab wire with be on the bottom side of the switch for everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed after the switches have been soldered in.
 
-## Solder rotary encoder \(optional\)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_7935.jpeg)
 
-Note: This step can be done after installing the switches as well. For the prototype plates, the encoders had to be installed first, but for the plates available on the store, the switch cutouts are now large enough to allow the encoders to be installed later.
+Afterwards, fit the plate over the stabilizer.
 
-Install the encoder onto the PCB.
-
-Solder the encoder onto the PCB.
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_7936.jpeg)
 
 ## Add switches to switch plate and solder
 
 !!! warning "For Kailh Box and Kailh Choc Switches - Install LEDs before this step"
     For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
 
-Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3643.JPG)
+Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_7937.jpeg)
 
-Fit the switches and plate onto the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3644.JPG)
+Solder the switches onto the PCB.
 
-Solder the switches onto the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3645.JPG)
+Add the rest of the switches and solder them: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_7938.jpeg)
 
-Add the rest of the switches: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3646.JPG)
+## Solder rotary encoder \(optional\)
 
-Solder the rest of the switches onto the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3647.JPG)
+Note: This step can be done after installing the switches as well. For the prototype plates, the encoders had to be installed first, but for the plates available on the store, the switch cutouts are now large enough to allow the encoders to be installed later.
+
+Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side. The 2 side legs do no need to be soldered to the PCB.
+
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_5707.jpeg)
 
 ## Solder in-switch LEDs \(optional\)
 
-Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the + sign of the LED pins on the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3648.JPG)
+Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the + sign of the LED pins on the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_3419.jpeg)
 
-Insert the LED through the switch and PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3649.JPG)
+Insert the LED through the switch and PCB: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_6013.jpeg)
 
-Double check that the longer leg matches with the + sign: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3650.JPG)
+Bend the LED legs out so it doesn't fall out while soldering the LED in: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_4335.jpeg)
 
-Bend the LED legs out so it doesn't fall out while soldering the LED in: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3651.JPG)
+Solder the LED legs and then clip the excess length on the legs.
 
-Solder the LED legs and then clip the excess length on the legs: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3652.JPG)
+Note that some of the switch layout options have the -/+ markings swapped, so make sure to always put the longer leg through the + pad. If you are unsure, plug the PCB in and test the LED before soldering it in.
+
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_9005.jpeg)
 
 ## Assemble case
 
-Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3653.JPG)
+Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_9889.jpeg)
 
-Repeat the process for the rest of the plate: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3654.JPG)
+Repeat the process for the rest of the plate: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_1101.jpeg)
 
-(Optional) If you have a middle layer, insert it now around the standoffs: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3655.JPG)
+(Optional) If you have a middle layer, insert it now around the standoffs.
 
-Put bottom plate on and add screws: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3656.JPG)
+Put bottom plate on and add screws: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_5390.jpeg)
 
 ## Re-program board
 
