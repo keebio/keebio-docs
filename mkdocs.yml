@@ -10,7 +10,7 @@ repo_name: "keebio/keebio-docs"
 repo_url: "https://github.com/keebio/keebio-docs"
 
 # Copyright
-copyright: "Copyright &copy; 2018 Hexwire, LLC"
+copyright: "Copyright &copy; 2020 Hexwire, LLC"
 
 # Page setup
 nav:
@@ -50,9 +50,9 @@ theme:
   favicon: "assets/keebio-favicon.png"
 extra:
   social:
-    - type: "twitter"
+    - icon: "fontawesome/brands/twitter"
       link: "https://twitter.com/keebio"
-    - type: "instagram"
+    - icon: "fontawesome/brands/instagram"
       link: "https://instagram.com/keebio"
 
 extra_css:
