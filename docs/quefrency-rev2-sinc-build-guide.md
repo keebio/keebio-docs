@@ -35,9 +35,9 @@ Here's a list of parts needed for the build:
 Here's a summary of the build steps:
 
 1. Add 2u stabilizers to PCB
-2. Solder rotary encoder \(optional\) 
-3. Add switches to switch plate
-4. Solder switches
+2. Add switches to switch plate
+3. Solder switches
+4. Solder rotary encoder \(optional\)
 5. Solder in-switch LEDs \(optional\)
     * Note: For Kailh Box switches, LEDs must be installed before the switches.
 6. Assemble case
@@ -74,7 +74,7 @@ Add the rest of the switches and solder them: ![](https://s3.amazonaws.com/docs.
 
 Note: This step can be done after installing the switches as well. For the prototype plates, the encoders had to be installed first, but for the plates available on the store, the switch cutouts are now large enough to allow the encoders to be installed later.
 
-Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side. The 2 side legs do no need to be soldered to the PCB.
+Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side. The 2 side legs do not need to be soldered to the PCB.
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_5707.jpeg)
 
@@ -86,7 +86,7 @@ Insert the LED through the switch and PCB: ![](https://s3.amazonaws.com/docs.kee
 
 Bend the LED legs out so it doesn't fall out while soldering the LED in: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_4335.jpeg)
 
-Solder the LED legs and then clip the excess length on the legs.
+Solder the LED legs and then clip the excess length on the legs. Be careful to not damage the resistor next to the LED pads.
 
 Note that some of the switch layout options have the -/+ markings swapped, so make sure to always put the longer leg through the + pad. If you are unsure, plug the PCB in and test the LED before soldering it in.
 
