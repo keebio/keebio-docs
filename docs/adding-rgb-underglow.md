@@ -30,23 +30,15 @@ Wiring for both halves:
 - GND on strip to GND pad
 - +5V on strip to VCC pad
 
+The Extra Data pad on the PCB and Dout/Do pin on the RGB strip are unused for this method.
+
 Right half shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/levinson-rev3/IMG_3758.JPG)
 
 Both halves shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/levinson-rev3/IMG_3760.JPG)
 
 ### QMK configuration
 
-For the newer method of wiring, the `RGBLED_SPLIT` option needs to be used. Currently, it is not the default option for Keebio Pro Micro-based split keyboards yet (pending PR approval right now), so you will need to add it in manually in your keymap's `config.h` file.
-
-Add the following lines to your keymap's `config.h` file:
-
-```c
-#undef RGBLED_NUM
-#define RGBLED_NUM 12
-#define RGBLED_SPLIT { 6, 6 }
-```
-
-This assumes 6 RGB LEDs for each half, if using a different amount, change the numbers above accordingly.
+For the newer method of wiring, the `RGBLED_SPLIT` option needs to be used. Currently, it is the default option for Keebio Pro Micro-based split keyboards, so you will not need to add it in manually in your keymap's `config.h` file, as it's present in the keyboard's `config.h` file.
 
 ## Older Method (single chain controlled by master)
 
@@ -79,4 +71,5 @@ For the older method of wiring, make sure the `RGBLED_NUM` setting in `config.h`
 ```c
 #undef RGBLED_NUM
 #define RGBLED_NUM 12
+#undef RGBLED_SPLIT
 ```
