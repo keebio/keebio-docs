@@ -30,9 +30,9 @@ Here's a list of some suggested ones:
 
 If you plan on doing some work with SMD components in the future, having a hot air station is great to have and sometimes doesn't cost that much more than a regular iron.
 
-- ★ [2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://www.amazon.com/VIVOHOME-Soldering-Rework-Station-Nozzles/dp/B07JJWRRN1/ref=as_li_ss_tl?dchild=1&keywords=862d+&qid=1587486703&s=hi&sr=1-6&linkCode=ll1&tag=keebio-20&linkId=9954bb92bc149f84ef70f618bb39a621&language=en_US)
-- [2in1 SMD Soldering Station 862D+ ($$)](https://www.amazon.com/Soldering-Station-Display-Nozzles-Welding/dp/B083FMJ1PF/ref=as_li_ss_tl?crid=2GKBLS8EQOW9D&dchild=1&keywords=862d+&qid=1587486747&s=hi&sprefix=862d,tools,153&sr=1-3&linkCode=ll1&tag=keebio-20&linkId=8da408fa43c7bae2db5c87d24da4a746&language=en_US)
-- [2 in 1 898D+ Hot Air and Iron Gun Soldering Station ($$)](https://www.amazon.com/VIVOHOME-Soldering-Rework-Station-Nozzles/dp/B07JX641M7/ref=as_li_ss_tl?dchild=1&keywords=898D+&qid=1587486793&s=hi&sr=1-1&linkCode=ll1&tag=keebio-20&linkId=3960440c1328efbfcb2108c7185fbe1b&language=en_US)
+- ★ [2in1 862D+ SMD Soldering Iron Hot Air Rework Station LED Display ($$)](https://www.amazon.com/BACOENG-Soldering-Station-Improved-Version/dp/B07BRWY427/ref=as_li_ss_tl?dchild=1&keywords=862d++soldering&qid=1603679249&sr=8-2&linkCode=ll1&tag=keebio-20&linkId=db9925f122f116ab42e960b7f1208a55&language=en_US)
+- [Yihua 862BD+ 2in1 SMD Soldering Station ($$)](https://www.amazon.com/YIHUA-Soldering-Station-Multiple-Functions/dp/B07RY5XWVG/ref=as_li_ss_tl?dchild=1&keywords=862d++soldering&qid=1603679249&sr=8-4&linkCode=ll1&tag=keebio-20&linkId=718d2d7d56ef3e3028cba63dd3b899ab&language=en_US)
+- [2 in 1 898D+ Hot Air and Iron Gun Soldering Station ($$)](https://www.amazon.com/CO-Z-Soldering-Station-Display-Electronic/dp/B07XC9VV2C/ref=as_li_ss_tl?dchild=1&keywords=898D+&qid=1603679372&sr=8-1&linkCode=ll1&tag=keebio-20&linkId=3dfabf9f9bd0aecba334205eb45efff7&language=en_US)
 
 
 
@@ -91,6 +91,7 @@ You're bound to screw up a build at some point, and you're going to need some wa
 
 - Desoldering Irons/Stations
     - ★ [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://www.amazon.com/Velleman-VTDESOL3U-Vacuum-Desoldering-Heater/dp/B00B88FRME/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=ee8d28b76bb7b031bd8440fb9f73d50d&language=en_US) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
+    - [Hakko FR301-03/P Desoldering Tool ($$$)](https://www.amazon.com/American-HAKKO-Products-FR301-03-Desoldering/dp/B07BFVFMS9/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B07BFVFMS9&pd_rd_r=53a09b0e-8c23-46ce-9930-2b5bef4f273a&pd_rd_w=fq9an&pd_rd_wg=pUOCt&pf_rd_p=b65ee94e-1282-43fc-a8b1-8bf931f6dfab&pf_rd_r=VC1270DACYTFWW6GENWP&psc=1&refRID=VC1270DACYTFWW6GENWP&linkCode=ll1&tag=keebio-20&linkId=52306540711da30d821851ff0a897d0b&language=en_US) - If you're going to be desoldering whole boards
     - [Hakko FR300-05/P Desoldering Tool ($$$)](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c8c3105fd78098279de1ae469cdb0c7b&language=en_US) - If you're going to be desoldering whole boards
     - ★ [ZD-915 Desoldering Station ($$)](https://www.amazon.com/Digital-Desoldering-Station-Anesty-Professional/dp/B07542D82F/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=f4f09b107050b2f07d875a8b7e5099e6&language=en_US) - If you're going to be desoldering whole boards
 - Wick
@@ -117,7 +118,7 @@ Needed for attaching an RGB LED strip, using as jumper wires, or handwiring. Rec
 ### Helping hands/PCB holder
 
 - ★ [Aven 17010 Adjustable Circuit Board Holder](https://www.amazon.com/Aven-17010-Adjustable-Circuit-Holder/dp/B00Q2TTQEE/ref=as_li_ss_tl?_encoding=UTF8&linkCode=ll1&tag=keebio-20&linkId=d6720b32a4f0e483f039daad5ece47e2&language=en_US)
-- ★ [Elenco Adjustable Helping Hand With Magnifying Glass](https://www.amazon.com/Elenco-Helping-Magnifying-Case-Iron-Chrome/dp/B0002LLWYK/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=8aac7238a008f6e2d3de05abba7fd752&language=en_US)
+- ★ [Adjustable Helping Hand With Magnifying Glass](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B000P42O3C&pd_rd_r=276f5132-fe52-4eb2-ba20-0d9667867b33&pd_rd_w=uRuJ3&pd_rd_wg=T8LiQ&pf_rd_p=b65ee94e-1282-43fc-a8b1-8bf931f6dfab&pf_rd_r=MY930YDM9HQQWJ8GGJJ2&psc=1&refRID=MY930YDM9HQQWJ8GGJJ2&linkCode=ll1&tag=keebio-20&linkId=848dfbc0dddaf861310605944782d8d2&language=en_US)
 - [Pro'sKit 900-015 Helping Hands Soldering Aid](https://www.amazon.com/ProsKit-900-015-Helping-Hands-Soldering/dp/B002PIA6Z4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=1b449a3b141a734d29f6f9b8b2bf3d40&language=en_US)
 - [QuadHands Helping Hands](https://www.amazon.com/QuadHands-Helping-Hands-Third-Soldering/dp/B00GIKVP5K/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c3d5358ea9f79d387d58219a17524bd2&language=en_US)
 
