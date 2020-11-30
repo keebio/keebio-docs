@@ -21,7 +21,7 @@ nav:
       - "Nyquist Rev. 3": "iris-rev3-build-guide.md"
       - "Levinson Rev. 3": "levinson-rev3-build-guide.md"
       - "Iris/Levinson/Nyquist Rev. 2/Viterbi Rev. 2": "iris-rev2-build-guide.md"
-      - "BDN9": "bdn9-build-guide.md"
+      - "BDN9 Rev. 1.3": "bdn9-rev1.3-build-guide.md"
       - "Laplace": "laplace-build-log.md"
       - "Dilly": "dilly-build-guide.md"
       - "Chocopad": "chocopad-build-guide.md"
@@ -32,6 +32,7 @@ nav:
           - "Iris 2.0/2.1a": "iris-build-guide-archive.md"
           - "Iris 2.1b/2.4 LED MOSFET Fix": "iris-led-fix.md"
           - "Nyquist Rev. 1/Viterbi Rev. 1": "nyquist-build-guide.md"
+          - "BDN9 Rev. 1.0-1.2": "bdn9-build-guide.md"
   - Additional Info:
       - "Adding RGB Underglow": "adding-rgb-underglow.md"
       - "Case/Plate Files": "case-files.md"
