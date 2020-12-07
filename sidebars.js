@@ -3,9 +3,8 @@ module.exports = {
     'Build Guides': [
       'quefrency-rev2-sinc-build-guide',
       'iris-rev3-build-guide',
-      'doc1',
-      'doc2',
-      'doc3'
+      'bdn9-rev1.3-build-guide',
+      'doc1'
     ],
     Features: ['mdx'],
   },
