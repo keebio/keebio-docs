@@ -33,4 +33,4 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 
 The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests.
 
-The documentation is generated using [MkDocs]([https://docsify.js.org/](https://www.mkdocs.org/)). Visit that site to find out how to setup MkDocs and preview changes on-the-fly. The theme used is [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+The documentation is generated using [MkDocs](https://www.mkdocs.org/). Visit that site to find out how to setup MkDocs and preview changes on-the-fly. The theme used is [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
