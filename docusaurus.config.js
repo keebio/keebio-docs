@@ -1,31 +1,32 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Keebio Documentation',
+  tagline: 'Documentation for Keebio Keyboards',
+  url: 'https://docs.keeb.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/keebio-favicon.png',
+  organizationName: 'keebio', // Usually your GitHub org/user name.
+  projectName: 'keebio-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Keebio Documentation',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Keebio Logo',
+        src: 'img/keebio-favicon.png',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Build Guides',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'misc', label: 'Miscellaneous Info', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/keebio/keebio-docs',
+          label: 'Keebio Docs GitHub',
           position: 'right',
         },
       ],
@@ -50,16 +51,20 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://instagram.com/keebio',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'http://discord.keeb.io/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/keebio',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/keebio',
             },
           ],
         },
@@ -77,7 +82,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Keebio. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -88,7 +93,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/keebio/keebio-docs/',
         },
         blog: {
           showReadingTime: true,
