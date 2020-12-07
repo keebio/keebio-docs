@@ -1,6 +1,6 @@
-# Quefrency Rev. 2 & Sinc Rev. 1 Build Guide
-
-Pictures to be added soon using Quefrency/Sinc PCBs! For now, Iris pictures will be used, but the build is essentially the same.
+---
+title: Quefrency Rev. 2 & Sinc Rev. 1
+---
 
 ## Build guide compatibility
 

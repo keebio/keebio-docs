@@ -1,4 +1,6 @@
-# Iris Rev. 3 & 4 Build Guide
+---
+title: Iris Rev. 3 & 4
+---
 
 ## Build guide compatibility
 
