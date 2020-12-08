@@ -7,17 +7,13 @@ title: Quefrency Rev. 1
 Here's a list of parts needed for the build:
 
 * 1 [Quefrency PCB Kit](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
-
-  * 2 Reset Switches \(included in kit\)
-  * 2 4.7kΩ resistors \(included in kit\)
-  * 2 TRRS Jacks \(included in kit\)
-  * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
-
+    * 2 Reset Switches \(included in kit\)
+    * 2 4.7kΩ resistors \(included in kit\)
+    * 2 TRRS Jacks \(included in kit\)
+    * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
 * 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
-
-  * 29 M2 6mm screws \(included with plates\)
-  * 14 M2 10mm standoffs \(included with plates\)
-  
+    * 29 M2 6mm screws \(included with plates\)
+    * 14 M2 10mm standoffs \(included with plates\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable)
 * 1 [Micro USB Cable](https://keeb.io/products/micro-usb-cable)
