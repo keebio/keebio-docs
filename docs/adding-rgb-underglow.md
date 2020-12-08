@@ -70,7 +70,7 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 
 For the older method of wiring, make sure the `RGBLED_NUM` setting in `config.h` matches the total number of RGB LEDs you are using. If it does not match, then you'll need to add the following lines to your keymap's `config.h` file (change the number below accordingly):
 
-```c
+```js
 #undef RGBLED_NUM
 #define RGBLED_NUM 12
 #undef RGBLED_SPLIT
