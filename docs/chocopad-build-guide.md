@@ -1,5 +1,5 @@
 ---
-title: Chocopad Build Guide
+title: Chocopad
 ---
 
 ## Parts List
