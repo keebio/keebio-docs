@@ -15,7 +15,6 @@ module.exports = {
       'dilly-build-guide',
       'fourier-build-guide',
       'iris-choc-build-guide',
-      'iris-build-guide-archive',
       'iris-led-fix',
       'nyquist-build-guide'
     ],
@@ -26,8 +25,7 @@ module.exports = {
       'flashing-firmware',
       'schematics',
       'troubleshooting',
-      'faq',
-      'acknowledgements'
+      'faq'
     ]
   },
 };
