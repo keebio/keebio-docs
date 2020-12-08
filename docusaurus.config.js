@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Documentation for Keebio Keyboards',
   url: 'https://docs.keeb.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/keebio-favicon.png',
   organizationName: 'keebio', // Usually your GitHub org/user name.
