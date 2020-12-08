@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Recommended Soldering Tools',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_bug_fixing_oc7a.svg',
     description: (
       <>
         Just getting started with building your own keyboard? Here's a list of
@@ -21,11 +21,11 @@ const features = [
   },
   {
     title: ' Build Guides',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/undraw_building_blocks_n0nc.svg',
     description: (
       <>
-        Learn how to assemble various keyboards from Keebio. Everything from
-        the Iris, Quefrency, Sinc, BDN9, and more!
+        Learn how to assemble various keyboards from Keebio. Covers just
+        about everything like the Iris, Quefrency, Sinc, BDN9, and more!
       </>
     ),
     callToAction: "View Guides",
@@ -33,7 +33,7 @@ const features = [
   },
   {
     title: 'Frequently Asked Questions',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_Faq_re_31cw.svg',
     description: (
       <>
         We know that you've got a lot of questions about keyboards, how to
