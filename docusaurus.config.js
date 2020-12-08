@@ -12,6 +12,9 @@ module.exports = {
     'plugin-image-zoom'
   ],
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-98651741-2'
+    },
     navbar: {
       title: 'Keebio Documentation',
       logo: {
