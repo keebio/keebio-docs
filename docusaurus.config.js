@@ -8,6 +8,9 @@ module.exports = {
   favicon: 'img/keebio-favicon.png',
   organizationName: 'keebio', // Usually your GitHub org/user name.
   projectName: 'keebio-docs', // Usually your repo name.
+  plugins: [
+    'plugin-image-zoom'
+  ],
   themeConfig: {
     navbar: {
       title: 'Keebio Documentation',
