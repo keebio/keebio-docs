@@ -18,6 +18,3 @@ title: Schematics
 - [Dilly](schematics/Dilly Schematic.pdf ':ignore')
 - [Chocopad](schematics/Chocopad Schematic.pdf ':ignore')
 - [BDN9](schematics/BDN9 Schematic.pdf ':ignore')
-- Levinson
-- Fourier
-- Rorschach
