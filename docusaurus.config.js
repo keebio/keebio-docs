@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Keebio Documentation',
-  tagline: 'Documentation for Keebio Keyboards',
+  tagline: 'Learn the secrets of building keyboards from Keebio',
   url: 'https://docs.keeb.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',

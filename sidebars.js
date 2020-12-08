@@ -6,26 +6,29 @@ module.exports = {
       'iris-rev3-build-guide',
       'bdn9-rev1.3-build-guide',
       'iris-rev2-build-guide',
-      'chocopad-build-guide'
-    ],
-    'Archive': [
-      'quefrency-rev1-build-guide',
-      'bdn9-build-guide',
-      'laplace-build-log',
-      'dilly-build-guide',
-      'fourier-build-guide',
-      'iris-choc-build-guide',
-      'iris-led-fix',
-      'nyquist-build-guide'
+      'chocopad-build-guide',
+      {
+        'Archive': [
+          'quefrency-rev1-build-guide',
+          'bdn9-build-guide',
+          'laplace-build-log',
+          'dilly-build-guide',
+          'fourier-build-guide',
+          'iris-choc-build-guide',
+          'iris-led-fix',
+          'nyquist-build-guide'
+        ]
+      }
     ],
     'Additional Info': [
+      'soldering-tools',
       'adding-rgb-underglow',
       'case-files',
-      'soldering-tools',
       'flashing-firmware',
       'schematics',
       'troubleshooting',
-      'faq'
+      'faq',
+      'dfu-on-pro-micro'
     ]
   },
 };

@@ -11,7 +11,9 @@ Don't use kbfirmware.com as it is outdated and does not support split keyboards.
 Having the TRRS cable plugged in while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
 
 Flashing does not occur over the TRRS cable, so it does not matter if the TRRS cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
-### When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?Nope, this is perfectly normal!
+### When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?
+
+Nope, this is perfectly normal!
     
 Here's the explanation why:  
     
