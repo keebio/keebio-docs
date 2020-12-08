@@ -189,7 +189,7 @@ The BDN9 Rev. 1.1 has RGB LED pads add another option for adding RGB underglow. 
 
 ### Add RGB LED Strip \(optional\)
 
-If using an RGB LED strip, see the [Adding RGB Underglow](/adding-rgb-underglow) guide.
+If using an RGB LED strip, see the [Adding RGB Underglow](adding-rgb-underglow) guide.
 
 ### Add individual RGB LEDs \(optional\)
 

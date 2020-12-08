@@ -23,7 +23,6 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'misc', label: 'Miscellaneous Info', position: 'left'},
         {
           href: 'https://github.com/keebio/keebio-docs',
           label: 'Keebio Docs GitHub',

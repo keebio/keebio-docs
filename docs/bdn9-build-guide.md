@@ -4,7 +4,7 @@
 
 Here's a list of parts needed for the build:
 
-* 1 [BDN9 PCB & Bottom PCB Plate with M2 screws and standoffs]([https://keeb.io/collections/frontpage/products/dilly-3x10-ortholinear-keyboard-for-kailh-choc-low-profile-switches](https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support))
+* 1 [BDN9 PCB & Bottom PCB Plate with M2 screws and standoffs](https://keeb.io/products/bdn9-3x3-9-key-macropad-rotary-encoder-support)
 * 1 Reset Switch
 * 10 470Ω resistors \(optional, for LED backlight\)
 * 1 AO3416 MOSFET \(optional, for LED control\)
@@ -166,7 +166,7 @@ Solder the pins and clips the legs off.
 
 ### Add RGB LED Strip \(optional\)
 
-If using an RGB LED strip, see the [Adding RGB Underglow](/adding-rgb-underglow) guide.
+If using an RGB LED strip, see the [Adding RGB Underglow](adding-rgb-underglow) guide.
 
 ### Add individual RGB LEDs \(optional\)
 
