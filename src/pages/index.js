@@ -8,38 +8,44 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Recommended Soldering Tools',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Just getting started with building your own keyboard? Here's a list of
+        tools that we suggest that you get.
       </>
     ),
+    callToAction: "See Recommendations",
+    callToActionUrl: "docs/soldering-tools"
   },
   {
-    title: 'Focus on What Matters',
+    title: ' Build Guides',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Learn how to assemble various keyboards from Keebio. Everything from
+        the Iris, Quefrency, Sinc, BDN9, and more!
       </>
     ),
+    callToAction: "View Guides",
+    callToActionUrl: "docs"
   },
   {
-    title: 'Powered by React',
+    title: 'Frequently Asked Questions',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We know that you've got a lot of questions about keyboards, how to
+        build them, and more. Don't be lost.
       </>
     ),
+    callToAction: "View FAQ",
+    callToActionUrl: "docs/faq"
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, callToAction, callToActionUrl}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -50,6 +56,17 @@ function Feature({imageUrl, title, description}) {
       )}
       <h3>{title}</h3>
       <p>{description}</p>
+      <div className={styles.featureButton}>
+        <Link
+          className={clsx(
+            'button button--outline button--secondary button--lg',
+            styles.getStarted,
+          )}
+          to={callToActionUrl}
+        >
+          {callToAction}
+        </Link>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@
 title: Recommended Soldering Tools
 ---
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/tools.jpg){: .center}
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/tools.jpg)
 
 So you want to build a keyboard, but are unsure of exactly what you'll need? Don't worry, here's a list of suggested tools for soldering. Some of these items with have a star (★) next to them, as these are the ones that Keebio has.
 
