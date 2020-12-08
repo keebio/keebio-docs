@@ -1,4 +1,6 @@
-# Iris 2.1b/2.4 LED Fix
+---
+title: Iris 2.1b/2.4 LED Fix
+---
 
 For the 2.1b and 2.4 PCBs, there's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. 
 

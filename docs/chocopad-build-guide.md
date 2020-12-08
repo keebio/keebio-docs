@@ -1,4 +1,6 @@
-# Chocopad Build Guide
+---
+title: Chocopad Build Guide
+---
 
 ## Parts List
 

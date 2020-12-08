@@ -1,4 +1,6 @@
-# BDN9 Build Guide
+---
+title: BDN9 Rev. 1 (Older version of guide)
+---
 
 ## Parts List
 
@@ -101,9 +103,9 @@ Solder the header pins to the PCB.
 
 ## Solder Rotary Encoders
 
-!!! warning "Rotary encoders must be soldered on before switches are added"
-
-    It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
+:::caution Rotary encoders must be soldered on before switches are added
+It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
+:::
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/nhXXWac.jpeg)
 
@@ -113,8 +115,9 @@ Insert the rotary encoders from the top-side of the PCB.
 
 Solder them in. Soldering in the side-clips of the encoders is optional, but recommended.
 
-!!! warning "If using Choc low-profile switches, double check/add Kapton tape to solder/metal connections on top of the PCB"
-   When using Choc low-profile switches, there is very little clearance between the switch plate and the top of the PCB. Any exposed metal/solder can cause a short if it touches the switch plate, so before you add the switches to the plate and solder them to the PCB, it's advised that you double check that all solder joints on the top of the PCB are cut flush. Alternatively, you can add Kapton tape to any that are raised. It doesn't hurt to add Kapton tape to the encoder legs as well.  
+:::caution If using Choc low-profile switches, double check/add Kapton tape to solder/metal connections on top of the PCB
+When using Choc low-profile switches, there is very little clearance between the switch plate and the top of the PCB. Any exposed metal/solder can cause a short if it touches the switch plate, so before you add the switches to the plate and solder them to the PCB, it's advised that you double check that all solder joints on the top of the PCB are cut flush. Alternatively, you can add Kapton tape to any that are raised. It doesn't hurt to add Kapton tape to the encoder legs as well.
+:::
 
 ## Solder Switches
 
@@ -158,11 +161,11 @@ Solder the pins and clips the legs off.
 
 ## Solder RGB underglow LEDs or strip \(optional\)
 
-!!! info "RGB LED pads"
-
-    The BDN9 Rev. 1.0 only has three breakout pads (RGB, GND, and VCC) to solder an RGB LED strip to.
+:::info RGB LED pads
+The BDN9 Rev. 1.0 only has three breakout pads (RGB, GND, and VCC) to solder an RGB LED strip to.
     
-    The BDN9 Rev. 1.1 has RGB LED pads add another option for adding RGB underglow. Only strips or individual LEDs can be added to this boards (don't do both at the same time).
+The BDN9 Rev. 1.1 has RGB LED pads add another option for adding RGB underglow. Only strips or individual LEDs can be added to this boards (don't do both at the same time).
+:::
 
 ### Add RGB LED Strip \(optional\)
 

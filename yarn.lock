@@ -7207,6 +7207,12 @@ pkg-up@3.1.0, pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
+plugin-image-zoom@ataft/plugin-image-zoom:
+  version "0.0.0"
+  resolved "https://codeload.github.com/ataft/plugin-image-zoom/tar.gz/513e840ac62cfe95a696b1886dfd03dd6338b58d"
+  dependencies:
+    medium-zoom "^1.0.4"
+
 pnp-webpack-plugin@^1.6.4:
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.4.tgz#c9711ac4dc48a685dabafc86f8b6dd9f8df84149"

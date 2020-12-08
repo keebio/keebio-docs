@@ -1,8 +1,10 @@
-# Schematics
+---
+title: Schematics
+---
 
 *Files to be added soon for all keyboards*
 
-- [Nyquist Rev. 1](schematics/Nyquist Rev 1 Schematic.pdf ':ignore')
+- [Nyquist Rev. 1](schematics/Nyquist Rev 1 Schematic.pdf)
 - [Nyquist Rev. 2](schematics/Nyquist Rev 2 Schematic.pdf ':ignore')
 - [BFO-9000](schematics/BFO-9000 Schematic.pdf ':ignore')
 - [Viterbi Rev. 1](schematics/Viterbi Rev 1 Schematic.pdf ':ignore')

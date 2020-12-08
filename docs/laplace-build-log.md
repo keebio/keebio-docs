@@ -1,4 +1,6 @@
-# Laplace Build Log
+---
+title: Laplace
+---
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/laplace/VMFhN8u.jpg)
 

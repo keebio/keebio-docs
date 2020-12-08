@@ -1,4 +1,6 @@
-## Adding RGB Underglow
+---
+title: Adding RGB Underglow
+---
 
 To add RGB underglow to your board, you'll need the following parts:
 

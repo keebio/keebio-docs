@@ -1,4 +1,6 @@
-# Nyquist Rev. 1 Build Guide
+---
+title: Nyquist Rev. 1
+---
 
 ## Nyquist Rev. 2
 

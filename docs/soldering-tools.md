@@ -1,4 +1,6 @@
-# Recommended Soldering Tools
+---
+title: Recommended Soldering Tools
+---
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/tools.jpg){: .center}
 

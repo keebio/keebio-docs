@@ -1,4 +1,6 @@
-# Dilly Build Guide
+---
+title: Dilly
+---
 
 ## Video of Build
 

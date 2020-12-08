@@ -1,12 +1,14 @@
-# Iris Build Guides
+---
+title: Iris Rev. 2
+---
 
 ## Build guide compatibility
 
 While this build guide shows parts for the Iris, the build is very similar to that of the Levinson, as well as the Nyquist Rev. 2, since they all have in-switch LED support.
 
-!!! warning "For Kailh Low-Profile PCBs:"
-
-    Do not use this guide due to the difference in the order of build steps. For that PCB, use the [Iris Kailh Low-Profile Build Guide](iris-choc-build-guide.md) instead.
+:::caution For Kailh Low-Profile PCBs:
+Do not use this guide due to the difference in the order of build steps. For that PCB, use the [Iris Kailh Low-Profile Build Guide](iris-choc-build-guide.md) instead.
+:::
 
 ### Previous Guides/Info
 * LED fix for right PCB of Rev. 2.1b or 2.4, in case you soldered the MOSFET to the side with the bad trace: [Rev. 2.1b/2.4 LED Fix](iris-led-fix.md)
@@ -104,9 +106,8 @@ The diodes, resistors, MOSFETs, push buttons, TRRS jacks, and Pro Micro header p
 
 On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/Pft9ufA.jpg)
 
-!!! warning "For Kailh Low-Profile PCBs (Rev. 2.2-KLP):"
-
-    The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
+The diode orientation is flipped to move the LEDs to the north side. The black line will point towards the top on these PCBs.
+:::
 
 Some people stick the diodes on the top side of the PCB, I don't recommend doing it that way, because you can't replace them once everything is assembled using that method.
 
@@ -143,8 +144,9 @@ Add 470Ω resistors for LEDs. Resistors don't have polarity, so orientation does
 
 Right PCB:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/3CJVPlx.jpg)
 
-!!! warning "For the 2.1b and 2.4 PCBs:"
-    There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: [Iris 2.1b/2.4 LED MOSFET Fix](iris-led-fix.md)
+:::caution For the 2.1b and 2.4 PCBs:
+There's a missing trace/via on one of the pads for the MOSFET of the right half (the one shown here). To resolve this, solder the MOSFET to the other side of the board, as the pads for those are fine. (Issue has been fixed on Rev. 2.5 PCB). If you do happen to solder the MOSFET to this side by accident, you can perform this fix to resolve the issue: [Iris 2.1b/2.4 LED MOSFET Fix](iris-led-fix.md)
+:::
 
 To add the MOSFET, tin one of the pins on the PCB first:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/nsehRiB.jpg)
 
@@ -169,8 +171,9 @@ Add the 2u stabilizer if desired. Do this before installing the switch plate and
 
 ## Solder switches
 
-!!! info "Place switches into switch plate before soldering"
-    You will not be able to install the switch plate after soldering the switches, as the switches need to go on top of the switch plate.
+:::info Place switches into switch plate before soldering
+You will not be able to install the switch plate after soldering the switches, as the switches need to go on top of the switch plate.
+:::
 
 Add switches into the switch plate. Usually, I add switches to the corners first and then solder them before installing the rest of them:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/deDoaSq.jpg)
 
@@ -200,12 +203,13 @@ If using a bottom plate that conducts electricity, like a stainless steel or alu
 Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly with the markings on the PCB. The orientation on both PCBs is different. (Left half shown here):
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/IMDAm28.jpg)
 
-!!! info "MYTH: Keys will be reversed if the Pro Micro is reversed"
-    TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+:::info MYTH: Keys will be reversed if the Pro Micro is reversed
+TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+:::
 
-
-!!! warning "For Viterbi 2.0:"
-    Both of the Pro Micro boards are oriented the same way (flat side towards you), unlike the Iris/Levinson/Nyquist. Make sure you match up the PCB markings to confirm. Ignore the images of the Iris Right half here.
+:::caution For Viterbi 2.0:
+Both of the Pro Micro boards are oriented the same way (flat side towards you), unlike the Iris/Levinson/Nyquist. Make sure you match up the PCB markings to confirm. Ignore the images of the Iris Right half here.
+:::
 
 Right half:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/2KMFIE4.jpg)
 

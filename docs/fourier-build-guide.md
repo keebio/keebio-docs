@@ -1,4 +1,6 @@
-# Fourier Build Guide
+---
+title: Fourier
+---
 
 ## Parts List
 
