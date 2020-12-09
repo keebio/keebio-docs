@@ -12,6 +12,9 @@ module.exports = {
     'plugin-image-zoom'
   ],
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark'
+    },
     googleAnalytics: {
       trackingID: 'UA-98651741-2'
     },
