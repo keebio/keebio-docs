@@ -1,4 +1,6 @@
-# Troubleshooting Guide
+---
+title: Troubleshooting Guide
+---
 
 - Pro Micro lights up but no presses register
     - Check the following:

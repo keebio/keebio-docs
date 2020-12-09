@@ -1,21 +1,19 @@
-# Quefrency Build Guide
+---
+title: Quefrency Rev. 1
+---
 
 ## Parts List
 
 Here's a list of parts needed for the build:
 
 * 1 [Quefrency PCB Kit](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
-
-  * 2 Reset Switches \(included in kit\)
-  * 2 4.7kΩ resistors \(included in kit\)
-  * 2 TRRS Jacks \(included in kit\)
-  * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
-
+    * 2 Reset Switches \(included in kit\)
+    * 2 4.7kΩ resistors \(included in kit\)
+    * 2 TRRS Jacks \(included in kit\)
+    * 47 1N4148 diodes - through hole \(included in kit\) and [SMD diodes](https://keeb.io/products/1n4148-diodes) supported
 * 1 [Quefrency Case Plates](https://keeb.io/collections/split-keyboard-parts/products/quefrency-60-65-split-staggered-keyboard)
-
-  * 29 M2 6mm screws \(included with plates\)
-  * 14 M2 10mm standoffs \(included with plates\)
-  
+    * 29 M2 6mm screws \(included with plates\)
+    * 14 M2 10mm standoffs \(included with plates\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable)
 * 1 [Micro USB Cable](https://keeb.io/products/micro-usb-cable)
@@ -23,10 +21,11 @@ Here's a list of parts needed for the build:
 * MX or Alps compatible keyswitches
 * [WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
 
-!!! info "How many stabilizers do I need?"
-    Depending on your chosen layout ([60%](http://www.keyboard-layout-editor.com/#/gists/bab126983802c185181a0d19226ebd39) or [65%](http://www.keyboard-layout-editor.com/#/gists/af508840e15315503bb5f74b986e433a)), you'll need a different amount of stabilizers.
+:::info How many stabilizers do I need?
+Depending on your chosen layout ([60%](http://www.keyboard-layout-editor.com/#/gists/bab126983802c185181a0d19226ebd39) or [65%](http://www.keyboard-layout-editor.com/#/gists/af508840e15315503bb5f74b986e433a)), you'll need a different amount of stabilizers.
 
-    Any 2u key (or wider) will need a 2u stabilizer.
+Any 2u key (or wider) will need a 2u stabilizer.
+:::
 
 ## Build Steps
 
@@ -60,8 +59,9 @@ If you're using through hole diodes, bend 'em up. Here, I'm just bending it arou
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/quefrency/NgokqZH.jpg)
 
-!!! info "It is recommended to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures"
-    This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this, as you won't be able to replace the faulty component easily.
+:::info It is recommended to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures
+This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this, as you won't be able to replace the faulty component easily.
+:::
 
 Insert the diodes. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
 
@@ -81,14 +81,15 @@ After installing the diodes, add your TRRS jacks and reset buttons.
 
 Add your 4.7k ohm resistors for I2C on the left half. There are no resistors for the right half. Resistors also do not have a polarity, so the orientation doesn't matter when placing them.
 
-!!! info "What the heck is I2C, and what do I need it for?"
-    The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
+:::info What the heck is I2C, and what do I need it for?
+The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
 
-    However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
+However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
     
-    To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
+To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
 
-    tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
+tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
+:::
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/quefrency/cphn8ym.png)
 
@@ -118,12 +119,13 @@ Finish soldering the remaining pins on each half, with the PM safely set aside.
 
 Add stabilizers to the keys you want to stabilize.
 
-!!! warning "Note for the 1.0 left PCB on clipping diode legs"
-    For the Rev. 1.0 left PCB, one of the stabilizer mounts sits right next to a diode. If using through-hole diodes, make sure that the diode legs for spot shown below are clipped as flush as possible, so that the stabilizer can clip in correctly.
+:::caution Note for the 1.0 left PCB on clipping diode legs
+For the Rev. 1.0 left PCB, one of the stabilizer mounts sits right next to a diode. If using through-hole diodes, make sure that the diode legs for spot shown below are clipped as flush as possible, so that the stabilizer can clip in correctly.
 
-    This issue has been fixed on the 1.1 PCB.
+This issue has been fixed on the 1.1 PCB.
 
-    ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/quefrency/stab-diode-clip.jpg)
+![](https://s3.amazonaws.com/docs.keeb.io/assets/images/quefrency/stab-diode-clip.jpg)
+:::
 
 ## Add switches
 

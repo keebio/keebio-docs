@@ -1,6 +1,6 @@
-# Quefrency Rev. 2 & Sinc Rev. 1 Build Guide
-
-Pictures to be added soon using Quefrency/Sinc PCBs! For now, Iris pictures will be used, but the build is essentially the same.
+---
+title: Quefrency Rev. 2 & Sinc Rev. 1
+---
 
 ## Build guide compatibility
 
@@ -61,8 +61,9 @@ Afterwards, fit the plate over the stabilizer.
 
 ## Add switches to switch plate and solder
 
-!!! warning "For Kailh Box and Kailh Choc Switches - Install LEDs before this step"
-    For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
+:::caution For Kailh Box and Kailh Choc Switches - Install LEDs before this step
+For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
+:::
 
 Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/sinc/IMG_7937.jpeg)
 

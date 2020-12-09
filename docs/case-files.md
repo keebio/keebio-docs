@@ -1,4 +1,6 @@
-# Case Files
+---
+title: Case Files
+---
 
 The case/plate design files for the various keyboards can be found here:
 

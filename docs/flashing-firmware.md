@@ -1,4 +1,6 @@
-# Flashing Firmware
+---
+title: Flashing Firmware
+---
 
 Still in progress...
 

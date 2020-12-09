@@ -1,4 +1,6 @@
-# Iris Choc/Kailh Low-Profile Build Guide
+---
+title: Iris Choc/Kailh Low-Profile
+---
 
 This guide applies to just the Iris PCB for Kailh Low-Profile switches, where the order of the build steps are slightly different. If you're looking for the guide to the normal PCB, see [Iris Build Guide](iris-rev2-build-guide.md)
 
@@ -92,8 +94,9 @@ Repeat the MOSFET installation process on the other PCB:![](https://s3.amazonaws
 
 ### Solder Pro Micro header pins
 
-!!! warning "Do not use Peel-A-Way sockets with this PCB if socketing the Pro Micro"
-    Due to the small clearance between the switch plate and PCB, do not use Peel-A-Way sockets to socket the Pro Micro, as the Peel-A-Way sockets will come in contact with the top plate. Using other types of sockets are fine.
+:::caution Do not use Peel-A-Way sockets with this PCB if socketing the Pro Micro
+Due to the small clearance between the switch plate and PCB, do not use Peel-A-Way sockets to socket the Pro Micro, as the Peel-A-Way sockets will come in contact with the top plate. Using other types of sockets are fine.
+:::
 
 Install the header pins for the Pro Micro on the underside of the PCB (left PCB shown). You can use some tape to hold the header pins in place while soldering. Solder one pin on and re-adjust/re-solder as needed before doing the rest of the row:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/TdZ9a23.jpg)
 
@@ -133,8 +136,9 @@ If using a bottom plate that conducts electricity, like a stainless steel or alu
 Set the Pro Micro through the pins, making sure RAW and TX0 are aligned properly with the markings on the PCB. The orientation on both PCBs is different. (Left half shown here):
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/IMDAm28.jpg)
 
-!!! info "MYTH: Keys will be reversed if the Pro Micro is reversed"
-    TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+:::info MYTH: Keys will be reversed if the Pro Micro is reversed
+TRUTH: **This is totally not the case, so pay attention!** Soldering the Pro Micro on backwards will short VCC and Reset together, preventing you from flashing. Even if flashed beforehand, it will do nothing meaningful in this orientation.
+:::
 
 Right half:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/2KMFIE4.jpg)
 

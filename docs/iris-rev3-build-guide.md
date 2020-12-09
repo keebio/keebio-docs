@@ -1,4 +1,6 @@
-# Iris Rev. 3 & 4 Build Guide
+---
+title: Iris Rev. 3 & 4
+---
 
 ## Build guide compatibility
 
@@ -57,8 +59,9 @@ Solder the encoder onto the PCB: ![](https://s3.amazonaws.com/docs.keeb.io/asset
 
 ## Add switches to switch plate and solder
 
-!!! warning "For Kailh Box and Kailh Choc Switches - Install LEDs before this step"
-    For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
+:::caution For Kailh Box and Kailh Choc Switches - Install LEDs before this step
+For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
+:::
 
 Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev4/IMG_3643.JPG)
 
