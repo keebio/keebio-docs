@@ -5,6 +5,7 @@ module.exports = {
       'quefrency-rev2-sinc-build-guide',
       'iris-rev3-build-guide',
       'bdn9-rev1.3-build-guide',
+      'bdn9-rev2-build-guide',
       'iris-rev2-build-guide',
       'chocopad-build-guide',
       {
