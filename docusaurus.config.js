@@ -36,6 +36,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/testing-pcb',
+          activeBasePath: 'docs',
+          label: 'Testing Your PCB',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/keebio/keebio-docs',
           label: 'Keebio Docs GitHub',
           position: 'right',

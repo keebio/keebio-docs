@@ -24,6 +24,7 @@ module.exports = {
     ],
     'Additional Info': [
       'soldering-tools',
+      'testing-pcb',
       'adding-rgb-underglow',
       'case-files',
       'flashing-firmware',
