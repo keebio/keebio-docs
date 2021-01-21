@@ -15,18 +15,9 @@ Here's a list of parts needed for the build:
 Here's a summary of the build steps:
 
 1. Prepare components
-2. Solder components
-    1. Solder resistors \(for LEDs, optional\)
-    2. Solder MOSFET \(for LEDs, optional\)
-    3. Solder push button
-    4. Solder Pro Micro header pins
-3. Solder rotary encoders
-4. Solder switches
-5. Solder LEDs \(optional\)
-6. Flash Pro Micro
-7. Solder Pro Micro
-8. Solder RGB underglow LEDs or strip \(optional\)
-9. Assemble case
+2. Solder rotary encoders
+3. Solder switches
+4. Assemble case
 
 ## Prepare components
 
