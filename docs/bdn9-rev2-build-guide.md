@@ -17,10 +17,6 @@ Here's a summary of the build steps:
 1. Prepare components
 2. Solder rotary encoders
 3. Solder switches
-4. Solder LEDs \(optional\)
-5. Flash Pro Micro
-6. Solder Pro Micro
-7. Solder RGB underglow LEDs or strip \(optional\)
 8. Assemble case
 
 ## Prepare components
