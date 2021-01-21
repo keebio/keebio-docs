@@ -17,7 +17,7 @@ Here's a summary of the build steps:
 1. Prepare components
 2. Solder rotary encoders
 3. Solder switches
-8. Assemble case
+4. Assemble case
 
 ## Prepare components
 
