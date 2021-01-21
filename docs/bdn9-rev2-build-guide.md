@@ -25,8 +25,6 @@ Here's a summary of the build steps:
 
 Parts from the kit.
 
-## Solder Components
-
 ## Solder Rotary Encoders
 
 :::info Rotary encoders must be soldered on before switches are added
