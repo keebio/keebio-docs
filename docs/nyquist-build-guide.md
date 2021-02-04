@@ -39,35 +39,35 @@ Here's a summary of the build steps:
 
 ## Soldering the Components
 
-Bare PCB, older version \(1.1\) that only has 1 2u slot, but the same as the current version otherwise: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/UnRgaYM.jpg)
+Bare PCB, older version \(1.1\) that only has 1 2u slot, but the same as the current version otherwise: ![](./assets/images/nyquist/UnRgaYM.jpg)
 
-Solder on the TRRS jack, diodes, and resistors \(optional\). The resistors for I2C only need to be soldered on one half of the board:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/UVY8ShN.jpg)
+Solder on the TRRS jack, diodes, and resistors \(optional\). The resistors for I2C only need to be soldered on one half of the board:![](./assets/images/nyquist/UVY8ShN.jpg)
 
-The line on the diodes should face the square pad:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/khwqsVL.jpg)
+The line on the diodes should face the square pad:![](./assets/images/nyquist/khwqsVL.jpg)
 
-Soldering of diodes complete:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/PxDnA8H.jpg)
+Soldering of diodes complete:![](./assets/images/nyquist/PxDnA8H.jpg)
 
 \(Rev. 1.0 to 1.3 only\) Solder the TRRS jumpers on the side with the jack:
 
-**Starting with Rev. 1.4**, the TRRS jack has been changed to a slimmer one and the PCB has been designed to not need TRRS jumpers, making the build easier. There are no solder jumpers anymore.![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/6AIYGB1.jpg)
+**Starting with Rev. 1.4**, the TRRS jack has been changed to a slimmer one and the PCB has been designed to not need TRRS jumpers, making the build easier. There are no solder jumpers anymore.![](./assets/images/nyquist/6AIYGB1.jpg)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/6AIYGB1.jpg)
+![](./assets/images/nyquist/6AIYGB1.jpg)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/6AIYGB1.jpg)
+![](./assets/images/nyquist/6AIYGB1.jpg)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/6AIYGB1.jpg)
+![](./assets/images/nyquist/6AIYGB1.jpg)
 
-Make sure the jumpers on the side without the jack are not soldered:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/CpzkAcz.jpg)
+Make sure the jumpers on the side without the jack are not soldered:![](./assets/images/nyquist/CpzkAcz.jpg)
 
-If doing I2C, solder the I2C jumper:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/B9iE9mS.jpg)
+If doing I2C, solder the I2C jumper:![](./assets/images/nyquist/B9iE9mS.jpg)
 
-Solder in the Pro Micro header pins. The header pins are flipped upside down here to make removing the plastic a lot easier:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/3Ncr2Zr.jpg)
+Solder in the Pro Micro header pins. The header pins are flipped upside down here to make removing the plastic a lot easier:![](./assets/images/nyquist/3Ncr2Zr.jpg)
 
-Plastic removed from the header pins to make everything as low profiles as possible:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/kVvdj6B.jpg)
+Plastic removed from the header pins to make everything as low profiles as possible:![](./assets/images/nyquist/kVvdj6B.jpg)
 
-Solder on the right-angle reset pushbutton:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/qSDyQE9.jpg)
+Solder on the right-angle reset pushbutton:![](./assets/images/nyquist/qSDyQE9.jpg)
 
-Finished halves:![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/q0zkbeV.jpg)
+Finished halves:![](./assets/images/nyquist/q0zkbeV.jpg)
 
 ## Add 2u stabilizers \(optional\)
 
@@ -82,7 +82,7 @@ If using Alps switches, you will need to modify the two switches that will sit o
 
 ## Add the Pro Micros \(make sure you do this last!\)
 
-Work in progress...![](https://s3.amazonaws.com/docs.keeb.io/assets/images/nyquist/Cz00HJX.jpg)
+Work in progress...![](./assets/images/nyquist/Cz00HJX.jpg)
 
 
 ## Solder RGB strip \(optional\)

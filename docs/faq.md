@@ -26,7 +26,7 @@ When you plug the TRRS cable in, the right side now auto detects correctly as th
 ## Building
 
 ### What's the pinout of the ICSP header on some of the PCBs?
-![](https://s3.amazonaws.com/docs.keeb.io/assets/ICSP_header.png)
+![](./assets/ICSP_header.png)
 
 ### Which way do I orient the diodes?
 For all of the boards made by Keebio, the band on the diode (the cathode) is always associated with the square pad. On most boards, the square pad is pointing towards the bottom. For some PCBs that support Kailh Low-Profile switches, the square pad may be pointing towards the top.

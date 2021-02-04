@@ -16,7 +16,7 @@ To test your PCB, you'll need something electrically conductive to connect the t
 - Bent Paperclip
 - Wire
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/key-test-tool.jpg)
+![](./assets/images/misc/key-test-tool.jpg)
 
 ## Key Tester Software
 
@@ -38,7 +38,7 @@ Now that you've got everything to need to test your PCB, it's time to begin. Her
 3. A key press should be detected by the tester software, unless it's a special key (see note below)
 4. Test all of the key positions in this manner
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/qmk-config-switch-tester.png)
+![](./assets/images/misc/qmk-config-switch-tester.png)
 
 ###  Special/Layer Keys can't be directly tested
 

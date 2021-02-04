@@ -34,9 +34,9 @@ Wiring for both halves:
 
 The Extra Data pad on the PCB and Dout/Do pin on the RGB strip are unused for this method.
 
-Right half shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/levinson-rev3/IMG_3758.JPG)
+Right half shown here: ![](./assets/images/levinson-rev3/IMG_3758.JPG)
 
-Both halves shown here: ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/levinson-rev3/IMG_3760.JPG)
+Both halves shown here: ![](./assets/images/levinson-rev3/IMG_3760.JPG)
 
 ### QMK configuration
 
@@ -55,7 +55,7 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 - +5V on strip to VCC pad
 - DO/Dout on strip to Extra Data pad
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/mE5hgF8.jpg)
+![](./assets/images/misc/mE5hgF8.jpg)
 
 ### Slave \(right\) side
 
@@ -63,7 +63,7 @@ As for the other two pins, Din needs to be connected on the first LED on the str
 - GND on strip to GND pad
 - +5V on strip to VCC pad
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/KgUvtxe.jpg)
+![](./assets/images/misc/KgUvtxe.jpg)
 
 
 ### QMK configuration

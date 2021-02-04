@@ -37,8 +37,8 @@ The steps below assume your are using Windows and you have completed the QMK set
     1. Ensure the USB cable is unplugged from the computer.
     2. Ensure the QMK Toolbox is open and your firmware file has been opened.
     3. Using a pair of tweezers, a jumper wire, or a bent paperclip, short the `BOOT0` or `RESET` or `RST` to the ground or `GND`.
-    ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/mXHY72M.jpg)
-    ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/xctg5rQ.jpg)
+    ![](./assets/images/misc/mXHY72M.jpg)
+    ![](./assets/images/misc/xctg5rQ.jpg)
     4. Plug the USB cable into the computer, and then quickly remove the short (i.e. pull out tweezers/jumper/paperclip).
     5. If successful, you will see a message similar to this in QMK Toolbox:
     ```

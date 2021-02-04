@@ -8,4 +8,4 @@ Issue has been fixed on Rev. 2.5 PCB, no need to apply the fix to that PCB.
 
 The pads on the other side of the PCB are fine, no need to apply the fix to the other half.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/iris-rev2/led-mosfet-fix.jpg)
+![](./assets/images/iris-rev2/led-mosfet-fix.jpg)

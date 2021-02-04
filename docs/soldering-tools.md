@@ -2,7 +2,7 @@
 title: Recommended Soldering Tools
 ---
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/tools.jpg)
+![](./assets/images/tools.jpg)
 
 So you want to build a keyboard, but are unsure of exactly what you'll need? Don't worry, here's a list of suggested tools for soldering. Some of these items with have a star (★) next to them, as these are the ones that Keebio has.
 
@@ -87,7 +87,7 @@ Tip Tinner: Good to use once at the beginning of a soldering session instead of 
 You're bound to screw up a build at some point, and you're going to need some way to remove that solder. Highly recommended to buy a solder sucker of some sort, wick is not that important to have.
 
 - ★ [Blue and Metal Solder Sucker ($)](https://www.amazon.com/Desoldering-Solder-Sucker-Length-Remover/dp/B07BB8DGMP/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=6d99e11bc738533735139d3d3b390f8a&language=en_US) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
-    - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/desoldering-pump-cut.jpg)
+    - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](./assets/images/misc/desoldering-pump-cut.jpg)
 - [Engineer SS-02 Solder Sucker ($$)](https://www.amazon.com/Engineer-SS-02-Solder-Sucker/dp/B002MJMXD4/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=7871903be569afcf5f3fd1af23306faf&language=en_US) - A favorite among many people
 - ★ [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
 

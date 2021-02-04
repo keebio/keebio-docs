@@ -45,7 +45,7 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/cwCKJL2.jpeg)
+![](./assets/images/bdn9/cwCKJL2.jpeg)
 
 Parts from the kit. The encoders shown are optional and are not included as part of the kit.
 
@@ -53,51 +53,51 @@ Parts from the kit. The encoders shown are optional and are not included as part
 
 ### Solder resistors \(optional\)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/BMyPYRZ.jpeg)
+![](./assets/images/bdn9/BMyPYRZ.jpeg)
 
 Insert all of the resistors into the PCB and solder them in. Resistors don't have polarity, so orientation doesn't matter.
 
 Note: The resistor 'R1' can interfere with the placement of the switches on the other side if the leads poke through the PCB. Solder the resistor's leads on the same side the resistor is on and then trim the leads flush with the PCB on the other side.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/resistor-r1.jpg)
+![](./assets/images/bdn9/resistor-r1.jpg)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/resistor-leads.jpg)
+![](./assets/images/bdn9/resistor-leads.jpg)
 
 ### Solder the MOSFET \(optional\)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/F68sg1h.jpeg)
+![](./assets/images/bdn9/F68sg1h.jpeg)
 
 Add a bit of solder to one leg of the MOSFET pad Q1.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/qFuUi6O.jpeg)
+![](./assets/images/bdn9/qFuUi6O.jpeg)
 
 Using a pair of tweezers to hold the MOSFET, solder one leg of the MOSFET first, and make sure it is aligned properly before proceeding.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/It0xzmD.jpeg)
+![](./assets/images/bdn9/It0xzmD.jpeg)
  
 Now that the MOSFET is soldered on straight, solder the other two legs.
 
 ### Solder the reset button
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/DonYdta.jpeg)
+![](./assets/images/bdn9/DonYdta.jpeg)
 
 Add the reset button to the bottom side of the PCB and solder.
 
 ### Solder Pro Micro header pins
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/hAyat56.jpeg)
+![](./assets/images/bdn9/hAyat56.jpeg)
 
 Insert the header pins into the PCB. Due to the stagger of the header pin holes, they should be able to stand up on their own once inserted. You can go with not soldering the header pins in, but it is recommended to do so anyway for a more secure fit.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/rurIIHH.jpeg)
+![](./assets/images/bdn9/rurIIHH.jpeg)
 
 (Optional) An alternative method for soldering in the header pins is shown above. Flip the header pins upside down and solder them in. Then remove the plastic on the header pins by prying it off. The benefit of doing this method is that the Pro Micro Micro-USB port will be flush against the PCB, which helps from getting it ripped off.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/kPCbZMO.jpeg)
+![](./assets/images/bdn9/kPCbZMO.jpeg)
 
 Solder the header pins to the PCB.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/17HrSn2.jpeg)
+![](./assets/images/bdn9/17HrSn2.jpeg)
 
 (Optional) Remove plastic from header pins
 
@@ -107,11 +107,11 @@ Solder the header pins to the PCB.
 It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
 :::
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/nhXXWac.jpeg)
+![](./assets/images/bdn9/nhXXWac.jpeg)
 
 Insert the rotary encoders from the top-side of the PCB.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/5BKTw9W.jpeg)
+![](./assets/images/bdn9/5BKTw9W.jpeg)
 
 Solder them in. Soldering in the side-clips of the encoders is optional, but recommended.
 
@@ -121,21 +121,21 @@ When using Choc low-profile switches, there is very little clearance between the
 
 ## Solder Switches
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/cKMXmXM.jpeg)
+![](./assets/images/bdn9/cKMXmXM.jpeg)
 
 Add the switches to the switch plate and then place it on top of the PCB.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/QHaeyRN.jpeg)
+![](./assets/images/bdn9/QHaeyRN.jpeg)
 
 Solder the switches onto the PCB.
 
 ## Solder LEDs \(optional\)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/Ub5WBFn.jpeg)
+![](./assets/images/bdn9/Ub5WBFn.jpeg)
 
 Add LEDs through the switch. The longer leg of the LED (anode) should go through the circular pad, while the shorter leg (cathode) goes through the square pad.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/OidJRMM.jpeg)
+![](./assets/images/bdn9/OidJRMM.jpeg)
 
 Bend the legs of the LEDs outwards a bit to hold them in place and solder them in. Then clip the legs down.
 
@@ -147,15 +147,15 @@ See [Flashing Firmware](flashing-firmware.md) for instructions on flashing the P
 
 Clip the switch legs and plastic pieces of the 2 switches that sit on top of the Pro Micro, so they don't interfere with the Pro Micro.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/Rtlna8B.jpeg)
+![](./assets/images/bdn9/Rtlna8B.jpeg)
 
 Then put some electrical or Kapton tape on top of the area the Pro Micro will be.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/oRuY7ZP.jpeg)
+![](./assets/images/bdn9/oRuY7ZP.jpeg)
 
 Insert Pro Micro over the header pins.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/et1rVfF.jpeg)
+![](./assets/images/bdn9/et1rVfF.jpeg)
 
 Solder the pins and clips the legs off.
 
@@ -173,40 +173,40 @@ If using an RGB LED strip, see the [Adding RGB Underglow](adding-rgb-underglow) 
 
 ### Add individual RGB LEDs \(optional\)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/ZqjaJRC.jpeg)
+![](./assets/images/bdn9/ZqjaJRC.jpeg)
 
 WS2812B or SK6812 RGB LEDs can be added individually to the board.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/XTy75GN.jpeg)
+![](./assets/images/bdn9/XTy75GN.jpeg)
 
 Add solder to one pad of each LED footprint.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/EK6Bgn9.jpeg)
+![](./assets/images/bdn9/EK6Bgn9.jpeg)
 
 Using a pair of tweezers, hold each LED in place and solder it in.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/led-notches.jpg)
+![](./assets/images/bdn9/led-notches.jpg)
 
 Note: Before soldering ensure each LED is properly aligned, with the corner notch on the top-right pad.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/NbAWSPH.jpeg)
+![](./assets/images/bdn9/NbAWSPH.jpeg)
 
 Once the LEDs are aligned properly, solder the other 3 pads.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/ZopCeNY.jpeg)
+![](./assets/images/bdn9/ZopCeNY.jpeg)
 
 Make sure each pad of the LED has enough solder on it.
 
 ## Assemble Case
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/baijfTC.jpeg)
+![](./assets/images/bdn9/baijfTC.jpeg)
 
 Screw in the standoffs to the switch plate.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/ccYIo1y.jpeg)
+![](./assets/images/bdn9/ccYIo1y.jpeg)
 
 Add the bottom plate and screw it in.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9/H5IHy1L.jpeg)
+![](./assets/images/bdn9/H5IHy1L.jpeg)
 
 Plug it in and test. For the RGB underglow, the mode is controlled by the right-most key in the middle row. If the RGB LEDs don't light up, check your wiring or make sure the pads have enough solder.

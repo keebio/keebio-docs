@@ -21,7 +21,7 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8814.jpg)
+![](./assets/images/bdn9-rev2/IMG_8814.jpg)
 
 Parts from the kit.
 
@@ -31,11 +31,11 @@ Parts from the kit.
 It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
 :::
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8816.jpg)
+![](./assets/images/bdn9-rev2/IMG_8816.jpg)
 
 Insert the rotary encoders from the top-side of the PCB.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8817.jpg)
+![](./assets/images/bdn9-rev2/IMG_8817.jpg)
 
 Solder the rotary encoders in.
 
@@ -45,15 +45,15 @@ When using Choc low-profile switches, there is very little clearance between the
 
 ## Solder Switches
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8818.jpg)
+![](./assets/images/bdn9-rev2/IMG_8818.jpg)
 
 Add the switches to the switch plate.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8821.jpg)
+![](./assets/images/bdn9-rev2/IMG_8821.jpg)
 
 Then, place it on top of the PCB.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8820.jpg)
+![](./assets/images/bdn9-rev2/IMG_8820.jpg)
 
 Make sure all the switches are seated firmly into the PCB.
 
@@ -61,18 +61,18 @@ Solder the switches onto the PCB.
 
 ## Assemble Case
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8822.jpg) 
+![](./assets/images/bdn9-rev2/IMG_8822.jpg) 
 
 Screw in the standoffs to the switch plate at all four corners.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8823.jpg) 
+![](./assets/images/bdn9-rev2/IMG_8823.jpg) 
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8824.jpg)
+![](./assets/images/bdn9-rev2/IMG_8824.jpg)
 
 Add the bottom plate and screw it in.
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8825.jpg)
+![](./assets/images/bdn9-rev2/IMG_8825.jpg)
 
-![](https://s3.amazonaws.com/docs.keeb.io/assets/images/bdn9-rev2/IMG_8826.jpg)
+![](./assets/images/bdn9-rev2/IMG_8826.jpg)
 
 Plug it in and test. For the RGB underglow, the mode is controlled by the right-most key in the middle row. If the RGB LEDs don't light up, check your wiring or make sure the pads have enough solder.
