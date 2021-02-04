@@ -128,6 +128,12 @@ Flip the PCB and solder the pins.
 
 ## Add switches to switch plate and solder
 
+:::important
+The orientation of the switch plate is important if you are going to be installing rotary encoders! In order for the encoders to not come in contact with the plate, make sure encoder cutouts are aligned as shown below. The encoder cutout is larger than the switch cutout at the top by 1mm and larger at the bottom by 1.5mm. If you are not careful, then the 3 bottom encoder pins may come in contact with the plate and be harder to install.
+:::
+
+![](./assets/images/stick/encoder_gap.jpg)
+
 Insert two switches into the switch plate as shown and solder them in.
 
 ![](https://s3.amazonaws.com/docs.keeb.io/assets/images/stick/IMG_0452.jpg)
