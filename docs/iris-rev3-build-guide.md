@@ -53,6 +53,8 @@ Add the 2u stabilizer if desired. Do this before installing the switch plate and
 
 If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB ![](./assets/images/iris-rev4/IMG_3640.JPG)
 
+Next, add a small piece of electrical tape to cover up the clipped off pins ![](./assets/images/iris-rev4/IMG_8868.JPG)
+
 Install the encoder onto the PCB: ![](./assets/images/iris-rev4/IMG_3641.JPG)
 
 Solder the encoder onto the PCB: ![](./assets/images/iris-rev4/IMG_3642.JPG)
