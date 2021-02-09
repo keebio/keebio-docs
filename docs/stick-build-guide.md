@@ -2,6 +2,12 @@
 title: The Stick
 ---
 
+## Videos of Builds
+
+Here's a list of build videos various people have created:
+
+* [FrostyKoala - The Stick Build Guide](https://youtu.be/nNaGTq65LR4)
+
 ## Parts List
 
 Here's a list of parts needed for the build:
