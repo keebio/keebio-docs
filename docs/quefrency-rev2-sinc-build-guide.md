@@ -21,11 +21,11 @@ Here's a list of parts needed for the build:
 * For Quefrency:
     * [Set of Quefrency PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
     * [Plates for Quefrency](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Acrylic Case for Quefrency](https://keeb.io/products/quefrency-rev-2-acrylic-case)
+    * [Acrylic Case for Quefrency](https://keeb.io/products/quefrency-acrylic-case)
 * For Sinc:
     * [Set of Sinc PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
     * [Plates for Sinc](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-    * [Acrylic Case for Sinc](https://keeb.io/products/sinc-rev-1-acrylic-case)
+    * [Acrylic Case for Sinc](https://keeb.io/products/sinc-acrylic-case)
 * 1 [TRRS cable](https://keeb.io/products/trrs-cable) (for Quefrency Rev. 2 or Sinc Rev. 1)
 * 1 [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for Quefrency Rev. 3 or Sinc Rev. 2)
 * Switches (MX-compatible ones)
