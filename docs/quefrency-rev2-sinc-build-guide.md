@@ -1,14 +1,14 @@
 ---
-title: Quefrency Rev. 2 & Sinc Rev. 1
+title: Quefrency & Sinc 
 ---
 
 ## Build guide compatibility
 
-This build guide is exclusively for Quefrency Rev. 2 and Sinc, which features pre-soldered components. For Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md)
+This build guide is for the Quefrency Rev. 2 or higher and the Sinc, which feature pre-soldered components. For Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md)
 
 ## Videos of Builds
 
-Here's a list of Quefrency Rev. 2 and Sinc Rev. 1 build videos various people have created:
+Here's a list of Quefrency and Sinc build videos various people have created:
 
 * [FrostyKoala - Prototype Quefrency Rev. 2 Build](https://youtu.be/C-eKjwpLnfI)
 * [FrostyKoala - Prototype Sinc Rev. 1 Build](https://youtu.be/3_U_SxKhygA)
@@ -18,13 +18,16 @@ Here's a list of Quefrency Rev. 2 and Sinc Rev. 1 build videos various people ha
 
 Here's a list of parts needed for the build:
 
-* PCBs:
-    * [Set of Quefrency Rev. 2 PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Set of Sinc Rev. 1 PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-* Plates:
-    * [Plates for Quefrency Rev. 2](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Plates for Sinc Rev. 1](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
+* For Quefrency:
+    * [Set of Quefrency PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Plates for Quefrency](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Acrylic Case for Quefrency](https://keeb.io/products/quefrency-rev-2-acrylic-case)
+* For Sinc:
+    * [Set of Sinc PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Plates for Sinc](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Acrylic Case for Sinc](https://keeb.io/products/sinc-rev-1-acrylic-case)
+* 1 [TRRS cable](https://keeb.io/products/trrs-cable) (for Quefrency Rev. 2 or Sinc Rev. 1)
+* 1 [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for Quefrency Rev. 3 or Sinc Rev. 2)
 * Switches (MX-compatible ones)
 * Optional parts
     * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
