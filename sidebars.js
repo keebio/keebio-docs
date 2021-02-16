@@ -31,6 +31,7 @@ module.exports = {
       items: [
         'soldering-tools',
         'testing-pcb',
+        'choc-stabs',
         'lighting-options',
         'adding-rgb-underglow',
         'case-files',
