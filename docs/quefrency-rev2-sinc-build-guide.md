@@ -33,14 +33,14 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 ## Build Steps Summary
 
 1. Prepare components
-2. Add 2u stabilizers to PCB
+2. Add 2u [stabilizers](glossary#stabilizers) to [PCB](glossary#pcb)
 3. Add switches
 4. Optional Stuff!
-    * Solder rotary encoder (optional)
-    * Solder in-switch LEDs (optional)
+    * Solder [rotary encoder](glossary#rotary-encoder) (optional)
+    * Solder in-switch [LEDs](glossary#led) (optional)
         * Note: For Kalih Box switches, LEDs must be installed before the switches.
 5. Assemble!
-    * insert standoffs into middle layer (optional)
+    * Insert [standoffs](glossary#standoffs) into middle layer (optional)
     * Screw standoffs into switch plate
     * attach bottom plate using screws
 6. Re-Programing Board Note

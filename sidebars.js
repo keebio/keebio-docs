@@ -29,6 +29,7 @@ module.exports = {
       type: 'category',
       label: 'Additional Info',
       items: [
+        'glossary',
         'soldering-tools',
         'testing-pcb',
         'choc-stabs',
