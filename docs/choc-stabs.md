@@ -2,9 +2,10 @@
 title: Kailh Choc Stabilizer Installation
 ---
 
+The goal with these Choc stabilizers is to give two friends to your bigger keycap. What nice support!
 ### Final Results First
 
-The goal with these Choc stabilizers is to give two friends to your bigger keycap. What nice support! When you're done, it should look like this:
+When you're done, the plate, stabilizer, and switch setup should look like this:
 
 This is with the keycap off.
 ![](./assets/images/choc/0xpR6wK.jpg)
