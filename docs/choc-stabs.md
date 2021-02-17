@@ -41,7 +41,7 @@ It can be tricky trying to hold onto both sides of the stabilizer for inserting 
 
 *TODO: place recorded video here*
 
-You have the Choc Stabilizers installed! Show off that chocolately goodness to a friend.
+You have the Choc Stabilizers installed! Show off that chocolatey goodness to a friend.
 
 ![](./assets/images/choc/0xpR6wK.jpg)
 
