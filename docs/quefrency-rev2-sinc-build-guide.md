@@ -2,13 +2,13 @@
 title: Quefrency & Sinc 
 ---
 
-## Build guide compatibility
+## Build Compatibility
 
-This build guide is for the Quefrency Rev. 2 or higher and the Sinc, which feature pre-soldered components. For Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md)
+This build guide is exclusively for Quefrency Rev. 2 or higher and Sinc! They both have pre-soldered components. If you have the Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md).
 
 ## Videos of Builds
 
-Here's a list of Quefrency and Sinc build videos various people have created:
+Here are some cool folks who have built these keyboards! Give them a look to see how they do it.
 
 * [FrostyKoala - Prototype Quefrency Rev. 2 Build](https://youtu.be/C-eKjwpLnfI)
 * [FrostyKoala - Prototype Sinc Rev. 1 Build](https://youtu.be/3_U_SxKhygA)
@@ -16,113 +16,120 @@ Here's a list of Quefrency and Sinc build videos various people have created:
 
 ## Parts List
 
-Here's a list of parts needed for the build:
+Now you've watched some cool videos and feel inspired! Get your parts:
 
-* For Quefrency:
-    * [Set of Quefrency PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Plates for Quefrency](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Acrylic Case for Quefrency](https://keeb.io/products/quefrency-acrylic-case)
-* For Sinc:
-    * [Set of Sinc PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-    * [Plates for Sinc](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-    * [Acrylic Case for Sinc](https://keeb.io/products/sinc-acrylic-case)
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable) (for Quefrency Rev. 2 or Sinc Rev. 1)
-* 1 [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for Quefrency Rev. 3 or Sinc Rev. 2)
+* PCBs:
+    * [Set of Quefrency Rev. 2 PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Set of Sinc Rev. 1 PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+* Plates:
+    * [Plates for Quefrency Rev. 2](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Plates for Sinc Rev. 1](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 * Switches (MX-compatible ones)
-* Optional parts
+* Optional parts:
     * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
-    * [Rotary Encoder and Knob](https://keeb.io/products/rotary-encoder-ec11)
+    * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11)
 
-## Build Steps
+## Build Steps Summary
 
-Here's a summary of the build steps:
+1. Prepare components
+2. Add 2u stabilizers to PCB
+3. Add switches
+4. Optional Stuff!
+    * Solder rotary encoder (optional)
+    * Solder in-switch LEDs (optional)
+        * Note: For Kalih Box switches, LEDs must be installed before the switches.
+5. Assemble!
+    * insert standoffs into middle layer (optional)
+    * Screw standoffs into switch plate
+    * attach bottom plate using screws
+6. Re-Programing Board Note
+7. Rejoice!
+8. Glossary
 
-1. Add 2u stabilizers to PCB
-2. Add switches to switch plate
-3. Solder switches
-4. Solder rotary encoder \(optional\)
-5. Solder in-switch LEDs \(optional\)
-    * Note: For Kailh Box switches, LEDs must be installed before the switches.
-6. Assemble case
-    1. Insert standoffs into middle layer \(optional\)
-    2. Screw standoffs into switch plate
-    3. Attach bottom plate using screws
-7. Re-program board \(optional)
-    1. VIA Configurator or
-    2. QMK Configurator or
-    3. QMK
+## Prepare Components
+
+Have your soldering iron, solder, and if you feel accident prone with your soldering (It's okay! Happens to the best of us!), a solder sucker. See [Recommended Soldering Tools](soldering-tools.md) if you need some recommendations.
+
+Some individuals may want to lubricate their switches. If you'd like to, go ahead and do that now before starting the process. For further details on that, go [here](https://www.maketecheasier.com/how-to-lubricate-keyboard-switches/).
+
+<!-- TODO: make keebio version of the 'how to' on the aforementioned page. -->
+
+Get a playlist of some jams you like and get started!
 
 ## Add 2u stabilizers to PCB
 
-Add the 2u stabilizers into the PCB. The stab wire with be on the bottom side of the switch for everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed after the switches have been soldered in.
+Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch for everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed after the switches have been soldered in.
 
 ![](./assets/images/sinc/IMG_7935.jpeg)
 
-Afterwards, fit the plate over the stabilizer.
-
+Afterwards, fit the plate over the stabilizer(s).
 ![](./assets/images/sinc/IMG_7936.jpeg)
 
-## Add switches to switch plate and solder
+## Add Switches
 
-:::caution For Kailh Box and Kailh Choc Switches - Install LEDs before this step
-For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
+Now on to the exciting part: putting the switches in the switch plate and solder.
+
+:::note If using Kailh Box switches
+There is no cutout to insert in-switch LEDs, so the LEDs must be added *first*. If you're adding LEDs, first do the [LED installation step](#solder-in-switch-leds) and **then** come back to this step of switch installation.
 :::
 
-Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](./assets/images/sinc/IMG_7937.jpeg)
+Add switches into the switch plate. It's a good idea to add switches to the corners **first** and then solder them before installing the rest of them:
+![](./assets/images/sinc/IMG_7937.jpeg)
 
 Solder the switches onto the PCB.
 
-Add the rest of the switches and solder them: ![](./assets/images/sinc/IMG_7938.jpeg)
+Add the rest of the switches and solder them.
+![](./assets/images/sinc/IMG_7938.jpeg)
 
-## Solder rotary encoder \(optional\)
+## Optional Stuff!
 
-Note: This step can be done after installing the switches as well. For the prototype plates, the encoders had to be installed first, but for the plates available on the store, the switch cutouts are now large enough to allow the encoders to be installed later.
+### Solder Rotary Encoder
+
+:::note Rotary Encoder Installation
+This step can be done after installing the switches. For the prototype plates, the encoders had to be installed first, but for the plates available on the store, the switch cutouts are now large enough to allow the encoders to be installed later.
+:::
 
 Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side. The 2 side legs do not need to be soldered to the PCB.
 
 ![](./assets/images/sinc/IMG_5707.jpeg)
 
-## Solder in-switch LEDs \(optional\)
+### Solder in-switch LEDs
 
-Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the + sign of the LED pins on the PCB: ![](./assets/images/sinc/IMG_3419.jpeg)
+Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the `+` sign of the LED pins on the PCB. The shorter leg will match the `-` sign.
+![](./assets/images/sinc/IMG_3419.jpeg)
 
-Insert the LED through the switch and PCB: ![](./assets/images/sinc/IMG_6013.jpeg)
+Insert the LED through the switch and PCB:
+![](./assets/images/sinc/IMG_6013.jpeg)
 
-Bend the LED legs out so it doesn't fall out while soldering the LED in: ![](./assets/images/sinc/IMG_4335.jpeg)
+Bend the LED legs out so it doesn't fall out while soldering the LED in:
+![](./assets/images/sinc/IMG_4335.jpeg)
 
 Solder the LED legs and then clip the excess length on the legs. Be careful to not damage the resistor next to the LED pads.
 
-Note that some of the switch layout options have the -/+ markings swapped, so make sure to always put the longer leg through the + pad. If you are unsure, plug the PCB in and test the LED before soldering it in.
+Note that some of the switch layout options have the `-`/`+` markings swapped, so make sure to always put the longer leg through the `+` pad. If you are unsure, plug the PCB in and test the LED before soldering it in.
 
 ![](./assets/images/sinc/IMG_9005.jpeg)
 
-## Assemble case
+## Assemble!
 
-Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate: ![](./assets/images/sinc/IMG_9889.jpeg)
+Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
+![](./assets/images/sinc/IMG_9889.jpeg)
 
-Repeat the process for the rest of the plate: ![](./assets/images/sinc/IMG_1101.jpeg)
+Repeat the process for the rest of the plate.
+![](./assets/images/sinc/IMG_1101.jpeg)
 
-(Optional) If you have a middle layer, insert it now around the standoffs.
+:::note
+If you have a middle layer, *now* is the time to insert it around the standoffs.
+:::
 
-Put bottom plate on and add screws: ![](./assets/images/sinc/IMG_5390.jpeg)
+Put bottom plate on and add screws:
+![](./assets/images/sinc/IMG_5390.jpeg)
 
-## Re-program board
+## Re-Programming Board Note
 
-You can reprogram your PCBs using one of the following three methods, listed in order of difficulty (easiest to most difficult). Note that if you want to reprogram the encoders, you will have to setup the full QMK build environment (3rd option listed here), as VIA and QMK Configurator can't handle configuration of the encoders at the moment.
+Oh, looking to re-program your board? Never fear! Come look [here](https://docs.keeb.io/docs/flashing-firmware/). 
 
-### VIA
+## Rejoice!
 
-The PCBs are pre-flashed with QMK firmware with VIA support. VIA will allow you to reprogram the keys on your board without needing to reflash it. You can download the VIA here: [VIA](https://caniusevia.com/)
-
-### QMK Configurator
-
-The PCBs can also be programmed using QMK Configurator, where you can create your keymapping and then generate a .hex file. You can then take this .hex file and flash it using QMK Toolbox.
-
-* [QMK Configurator - Quefrency Rev. 2](https://config.qmk.fm/#/keebio/quefrency/rev2/LAYOUT_65_with_macro)
-* [QMK Configurator - Sinc Rev. 1](https://config.qmk.fm/#/keebio/sinc/rev1/LAYOUT_80_with_macro)
-
-### QMK Build Environment
-
-The last option is to compile your own .hex file using [QMK](https://github.com/qmk/qmk_firmware). This method is more difficult than the first two, but does allow you to use more advanced features (like tap-dance, RGB underglow control, etc.) and reprogram the encoders. To get started with setting it up, go here: [The Complete Newbs Guide To QMK](https://docs.qmk.fm/#/newbs).
-
-If you have trouble setting it up, head over to the [QMK Discord](https://discord.gg/Uq7gcHh) for assistance.
+You have a keyboard! Savor this moment of victorious keyboard construction.
