@@ -45,19 +45,24 @@ Here's a summary of the build steps:
 
 ## Add 2u stabilizers to PCB \(optional\)
 
-Add the 2u stabilizer if desired. Do this before installing the switch plate and switches: ![](./assets/images/iris-rev4/IMG_3638.JPG)
+Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:
+![](./assets/images/iris-rev4/IMG_3638.JPG)
 
 ## Solder rotary encoder \(optional\)
 
 ![](./assets/images/iris-rev4/IMG_3639.JPG)
 
-If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB ![](./assets/images/iris-rev4/IMG_3640.JPG)
+If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB
+![](./assets/images/iris-rev4/IMG_3640.JPG)
 
-Next, add a small piece of electrical tape to cover up the clipped off pins ![](./assets/images/iris-rev4/IMG_8868.JPG)
+Next, add a small piece of electrical tape to cover up the clipped off pins
+![](./assets/images/iris-rev4/IMG_8868.JPG)
 
-Install the encoder onto the PCB: ![](./assets/images/iris-rev4/IMG_3641.JPG)
+Install the encoder onto the PCB:
+![](./assets/images/iris-rev4/IMG_3641.JPG)
 
-Solder the encoder onto the PCB: ![](./assets/images/iris-rev4/IMG_3642.JPG)
+Solder the encoder onto the PCB:
+![](./assets/images/iris-rev4/IMG_3642.JPG)
 
 ## Add switches to switch plate and solder
 
@@ -65,34 +70,48 @@ Solder the encoder onto the PCB: ![](./assets/images/iris-rev4/IMG_3642.JPG)
 For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the LED installation step and then come back to this step of switch installation.
 :::
 
-Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them: ![](./assets/images/iris-rev4/IMG_3643.JPG)
+Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them:
+![](./assets/images/iris-rev4/IMG_3643.JPG)
 
-Fit the switches and plate onto the PCB: ![](./assets/images/iris-rev4/IMG_3644.JPG)
+Fit the switches and plate onto the PCB:
+![](./assets/images/iris-rev4/IMG_3644.JPG)
 
-Solder the switches onto the PCB: ![](./assets/images/iris-rev4/IMG_3645.JPG)
+Solder the switches onto the PCB:
+![](./assets/images/iris-rev4/IMG_3645.JPG)
 
-Add the rest of the switches: ![](./assets/images/iris-rev4/IMG_3646.JPG)
+Add the rest of the switches:
+![](./assets/images/iris-rev4/IMG_3646.JPG)
 
-Solder the rest of the switches onto the PCB: ![](./assets/images/iris-rev4/IMG_3647.JPG)
+Solder the rest of the switches onto the PCB:
+![](./assets/images/iris-rev4/IMG_3647.JPG)
 
 ## Solder in-switch LEDs \(optional\)
 
-Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the + sign of the LED pins on the PCB: ![](./assets/images/iris-rev4/IMG_3648.JPG)
+Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the + sign of the LED pins on the PCB:
+![](./assets/images/iris-rev4/IMG_3648.JPG)
 
-Insert the LED through the switch and PCB: ![](./assets/images/iris-rev4/IMG_3649.JPG)
+Insert the LED through the switch and PCB:
+![](./assets/images/iris-rev4/IMG_3649.JPG)
 
-Double check that the longer leg matches with the + sign: ![](./assets/images/iris-rev4/IMG_3650.JPG)
+Double check that the longer leg matches with the + sign:
+![](./assets/images/iris-rev4/IMG_3650.JPG)
 
-Bend the LED legs out so it doesn't fall out while soldering the LED in: ![](./assets/images/iris-rev4/IMG_3651.JPG)
+Bend the LED legs out so it doesn't fall out while soldering the LED in:
+![](./assets/images/iris-rev4/IMG_3651.JPG)
 
-Solder the LED legs and then clip the excess length on the legs: ![](./assets/images/iris-rev4/IMG_3652.JPG)
+Solder the LED legs and then clip the excess length on the legs:
+![](./assets/images/iris-rev4/IMG_3652.JPG)
 
 ## Assemble case
 
-Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate: ![](./assets/images/iris-rev4/IMG_3653.JPG)
+Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
+![](./assets/images/iris-rev4/IMG_3653.JPG)
 
-Repeat the process for the rest of the plate: ![](./assets/images/iris-rev4/IMG_3654.JPG)
+Repeat the process for the rest of the plate:
+![](./assets/images/iris-rev4/IMG_3654.JPG)
 
-(Optional) If you have a acrylic middle layer, insert it now around the standoffs: ![](./assets/images/iris-rev4/IMG_3655.JPG)
+(Optional) If you have a acrylic middle layer, insert it now around the standoffs:
+![](./assets/images/iris-rev4/IMG_3655.JPG)
 
-Put bottom plate on and add screws: ![](./assets/images/iris-rev4/IMG_3656.JPG)
+Put bottom plate on and add screws:
+![](./assets/images/iris-rev4/IMG_3656.JPG)
