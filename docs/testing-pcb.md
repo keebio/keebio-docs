@@ -45,3 +45,5 @@ Now that you've got everything to need to test your PCB, it's time to begin. Her
 Some keys, like `Fn`/layer keys, lighting controls, etc. are unable to be detected using a key tester. That's because a key tester can only detect keycodes that a keyboard sends to the computer, whereas for these special codes, they are handled internally by the keyboard firmware and aren't sent to the computer.
 
 To test an `Fn`/layer key, you'll need to use one hand to hold that key down with your tool, while connecting the switch pin pads together for another key that uses the `Fn`/layer key. Then see if the key tester will detect a key press. For example, on some PCBs, holding down `Fn` while pressing `1` will output `F1` to a computer.
+
+If your keyboard has VIA support, then you can also test these keys by opening up VIA, going to the `KEY TESTER` tab and then selecting `Test Matrix`. You will then see the special keys light up in the app when pressed.
