@@ -2,6 +2,8 @@
 title: Flashing Firmware
 ---
 
+Keebio keyboards use DFU bootloaders. To access the bootloader to flash, you can press the reset button on the boards if any or follow the steps below if you have a bare microcontroller.
+
 Still in progress...
 
 A couple of notes:
