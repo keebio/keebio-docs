@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "markdownlint.config": {
+        "MD033": false
+    }
+}

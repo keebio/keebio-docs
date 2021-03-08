@@ -33,19 +33,20 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 ## Build Steps Summary
 
 1. Prepare components
-2. Add 2u [stabilizers](glossary#stabilizers) to [PCB](glossary#pcb)
-3. Add switches
-4. Optional Stuff!
+2. Break off PCB sections
+3. Add 2u [stabilizers](glossary#stabilizers) to [PCB](glossary#pcb)
+4. Add switches
+5. Optional Stuff!
     * Solder [rotary encoder](glossary#rotary-encoder) (optional)
     * Solder in-switch [LEDs](glossary#led) (optional)
         * Note: For Kalih Box switches, LEDs must be installed before the switches.
-5. Assemble!
+6. Assemble!
     * Insert [standoffs](glossary#standoffs) into middle layer (optional)
     * Screw standoffs into switch plate
     * attach bottom plate using screws
-6. Re-Programing Board Note
-7. Rejoice!
-8. Glossary
+7. Re-Programing Board Note
+8. Rejoice!
+9. Glossary
 
 ## Prepare Components
 
@@ -56,6 +57,14 @@ Some individuals may want to lubricate their switches. If you'd like to, go ahea
 <!-- TODO: make keebio version of the 'how to' on the aforementioned page. -->
 
 Get a playlist of some jams you like and get started!
+
+## Break Off PCB Sections
+
+If you're going to go with a layout without the left macro section or right macro column, then break off those portions of the PCB. No special tools or methods are required, you can just break it off with your hands as shown below:
+
+<video width="640" controls>
+  <source src="/videos/pcb-break.mp4" type="video/mp4" />
+</video>
 
 ## Add 2u stabilizers to PCB
 
