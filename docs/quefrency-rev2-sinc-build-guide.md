@@ -62,7 +62,7 @@ Get a playlist of some jams you like and get started!
 
 If you're going to go with a layout without the left macro section or right macro column, then break off those portions of the PCB. No special tools or methods are required, you can just break it off with your hands as shown below:
 
-<video width="640" controls>
+<video width="100%" controls muted loop>
   <source src="/videos/pcb-break.mp4" type="video/mp4" />
 </video>
 

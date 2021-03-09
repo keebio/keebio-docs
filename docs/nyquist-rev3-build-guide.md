@@ -6,6 +6,6 @@ Due to the similarity of the Nyquist Rev. 3 to the Iris Rev. 3/4, see the build 
 
 To break off the bottom row, you can just use your hands to break it off as shown below:
 
-<video width="640" controls>
+<video width="100%" controls muted loop>
   <source src="/videos/pcb-break.mp4" type="video/mp4" />
 </video>
