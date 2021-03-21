@@ -47,3 +47,12 @@ Some keys, like `Fn`/layer keys, lighting controls, etc. are unable to be detect
 To test an `Fn`/layer key, you'll need to use one hand to hold that key down with your tool, while connecting the switch pin pads together for another key that uses the `Fn`/layer key. Then see if the key tester will detect a key press. For example, on some PCBs, holding down `Fn` while pressing `1` will output `F1` to a computer.
 
 If your keyboard has VIA support, then you can also test these keys by opening up VIA, going to the `KEY TESTER` tab and then selecting `Test Matrix`. You will then see the special keys light up in the app when pressed.
+
+## Split Keyboard Testing
+
+For split keyboards, we recommend that you test your PCBs in the following configurations:
+
+1. USB plugged into left half without being attached to the right half
+2. USB plugged into right half without being attached to the left half
+3. Once the first two tests are complete, unplug the USB, connect both halves together (using TRRS cable to USB-C-to-C cable, depending on board), then plug in USB into left half
+4. Move USB to the right half
