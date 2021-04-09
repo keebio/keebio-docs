@@ -8,6 +8,8 @@ module.exports = {
         'nyquist-rev3-build-guide',
         'bdn9-rev1.3-build-guide',
         'bdn9-rev2-build-guide',
+        'levinson-rev3-build-guide',
+        'viterbi-rev2-build-guide',
         'stick-build-guide',
         'iris-rev2-build-guide',
         'chocopad-build-guide',
