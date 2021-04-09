@@ -40,7 +40,9 @@ Time to add the metal bar piece. This part is fiddly, so don't worry if it takes
 
 It can be tricky trying to hold onto both sides of the stabilizer for inserting it into the switch plate. Here's a protip: gently push the switch plate down onto the stabilizer. It should snap into place this way easily. 
 
-*TODO: place recorded video here*
+<video width="100%" controls muted loop>
+  <source src="/videos/choc-stab-overlay.mp4" type="video/mp4" />
+</video>
 
 You have the Choc Stabilizers installed! Show off that chocolatey goodness to a friend.
 
