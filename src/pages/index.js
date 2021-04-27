@@ -41,7 +41,7 @@ const features = [
       </>
     ),
     callToAction: "View FAQ",
-    callToActionUrl: "docs/faq"
+    callToActionUrl: "docs/faq/main"
   },
 ];
 

@@ -41,8 +41,17 @@ module.exports = {
         'flashing-firmware',
         'schematics',
         'troubleshooting',
-        'faq',
         'dfu-on-pro-micro'
+      ],
+      collapsed: false
+    }
+  ],
+  faq: [
+    {
+      type: 'category',
+      label: 'Frequently Asked Questions',
+      items: [
+        'faq/main',
       ],
       collapsed: false
     }

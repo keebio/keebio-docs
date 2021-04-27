@@ -42,6 +42,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/faq/main',
+          activeBasePath: 'faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/keebio/keebio-docs',
           label: 'Keebio Docs GitHub',
           position: 'right',
