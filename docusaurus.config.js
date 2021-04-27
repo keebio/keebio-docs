@@ -30,19 +30,19 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'main',
           activeBasePath: 'docs',
           label: 'Build Guides',
           position: 'left',
         },
         {
-          to: 'docs/testing-pcb',
+          to: 'testing-pcb',
           activeBasePath: 'docs',
           label: 'Testing Your PCB',
           position: 'left',
         },
         {
-          to: 'docs/faq/main',
+          to: 'faq/main',
           activeBasePath: 'faq',
           label: 'FAQ',
           position: 'left',
@@ -99,6 +99,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/keebio/keebio-docs/',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,

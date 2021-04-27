@@ -1,6 +1,5 @@
 ---
 title: Build Guide Info
-slug: /
 ---
 
 ## Keyboard Info

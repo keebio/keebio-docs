@@ -2,7 +2,7 @@ module.exports = {
   docs: [
     {
       'Build Guides': [
-        'index',
+        'main',
         'quefrency-rev2-sinc-build-guide',
         'iris-rev3-build-guide',
         'nyquist-rev3-build-guide',

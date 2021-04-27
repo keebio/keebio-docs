@@ -17,7 +17,7 @@ const features = [
       </>
     ),
     callToAction: "See Recommendations",
-    callToActionUrl: "docs/soldering-tools"
+    callToActionUrl: "soldering-tools"
   },
   {
     title: ' Build Guides',
@@ -29,7 +29,7 @@ const features = [
       </>
     ),
     callToAction: "View Guides",
-    callToActionUrl: "docs"
+    callToActionUrl: "main"
   },
   {
     title: 'Frequently Asked Questions',
@@ -41,7 +41,7 @@ const features = [
       </>
     ),
     callToAction: "View FAQ",
-    callToActionUrl: "docs/faq/main"
+    callToActionUrl: "faq/main"
   },
 ];
 
@@ -88,7 +88,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('main')}>
               Get Started
             </Link>
           </div>
