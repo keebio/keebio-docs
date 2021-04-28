@@ -98,7 +98,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/keebio/keebio-docs/',
+            'https://github.com/keebio/keebio-docs/tree/master/',
           routeBasePath: '/',
         },
         blog: {
