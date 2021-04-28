@@ -1,5 +1,5 @@
 ---
-title: Technical Info
+title: Technical/Build Info
 ---
 
 ## Flashing
@@ -24,6 +24,10 @@ So when you plug in the right board itself, it thinks it's the left one. The rea
 When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
 
 ## Building
+
+### What soldering tools should I get?
+
+We have a list of suggested soldering tools here: [Recommended Soldering Tools](../soldering-tools)
 
 ### What's the pinout of the ICSP header on some of the PCBs?
 ![](./../assets/ICSP_header.png)
