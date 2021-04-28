@@ -18,4 +18,4 @@ Depends on the type of hotswap socket. Here's some info on each type:
 + Outemu sockets: Yes, but they only fit Outemu switches or Pandas
 + Kailh hotswap sockets: No, PCBs have to specifically be designed for them, and typically, if it was designed to use Kailh hotswap sockets, they will already be pre-installed. See the image below that shows the parts that can't fit onto the PCB.
 
-![](https://i.imgur.com/jowodfJ.png)
+![](./../assets/images/misc/kailh-hotswap.png)
