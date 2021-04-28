@@ -48,12 +48,43 @@ module.exports = {
   ],
   faq: [
     {
-      type: 'category',
-      label: 'Frequently Asked Questions',
-      items: [
+      'Frequently Asked Questions': [
         'faq/main',
-      ],
-      collapsed: false
+        'faq/shipping',
+        'faq/ordering',
+        'faq/products',
+        'faq/switches',
+        'faq/technical',
+        'faq/contact',
+        'faq/miscellaneous',
+        {
+          'Orders': [
+          ],
+        },
+        {
+          'Product Updates': [
+          
+          ],
+        },
+        {
+          'Shipping': [
+          
+          ],
+        },
+        {
+          'Contact Info': [
+          ],
+        },
+        {
+          'Technical Info': [
+          
+          ],
+        },
+        {
+          'Miscellaneous': [
+          ],
+        },
+      ]
     }
   ]
 };
