@@ -13,6 +13,7 @@ module.exports = {
         'stick-build-guide',
         'iris-rev2-build-guide',
         'chocopad-build-guide',
+        'iris-middle-layer',
         {
           'Archive': [
             'quefrency-rev1-build-guide',
