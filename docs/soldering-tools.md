@@ -89,7 +89,7 @@ You're bound to screw up a build at some point, and you're going to need some wa
 - ★ [Blue and Metal Solder Sucker ($)](https://www.amazon.com/Desoldering-Solder-Sucker-Length-Remover/dp/B07BB8DGMP/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=6d99e11bc738533735139d3d3b390f8a&language=en_US) - There's a bunch of these cheap suckers sold under various listings and despite the price, they get the job done.
     - Pro tip: [Cut the tip at an angle to make it a bit easier to use, as shown in this picture](./assets/images/misc/desoldering-pump-cut.jpg)
 - [Engineer SS-02 Solder Sucker ($$)](https://www.amazon.com/Engineer-SS-02-Solder-Sucker/dp/B002MJMXD4/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=7871903be569afcf5f3fd1af23306faf&language=en_US) - A favorite among many people
-- ★ [Hakko Sppon No. 20 ($$)](http://www.hakko.com/english/products/hakko_sppon_tips.html)
+- ★ [Hakko Sppon No. 20 ($$)](https://amzn.to/3nCKj2b)
 
 - Desoldering Irons/Stations
     - ★ [Velleman VTDESOL3U Vacuum Desoldering Pump With Heater 30W ($)](https://www.amazon.com/Velleman-VTDESOL3U-Vacuum-Desoldering-Heater/dp/B00B88FRME/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=ee8d28b76bb7b031bd8440fb9f73d50d&language=en_US) - Careful with this one as you depress the pump, as hot solder will come flying out of it. But you can desolder a whole board quickly with this
