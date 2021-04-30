@@ -30,7 +30,6 @@ Yes, each package will have a tracking number that will automatically be emailed
 
 Your order will be shipped within 3-4 business days. We operate Monday through Friday, except for holidays. Typically, orders are filled every day we operate and are shipped out the same day it has been packed.
 
-
 ### My package was marked as delivered but I did not receive it, what should I do?
 
 For people in the U.S. using USPS, sometimes, USPS will mark a package as delivered but will end up delivering the next day instead, or the package was misdelivered to a neighbor. We recommend that you contact USPS directly by going to https://usps.force.com/emailus/s/package-inquiry. Someone from the post office should then be able to look into the issue and contact you. Otherwise, you can also file a claim with Route for the missing package here: https://claims.route.com/
@@ -38,3 +37,7 @@ For people in the U.S. using USPS, sometimes, USPS will mark a package as delive
 Please wait at least 3-4 business days before contacting us.
 
 **NOTE:** We do not have any additional information about packages other than what you see in the tracking information.
+
+### What should I do if I'm missing items or received the wrong items in my package?
+
+Email us at shop@keeb.io with your order number (starts with `KB-`), a picture of the packing slip, and a list of what's missing, and we'll get you'll sorted out.
