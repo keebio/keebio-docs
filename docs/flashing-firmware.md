@@ -1,52 +1,119 @@
 ---
 title: Flashing Firmware
 ---
+## Flashing - why?
+You can flash the microcontrollers (ATmega32u4, Pro Micro, Elite-C, etc) in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally. 
 
-Still in progress...
+This might be a good practice to be sure you're starting out with gear that will perform as desired. While there are multiple methods of flashing, this guide with only address the usage of QMK Toolbox to perform flashing.
 
-A couple of notes:
+<!-- ## Customizing your keymap (rename)
 
-* Initially, you do need to have both sides flashed, as that allows both sides to talk to each other using the same communication protocol
-* Once both sides are flashed, you only need to flash the master side if you are just updating the keymap
+TODO: Link to keymap document
+-->
 
-In the meantime, checkout the resources and information about test flashing below.
+## Determining Bootloader
 
-## Resources
+Before flashing, you'll need to know what bootloader is present on the microcontroller that's on your PCB. A bootloader is a program on the microcontroller that allows firmware to be uploaded to the microcontroller via USB. It's important to know what bootloader is present on your board, as the flashing procedure varies based on what you have.
 
-* [The Complete Newbs Guide for QMK](https://docs.qmk.fm/#/newbs)
-* [Chokkan's QMK Guide | Your First Steps to an All Powerful Keyboard](https://www.youtube.com/watch?v=-HLV6mUxNnU&list=PLYEUsdlqPD2a3kzQgnF98Prj-4IzZJGYG) Video Series
-* [Flashing guide for the Let's Split](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
+Here's the different possible bootloaders in use for Keebio boards:
 
+- ATmega32u4 DFU Bootloader (most common)
+    - This bootloader is the one present on most Keebio PCBs that already have a microcontroller pre-soldered onto it
+    - Also present on Elite-C
+- STM32 DFU Bootloader
+    - This bootloader is on STM32-based keyboards
+    - Currently, STM32 is used on the following Keebio PCBs:
+        - DSP40 Rev. 1
+        - BDN9 Rev. 2
+    - Also present on the Proton C
+- Caterina Bootloader
+    - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
 
-## Creating your own layout
+## Flashing Options
 
-Please follow the [QMK Documentation](https://docs.qmk.fm/) for the most up-to-date instructions for setting up QMK and creating your own layout.
+### Using QMK Toolbox
 
-## Performing an initial test flash on Windows
+[QMK Toolbox](https://github.com/qmk/qmk_toolbox) contains various flashing tools into one app, and has been designed to make the flashing process easier.
 
-You can flash the microcontrollers in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally. To do so, you will need to have QMK setup on your computer. We recommend following [the Complete Newbs Guide for QMK](https://docs.qmk.fm/#/newbs) to get setup.
+Make sure you download the [latest release here](https://github.com/qmk/qmk_toolbox/releases). For this guide, make sure you have Version 0.0.21 or higher installed, as the most recent versions have better device detection methods for more reliable flashing.
 
-The Complete Newbs Guide has a section for [Flashing Firmware](https://docs.qmk.fm/#/newbs), but it can be unclear as to how to do so for a microcontroller that isn't yet installed in a board.
+### Using QMK Environment
 
-The steps below assume your are using Windows and you have completed the QMK setup as outlined in the Complete Newbs Guide [Getting Started](https://docs.qmk.fm/#/newbs_getting_started), have built your first firmware with [Building Your First Firmware](https://docs.qmk.fm/#/newbs_building_firmware), and have installed [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
+One way to flash is using the command-line via a QMK environment setup. Here's a couple of links on how to do that from the QMK documentation:
 
-1. First, attach a USB cable into the controller and plug it into a USB port on your computer and let any drivers install that need to install. You should see LEDs light on your controller.
-2. Once any drivers have finished installing, unplug from the USB port on the computer.
-3. Start working through the steps in [Flashing Firmware](https://docs.qmk.fm/#/newbs) from the Newb Guide.
-4. To place your microcontroller into bootloader mode, you will need to short the `BOOT0` or `RESET` or `RST` pins/holes to ground.
-    1. Ensure the USB cable is unplugged from the computer.
-    2. Ensure the QMK Toolbox is open and your firmware file has been opened.
-    3. Using a pair of tweezers, a jumper wire, or a bent paperclip, short the `BOOT0` or `RESET` or `RST` to the ground or `GND`.
-    ![](./assets/images/misc/mXHY72M.jpg)
-    ![](./assets/images/misc/xctg5rQ.jpg)
-    4. Plug the USB cable into the computer, and then quickly remove the short (i.e. pull out tweezers/jumper/paperclip).
-    5. If successful, you will see a message similar to this in QMK Toolbox:
-    ```
-    *** Caterina device connected
-    ```
-    or if you've ISP flashed your Pro Micro with the DFU bootloader:
-    ```  
-    *** DFU device connected
-    ```
+- [QMK - Flashing](https://docs.qmk.fm/#/flashing)
+- [QMK - Flashing Firmware](https://docs.qmk.fm/#/newbs_flashing)
 
-5. Complete the remaining steps in [Flashing Firmware](https://docs.qmk.fm/#/newbs) from the Newb Guide.
+Setting up the QMK build environment is beyond the scope of this guide, so if you need assistance with that, consult the [QMK Introductory Tutorial](https://docs.qmk.fm/#/newbs) and/or join the [QMK Discord Server](https://discord.gg/Uq7gcHh).
+
+## Flashing ATmega32u4 (DFU Bootloader)
+
+### One-time Setup (Windows only)
+
+TODO: add info on setting up ATmega DFU Bootloader driver
+
+### Flashing
+If you're on Windows or Mac, you can follow the procedure below.
+
+### For QMK
+- Open up the QMK Toolbox application
+  - Plug in your PCB
+- Open the file you downloaded.
+- For most Keebio items, the MCU field will be pre-filled with ATmega32u4.
+- With your keyboard connected to the computer hold the reset button for a second and then let go.
+  - You should see a line in yellow that tells you it is connected.
+- Now that your keymap file is loaded and your PCB is connected, click Flash
+- After flashing, your PCB will disconnect and it will exit bootloader 
+  - This will give you another yellow line. 
+
+<!-- TODO: convert to tabs and have images for Windows/Mac -->
+![](./assets/images/flashing/mac-32u4-dfu.png)
+
+## Flashing the Pro Micro (Caterina Bootloader)
+
+![](./assets/images/flashing/pro-micro.jpg)
+
+- Download [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)
+- Open QMK Toolbox
+    - Make sure you are using QMK Toolbox version 0.0.21 or higher.
+- Open your firmware file you want in your Pro Micro
+- Plug in your Pro Micro
+  - QMK will detect it but ignore that. But, if it does not, you need to verify you are on version 0.0.21.
+- Checkmark `Auto-Flash`
+- Double-tap the RST and GND pins with tweezers/paperclip or reset button
+
+![](./assets/images/flashing/pro-micro-reset.jpg)
+
+- You'll know it's finished and functioning keyboard if you have seen the second yellow line indicating that the bootloader device has disconnected.
+- Small caution: If you receive the line `butterfly_recv(): programmer is not responding` you need to make sure that you reset your Pro Micro by double-tapping
+
+![](./assets/images/flashing/mac-caterina.png)
+
+## STM32 Chip
+
+### One-time Setup (Windows only)
+
+TODO: add info on setting up STM32 DFU Bootloader driver, see https://docs.cannonkeys.com/satisfaction75/flashing/ as reference
+
+### Flashing
+
+- Open up the .bin file for your board
+- Ignore the `MCU (AVR only)` box 
+- Hold the reset button for one second and let go
+- You should now see the yellow connected line
+- Add/open your firmware file for your device
+- Click Flash
+- You'll see many lines in gray, but then the second yellow line that has the word *disconnected* will confirm that your keyboard is now functioning.
+
+TODO: Add QMK Toolbox screenshot here for STM32 flashing
+
+<!--
+## HID Console (TODO: rename section)
+
+TODO: add info on HID console appearing in Toolbox output, and how it'll appear based on rules.mk settings
+
+## Glossary
+
+- stuff
+
+-->
