@@ -32,6 +32,12 @@ We have a list of suggested soldering tools here: [Recommended Soldering Tools](
 ### What's the pinout of the ICSP header on some of the PCBs?
 ![](./../assets/ICSP_header.png)
 
+### What's this 2x3 grouping of dots on my PCB?
+
+![](./../assets/images/misc/tag-connect.png)
+
+That's for use with a [Tag-Connect cable](https://www.tag-connect.com/product-category/products/cables/6-pin-target) to do ICSP flashing (to do reflash of bootloader).
+
 ### Which way do I orient the diodes?
 For all of the boards made by Keebio, the band on the diode (the cathode) is always associated with the square pad. On most boards, the square pad is pointing towards the bottom. For some PCBs that support Kailh Low-Profile switches, the square pad may be pointing towards the top.
 
