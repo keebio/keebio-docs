@@ -61,7 +61,10 @@ Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can i
 ## Miscellaneous
 
 ### Will you be making the PCB files available for download?
-Currently, the only open-source PCB design made by Keebio that has been released is the [Fourier](https://github.com/keebio/fourier). Quefrency Rev. 1 files are coming soon.
+Currently, the only open-sourced PCB design made by Keebio that has been released are:
+
+- [Fourier](https://github.com/keebio/fourier)
+- [Quefrency Rev. 1](https://github.com/keebio/quefrency-rev1-pcb)
 
 ### How do I contribute to the documentation here?
 The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
