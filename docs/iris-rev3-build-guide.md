@@ -134,6 +134,10 @@ If you have an acrylic middle layer, insert it now around the standoffs:
 Put the bottom plate on and add screws:
 ![](./assets/images/iris-rev4/IMG_3656.JPG)
 
+If you have an acrylic middle layer with tenting holes, here's a video on how to add bolts to it: [Tenting Your Iris with Bolts](https://youtu.be/kxwHtumvQmc)
+
+If you have a 3D-printed middle layer, see this page on installing it: [Iris 3D-printed Middle Layer Installation](iris-middle-layer)
+
 ## Re-Program Board Note
 
 Oh, looking to re-program your board? Never fear! Come look [here](https://docs.keeb.io/docs/flashing-firmware/).
