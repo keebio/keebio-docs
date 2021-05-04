@@ -105,7 +105,7 @@ TODO: add info on setting up STM32 DFU Bootloader driver, see https://docs.canno
 - Click Flash
 - You'll see many lines in gray, but then the second yellow line that has the word *disconnected* will confirm that your keyboard is now functioning.
 
-TODO: Add QMK Toolbox screenshot here for STM32 flashing
+![](./assets/images/flashing/mac-stm32-dfu.png)
 
 <!--
 ## HID Console (TODO: rename section)
