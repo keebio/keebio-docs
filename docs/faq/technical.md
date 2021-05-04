@@ -47,9 +47,9 @@ For all of the boards made by Keebio, the band on the diode (the cathode) is alw
 Resistors have no polarity, so the direction they are installed does not matter.
 
 ### Do any of the PCBs have individually addressable LEDs?
-No, the PCBs that do have LED support can only be controlled as a group.
+Only the BDN9 Rev. 2 has individually addressable per-key RGB. For all other available Keebio PCBs that have in-switch LED support, the LEDs can only be controlled as a group.
 
-One option around this is to use a switch with clear housing like a Zealio or Alias switch and point RGB LEDs upwards through the switch
+One option around this is to use a switch with clear housing like a Zealio or Alias switch and point RGB LEDs upwards through the switch.
 
 ### Which in-switch LEDs are compatible?
 Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can interfere with the keycaps
