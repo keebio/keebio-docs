@@ -20,13 +20,15 @@ Your goal at the end of this guide is to have your Iris PCB sitting cozy inside 
 #### Steps
 1. Test your Iris build
 2. Prep the 3D-printed mid
-3. Input standoffs and nuts
+3. Insert standoffs and nuts
 4. Add Legs
 5. Align middle layer onto PCB ports
 6. Secure plates to middle layer
 7. Adjust legs
 8. Repeat for other half of Iris
 9. Rejoice!
+
+If you'd like to watch a video of this process, check out the video we've posted up here!: [Iris Tenting w/3D-printed Mid](https://youtu.be/dcyA0YOCJXs)
 
 ### 1. Test your Iris build
 We always verify this in-house, but to be extra sure you've got everything working right this is a good idea. Wouldn't want to have everything assembled then find something critical didn't work, right? Good to practice that proactive energy!
@@ -42,7 +44,7 @@ Here's some handy info on testing your build/PCB: [Testing Your PCB](testing-pcb
 
 Do this for each of the holes, and then it'll make step 3 *much* easier. You can also use a drill as well to widen any holes that are too tight.
 
-### 3. Input standoffs and nuts
+### 3. Insert standoffs and nuts
 Now go ahead and drop in your standoffs into each of the holes.
 
 ![](https://i.imgur.com/1UkMT2a.jpg)
@@ -61,7 +63,7 @@ Put the spring over the thumbscrew and then insert them through the leg. Afterwa
 ![](https://i.imgur.com/NTy09TZ.jpg)
 
 ### 5. Align middle layer onto PCB ports
-This part is a little tricky, so if you're having a hard time, don't give up! We also have a [video](http://youtube.keeb.io) to help you out.
+This part is a little tricky, so if you're having a hard time, don't give up! We also have a [video](https://youtu.be/dcyA0YOCJXs) to help you out.
 
 ![](https://i.imgur.com/ze0cJ3A.jpg)
 
