@@ -16,7 +16,7 @@ Here's a list of parts needed for the build:
     * 14 M2 10mm standoffs \(included with plates\)
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable)
-* 1 [Micro USB Cable](https://keeb.io/products/micro-usb-cable)
+* 1 Micro USB Cable
 * [PCB-mount MX stabilizers (2u)](https://keeb.io/products/cherry-mx-stabilizer?variant=43449871046)
 * MX or Alps compatible keyswitches
 * [WS2812B Compatible RGB LED strip](https://keeb.io/collections/frontpage/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)

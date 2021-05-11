@@ -137,7 +137,7 @@ Put bottom plate on and add screws:
 
 ## Re-Programming Board Note
 
-Oh, looking to re-program your board? Never fear! Come look [here](https://docs.keeb.io/docs/flashing-firmware/). 
+Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware). 
 
 ## Rejoice!
 

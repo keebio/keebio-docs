@@ -6,7 +6,7 @@ Woohoo! If you're looking here, you're going to learn some new words.
 
 ### LED
 
-Light-emitting diode. These are great if you want to jazz up your keyboard with [dancing](https://docs.keeb.io/docs/lighting-options) [lights](https://docs.keeb.io/docs/adding-rgb-underglow).
+Light-emitting diode. These are great if you want to jazz up your keyboard with [dancing](lighting-options) [lights](adding-rgb-underglow).
 
 ### PCB
 
