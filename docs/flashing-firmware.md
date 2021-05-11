@@ -50,7 +50,9 @@ Setting up the QMK build environment is beyond the scope of this guide, so if yo
 
 ### One-time Setup (Windows only)
 
-TODO: add info on setting up ATmega DFU Bootloader driver
+TODO: add info on setting up ATmega DFU Bootloader driver (libusb0)
+
+(For now, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig) if having issues with driver installation)
 
 ### Flashing
 If you're on Windows or Mac, you can follow the procedure below.
@@ -93,7 +95,9 @@ If you're on Windows or Mac, you can follow the procedure below.
 
 ### One-time Setup (Windows only)
 
-TODO: add info on setting up STM32 DFU Bootloader driver, see https://docs.cannonkeys.com/satisfaction75/flashing/ as reference
+TODO: add info on setting up STM32 DFU Bootloader driver (WinUSB), see https://docs.cannonkeys.com/satisfaction75/flashing/ as reference
+
+(For now, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig) if having issues with driver installation)
 
 ### Flashing
 
