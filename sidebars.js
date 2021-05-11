@@ -33,6 +33,7 @@ module.exports = {
       label: 'Additional Info',
       items: [
         'glossary',
+        'via',
         'soldering-tools',
         'testing-pcb',
         'choc-stabs',
