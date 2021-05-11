@@ -36,58 +36,58 @@ We always verify this in-house, but to be extra sure you've got everything worki
 Here's some handy info on testing your build/PCB: [Testing Your PCB](testing-pcb).
 
 ### 2. Prep the 3D-printed mid
-![](https://i.imgur.com/GplITQp.jpg)
+![](./assets/images/iris-mid/IMG_7130.JPG)
 
 3D printing is a beautiful thing. It also tends to need a little care after printing. To remove any debris that might be left in the holes for your standoffs, take your tweezers/pointed tool and gently pivot it inside the opening.
 
-![](https://i.imgur.com/D6UDioc.jpg)
+![](./assets/images/iris-mid/IMG_7131.JPG)
 
 Do this for each of the holes, and then it'll make step 3 *much* easier. You can also use a drill as well to widen any holes that are too tight.
 
 ### 3. Insert standoffs and nuts
 Now go ahead and drop in your standoffs into each of the holes.
 
-![](https://i.imgur.com/1UkMT2a.jpg)
+![](./assets/images/iris-mid/IMG_7132.JPG)
 
 After accomplishing standoff placement, you can now do the exciting part of adding the 3 nuts into the carved out spaces made especially for them. 
 
-![](https://i.imgur.com/nNzbBQE.jpg)
+![](./assets/images/iris-mid/IMG_7134.JPG)
 
 ### 4. Add legs
 With the nuts inserted, you can now cinch down the Ergodox EZ pieces into the outer sides of the Iris middle layer.
 
-![](https://i.imgur.com/mzzMAz0.jpg)
+![](./assets/images/iris-mid/IMG_7133.JPG)
 
 Put the spring over the thumbscrew and then insert them through the leg. Afterwards screw it into the nut and tighten.
 
-![](https://i.imgur.com/NTy09TZ.jpg)
+![](./assets/images/iris-mid/IMG_7135.JPG)
 
 ### 5. Align middle layer onto PCB ports
 This part is a little tricky, so if you're having a hard time, don't give up! We also have a [video](https://youtu.be/dcyA0YOCJXs) to help you out.
 
-![](https://i.imgur.com/ze0cJ3A.jpg)
+![](./assets/images/iris-mid/IMG_7136.JPG)
 
 You want to gently nest the two port cutouts on the middle piece onto the USB-C and TRRS jacks. **Be sure** to nest it properly or you'll have a really hard time reversing this process. Start with the TRRS jack first, and then align the USB-C port.
 
-![](https://i.imgur.com/E33JU1i.jpg)
+![](./assets/images/iris-mid/IMG_7137.JPG)
 
 But hey, once you have everything all cozy, your Iris now officially has Ergodox legs! Fancy that.
 
-![](https://i.imgur.com/VLwlmKo.jpg)
+![](./assets/images/iris-mid/IMG_7138.JPG)
 
 ### 6. Secure plates to middle layer
 Flip the board over and screw in the switch plate to the middle layer standoffs.
 
-![](https://i.imgur.com/irvrqEq.jpg)
+![](./assets/images/iris-mid/IMG_7139.JPG)
 
 After that, flip the board over again and screw on the bottom plate.
 
-![](https://i.imgur.com/UFOShY4.jpg)
+![](./assets/images/iris-mid/IMG_7140.JPG)
 
 ### 7. Adjust legs
 Now that you've sandwiched the middle layer in between the switch plate and the bottom plate, play around with the legs to get everything angled the way you like it.
 
-![](https://i.imgur.com/uVRogy4.jpg)
+![](./assets/images/iris-mid/IMG_7141.JPG)
 
 ### 8. Repeat for other half of Iris
 That's right! You're halfway there. Repeat this process one more time and you'll have yourself a lovely tented Iris!
