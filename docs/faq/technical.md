@@ -52,7 +52,7 @@ Only the BDN9 Rev. 2 has individually addressable per-key RGB. For all other ava
 One option around this is to use a switch with clear housing like a Zealio or Alias switch and point RGB LEDs upwards through the switch.
 
 ### Which in-switch LEDs are compatible?
-Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can interfere with the keycaps
+Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can interfere with the keycaps. Voltage should be around 2.7V to 3.3V.
 
 ### Which RGB LED strips are compatible?
 - WS2811 and variants (WS2812, WS2812B, WS2812C, etc.)
