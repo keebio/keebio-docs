@@ -1,6 +1,7 @@
 ---
 title: Flashing Firmware
 ---
+
 ## Flashing - why?
 You can flash the microcontrollers (ATmega32u4, Pro Micro, Elite-C, etc) in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally. 
 
@@ -50,9 +51,15 @@ Setting up the QMK build environment is beyond the scope of this guide, so if yo
 
 ### One-time Setup (Windows only)
 
-TODO: add info on setting up ATmega DFU Bootloader driver (libusb0)
+This section only applies to Windows, skip this if you are on a Mac, as there are no drivers needed for Mac.
 
-(For now, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig) if having issues with driver installation)
+If you open up QMK Toolbox, press the reset button on your ATmega32u4-based board, and see `(NO DRIVER)` on the line for `Atmel DFU device connected`, then you'll need to install the bootloader driver on Windows.
+
+To install the DFU Bootloader driver, right-click anywhere in the top part of the QMK Toolbox window as shown below and click on `Install Drivers...`. The ATmega32u4 DFU Bootloader driver along with other bootloader drivers will be installed.
+
+![](./assets/images/flashing/windows-install-drivers.png)
+
+If you are having issues with driver installation, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig).
 
 ### Flashing
 If you're on Windows or Mac, you can follow the procedure below.
@@ -67,9 +74,11 @@ If you're on Windows or Mac, you can follow the procedure below.
 - Now that your keymap file is loaded and your PCB is connected, click Flash
 - After flashing, your PCB will disconnect and it will exit bootloader 
   - This will give you another yellow line. 
-
-<!-- TODO: convert to tabs and have images for Windows/Mac -->
+#### Mac
 ![](./assets/images/flashing/mac-32u4-dfu.png)
+
+#### Windows
+![](./assets/images/flashing/windows-32u4-flashing.png)
 
 ## Flashing the Pro Micro (Caterina Bootloader)
 
@@ -95,9 +104,17 @@ If you're on Windows or Mac, you can follow the procedure below.
 
 ### One-time Setup (Windows only)
 
-TODO: add info on setting up STM32 DFU Bootloader driver (WinUSB), see https://docs.cannonkeys.com/satisfaction75/flashing/ as reference
+This section only applies to Windows, skip this if you are on a Mac, as there are no drivers needed for Mac.
 
-(For now, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig) if having issues with driver installation)
+If you open up QMK Toolbox, press the reset button on your STM32-based board, and see `(NO DRIVER)` as shown below, then you'll need to install the bootloader driver on Windows.
+
+![](./assets/images/flashing/windows-stm32-no-driver.png)
+
+To install the STM32 Bootloader driver, right-click anywhere in the top part of the QMK Toolbox window as shown below and click on `Install Drivers...`. The STM32 Bootloader driver along with other bootloader drivers will be installed.
+
+![](./assets/images/flashing/windows-install-drivers.png)
+
+If you are having issues with driver installation, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig).
 
 ### Flashing
 
@@ -109,7 +126,11 @@ TODO: add info on setting up STM32 DFU Bootloader driver (WinUSB), see https://d
 - Click Flash
 - You'll see many lines in gray, but then the second yellow line that has the word *disconnected* will confirm that your keyboard is now functioning.
 
+#### Mac
 ![](./assets/images/flashing/mac-stm32-dfu.png)
+
+#### Windows
+![](./assets/images/flashing/windows-stm32-flashing.png)
 
 <!--
 ## HID Console (TODO: rename section)
