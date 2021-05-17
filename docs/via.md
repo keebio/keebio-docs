@@ -28,7 +28,7 @@ VIA consists of two parts: Firmware and VIA Configurator.
 
 The firmware is for the most part QMK with the `VIA_ENABLE` feature enabled. Note that by default, most keyboards do not have the `VIA_ENABLE` feature enabled. See [below](via#keyboards-with-via-support) for a list of supported keyboards and the firmware files to use.
 
-VIA Configurator is a desktop app that talks to your VIA-enabled keyboard and allows to to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
+VIA Configurator is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
 ![](./assets/images/misc/via-configure.png)
 
