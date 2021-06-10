@@ -1,10 +1,10 @@
 ---
-title: Quefrency & Sinc 
+title: Quefrency/Sinc/KBO-5000 
 ---
 
 ## Build Compatibility
 
-This build guide is exclusively for Quefrency Rev. 2 or higher and Sinc! They both have pre-soldered components. If you have the Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md).
+This build guide is exclusively for Quefrency Rev. 2 or higher, Sinc, and KBO-5000! They both have pre-soldered components. If you have the Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md).
 
 ## Videos of Builds
 
@@ -19,12 +19,16 @@ Here are some cool folks who have built these keyboards! Give them a look to see
 Now you've watched some cool videos and feel inspired! Get your parts:
 
 * PCBs:
-    * [Set of Quefrency Rev. 2 PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Set of Sinc Rev. 1 PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Set of Quefrency PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Set of Sinc PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Set of KBO-5000 PCBs](https://keeb.io/products/kbo-5000-split-staggered-80-keyboard)
 * Plates:
-    * [Plates for Quefrency Rev. 2](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Plates for Sinc Rev. 1](https://keeb.io/products/sinc-split-staggered-75-keyboard)
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
+    * [Plates for Quefrency](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
+    * [Plates for Sinc](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Plates for KBO-5000](https://keeb.io/products/kbo-5000-split-staggered-80-keyboard)
+* Interconnect Cable:
+    * [TRRS cable](https://keeb.io/products/trrs-cable) (for boards that use TRRS, like the Quefrency Rev. 2 or Sinc Rev. 1)
+    * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for boards that use USB-C for interconnect)
 * Switches (MX-compatible ones)
 * Optional parts:
     * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
