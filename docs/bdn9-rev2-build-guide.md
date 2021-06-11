@@ -25,6 +25,8 @@ Here's a summary of the build steps:
 
 Parts from the kit.
 
+If you have acrylic plates and/or middle layers, peel off the protective backing from both sides.
+
 ## Solder Rotary Encoders
 
 :::info Rotary encoders must be soldered on before switches are added
