@@ -47,7 +47,13 @@ When using Choc low-profile switches, there is very little clearance between the
 
 ![](./assets/images/bdn9-rev2/IMG_8818.jpg)
 
-Add the switches to the switch plate.
+First, make sure that the plate is oriented correctly.
+
+For FR4 plates, the rectangular cutouts should have the wider portion oriented horizontally.
+
+For acrylic plates, the 6 square cutouts should be oriented so they are for the middle and bottom row, while the larger holes are for the encoders. The wider part of these larger holes should be oriented vertically.
+
+Once you've figured out the correct orientation, add the switches to the switch plate.
 
 ![](./assets/images/bdn9-rev2/IMG_8821.jpg)
 
