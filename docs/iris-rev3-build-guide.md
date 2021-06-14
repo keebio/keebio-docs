@@ -140,7 +140,7 @@ If you have a 3D-printed middle layer, see this page on installing it: [Iris 3D-
 
 ## Re-Program Board Note
 
-Oh, looking to re-program your board? Never fear! Come look [here](https://docs.keeb.io/docs/flashing-firmware/).
+Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware).
 
 ## Rejoice!
 
