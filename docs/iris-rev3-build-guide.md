@@ -41,7 +41,6 @@ Here's a list of parts needed for the build:
 6. Assemble! 
 7. Re-Program Board Note
 8. Rejoice!
-9. Glossary
 
 ## Prepare Components
 

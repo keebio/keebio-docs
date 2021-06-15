@@ -47,10 +47,9 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 6. Assemble!
     * Insert [standoffs](glossary#standoffs) into middle layer (optional)
     * Screw standoffs into switch plate
-    * attach bottom plate using screws
+    * Attach bottom plate using screws
 7. Re-Programing Board Note
 8. Rejoice!
-9. Glossary
 
 ## Prepare Components
 
