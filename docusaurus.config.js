@@ -16,6 +16,7 @@ module.exports = {
       apiKey: 'c435eee47e15ea45760b6f35f61e5135',
       indexName: 'keeb'
     },
+    zoomSelector: '.markdown :not(em) > img',
     colorMode: {
       defaultMode: 'dark'
     },

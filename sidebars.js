@@ -57,6 +57,7 @@ module.exports = {
         'faq/ordering',
         'faq/products',
         'faq/switches',
+        'faq/keycaps',
         'faq/technical',
         'faq/contact',
         'faq/miscellaneous',
