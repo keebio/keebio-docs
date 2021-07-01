@@ -27,6 +27,12 @@ Parts from the kit.
 
 If you have acrylic plates and/or middle layers, peel off the protective backing from both sides.
 
+![](./assets/images/bdn9-rev2/IMG_2703.jpeg)
+
+![](./assets/images/bdn9-rev2/IMG_2790.jpeg)
+
+![](./assets/images/bdn9-rev2/IMG_2821.jpeg)
+
 ## Solder Rotary Encoders
 
 :::info Rotary encoders must be soldered on before switches are added
