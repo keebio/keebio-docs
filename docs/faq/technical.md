@@ -80,7 +80,7 @@ To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one 
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 
-## What kind of USB-C to USB-C cable is needed for boards like the Sinc Rev. 2 and Quefrency Rev. 3 that uses USB-C for interconnect?
+### What kind of USB-C to USB-C cable is needed for boards like the Sinc Rev. 2 and Quefrency Rev. 3 that uses USB-C for interconnect?
 
 Most USB-C to USB-C cables should work, as long as they have the following pins in the cable:
 
