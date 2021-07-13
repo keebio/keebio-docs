@@ -79,3 +79,18 @@ However, in the future, there might be additional parts that you can add, like a
 To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
+
+## What kind of USB-C to USB-C cable is needed for boards like the Sinc Rev. 2 and Quefrency Rev. 3 that uses USB-C for interconnect?
+
+Most USB-C to USB-C cables should work, as long as they have the following pins in the cable:
+
+- VCC
+- GND
+- D+
+- D-
+
+All the [USB-C to USB-C cables](https://keeb.io/products/usb-c-to-usb-c-cable) sold at Keebio are compatible.
+
+Below is a schematic of how the pins are used:
+
+![](./../assets/images/misc/usb-c-interconnect.png)
