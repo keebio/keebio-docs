@@ -2,6 +2,12 @@
 title: BDN9 Rev. 2
 ---
 
+## Videos of Builds
+
+* [Keebio - BDN9 Stop Motion Build with Acrylic Case](https://youtu.be/Kida82oHB4E)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kida82oHB4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Parts List
 
 Here's a list of parts needed for the build:
