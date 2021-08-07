@@ -28,8 +28,10 @@ Once the clearing process is complete, move on to the reflashing section of this
 
 ### For STM32F072-based boards
 
-For keyboards using the STM32F072 like the BDN9 Rev. 2 and DSP40, the STM32F072 microcontroller doesn't actually have real EEPROM in it, so it is emulated instead using flash memory. To clear out the emulated EEPROM in this case, download the [STM32F072 Flash Clearing .bin file](misc/stm32f072_clear_flash.bin) and open it up in QMK Toolbox. Then press the reset button on the PCB and then click the `Flash` button.
+For keyboards using the STM32F072 like the BDN9 Rev. 2 and DSP40, the STM32F072 microcontroller doesn't actually have real EEPROM in it, so it is emulated instead using flash memory. To clear out the emulated EEPROM in this case, download the [STM32F072 Flash Clearing .bin file](https://raw.githubusercontent.com/keebio/keebio-firmware/master/stm32f072_clear_flash.bin) and open it up in QMK Toolbox. Then press the reset button on the PCB and then click the `Flash` button.
 
 ## Reflash after clearing EEPROM
 
 Once the EEPROM has been cleared, you will need to reflash your board with the firmware again. For the firmware that comes stock with Keebio boards, you can download the original .hex files here: [Keebio Firmware](https://github.com/keebio/keebio-firmware). Note: Don't use the files that end with `_bootloader.hex` or `_production.hex`.
+
+![](./assets/images/flashing/dfu-32u4-eeprom-reflash.png)
