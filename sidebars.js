@@ -42,6 +42,7 @@ module.exports = {
         'adding-rgb-underglow',
         'case-files',
         'flashing-firmware',
+        'reset-eeprom',
         'schematics',
         'troubleshooting',
         'dfu-on-pro-micro'
