@@ -76,6 +76,7 @@ Using a wet sponge to clean your tip is okay, but using a brass wire ball cleans
 
 - [Hakko 599B-02 Wire-type soldering iron tip cleaner](https://www.amazon.com/Hakko-599B-02-Wire-type-soldering-cleaner/dp/B00FZPGDLA/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=c51683fd3e9f46a1dd24abcedb5d3ed0&language=en_US)
 - ★ [Aoyue Soldering Iron Tip Cleaner](https://www.amazon.com/Aoyue-Soldering-Cleaner-sponge-needed/dp/B005C789EU/ref=as_li_ss_tl?s=industrial&linkCode=ll1&tag=keebio-20&linkId=f3f9b94f164f08e0db0c3d747df171af&language=en_US) - A bit easier to swipe the iron tip across than the Hakko one, also has an iron holder arm on it
+- [Hakko 633-01 Iron Holder](https://amzn.to/3gi8NLE) - Soldering iron holder with cleaning ball combo
 
 Tip Tinner: Good to use once at the beginning of a soldering session instead of tinning with solder and helps restore tips
 
@@ -121,6 +122,10 @@ Needed for attaching an RGB LED strip, using as jumper wires, or handwiring. Rec
 - ★ [Adjustable Helping Hand With Magnifying Glass](https://www.amazon.com/Neiko-01902-Adjustable-Magnifying-Alligator/dp/B000P42O3C/ref=as_li_ss_tl?_encoding=UTF8&pd_rd_i=B000P42O3C&pd_rd_r=276f5132-fe52-4eb2-ba20-0d9667867b33&pd_rd_w=uRuJ3&pd_rd_wg=T8LiQ&pf_rd_p=b65ee94e-1282-43fc-a8b1-8bf931f6dfab&pf_rd_r=MY930YDM9HQQWJ8GGJJ2&psc=1&refRID=MY930YDM9HQQWJ8GGJJ2&linkCode=ll1&tag=keebio-20&linkId=848dfbc0dddaf861310605944782d8d2&language=en_US)
 - [Pro'sKit 900-015 Helping Hands Soldering Aid](https://www.amazon.com/ProsKit-900-015-Helping-Hands-Soldering/dp/B002PIA6Z4/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=1b449a3b141a734d29f6f9b8b2bf3d40&language=en_US)
 - [QuadHands Helping Hands](https://www.amazon.com/QuadHands-Helping-Hands-Third-Soldering/dp/B00GIKVP5K/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=c3d5358ea9f79d387d58219a17524bd2&language=en_US)
+
+### Solder Fume Extractor
+
+- [KOTTO Solder Smoke Absorber](https://amzn.to/2UACdx3)
 
 ### Multimeter
 
