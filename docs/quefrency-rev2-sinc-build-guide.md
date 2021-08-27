@@ -14,6 +14,12 @@ Here are some cool folks who have built these keyboards! Give them a look to see
 * [FrostyKoala - Prototype Sinc Rev. 1 Build](https://youtu.be/3_U_SxKhygA)
 * [VogonPT - Prototype Sinc Rev. 1 Build Stream](https://youtu.be/zpeZihPfzIU?t=40)
 
+### Build Tutorial Videos by Keebio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MjvvZ9Go9mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jr9shXcL9ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Parts List
 
 Now you've watched some cool videos and feel inspired! Get your parts:
