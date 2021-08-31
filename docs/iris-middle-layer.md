@@ -14,6 +14,10 @@ You've got the hip 3D-printed middle layer for your Iris, eh? Smashing! Get the 
 + M3 nuts - The Ergodox EZ legs will screw into these nuts
 + Tweezers (the kind with the very pointed nose) or Drill
 
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dcyA0YOCJXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Overview
 Your goal at the end of this guide is to have your Iris PCB sitting cozy inside the 3D printed layer with some rockin' legs. This can be tricky, but that's why we have this guide for you!
 
