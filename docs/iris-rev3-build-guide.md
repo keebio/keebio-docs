@@ -77,6 +77,14 @@ Install the encoder onto the PCB:
 Solder the encoder onto the PCB:
 ![](./assets/images/iris-rev4/IMG_3642.JPG)
 
+
+### Add buffer for acrylic plates
+
+If you are using acrylic plates, you may want to add something in between the bottom side of the plate and the top of the PCB. This prevents the plate from shifting around, since for a 3mm plate, the switches are unable to clip in.
+
+Here, rolled up pieces of electrical tape is being added to the bottom of the plate before being placed onto the PCB:
+![](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
+
 ## Add switches
 :::note FOR KALIH BOX AND KAILH CHOC SWITCHES - INSTALL LEDS BEFORE THIS STEP
 For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LEDs through, so the LEDs must be added first. Skip to the [LED installation step](iris-rev3-build-guide#solder-in-switch-leds) and then come back to this step of switch installation.
