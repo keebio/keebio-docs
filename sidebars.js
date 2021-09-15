@@ -6,6 +6,7 @@ module.exports = {
         'quefrency-rev2-sinc-build-guide',
         'iris-rev3-build-guide',
         'nyquist-rev3-build-guide',
+        'foldkb-build-guide',
         'bdn9-rev1.3-build-guide',
         'bdn9-rev2-build-guide',
         'wtf60-build-guide',
