@@ -3,6 +3,7 @@ module.exports = {
     {
       'Build Guides': [
         'main',
+        'quefrency-hotswap-build-guide',
         'quefrency-rev2-sinc-build-guide',
         'iris-rev3-build-guide',
         'nyquist-rev3-build-guide',
