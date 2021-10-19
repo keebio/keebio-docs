@@ -35,6 +35,7 @@ module.exports = {
       type: 'category',
       label: 'Additional Info',
       items: [
+        'default-layouts',
         'glossary',
         'via',
         'soldering-tools',
