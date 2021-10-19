@@ -1,8 +1,8 @@
 ---
-title: Default Layouts
+title: Default Keymaps
 ---
 
-Here are PDFs of the default layouts for various keyboards:
+Here are PDFs of the default keymaps for various keyboards:
 
 - [BDN9](../static/layouts/keymap_BDN9_rev2.pdf)
 - [BFO-9000](../static/layouts/keymap_BFO9000.pdf)
