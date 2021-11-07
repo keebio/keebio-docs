@@ -1,10 +1,10 @@
 ---
-title: Iris Rev. 3 & 4
+title: Iris Rev. 3-5
 ---
 
 ## Build Compatibility
 
-This build guide is exclusively for Rev. 3 & 4 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-rev2-build-guide).
+This build guide is exclusively for Rev. 3-5 of the Iris, which features pre-soldered components. For Rev. 2 PCBs, see [Iris Rev. 2 Build Guide](iris-rev2-build-guide).
 
 This guide can also be used for the Nyquist Rev. 3, as it has a very similar construction. 
 
@@ -13,13 +13,19 @@ This guide can also be used for the Nyquist Rev. 3, as it has a very similar con
 * [MechMerlin - Build Stream: Keebio Iris Rev 3 Build](https://www.youtube.com/watch?v=SZkzzIPx35o)
 * [TaeKeyboards - Iris Split Ergonomic Mechanical Keyboard Build](https://www.youtube.com/watch?v=0P6oIOB-whM&t=219s)
 
+### Build Tutorial Video by Keebio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vsp-8rp1NqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Parts List
 
 Here's a list of parts needed for the build:
 
-* [Set of Iris Rev. 4 PCBs](https://keeb.io/products/iris-keyboard-split-ergonomic-keyboard)
-* [Iris Case/Plates](https://keeb.io/products/iris-keyboard-case-plates)
-* 1 [TRRS cable](https://keeb.io/products/trrs-cable)
+* [Set of Iris PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
+* [Iris Case/Plates](https://keeb.io/products/iris-keyboard-case-plates-phoenix-edition)
+* Interconnect Cable:
+    * 1 [TRRS cable](https://keeb.io/products/trrs-cable) (For Rev. 3 or 4)
+    * 1 [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (For Rev. 5 or 6)
 * 54-56 switches (MX-compatible and Alps switches are supported)
 * Optional parts (not shown)
     * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys
