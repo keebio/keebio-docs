@@ -9,6 +9,9 @@ Here's a list of parts needed for the build:
 - [Set of Levinson Rev. 3 PCBs](https://keeb.io/products/levinson-lets-split-w-led-backlight)
 - [Levinson Case/Plates](https://keeb.io/products/levinson-keyboard-case-plates)
 - 1 [TRRS cable](https://keeb.io/products/trrs-cable)
+- 2 Pro Micro-compatible Microcontrollers (you may mix-and-match controllers)
+  - [Arduino Pro Micro](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
+  - [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4)
 - 46-48 switches (MX-compatible, Alps, and Choc switches are supported)
 - Optional parts \(_not shown_\)
   - [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys
