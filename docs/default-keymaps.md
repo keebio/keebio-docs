@@ -9,6 +9,7 @@ Here are PDFs of the default keymaps for various keyboards:
 - [Dilly](../static/layouts/keymap_Dilly_rev1.pdf)
 - [DSP40](../static/layouts/keymap_DSP40_rev1.pdf)
 - [FoldKB](../static/layouts/keymap_FoldKB_rev1.pdf)
+- [Iris](../static/layouts/keymap_Iris_rev5.pdf)
 - [KBO-5000](../static/layouts/keymap_KBO5000_rev1.pdf)
 - [Levinson](../static/layouts/keymap_Levinson_rev3.pdf)
 - [Nyquist](../static/layouts/keymap_Nyquist_rev3.pdf)
