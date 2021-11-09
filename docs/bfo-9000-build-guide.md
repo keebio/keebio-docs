@@ -62,6 +62,8 @@ All separated from the paper, ready for insertion into PCB:
 
 The diodes, resistors, push buttons, TRRS jacks, and Pro Micro header pins can be soldered in any order.
 
+Note that the two halves of the PCBs are identical. The only difference for each half is that you will place the TRRS jacks in different locations (towards the middle of the board).
+
 ### Add diodes
 
 On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:
@@ -85,8 +87,6 @@ Add the I2C resistors to the left PCB, orientation does not matter for resistors
 ![](./assets/images/bfo-9000/IMG_6040.jpg)
 
 ### Add TRRS jack and reset button
-
-Note that the two halves of the PCBs are identical. The only difference for each half you will do is to place the TRRS jacks in different locations (towards the middle of the board).
 
 Add the reset button to the PCB:
 
