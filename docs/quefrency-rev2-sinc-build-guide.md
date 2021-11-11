@@ -131,6 +131,8 @@ Note that some of the switch layout options have the `-`/`+` markings swapped, s
 
 ## Assemble!
 
+If you are installing 3D-Printed pieces around the FR4 plates, then please see these instructions instead: [3D-Printed Case Parts Installation](3D-print-shell-installation)
+
 Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
 ![](./assets/images/sinc/IMG_9889.jpeg)
 
@@ -146,7 +148,7 @@ Put bottom plate on and add screws:
 
 ## Re-Programming Board Note
 
-Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware). 
+Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware).
 
 ## Rejoice!
 

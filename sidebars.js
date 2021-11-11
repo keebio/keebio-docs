@@ -17,6 +17,7 @@ module.exports = {
         'stick-build-guide',
         'iris-rev2-build-guide',
         'chocopad-build-guide',
+        '3D-print-shell-installation',
         'iris-middle-layer',
         {
           'Archive': [
