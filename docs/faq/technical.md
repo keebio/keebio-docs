@@ -54,6 +54,8 @@ One option around this is to use a switch with clear housing like a Zealio or Al
 ### Which in-switch LEDs are compatible?
 Compatible sizes: 1.8mm, 2x3x4mm, or 3mm, note that sometimes the 3mm LEDs can interfere with the keycaps. Voltage should be around 2.7V to 3.3V. Only 2-pin LEDs will work.
 
+2-pin "RGB" LEDs are not really RGB LEDs that are controllable. They are rainbow LEDs that just cycle through various colors on their own and color can't be specified.
+
 Here's a link to some LEDs that will work: [Chanzon 100pcs 2x3x4 LEDs](https://amzn.to/3y9Jgf1)
 
 ### Which RGB LED strips are compatible?
