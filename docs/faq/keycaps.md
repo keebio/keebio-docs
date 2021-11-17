@@ -16,7 +16,14 @@ If you're *really* burning to put that last sweet touch of keycaps on your aweso
 <a href="https://novelkeys.xyz/collections/keycaps">
 <center><em><img src="https://i.imgur.com/4soycXr.png" alt="alternate_text"  width="380" height="78" /></em></center></a>
 
-[NovelKeys](https://novelkeys.xyz/collections/keycaps) keeps a pretty diverse array of keycaps. They range from a more neutral look to some of the intricate fandoms... like Star Wars! These folks are nice to work with. 
+[NovelKeys](https://novelkeys.xyz/collections/keycaps) keeps a pretty diverse array of keycaps. They range from a more neutral look to some of the intricate fandoms... like Star Wars! These folks are nice to work with.
++ Group buys here? Yes!
++ Readily available? Yes!
+
+<a href="https://cannonkeys.com/collections/cannonkeys-keycaps">
+<center><em><img src={require('./../assets/images/vendors/Cannonkeys-10_360x.png').default} alt="alternate_text" /></em></center></a>
+
+[CannonKeys](https://cannonkeys.com/collections/cannonkeys-keycaps) has various in-stock keycaps for sale, alongside group buys and pre-orders for GMK sets.
 + Group buys here? Yes!
 + Readily available? Yes!
 
@@ -24,7 +31,7 @@ If you're *really* burning to put that last sweet touch of keycaps on your aweso
 <center><em><img src="https://i.imgur.com/LleKGiH.png" alt="alternate_text"  width="380" height="100" /></em></center></a>
 
 [Pimp My Keyboard](https://pimpmykeyboard.com/all-products/keycaps/) has a great refining search feature on their website, so it'll assist you in finding the perfect keyset.
-+ Group buys here? No. 
++ Group buys here? No.
 + Readily available? Yes!
 
 <a href="https://divinikey.com/collections/keycap-sets">
@@ -51,11 +58,11 @@ For a fun play on words, [DiviniKey](https://divinikey.com/collections/keycap-se
 + Readily available? Yes!
 
 ## Australia
-<a href="https://ramaworks.store/products/grid-set-a">
-<center><em><img src="https://i.imgur.com/VimrqgM.png" alt="alternate_text"  width="120" height="120" /></em></center></a>
+<a href="https://dailyclack.com/collections/keycaps">
+<center><em><img src={require('./../assets/images/vendors/dailyclack.png').default} alt="alternate_text" /></em></center></a>
 
-[RAMA](https://ramaworks.store/products/grid-set-a) has a robust website that features blanks as well as your usual keysets.
-+ Group buys here? No.
+[DailyClack](https://dailyclack.com/collections/keycaps) has some in-stock ePBT keysets for sale.
++ Group buys here? Yes.
 + Readily available? Yes!
 
 ## Europe
