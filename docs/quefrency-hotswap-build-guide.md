@@ -6,6 +6,10 @@ title: Quefrency Rev. 4 Hotswap Build Guide
 
 This build guide is for the Quefrency Rev. 4, which has Kailh hotswap sockets. If you have the Quefrency Rev. 2 or 3 PCBs, see [Quefrency/Sinc/KBO-5000  Build Guide](quefrency-rev2-sinc-build-guide.md).
 
+### Build Tutorial Videos by Keebio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ONEaWsojIn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Parts List
 
 Now you've watched some cool videos and feel inspired! Get your parts:
