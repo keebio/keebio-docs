@@ -43,6 +43,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'default-keymaps',
+          activeBasePath: 'docs',
+          label: 'Additional Info',
+          position: 'left',
+        },
+        {
           to: 'faq/main',
           activeBasePath: 'faq',
           label: 'FAQ',
