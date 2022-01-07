@@ -21,14 +21,14 @@ Various keyboards and parts are offered for sale at [Keebio](https://keeb.io). H
 ## Build Guides
 
 * [Nyquist/Viterbi Rev. 1](nyquist-build-guide.md)
-* [Iris Rev. 3/4](iris-rev3-build-guide.md)
+* [Iris Rev. 3-5](iris-rev3-build-guide.md)
 * [Iris/Levinson Rev. 2](iris-rev2-build-guide.md)
 * [Fourier](fourier-build-guide.md)
 * [Dilly](dilly-build-guide.md)
 * [Chocopad](chocopad-build-guide.md)
 * [Laplace](laplace-build-log.md)
 * [Quefrency Rev. 1](quefrency-rev1-build-guide.md)
-* [Quefrency Rev. 2 & Sinc](quefrency-rev2-sinc-build-guide.md)
+* [Quefrency Rev. 2, Sinc, and KBO-5000](quefrency-rev2-sinc-build-guide.md)
 * [BDN9](bdn9-rev1.3-build-guide.md)
 
 ## Contributing
