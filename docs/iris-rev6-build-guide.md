@@ -125,6 +125,12 @@ After you've installed the first few switches successfully, insert the rest of t
 
 Now that all of the switches have been inserted, it's time to assemble the case.
 
+:::note
+
+If you have 3D-printed top shells that you are going to install, skip this section, except for the info about foam for the encoder.
+
+:::
+
 First step is to add the screws and standoffs to the switch plate. For each hole, insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate.
 
 ![](./assets/images/iris-rev6/IMG_7859.jpg)
@@ -141,7 +147,13 @@ Put the bottom plate on top of the standoffs and screw it on.
 
 ![](./assets/images/iris-rev6/IMG_7862.jpg)
 
-### (Optional) Add Rubber Feet
+Flip the board over and you're done! Or if you've got other case parts, continue reading...
+
+![](./assets/images/iris-rev6/IMG_7865.jpg)
+
+## Install Optional Case Parts
+
+### Add Rubber Feet
 
 If you've got [SKUF Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet), add them to the bottom of the board. Alternatively, you can use any kind of rubber bumpons of your choice.
 
@@ -151,31 +163,47 @@ A 3D-printed alignment guide is available if you'd like to place them in a more 
 
 ![](./assets/images/iris-rev6/IMG_7863.jpg)
 
-Flip the board over and you're done! Or if you've got other case parts, continue reading...
-
-![](./assets/images/iris-rev6/IMG_7865.jpg)
-
 ### 3D-Printed Middle Layer (w/Ergodox Leg support) Installation
+
+Parts needed for this section are the Ergodox EZ Tenting Leg Kit, 6 M3 nuts, and a 3D-printed middle layer appropriate for your case plates.
 
 ![](./assets/images/iris-rev6/IMG_7866.jpg)
 
+Insert an M3 nut into the middle layer from the bottom. Put the spring over the thumbscrew and then insert them through the leg. Afterwards screw it into the nut and tighten.
+
 ![](./assets/images/iris-rev6/IMG_7867.jpg)
+
+Repeat for all of the legs.
 
 ![](./assets/images/iris-rev6/IMG_7868.jpg)
 
+If you are not going to install a top shell, then insert standoffs into the middle layer.
+
 ![](./assets/images/iris-rev6/IMG_7869.jpg)
+
+Add bottom plate and screw it in.
 
 ![](./assets/images/iris-rev6/IMG_7870.jpg)
 
 ### Install Top Shell
 
+You will need to replace the 6mm M2 screws normally included with the plate kit with longer ones that will go through the bottom plate, all the way up into the top shell. You will not need to use the M2 standoffs from the plate kit.
+
+For 1.5mm plate sets (FR4 or Stainless Steel), you will need 18mm screws.
+
+For 3mm plate sets (Acrylic), you will need 20 or 22mm screws.
+
 ![](./assets/images/iris-rev6/IMG_7871.jpg)
+
+Align the top shell over the switch plate and line it up with the middle layer and bottom plate.
 
 ![](./assets/images/iris-rev6/IMG_7872.jpg)
 
-![](./assets/images/iris-rev6/IMG_7873.jpg)
+Insert the long M2 screw through the bottom plate, then through the middle layer, then the switch plate, and finally into the top shell. Tighten the screw into the top shell. This may require some additional force of pushing the screw into the top shell to help if thread properly.
 
 ![](./assets/images/iris-rev6/IMG_7874.jpg)
+
+Done!
 
 ![](./assets/images/iris-rev6/IMG_7878.jpg)
 
