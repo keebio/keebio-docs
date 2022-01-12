@@ -159,7 +159,7 @@ If you've got [SKUF Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard
 
 ![](./assets/images/iris-rev6/IMG_7864.jpg)
 
-A 3D-printed alignment guide is available if you'd like to place them in a more orderly fashion.
+A [3D-printed alignment guide](https://github.com/keebio/iris-case/blob/master/Iris%20Bottom%20Plate%20SKUF%20Alignment%20Guide.stl) is available if you'd like to place them in a more orderly fashion.
 
 ![](./assets/images/iris-rev6/IMG_7863.jpg)
 
