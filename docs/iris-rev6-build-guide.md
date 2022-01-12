@@ -207,4 +207,8 @@ Done!
 
 ![](./assets/images/iris-rev6/IMG_7878.jpg)
 
+## Turning off RGB LEDs
 
+If you'd like to turn the RGB LEDs off and still have the default keymapping, hold the `MO(2)` key and then press `Tab` as highlighted below:
+
+![](./assets/images/iris-rev6/iris-rgb-off.jpg)
