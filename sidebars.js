@@ -19,6 +19,7 @@ module.exports = {
         'iris-rev2-build-guide',
         'chocopad-build-guide',
         '3D-print-shell-installation',
+        'tenting-bolts-setup',
         'iris-middle-layer',
         {
           'Archive': [
