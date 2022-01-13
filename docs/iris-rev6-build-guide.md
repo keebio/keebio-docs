@@ -185,6 +185,10 @@ Add bottom plate and screw it in.
 
 ![](./assets/images/iris-rev6/IMG_7870.jpg)
 
+### Acrylic Middle Layer (w/Tenting Holes) Installation
+
+See the [Tenting Bolts Setup Guide](tenting-bolts-setup) for instructions on adding tenting bolts to the middle layer.
+
 ### Install Top Shell
 
 You will need to replace the 6mm M2 screws normally included with the plate kit with longer ones that will go through the bottom plate, all the way up into the top shell. You will not need to use the M2 standoffs from the plate kit.
