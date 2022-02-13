@@ -7,10 +7,19 @@ title: Technical/Build Info
 ### How do I flash my keyboard with Keyboard Firmware Builder (a.k.a kbfirmware.com)?
 Don't use kbfirmware.com as it is outdated and does not support split keyboards. Use [QMK Configurator](https://config.qmk.fm/) instead.
 
-### Do I need to have the TRRS cable plugged in while trying to flash both halves?
-Having the TRRS cable plugged in while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
+### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
+Having the interconnect cable plugged in between the halves while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
 
-Flashing does not occur over the TRRS cable, so it does not matter if the TRRS cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
+Flashing does not occur over the interconnect cable, so it does not matter if the interconnect cable is plugged in or not while flashing. Each half needs to be plugged in individually to the USB port to be flashed.
+
+### Do I need to flash both halves of a split keyboard?
+
+This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while since you flashed your keyboard, go ahead and flash both halves invidually with the same firmware file.
+
+If both halves have been flashed recently, and you're doing something like updating a keymap, then you will only need to flash the half that will have the USB cable from the computer plugged into it.
+
+When in doubt, flash both halves.
+
 ### When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?
 
 Nope, this is perfectly normal!
