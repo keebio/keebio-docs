@@ -55,8 +55,10 @@ For all of the boards made by Keebio, the band on the diode (the cathode) is alw
 ### Which way do I orient the resistors?
 Resistors have no polarity, so the direction they are installed does not matter.
 
+## Lighting & LEDs
+
 ### Do any of the PCBs have individually addressable LEDs?
-Only the BDN9 Rev. 2 has individually addressable per-key RGB. For all other available Keebio PCBs that have in-switch LED support, the LEDs can only be controlled as a group.
+Only the BDN9 Rev. 2 and Iris Rev. 6 has individually addressable per-key RGB LEDs. For all other available Keebio PCBs that have in-switch LED support, the LEDs can only be controlled as a group.
 
 One option around this is to use a switch with clear housing like a Zealio or Alias switch and point RGB LEDs upwards through the switch.
 
@@ -70,6 +72,16 @@ Here's a link to some LEDs that will work: [Chanzon 100pcs 2x3x4 LEDs](https://a
 ### Which RGB LED strips are compatible?
 - WS2811 and variants (WS2812, WS2812B, WS2812C, etc.)
 - SK6812
+
+### Can I add per-key RGB LEDs to a PCB?
+
+Long story short, no, this is not possible. The PCBs need to be designed to have those RGB LEDs installed, and generally in this case, the LEDs will already be pre-soldered onto the board.
+
+One option is to use [these add-on light diffuser PCBs](https://kprepublic.com/products/xd-halo-rgb-light-control-pcb-soft-lighting-light-diffuser-circle-light-for-mechanical-keyboard-cospad-xd60-64-75-84-96-40-68), but these require a significant amount of work to install them.
+
+### What about those 4-pin through-hole LEDs?
+
+No.
 
 ## Miscellaneous
 
