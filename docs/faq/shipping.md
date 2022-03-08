@@ -16,6 +16,8 @@ Yes, we do ship internationally.
     + Do note that claims must be filed within 60 days of the order and within 30 days of last tracking update!
 + NOTE: Recently we have stopped shipping to Russia due to challenges with getting our packages to people and issues with customs. However, you are welcome to make use of a proxy address and bounce your package off that address to get it to you in Russia.
 
+The price of shipping displayed at checkout includes customs duties/taxes paid up front (DDP). This means that you will not have to pay any additional fees in your home country when the package arrives.
+
 ### Is there a tracking number for packages?
 
 Yes, each package will have a tracking number that will automatically be emailed to you when we ship.
