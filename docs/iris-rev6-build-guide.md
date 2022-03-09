@@ -95,7 +95,7 @@ Align the pins of the switches into the hotswap sockets.
 
 ![](./assets/images/iris-rev6/IMG_7851.jpg)
 
-Then push down the PCB onto the bottom of the switch.
+Then push down the PCB onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
 
 ![](./assets/images/iris-rev6/IMG_7852.jpg)
 
