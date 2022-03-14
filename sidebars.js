@@ -49,6 +49,7 @@ module.exports = {
         'adding-rgb-underglow',
         'case-files',
         'flashing-firmware',
+        'remapping-keyboard',
         'reprogramming-encoders',
         'reset-eeprom',
         'schematics',
