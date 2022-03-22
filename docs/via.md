@@ -22,6 +22,8 @@ So when dealing with QMK normally, if you want to update your keymap, you modify
 
 This is where VIA steps in. VIA is a feature in QMK that lets you change your keymap on your keyboard without needing to reflash firmware. The changes you make using VIA remain persistent on the keyboard, so even when you unplug and replug your keyboard back in, the keymap settings still remain.
 
+For some boards, there is also a lighting controls option that may be enabled, and this allows to to control the brightness of in-switch LEDs and/or control RGB lighting colors and modes.
+
 ### Parts of VIA
 
 VIA consists of two parts: Firmware and VIA Configurator.
