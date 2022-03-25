@@ -20,9 +20,6 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark'
     },
-    googleAnalytics: {
-      trackingID: 'UA-98651741-2'
-    },
     navbar: {
       title: 'Keebio Documentation',
       logo: {
@@ -102,8 +99,8 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        googleAnalytics: {
-          trackingID: 'UA-98651741-2'
+        gtag: {
+          trackingID: '308479930'
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
