@@ -102,6 +102,9 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        googleAnalytics: {
+          trackingID: 'UA-98651741-2'
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
