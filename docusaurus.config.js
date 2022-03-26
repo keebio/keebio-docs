@@ -15,7 +15,8 @@ module.exports = {
     algolia: {
       appId: '93JMS7URNB',
       apiKey: 'b7c07d0e12d760d793776941414358d7',
-      indexName: 'keeb'
+      indexName: 'keeb',
+      contextualSearch: true,
     },
     zoomSelector: '.markdown :not(em) > img',
     colorMode: {
