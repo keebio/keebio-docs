@@ -71,33 +71,6 @@ module.exports = {
         'faq/technical',
         'faq/contact',
         'faq/miscellaneous',
-        {
-          'Orders': [
-          ],
-        },
-        {
-          'Product Updates': [
-          
-          ],
-        },
-        {
-          'Shipping': [
-          
-          ],
-        },
-        {
-          'Contact Info': [
-          ],
-        },
-        {
-          'Technical Info': [
-          
-          ],
-        },
-        {
-          'Miscellaneous': [
-          ],
-        },
       ]
     }
   ]

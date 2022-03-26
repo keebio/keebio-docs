@@ -13,7 +13,8 @@ module.exports = {
   ],
   themeConfig: {
     algolia: {
-      apiKey: 'c435eee47e15ea45760b6f35f61e5135',
+      appId: '93JMS7URNB',
+      apiKey: 'b7c07d0e12d760d793776941414358d7',
       indexName: 'keeb'
     },
     zoomSelector: '.markdown :not(em) > img',
