@@ -41,7 +41,7 @@ module.exports = {
       items: [
         'default-keymaps',
         'glossary',
-        'via',
+        'via-technical',
         'soldering-tools',
         'testing-pcb',
         'choc-stabs',
