@@ -47,6 +47,7 @@ module.exports = {
         'choc-stabs',
         'lighting-options',
         'adding-rgb-underglow',
+        'iris-rev6-rgb-via',
         'case-files',
         'flashing-firmware',
         'remapping-keyboard',
