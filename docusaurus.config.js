@@ -42,6 +42,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'remapping-keyboard',
+          activeBasePath: 'docs',
+          label: 'QMK Firmware/Remapping/VIA',
+          position: 'left',
+        },
+        {
           to: 'default-keymaps',
           activeBasePath: 'docs',
           label: 'Additional Info',
