@@ -20,90 +20,161 @@ To download the VIA Configurator app, you can go to the releases page here: [VIA
 
 ### Launch VIA
 
-It is recommended that _after_ you open VIA to plug in your keyboard.
+![](./assets/images/via/00-opening-VIA.png)
+
+It is recommended that _after_ you open VIA to plug in your keyboard. Once you connect your keyboard, you should see your keymap like below:
+
+![](./assets/images/via/01-keymap-default-screen.png)
+
+If your keyboard does not load, then check again that the firmware flashed to your board has VIA support enabled.
 
 You'll want to be on the **Configure** tab (at the top) to verify a few things before testing your keys.
 
+## Configure Tab
+
+At the top left, you'll see some options available to choose from:
+
+- Keymap - Edit your keymap
+- Layouts - Adjust layout options
+- Macros - Specify what a macro outputs
+- Lighting - Control backlighting and RGB underglow if available
+- Save + Load - Backup your layout to a file on your computer
+
 ## Keymap
 
+The **Configure** tabs shows your keymap, and you can select different layers to edit. The main layer is 0.
+
+You can click on a layer to edit it and select the key on your keyboard you want to change. There are various groups of keycodes at the lower left that you can set each key to:
+
+- Basic
+- Media
+- Macro
+- Layers
+- Special
+- QMK Lighting
+
 ### Basic
-You can now click on a layer to edit and select the key on your keyboard you want to change. I have my KBO-5000 plugged in, and can click F17 and change it to letter X, for a weird example.
+
+These are your basic keycodes, like letters, numbers, symbols, arrow, and modifiers.
+
+The first two squares in the selection area are:
+
+- `KC_NO` (Empty): Nothing is sent
+- `KC_TRNS` (Upside Triangle): Pass-through, meaning whatever is mapped to that key on the next lower layer is sent
+
+If you are a macOS user, `Win/GUI` is equivalent to `Cmd/Command`, while `Alt` is equivalent to `Opt/Option`.
 
 ### Media
-If you're looking for music/movie oriented controls, this section has you covered!
+If you're looking for volume and music/movie oriented controls, this section has you covered!
         
 ### Macro
-You have 15 macro keys to do with what you will! Select a layer, then a key above and then select what macro you'd like to apply.
+You have 16 macro keys to do with what you will! Select a layer, then a key above and then select what macro you'd like to apply.
 
-**For Mac users** the _LWin_ key functions as the _Command Key_ within VIA. For Windows users... just like it reads on the tin! It's your windows key! 
-
-If you so desire, you can also program a macro to type out text for you. Not recommended to do this with passwords, albeit that is absolutely possible.
-
-### Some terms to know:
-**MO (layer):** This activates the layer when held down and you come back to your prior layer when you release the key. Similar to Shift and Fn keys in operation.
- 
-          
-**LM (layer, modifier):** This activates a layer and will also maintain a modifier for you while pressed.
-
-**LT (layer, keycode):** press this and hold to activate a layer _and_ send the keycode when tapped briefly. Best use for keys you usually only press quickly like Tab or Space.
+See the [Macros](#macro-1) section to configure the macro.
 
 ### Layers
-If you hover over a layer option, VIA will give you a brief bit of information about what it does.
+If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
 
 Some terms to know about turning layers on and off:
-##### **TG (layer)**
-Turns a layer on and off. Similar to Num Lock.
 
-##### **DF (layer)** 
+#### MO(layer)
+Most commonly used layer keycode. This momentarily activates the desired layer while you are holding down the key. Once released, the keyboard goes back to its original layer.
+
+#### TG(layer)
+Toggles a layer on and off. Similar to Num Lock.
+
+#### DF(layer)
 This turns on and off your base layer. Most folks usually have their alphas, but if you're reserving your keyboard for gaming, you can use this to maintain a custom game layer to remain active. Game on, friends!
-##### **TO (layer)** 
-This turns on one layer. BUT! Be aware this doesn't toggle _back_, so you need to program akey on this layer to get yourself back. Or be stuck in Kansas. Your choice.
 
-##### **OSL (layer)**
-This temporarily activates a layer until you press the next key. OSL, standing for "one shot layer". This is generally if you want to do one thing and then jump back to what you were doing before.
+#### TO(layer)
+This turns on one layer. BUT! Be aware this doesn't toggle _back_, so you need to program a key on this layer to get yourself back. Or be stuck in Kansas. Your choice.
 
-##### **TT (layer)** 
-Smush MO and TG together and you get this. holding a key down activates the layer and it releases the layer as the key does. You can configure how many times it needs to be pressed to turn the layer on or off. 
+#### OSL(layer)
+This temporarily activates a layer until you press the next key. OSL, standing for "one-shot layer". This is generally if you want to do one thing and then jump back to what you were doing before without having to hold down the layer key.
+
+#### TT(layer)
+Smush MO and TG together and you get this. holding a key down activates the layer and it releases the layer as the key does. You can configure how many times it needs to be pressed to turn the layer on or off.
 
 ### Special
-In this section you can enable language changes as well as operations that usually take a combination of two keys or more and apply it to one key for easy use.
+In this section you can enable language changes as well as operations that usually take a combination of two keys or more and apply it to one key for easy use. Other keycodes here include mousekeys, F13-F24, and symbols.
+
+The last entry here is the `Any` key, which allows you to specify a [QMK Keycode](https://docs.qmk.fm/#/faq_keymap?id=what-keycodes-can-i-use) if one is not listed in any of the groups.
 
 ### QMK Lighting
-This series of operations enable you to give your keyboard changes to the lighting on-the-fly for future use without needing to plugin to VIA. Shortcuts? Yes, please. 
+This series of operations enable you to give your keyboard changes to the lighting on-the-fly for future use without needing to plugin to VIA. Shortcuts? Yes, please.
 
-### **Layouts** 
+`BL` stands for Backlight (typically single-color LEDs for each key).
 
-Once selected, the screen below the keyboard will allow you to change what your shift keys, left/right bottom row, backspace (split vs 2u) and enter key (ISO/ANSI) settings.
+## Layouts
+
+![](./assets/images/via/02-layouts.png)
+
+Once selected, the screen below the keyboard will allow you to change what your shift keys, left/right bottom row, backspace (split vs 2u) and enter key (ISO/ANSI) look like.
 
 You can verify if all your settings saved by clicking on the **Key Tester** tab at the top.
 
-### **Macro** 
-You can enter more than 10 macros. 
+## Macro
 
-### **Lighting**
+![](./assets/images/via/03-macros.png)
 
-#### _Brightness_
+If you've added a macro keycode to your keymap, you can program the macro here.
+
+For example, you can program a macro to type out text for you. Not recommended to do this with passwords, albeit that is absolutely possible.
+
+You can either type text directly without having to know anything about QMK keycode names, or if your put stuff in curly brackets (`{}`), you can use basic QMK keycodes.
+
+### Some terms to know
+**MO(layer):** This activates the layer when held down and you come back to your prior layer when you release the key. Similar to Shift and Fn keys in operation.
+ 
+          
+**LM(layer, modifier):** This activates a layer and will also maintain a modifier for you while pressed.
+
+**LT(layer, keycode):** Press this and hold to activate a layer _and_ send the keycode when tapped briefly. Best use for keys you usually only press quickly like Tab or Space.
+
+### Example Macros
+
+- `MyPassw0rd!` - Sends `MyPassw0rd!`
+- `{KC_A,KC_C,KC_E}` - Sends `ace`
+- `{KC_LCTL,KC_C}` - Sends Ctrl-C
+
+## Lighting
+
+![](./assets/images/via/04-lighting.png)
+
+Depending on your board, not all of the options below will be availablee.
+
+### Brightness
 Want to blind yourself? Or have a soft whisper of light? You have both of those choices and more here!
 
-#### _Effect_
+### Effect
 Want special flickers and jazz? Turn it on if you do!
 
-#### _Underglow Brightness_ 
-All the lights under the keyboard are ctrolled here.
+### Underglow Brightness
+All the lights under the keyboard are controlled here.
 
-#### _Underglow Effect_ 
-With many options, you can choose how wild or tame you want to get with your pizzazz lighting.
+### Underglow Effect
+With many options, you can choose how wild or tame you want to get with your pizzazz lighting. Some keyboards has reactive RGB effect enabled, which mean the effect is based on which key you press.
 
-#### _Underglow Effect Speed_ 
+Below is a video demonstrating most of the effects available.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7f3usatOIKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Underglow Effect Speed
 Make it zippy! Or sleepy. Choice is yours!
 
-#### _Underglow color_ 
+### Underglow color
 Not feeling that shimmery? Just pick the one color you want here!
 
-## **Key Tester**
+## Key Tester Tab
 
 After getting your setting where you want them, it's good to test if all your keys are operating properly.
 
-## **Settings**
+You can see [Testing Your PCB](testing-pcb.md) for more details.
+
+## Settings Tab
 
 You generally won't need to use this tab unless needing to do some workarounds.
+
+- Show Design tab - Enables the Design tab, so you can load in custom keyboard definitions that haven't been merged into VIA yet
+- Fast Key Mapping - If enabled, when you remap a key, the key selection box to remap automatically moves to the next key
+- Allow remapping via keyboard - Allows you to type the key you want a key to be remapped to

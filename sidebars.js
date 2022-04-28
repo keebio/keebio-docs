@@ -37,12 +37,24 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Firmware/Remapping',
+      items: [
+        'remapping-keyboard',
+        'flashing-firmware',
+        'via',
+        'via-technical',
+        'iris-rev6-rgb-via',
+        'reprogramming-encoders',
+        'reset-eeprom'
+      ],
+      collapsed: false
+    },
+    {
+      type: 'category',
       label: 'Additional Info',
       items: [
         'default-keymaps',
         'glossary',
-        'via',
-        'via-technical',
         'soldering-tools',
         'testing-pcb',
         'choc-stabs',
@@ -50,10 +62,6 @@ module.exports = {
         'adding-rgb-underglow',
         'iris-rev6-rgb-via',
         'case-files',
-        'flashing-firmware',
-        'remapping-keyboard',
-        'reprogramming-encoders',
-        'reset-eeprom',
         'schematics',
         'troubleshooting',
         'dfu-on-pro-micro'
