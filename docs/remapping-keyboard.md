@@ -20,15 +20,15 @@ There are 3 main options for changing your board's keymap, ordered from least di
 
 Here are some pros and cons of each method:
 
-- VIA Configurator
+- [VIA Configurator](#via-configurator)
     - Pros: Easist to use, instant keymap updates, no flashing firmware required, live lighting controls, layout option controls, macro editor
     - Cons: Does not support every board, can't remap encoders, limit of 4 layers, infrequent updates
-- QMK Configurator
-    - Pros: Stays up to date with QMK firmware, all boards in QMK supported, 
-    - Cons: Need to reflash board to update keymap
+- [QMK Configurator](#qmk-configurator)
+    - Pros: Stays up to date with QMK firmware, all boards in QMK repository are supported
+    - Cons: Need to reflash board to update keymap, can't remap encoders
 - QMK Build Environment
     - Pros: Can reconfigure encoders, access to more features like tap dance
-    - Cons: Can be complex to setup, involves editing code,
+    - Cons: Can be complex to setup, involves editing code and using Git
 
 ## VIA Configurator
 
@@ -38,9 +38,13 @@ For VIA usage instructions, see [VIA Usage Guide](via.md).
 
 ## QMK Configurator
 
+![](./assets/images/qmk-config/qmk-config-iris.png)
+
 For [QMK Configurator](https://config.qmk.fm), see the [QMK Configurator Guide](https://docs.qmk.fm/#/configurator_step_by_step)
 
 ## QMK Firmware Build Environment
+
+![](./assets/images/misc/qmk-build-env.png)
 
 Setting up a QMK build environment and compiling your own firmware provides the most flexibility in terms of features and control, but it is also the most complicated of the options out there.
 
