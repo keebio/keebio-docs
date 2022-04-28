@@ -18,11 +18,34 @@ There are 3 main options for changing your board's keymap, ordered from least di
 - QMK Configurator
 - QMK Firmware build environment
 
-## (TODO) VIA Configurator
+Here are some pros and cons of each method:
 
+- VIA Configurator
+    - Pros: Easist to use, instant keymap updates, no flashing firmware required, live lighting controls, layout option controls, macro editor
+    - Cons: Does not support every board, can't remap encoders, limit of 4 layers, infrequent updates
+- QMK Configurator
+    - Pros: Stays up to date with QMK firmware, all boards in QMK supported, 
+    - Cons: Need to reflash board to update keymap
+- QMK Build Environment
+    - Pros: Can reconfigure encoders, access to more features like tap dance
+    - Cons: Can be complex to setup, involves editing code,
 
-## (TODO) QMK Configurator
+## VIA Configurator
 
+![](./assets/images/misc/via-configure.png)
 
-## (TODO) QMK Firmware Build Environment
+For VIA usage instructions, see [VIA Usage Guide](via.md).
 
+## QMK Configurator
+
+For [QMK Configurator](https://config.qmk.fm), see the [QMK Configurator Guide](https://docs.qmk.fm/#/configurator_step_by_step)
+
+## QMK Firmware Build Environment
+
+Setting up a QMK build environment and compiling your own firmware provides the most flexibility in terms of features and control, but it is also the most complicated of the options out there.
+
+Note that not all features of QMK are supported by the VIA Configurator, so if you want to use more advanced features of QMK like Tap Dance, then you'll need to setup a [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started). By default on most VIA-supported keyboards, there is a limit of 4 layers. This can sometimes be increased, but once again, this requires setting up a QMK build environment.
+
+## Flashing Your Keyboard
+
+If using either QMK Configurator or a QMK Firmware build environment, you'll need to flash the generated .hex/.bin file to your keyboard. See [Flashing Firmware](flashing-firmware.md) for details about doing this.
