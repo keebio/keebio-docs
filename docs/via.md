@@ -16,9 +16,7 @@ Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniu
 
 To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
 
-## Using VIA
-
-### Launch VIA
+## Launch VIA
 
 ![](./assets/images/via/00-opening-VIA.png)
 
@@ -73,7 +71,7 @@ You have 16 macro keys to do with what you will! Select a layer, then a key abov
 See the [Macros](#macro-1) section to configure the macro.
 
 ### Layers
-If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
+If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A Primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
 
 Some terms to know about turning layers on and off:
 
