@@ -35,6 +35,13 @@ First up, time to get your parts:
 
 ## Solder Rotary Encoder
 
+
+:::info
+
+If you have the Iris Rev. 6.1 PCBs, you do not need to clip the two larger mounting pins on the encoder as mentioned below, since the PCB now has slots for it.
+
+:::
+
 If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB:
 
 ![](./assets/images/iris-rev6/IMG_7842.jpg)
