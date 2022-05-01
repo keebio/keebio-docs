@@ -20,11 +20,13 @@ A temperature-controlled soldering iron is recommended. Even though you can get 
 
 Here's a list of some suggested ones:
 
+- ★ [TS100 Pocket-size Soldering Iron ($$)](https://www.amazon.com/UY-CHAN-Programmable-Pocket-size-Acceleration/dp/B01MDTO6X7/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=0c58d1029ca0228c71d9b6d7adb569e5&language=en_US) - Nice little soldering iron with a digitial readout of the temperature. Really portable and quick warm up time.
+    - Recommended to print out this [Hakko Sleeve](https://amzn.to/3vzylMc) adapater (<https://www.thingiverse.com/thing:4935962>), so you can use the [cheaper T12 iron tips](https://amzn.to/3F6qkSr) with it
 - ★ [KSGER T12 Soldering Iron Station ($$)](https://www.amazon.com/KSGER-Temperature-Controller-Electronic-Equipments/dp/B07PYFSCJ9/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=822712355244e8e266aa9f3a0e9cc199&language=en_US) - Recommended mid-tier option. Tips heat up to the right temperature fairly quickly and are hotswappable without needing to turn off the station. Handles soldering to ground planes well due to good thermal mass. Pro tip: Only thing to note is that when changing the tip, to get the station to recognize it properly, press in the control knob and turn it to select the correct tip.
+- [PINECIL – Smart Mini Portable Soldering Iron, Small ($)](https://amzn.to/3s5CXYn) - Nice option if you've already got a USB-C power supply compatible with it
 - [Aoyue 469 60W Soldering Station ($)](https://www.amazon.com/Aoyue-Variable-Soldering-Station-Removable/dp/B00MCVCHJM/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=f136b5fe148e146456b20f7667ab01ca&language=en_US) - Decent budget option
 - ★ [Yihua 937D+ SMD Soldering Iron Rework Station LED Display ($)](https://www.amazon.com/Professional-Digital-Soldering-Station-Switch/dp/B07YSCBZ4F/ref=as_li_ss_tl?crid=3N1M0SIYEM586&dchild=1&keywords=937d+soldering+station&qid=1587486069&s=hi&sprefix=937d+,tools,166&sr=1-5&linkCode=ll1&tag=keebio-20&linkId=ab6d36bdb26b24471f952743473b2e02&language=en_US) - Easy to adjust temperature using the knob, and having a digital readout is very nice to have so you know what temperature the iron is at
 - [Hakko FX888D ($$$)](https://www.amazon.com/gp/product/B00ANZRT4M/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=29b2b3842b2687b17e8cc6cc98e3ef11&language=en_US) - You'll see a lot of recommendations out there for this iron, and rightly so, as this is a quality soldering iron
-- [TS100 Pocket-size Soldering Iron ($$)](https://www.amazon.com/UY-CHAN-Programmable-Pocket-size-Acceleration/dp/B01MDTO6X7/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=0c58d1029ca0228c71d9b6d7adb569e5&language=en_US) - Nice little soldering iron with a digitial readout of the temperature. Really portable.
 - ★ [Weller WE1010NA Digital Soldering Station ($$$)](https://amzn.to/3sxeH0u) - The temperature control
 - ★★ [PACE ADS200 Professional Soldering Station ($$$)](https://www.amazon.com/PACE-ADS200-Professional-Soldering-Station/dp/B07KY58984/ref=as_li_ss_tl?keywords=ads200&qid=1582429726&sr=8-1&linkCode=ll1&tag=keebio-20&linkId=92236c548c2db681739944b0d3656f7f&language=en_US) - By far Keebio's favorite soldering iron! Tips heat up in 2-3 seconds, and they are hotswappable. Handles soldering to ground planes very easily. Highly recommended.
 
@@ -145,6 +147,7 @@ Nice for protecting the surface that you're working on.
 Better than just leaving the solder spool sitting on its side.
 
 - ★ [Delcast SL-RL Solder Dispenser Reel](https://www.amazon.com/Delcast-SL-RL-Solder-Dispenser-Reel/dp/B00PQF98X4/ref=as_li_ss_tl?s=hi&linkCode=ll1&tag=keebio-20&linkId=929c3d8f054e78664d835ebe35ed5b3e&language=en_US)
+- ★ [Hakko 611-2 Dual Solder Reel Stand](https://amzn.to/375c9QN) - Handy for holding two reels at once, like one for soldering switches and one for SMT soldering
 
 ### Flux
 
