@@ -22,7 +22,7 @@ When in doubt, flash both halves.
 
 ### When I flash the right side by itself, I get the left side, but mirrored. Is something wrong?
 
-Nope, this is perfectly normal!
+If this is for a PCB that is flippable or usable for both halves, this is perfectly normal! Note: Currently, the only PCB kit sold on Keebio at the moment like this is the BFO-9000.
 
 Here's the explanation why:  
 
