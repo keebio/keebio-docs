@@ -8,7 +8,7 @@ There's sometimes a bit of confusion about what is QMK and VIA, as well as how t
 
 Before we dive into what VIA is, let's go over what QMK Firmware is first in case you're not sure. [QMK Firmware](https://qmk.fm) is an open-source keyboard firmware, and most keyboards within the mechanical keyboard community use QMK. QMK also encompasses a suite of other tools, such as [QMK Configurator](https://config.qmk.fm/) and [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
-QMK Firmware has a lots of features, like supporting multiple layers, macros, Mod-Tap, mouse keys, split keyboards, backlighting, RGB, etc., which makes is a popular choice for hobbyists.
+QMK Firmware has a lots of features, like supporting multiple layers, macros, Mod-Tap, mouse keys, split keyboards, backlighting, RGB, etc., which makes it a popular choice for hobbyists.
 
 All of the keyboards released by Keebio so far have QMK support, and Keebio is involved with the QMK organization as a collaborator.
 
