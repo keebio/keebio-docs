@@ -169,6 +169,12 @@ After getting your setting where you want them, it's good to test if all your ke
 
 You can see [Testing Your PCB](testing-pcb.md) for more details.
 
+![](./assets/images/via/via-key-tester-full.png)
+
+For special keys, like layer keys that aren't on a normal keyboard, you can switch to matrix mode by selecting `Test Matrix`. This will let you see if all of the physical locations of keys work.
+
+![](./assets/images/via/via-key-tester.png)
+
 ## Settings Tab
 
 You generally won't need to use this tab unless needing to do some workarounds.

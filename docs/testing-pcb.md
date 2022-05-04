@@ -48,6 +48,8 @@ To test an `Fn`/layer key, you'll need to use one hand to hold that key down wit
 
 If your keyboard has VIA support, then you can also test these keys by opening up VIA, going to the `KEY TESTER` tab and then selecting `Test Matrix`. You will then see the special keys light up in the app when pressed.
 
+![](./assets/images/via/via-key-tester.png)
+
 ## Split Keyboard Testing
 
 For split keyboards, we recommend that you test your PCBs in the following configurations:
