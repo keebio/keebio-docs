@@ -6,6 +6,13 @@ title: Recommended Soldering Tools
 
 So you want to build a keyboard, but are unsure of exactly what you'll need? Don't worry, here's a list of suggested tools for soldering. Some of these items with have a star (★) next to them, as these are the ones that Keebio has.
 
+
+## Video
+
+Here's a video we put together talking about the tools we like:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Lw_hFh73_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The Essentials
 
 At the minimum, you'll need these items to build the keyboards that Keebio offers:
