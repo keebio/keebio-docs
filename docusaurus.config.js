@@ -128,4 +128,11 @@ module.exports = {
       },
     ],
   ],
+  scripts: [
+    {
+      src: "https://tools.luckyorange.com/core/lo.js?site-id=a1ff8553",
+      async: true,
+      defer: true,
+    },
+  ],
 };
