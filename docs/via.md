@@ -98,6 +98,26 @@ In this section you can enable language changes as well as operations that usual
 
 The last entry here is the `Any` key, which allows you to specify a [QMK Keycode](https://docs.qmk.fm/#/faq_keymap?id=what-keycodes-can-i-use) if one is not listed in any of the groups.
 
+### How to use Any key
+
+The `Any` key can be used to do some more complex keycodes, like ones involving [modifiers](https://docs.qmk.fm/#/keycodes?id=modifiers), [layers](https://docs.qmk.fm/#/keycodes?id=layer-switching), or [mod-tap keys](https://docs.qmk.fm/#/keycodes?id=mod-tap-keys).
+
+Aliases are not supported, for example `C(kc)` can't be used, so `LCTL(kc)` would have to be used instead.
+
+Also for Mod-Tap, only `MT(mod, kc)` can be used.
+
+![](./assets/images/via/any-key.png)
+
+Here's some examples:
+
+- `LALT(KC_TAB)` - Sends Alt-Tab
+- `LCTL(KC_C)` - Sends Ctrl-C
+- `LGUI(KC_C)` - Sends Cmd-C or Win-C
+- `LSFT(LCTL(KC_END))` - Sends Shift-Ctrl-End
+- `MO(1)` - Momentarily turn on layer 1
+- `LCA(KC_DEL)` - Sends Ctrl-Alt-Del
+- `MT(MOD_RSFT, KC_ENT)` - Sends Shift if held, Enter if tapped
+
 ### QMK Lighting
 This series of operations enable you to give your keyboard changes to the lighting on-the-fly for future use without needing to plugin to VIA. Shortcuts? Yes, please.
 
