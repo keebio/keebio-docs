@@ -102,9 +102,7 @@ The last entry here is the `Any` key, which allows you to specify a [QMK Keycode
 
 The `Any` key can be used to do some more complex keycodes, like ones involving [modifiers](https://docs.qmk.fm/#/keycodes?id=modifiers), [layers](https://docs.qmk.fm/#/keycodes?id=layer-switching), or [mod-tap keys](https://docs.qmk.fm/#/keycodes?id=mod-tap-keys).
 
-Aliases are not supported, for example `C(kc)` can't be used, so `LCTL(kc)` would have to be used instead.
-
-Also for Mod-Tap, only `MT(mod, kc)` can be used.
+Not all aliases are supported, for example `LCTL_T(kc)` can't be used, so `MT(MOD_LCTL, kc)` would have to be used instead.
 
 ![](./assets/images/via/any-key.png)
 
