@@ -32,6 +32,16 @@ So when you plug in the right board itself, it thinks it's the left one. The rea
 
 When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
 
+## Firmware
+
+### Do the keyboards have NKRO support?
+
+Out of the box, our boards do not have NKRO (N-Key Rollover) enabled in QMK, but 6KRO (6-Key Rollover) instead.
+
+You can enable NKRO with QMK using these instructions: <https://docs.qmk.fm/#/faq_misc?id=nkro-doesnt-work>
+
+You will need to have a [QMK Build Environment](remapping-keyboard#qmk-firmware-build-environment) setup, set `NKRO_ENABLE = yes` in your `rules.mk`, and then pressing the `Magic N` command (`LShift+RShift+N` by default) to turn on NKRO.
+
 ## Building
 
 ### What soldering tools should I get?
