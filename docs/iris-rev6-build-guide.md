@@ -122,7 +122,7 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
 
 ![](./assets/images/iris-rev6/IMG_7855.jpg)
 
-After you've installed the first few switches successfully, insert the rest of them in.
+After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the the bottom of the socket while pressing the switches in.
 
 ![](./assets/images/iris-rev6/IMG_7856.jpg)
 
