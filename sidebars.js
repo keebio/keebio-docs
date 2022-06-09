@@ -6,6 +6,7 @@ module.exports = {
         'iris-rev6-build-guide',
         'quefrency-hotswap-build-guide',
         'quefrency-rev2-sinc-build-guide',
+        'bamfk-1-build-guide',
         'iris-rev3-build-guide',
         'nyquist-rev3-build-guide',
         'foldkb-build-guide',
