@@ -8,9 +8,7 @@ This build guide is exclusively for the Rev. 6 PCB of the Iris, which features p
 
 ### Build Tutorial Videos by Keebio
 
-Build video for the Iris Rev. 6 to be made and posted soon, but for now you can watch the video for the hotswap Quefrency board for reference.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ONEaWsojIn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FEadTGc-SKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Parts List
 
