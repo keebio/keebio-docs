@@ -2,22 +2,18 @@
 title: BAMFK-1 Build Guide
 ---
 
-:::info
-
-This guide is currently a work in progress, and a full write-up is in the works.
-
-:::
-
 ## Parts List
 
 * [Big Switch](https://novelkeys.com/products/the-big-switch-series)
 * [BAMFK-1 Acrylic Case](https://keeb.io/products/bamfk-1-acrylic-case-for-big-switch)
   * Note: If you've purchased this kit, you will have the rest of the parts below
 * [BAMFK-1 PCB](https://keeb.io/products/bamfk-1-big-switch-pcb)
-* EC11B Horizontal Encoders
-* Encoder Knobs
+* [EC11B Horizontal Encoders](https://keeb.io/products/horizontal-rotary-encoder-ec11b)
+* [Encoder Knobs](https://keeb.io/products/aluminum-rotary-encoder-knob-ec11-ec11b)
 * 1.5mm and 2.5mm Hex Keys
 * M3 screws and rivet nuts
+
+![](./assets/images/bamfk-1/kit.jpg)
 
 ## Build Steps Summary
 
@@ -37,37 +33,79 @@ If your case has been fully disassembled, you'll need to reassemble the bottom p
 
 :::
 
-Unscrew the screws at the top of the case and remove the top layers and switch plate. Don't unscrew the bottom portion of the case and leave it as is.
+Unscrew the screws at the top of the case and remove the top 5 layers and switch plate. Don't unscrew the bottom portion of the case and leave it as is.
+
+![](./assets/images/bamfk-1/IMG_0366.jpeg)
 
 ## Insert Switch into Plate
 
 Insert the Big Switch into the switch plate, making sure the holes are in the correct orientation as shown below.
 
+![](./assets/images/bamfk-1/IMG_0367.jpeg)
+
 ## Solder Encoders
 
-Solder the rotary encoders to the PCB.
+Add the rotary encoders to the PCB and solder them in.
 
 :::warning
 
-Make sure you insert the encoders from the bottom side of the PCB and solder them in place on the top side. You may have a hard time desoldering the encoders if you inserted them on the wrong side.
+Make sure you insert the encoders from the bottom side of the PCB and solder them in place on the top side. You may have a hard time desoldering the encoders if you insert them on the wrong side.
 
 :::
+
+![](./assets/images/bamfk-1/IMG_0368.jpeg)
+
+![](./assets/images/bamfk-1/IMG_0369.jpeg)
 
 ## Install Knobs
 
 Install the knobs onto the rotary encoders and use the 1.5mm hex key to tighten them into place. It'll be more difficult if you screw on the knobs later, so do it now.
 
+![](./assets/images/bamfk-1/IMG_0370.jpeg)
+
 ## Solder Big Switch
 
-Insert the switch legs of the Big Switch through the PCB and solder them on. You may find that you need a decent amount of solder to get everything in place. If you don't use enough solder, the PCB might hang off of the switch at an angle.
+Insert the switch legs of the Big Switch through the PCB and solder them on. Make sure the solder sticks to both the switch leg and the pad on the PCB. You might need to keep your soldering iron tip at the joint for a bit longer than you would with a normal-sized switch.
+
+It's okay to use a generous amount of solder to get everything in place more firmly. If you don't use enough solder, the PCB might hang off of the switch at an angle.
+
+![](./assets/images/bamfk-1/IMG_0371.jpeg)
+
+![](./assets/images/bamfk-1/IMG_0372.jpeg)
 
 ## Insert Plate into Case
 
 Take the plate/PCB/switch combo and angle in the knobs through the front panel first, and then lean the USB port back.
 
+![](./assets/images/bamfk-1/IMG_0373.jpeg)
+
+Push the plate over the screw heads of the bottom half of the case.
+
+![](./assets/images/bamfk-1/IMG_0374.jpeg)
+
 ## Reassemble Top Half of Case
 
-Reassemble the top half of the case as described here: [Making Top Half of Case](#make-top-half-of-case).
+Add the rivet nuts to the underside of the bottom plate, stack all the top layers in place, and then screw them in.
+
+If you need help with identifying the top 5 layers, see this: [Making Top Half of Case](#make-top-half-of-case).
+
+It helps to do 2 opposite corners first, and then the last 2 corners.
+
+![](./assets/images/bamfk-1/IMG_0375.jpeg)
+
+## Finishing It
+
+Add keycap.
+
+![](./assets/images/bamfk-1/IMG_0376.jpeg)
+
+Plug in USB-C Cable.
+
+![](./assets/images/bamfk-1/IMG_0377.jpeg)
+
+Turn the lights off and enjoy.
+
+![](./assets/images/bamfk-1/IMG_0378.jpeg)
 
 ## Reprogramming the BAMFK-1
 
