@@ -65,7 +65,7 @@ Install the knobs onto the rotary encoders and use the 1.5mm hex key to tighten 
 
 ## Solder Big Switch
 
-Insert the switch legs of the Big Switch through the PCB and solder them on. Make sure the solder sticks to both the switch leg and the pad on the PCB. You might need to keep your soldering iron tip at the joint for a bit longer than you would with a normal-sized switch.
+Insert the switch legs of the Big Switch through the PCB and solder them on. Make sure the solder sticks to both the switch leg and the pad on the PCB. You might need to keep your soldering iron tip at the joint for a bit longer than you would with a normal-sized switch. Also add solder to both sides of the legs.
 
 It's okay to use a generous amount of solder to get everything in place more firmly. If you don't use enough solder, the PCB might hang off of the switch at an angle.
 
