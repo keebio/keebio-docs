@@ -120,6 +120,16 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
 
 ![](./assets/images/iris-rev6/IMG_7855.jpg)
 
+If you're using an acrylic plate, make sure the switches are centered properly within the cutout. If they're not centered, then this will cause issues with putting in the switches for the thumb keys.
+
+#### Bad (Not centered)
+
+![](./assets/images/iris-rev6/acrylic-uncentered.jpg)
+
+#### Good (Centered)
+
+![](./assets/images/iris-rev6/acrylic-centered.jpg)
+
 After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the the bottom of the socket while pressing the switches in.
 
 ![](./assets/images/iris-rev6/IMG_7856.jpg)
