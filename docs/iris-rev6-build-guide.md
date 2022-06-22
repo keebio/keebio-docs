@@ -20,6 +20,7 @@ First up, time to get your parts:
 * Switches (MX-compatible ones)
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [3D-Printed Iris Case](https://treedogstudio.com/products/iris-3d-printed-case) (optional)
+* [FLAHNS Hotswap Bumers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
 
 ![](./assets/images/iris-rev6/IMG_7838.jpg)
 
@@ -154,9 +155,13 @@ First step is to add the screws and standoffs to the switch plate. For each hole
 
 ![](./assets/images/iris-rev6/IMG_7860.jpg)
 
-If you installed an encoder, you will need to add a piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
+If you installed an encoder, you will need to add a [silicone bumper](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
 
 ![](./assets/images/iris-rev6/IMG_7861.jpg)
+
+(Optional) Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
+
+(TODO: Insert picture here for bumper installation)
 
 Put the bottom plate on top of the standoffs and screw it on.
 
