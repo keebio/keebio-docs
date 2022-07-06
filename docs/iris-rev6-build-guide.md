@@ -18,6 +18,7 @@ First up, time to get your parts:
 * [Iris PE Plates](https://keeb.io/products/iris-keyboard-case-plates-phoenix-edition)
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * Switches (MX-compatible ones)
+* [SKUF Silicone Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet) (recommended)
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [3D-Printed Iris Case](https://treedogstudio.com/products/iris-3d-printed-case) (optional)
 * [FLAHNS Hotswap Bumers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
@@ -79,11 +80,15 @@ One side complete, repeat the same process for the other side of the plate for a
 
 Because the acrylic plate is 3mm thick instead of 1.5mm, the switch will not fully click into the plate. To prevent the plate from slipping off of the switches and onto the PCB, add some material between the bottom of the plate and the top of the PCB. You will need something about 2mm thick, such as rubber bumpons or rolled up electrical tape.
 
-Here, SKUF feet are being used to provide the buffer:
+If you have extra [SKUF Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet) not being used for the bottom plate, take one and cut it up into 6-8 pieces.
 
-![](./assets/images/iris-rev6/IMG_7847.jpg)
+![](./assets/images/iris-rev6/IMG_0690.jpg)
 
-Here's the other option of using electrical tape:
+Then stick them on to the underside of the switch plate to provide the buffer. The locations don't have to exactly match what's shown below, but something like that is good.
+
+![](./assets/images/iris-rev6/IMG_0691.jpg)
+
+Here's the other option of using electrical tape if you don't have SKUF feet:
 
 ![](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
 
