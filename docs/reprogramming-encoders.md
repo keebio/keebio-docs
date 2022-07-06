@@ -31,6 +31,7 @@ Here's some ideas on what you can use this functionality for:
 - Macros
 - Change RGB/Backlight modes
 - Regular keystroke
+- Emulating a mouse ([mouse keys](https://docs.qmk.fm/#/feature_mouse_keys))
 
 ## How to change encoder mappings
 
@@ -157,4 +158,14 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return false;
 }
+```
+
+### Mouse Keys
+
+[Mouse keys](https://docs.qmk.fm/#/feature_mouse_keys) is a QMK feature that allows you to emulate a mouse using your keyboard. You can move the pointer at different speeds, press 5 buttons and scroll in 8 directions.
+
+If you want to use mouse keys, you will need to make sure that it is enabled by adding the following line to your keymap's `rules.mk` if it not already enabled in the keyboard's `rules.mk`:
+
+```c
+MOUSEKEY_ENABLE = yes
 ```

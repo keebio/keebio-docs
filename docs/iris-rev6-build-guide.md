@@ -123,13 +123,13 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
 
 If you're using an acrylic plate, make sure the switches are centered properly within the cutout. If they're not centered, then this will cause issues with putting in the switches for the thumb keys.
 
-#### Bad (Not centered)
-
-![](./assets/images/iris-rev6/acrylic-uncentered.jpg)
-
 #### Good (Centered)
 
 ![](./assets/images/iris-rev6/acrylic-centered.jpg)
+
+#### Bad (Not centered)
+
+![](./assets/images/iris-rev6/acrylic-uncentered.jpg)
 
 After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the the bottom of the socket while pressing the switches in.
 
@@ -161,7 +161,9 @@ If you installed an encoder, you will need to add a [silicone bumper](https://ke
 
 (Optional) Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
-(TODO: Insert picture here for bumper installation)
+![](./assets/images/iris-rev6/flahns-top.jpg)
+
+![](./assets/images/iris-rev6/flahns-side.jpg)
 
 Put the bottom plate on top of the standoffs and screw it on.
 
