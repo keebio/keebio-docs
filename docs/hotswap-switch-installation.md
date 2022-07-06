@@ -51,6 +51,8 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
 
 Once you've ensured that the legs of the switch are straight, insert it through the switch plate and into the hotswap socket on the PCB. While doing so, make sure the bottom of the socket is supported by your thumb so the socket is not accidentally pushed out of place.
 
+Also make sure the switch is fully seated and is level with the top of the switch plate.
+
 ![](./assets/images/hotswap/squeeze.jpg)
 
 If you find that you need to apply too much force, recheck that the switch pins are straight.
