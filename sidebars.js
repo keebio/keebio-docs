@@ -5,6 +5,7 @@ module.exports = {
         'main',
         'iris-rev6-build-guide',
         'quefrency-hotswap-build-guide',
+        'hotswap-switch-installation',
         'quefrency-rev2-sinc-build-guide',
         'bamfk-1-build-guide',
         'iris-rev3-build-guide',
