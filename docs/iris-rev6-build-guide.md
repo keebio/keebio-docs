@@ -94,6 +94,10 @@ Here's the other option of using electrical tape if you don't have SKUF feet:
 
 ## Add Switches
 
+Here's a video tutorial of the process:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1bwTtkTqjTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Insert a few switches into the switch plate at the corners.
 
 ![](./assets/images/iris-rev6/IMG_7849.jpg)
