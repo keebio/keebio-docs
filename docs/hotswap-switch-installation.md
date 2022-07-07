@@ -6,6 +6,10 @@ If you've purchased a keyboard from us without switches and has hotswap sockets,
 
 While it is possible sometimes to stick the switches into the board as is, you might cause the hotswap PCB to shift downwards out of place by doing this. Instead we suggest that you follow the procedure below to install your switches.
 
+### Tutorial Videos by Keebio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1bwTtkTqjTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Parts Needed
 
 - Screwdriver
