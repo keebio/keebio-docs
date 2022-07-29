@@ -1,10 +1,10 @@
 ---
-title: Quefrency Rev. 4 Hotswap Build Guide 
+title: Quefrency Rev. 4-5 Hotswap Build Guide 
 ---
 
 ## Build Compatibility
 
-This build guide is for the Quefrency Rev. 4, which has Kailh hotswap sockets. If you have the Quefrency Rev. 2 or 3 PCBs, see [Quefrency/Sinc/KBO-5000  Build Guide](quefrency-rev2-sinc-build-guide.md).
+This build guide is for the Quefrency Rev. 4-5, which has Kailh hotswap sockets. If you have the Quefrency Rev. 2 or 3 PCBs, see [Quefrency/Sinc/KBO-5000 Build Guide](quefrency-rev2-sinc-build-guide.md).
 
 ### Build Tutorial Videos by Keebio
 
@@ -14,7 +14,9 @@ This build guide is for the Quefrency Rev. 4, which has Kailh hotswap sockets. I
 
 Now you've watched some cool videos and feel inspired! Get your parts:
 
-* [Set of Quefrency Rev. 4 PCBs](https://keeb.io/products/quefrency-rev-4-65-split-staggered-keyboard)
+* Set of Quefrency PCBs
+  * [Rev. 4 PCB Kit](https://keeb.io/products/quefrency-rev-4-65-split-staggered-keyboard)
+  * [Rev. 5 PCB Kit](https://keeb.io/products/quefrency-rev-5-pcbs-hotswap-65-65xt-split-staggered-keyboard)
 * [Plates for Quefrency](https://keeb.io/products/quefrency-fr4-plates)
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for boards that use USB-C for interconnect)
 * Switches (MX-compatible ones)
