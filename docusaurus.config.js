@@ -22,6 +22,7 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark'
     },
+    image: 'img/keebio-avatar.png',
     navbar: {
       title: 'Keebio Documentation',
       logo: {
