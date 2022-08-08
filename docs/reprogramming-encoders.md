@@ -39,7 +39,56 @@ Here's some ideas on what you can use this functionality for:
 
 First, you need to make sure that you have you own keymap directory setup if you don't already have one. For example, if you have an Iris keyboard, go to `keyboards/keebio/iris/keymaps` and copy `default` to your own name/username. If you want to retain [VIA](via.md) functionality, then copy the `via` keymap directory.
 
-### Add `encoder_update_user` method
+### Methods of Mapping Encoders
+
+There are two methods of defining the mapping of your encoders:
+
+1. [Encoder Map](https://docs.qmk.fm/#/feature_encoders?id=encoder-map)
+2. [Callbacks](https://docs.qmk.fm/#/feature_encoders?id=callbacks)
+
+Encoder map is the newer method of encoder mapping and is recommended if you are just sending keycodes like a keyswitch. It is also easier to set the mappings for different layers.
+
+Using callbacks is the older method, and most of the code in the QMK repository uses this method since it's been around much longer.
+
+### Method 1: Encoder map
+
+First, you will need to enable the encoder map feature by adding the following line to your keymap's `rules.mk`:
+
+```makefile
+ENCODER_MAP_ENABLE = yes
+```
+
+Next, open up the `keymap.c` file that's in your keymap folder. Go down to the bottom of the file and add the following code:
+
+```c
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [0] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN),  ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  },
+    [1] = { ENCODER_CCW_CW(RGB_HUD, RGB_HUI),  ENCODER_CCW_CW(RGB_SAD, RGB_SAI)  },
+    [2] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI),  ENCODER_CCW_CW(RGB_SPD, RGB_SPI)  },
+    [3] = { ENCODER_CCW_CW(RGB_RMOD, RGB_MOD), ENCODER_CCW_CW(KC_LEFT, KC_RIGHT) },
+};
+#endif
+```
+
+The first parameter of `ENCODER_CCW_CW()` is what the counter-clockwise rotation of the encoder will be, while the second parameter is the mapping for the clockwise rotation of the encoder.
+
+This snippet above assumes that there are 2 encoders. Here's a commented version of the same code that explains what it does, so you can change things accordingly:
+
+```c
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+          // Mappings for 1st Encoder          // Mappings for 2nd Encoder
+    [0] = { ENCODER_CCW_CW(KC_PGUP, KC_PGDN),  ENCODER_CCW_CW(KC_VOLD, KC_VOLU)  }, // Mapping for Base layer
+    [1] = { ENCODER_CCW_CW(RGB_HUD, RGB_HUI),  ENCODER_CCW_CW(RGB_SAD, RGB_SAI)  }, // Mapping for Layer 1
+    [2] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI),  ENCODER_CCW_CW(RGB_SPD, RGB_SPI)  }, // Mapping for Layer 2
+    [3] = { ENCODER_CCW_CW(RGB_RMOD, RGB_MOD), ENCODER_CCW_CW(KC_LEFT, KC_RIGHT) }, // Mapping for Layer 3
+
+    // You can add more layers here if you need them, or you can also delete lines for layers you are not using
+};
+#endif
+```
+### Method 2: Add `encoder_update_user` callback method
 
 Open up the `keymap.c` that's in your keymap folder. Go down to the bottom of the file and add the following code:
 
@@ -63,7 +112,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 }
 ```
 
-This snippet above assumes that there are 2 encoders. Here's a commented version of the code that explains what it does, so you can change things accordingly:
+This snippet above assumes that there are 2 encoders. Here's a commented version of the same code that explains what it does, so you can change things accordingly:
 
 
 ```c
