@@ -14,13 +14,44 @@ Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniu
 
 ## Getting VIA
 
+The VIA app now comes in two flavors:
+
+- [Desktop App](https://github.com/the-via/releases/releases)
+- [Web App](https://usevia.app)
+
+With the desktop app, you will have to re-download it if there is a new release with additional features, but the benefit is that you can use it offline without an internet connection.
+
+With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID.
+
+### Desktop App
+
 To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
 
 ## Launch VIA
 
+### Desktop App
+
+When you first launch the desktop app for VIA, you will see this screen:
+
 ![](./assets/images/via/00-opening-VIA.png)
 
-It is recommended that _after_ you open VIA to plug in your keyboard. Once you connect your keyboard, you should see your keymap like below:
+It is recommended that _after_ you open VIA to plug in your keyboard. 
+
+### Web App
+
+To launch the web app for VIA, go to this site [VIA Web App](https://usevia.app/).
+
+![](./assets/images/via/webapp-launch.png)
+
+Next, you will need to give your web browser permission to connect to your keyboard, so click on `Authorize device +`. This will bring up a prompt to allow you select your keyboard.
+
+Select your keyboard and click `Connect`.
+
+![](./assets/images/via/webapp-connect.png)
+
+### Connected to Keyboard
+
+Once you are connected your keyboard, you should see your keymap like below:
 
 ![](./assets/images/via/01-keymap-default-screen.png)
 
