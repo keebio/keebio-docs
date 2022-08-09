@@ -100,7 +100,7 @@ The last entry here is the `Any` key, which allows you to specify a [QMK Keycode
 
 ### How to use Any key
 
-The `Any` key can be used to do some more complex keycodes, like ones involving [modifiers](https://docs.qmk.fm/#/keycodes?id=modifiers), [layers](https://docs.qmk.fm/#/keycodes?id=layer-switching), or [mod-tap keys](https://docs.qmk.fm/#/keycodes?id=mod-tap-keys).
+The `Any` key can be used to do some more complex keycodes, like ones involving [modifiers](https://docs.qmk.fm/#/keycodes?id=modifiers), [layers](https://docs.qmk.fm/#/keycodes?id=layer-switching), or [mod-tap keys](https://docs.qmk.fm/#/keycodes?id=mod-tap-keys). You can also just put in a normal keycode here if you'd like.
 
 Not all aliases are supported, for example `LCTL_T(kc)` can't be used, so `MT(MOD_LCTL, kc)` would have to be used instead.
 
@@ -120,6 +120,18 @@ Here's some examples:
 This series of operations enable you to give your keyboard changes to the lighting on-the-fly for future use without needing to plugin to VIA. Shortcuts? Yes, please.
 
 `BL` stands for Backlight (typically single-color LEDs for each key).
+
+### Encoders
+
+New in [Version 3 of VIA](https://www.caniusevia.com/docs/v3_changes) is the ability to reprogram encoders. Note however, that the firmware and VIA keyboard definition JSON must be set up to allow for the encoders to be remapped using VIA.
+
+If your keyboard does support remapping of encoders in VIA, on the keymap, the encoder will be displayed as a dashed circle with nothing inside of it as shown below.
+
+![](./assets/images/via/encoder-keymap.png)
+
+To edit the mapping of the encoder, click on it, and the bottom half of the window will show the mappings for clockwise and counter-clockwise rotation, as well as pressing the encoder (if the encoder can be pressed).
+
+![](./assets/images/via/encoder-edit.png)
 
 ## Layouts
 

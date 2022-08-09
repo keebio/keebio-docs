@@ -22,7 +22,7 @@ Here are some pros and cons of each method:
 
 - [VIA Configurator](#via-configurator)
     - Pros: Easist to use, instant keymap updates, no flashing firmware required, live lighting controls, layout option controls, macro editor
-    - Cons: Does not support every board, can't remap encoders, limit of 4 layers, infrequent updates
+    - Cons: Does not support every board, limit of 4 layers, infrequent updates, can't remap encoders (in most cases)
 - [QMK Configurator](#qmk-configurator)
     - Pros: Stays up to date with QMK firmware, all boards in QMK repository are supported
     - Cons: Need to reflash board to update keymap, can't remap encoders
