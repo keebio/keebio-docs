@@ -17,15 +17,11 @@ Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniu
 The VIA app now comes in two flavors:
 
 - [Desktop App](https://github.com/the-via/releases/releases)
+  - With the desktop app, you will have to re-download it if there is a new release with additional features, but the benefit is that you can use it offline without an internet connection.
+  - To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
 - [Web App](https://usevia.app)
-
-With the desktop app, you will have to re-download it if there is a new release with additional features, but the benefit is that you can use it offline without an internet connection.
-
-With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID.
-
-### Desktop App
-
-To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
+  - With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID. (Sorry Firefox users)
+  - To launch the web app for VIA, go to this site [VIA Web App](https://usevia.app/).
 
 ## Launch VIA
 
