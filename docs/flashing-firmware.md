@@ -30,6 +30,21 @@ Here's the different possible bootloaders in use for Keebio boards:
 - Caterina Bootloader
     - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
 
+## Split Keyboards
+### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
+
+Having the interconnect cable plugged in between the halves while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
+
+Flashing does not does not send any signals over the interconnect cable, so it does not matter if the interconnect cable is plugged in or not while flashing. Each half needs to be plugged in individually one at a time to the USB port to be flashed.
+
+### Do I need to flash both halves of a split keyboard?
+
+This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while (2 or more months) since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
+
+If both halves have been flashed recently, and you're only updating a keymap and not adding features, then you will only need to flash the half that will have the USB cable from the computer plugged into it.
+
+When in doubt, flash both halves.
+
 ## Flashing Options
 
 ### Using QMK Toolbox

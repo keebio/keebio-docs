@@ -14,7 +14,7 @@ Flashing does not occur over the interconnect cable, so it does not matter if th
 
 ### Do I need to flash both halves of a split keyboard?
 
-This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while since you flashed your keyboard, go ahead and flash both halves invidually with the same firmware file.
+This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
 
 If both halves have been flashed recently, and you're doing something like updating a keymap, then you will only need to flash the half that will have the USB cable from the computer plugged into it.
 
