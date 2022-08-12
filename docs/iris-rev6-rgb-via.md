@@ -8,35 +8,17 @@ Alternatively, if you'd like to use the Lighting controls in VIA Configurator, i
 
 - The `rev6` and `rev6a` firmwares are both compatible with any Iris Rev. 6.x PCB (i.e. Rev. 6 and Rev 6.1)
   - Using the original `rev6` VIA .hex file will have Lighting controls disabled
-  - Using the `rev6a` VIA .hex file with enable the Lighting controls
+  - Using the `rev6a` VIA .hex file will enable the Lighting controls
   - The stock firmware on all Rev. 6 and 6.1 PCBs is `rev6`
-- The [pull request for VIA support of `rev6a`](https://github.com/the-via/keyboards/pull/1216) is still pending, you will have to manually load in the `iris-rev6a.json` everytime you launch VIA, otherwise VIA will not detect a board upgraded to `rev6a`
 
 ## Upgrading to `rev6a` firmware
 
 1. Download and flash this .hex file to each half: [Iris Rev. 6a VIA Firmware](../static/misc/keebio_iris_rev6a_via.hex)
 2. [Flash](flashing-firmware#flashing-atmega32u4-dfu-bootloader) the `rev6a` VIA .hex file individually to each half
 
-## Loading VIA JSON File
+## Launch VIA
 
-### Initial Setup
-
-You will only need to go through the following steps once:
-
-1. Download this VIA .json file: [Iris Rev. 6a VIA JSON](../static/misc/iris-rev6a.json).
-2. Open up VIA and go to Setting tab, enable `Show Design tab`
-
-![](./assets/images/via/enable-design-tab.png)
-
-### Loading in Definition File
-
-Each time you launch VIA, you will need to load in the Iris Rev. 6a definition file downloaded earlier
-
-1. Go to Design tab and load in the iris-rev6a.json file (you will need to do this each time you launch VIA)
-
-![](./assets/images/via/load-draft-definition.png)
-
-2. RGB controls will then be enabled in the Configure tab
+RGB controls will then be enabled in the Configure tab.
 
 ![](./assets/images/via/iris-rev6a-lighting.png)
 

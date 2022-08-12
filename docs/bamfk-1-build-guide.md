@@ -119,27 +119,6 @@ Here's the link for configuring the BAMFK-1 with QMK Configurator: <https://conf
 
 ### VIA Configurator
 
-Since the [pull request for VIA support of the BAMFK-1](https://github.com/the-via/keyboards/pull/1211) is still pending, you will have to manually load in the `bamfk1-rev1.json` file everytime you launch VIA so that your board can be detected.
-
-Here's the steps for setting this up:
-
-#### Initial Setup
-
-You will only need to go through the following steps once:
-
-1. Download this VIA .json file: [BAMFK-1 VIA JSON](https://raw.githubusercontent.com/nooges/via-keyboards/bamfk-1/src/keebio/bamfk1/bamfk1-rev1.json).
-2. Open up VIA and go to Setting tab, enable `Show Design tab`
-
-![](./assets/images/via/enable-design-tab.png)
-
-#### Loading in Definition File
-
-Each time you launch VIA, you will need to load in the BAMFK-1 definition file downloaded earlier
-
-1. Go to Design tab and load in the `bamfk1-rev1.json` file (you will need to do this each time you launch VIA)
-
-![](./assets/images/via/load-draft-definition.png)
-
 ![](./assets/images/bamfk-1/bamfk-via-config.png)
 
 ## Full Reassembly of Case
