@@ -2,7 +2,11 @@
 title: 3D-Printed Case Parts Installation
 ---
 
-Various keyboards like the Quefrency, Sinc, and KBO-5000 now have an enclosed 3D-printable case to go along with the FR4 plates to give the build a more complete look. Here's some info on how to install the case parts.
+Various keyboards like the Quefrency, Sinc, and KBO-5000 now have an enclosed 3D-printable case to go along with the FR4 plates to give the build a more complete look.
+
+You can add the 3D-printed case parts at anytime, so if you want to do a build with just the switch/bottom plates to start, that's okay, as you will only need to unscrew screws and standoffs before adding the printed parts.
+
+Here's some info on how to install the case parts.
 
 ### Parts List
 
