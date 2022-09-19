@@ -27,3 +27,9 @@ RGB controls will then be enabled in the Configure tab.
 ### Encoder Remapping
 
 To remap the encoders, go to Layouts on the left side panel and enable the Left Encoder and/or Right Encoder layout option depending if you have an encoder there or not.
+
+![](./assets/images/via/iris-rev6b-encoder-layout.png)
+
+Once you've enabled the encoder, you can remap the rotation and press functions by clicking on the circle that represents the encoder, and then changing the encoder mappings in the bottom panel.
+
+![](./assets/images/via/iris-rev6b-encoder-mapping.png)
