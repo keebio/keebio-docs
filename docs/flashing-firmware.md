@@ -29,6 +29,8 @@ Here's the different possible bootloaders in use for Keebio boards:
     - Also present on the Proton C
 - Caterina Bootloader
     - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
+- UF2 Bootloader
+    - Found on RP2040-based keyboards/controllers, such as the Elite-Pi and Sinc Rev. 3
 
 ## Split Keyboards
 ### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
@@ -157,3 +159,7 @@ TODO: add info on HID console appearing in Toolbox output, and how it'll appear 
 - stuff
 
 -->
+
+## RP2040 Board (UF2 Bootloader)
+
+Please see the directions here: [Elite-Pi Flashing](elite-pi-guide#flashing)
