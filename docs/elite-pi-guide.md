@@ -62,9 +62,9 @@ Alternatively, if you are creating a keyboard from scratch, you can use it as a 
 
 ### Reset/Boot
 
-At the moment with V1 of the Elite-Pi, there are two buttons on it for `Reset` and `Boot`, unlike the Elite-C, where there is only one button needed for `Reset`. The left button is for `Boot`, and the right button is for `Reset`. You will mainly be interested in getting the Elite-Pi into bootloader mode, so please see the [directions below](#flashing) for doing this.
+At the moment with V1 of the Elite-Pi, there are two buttons on it for `Run/Reset` and `Boot`, unlike the Elite-C, where there is only one button needed for `Reset`. The left button is for `Boot`, and the right button is for `Run`. You will mainly be interested in getting the Elite-Pi into bootloader mode, so please see the [directions below](#flashing) for doing this.
 
-In the future, we plan on reducing the Elite-Pi to have just one button to perform `Reset` and `Boot`.
+In the future, we plan on reducing the Elite-Pi to have just one button to perform `Run` and `Boot`.
 
 ### Flashing
 
@@ -74,7 +74,7 @@ To repeat the information there, here's the steps:
 
 1. Enter bootloader mode (use one of the following methods):
    - For a new Elite-Pi out of the packaging, it will already start in bootloader mode when plugged into the computer
-   - Hold the `Boot` button (the left button) down, press the `Reset` button (the right button), and release both buttons
+   - Hold the `Boot` button (the left button) down, press the `Run` button (the right button), and release both buttons
    - Hold the `Boot` button (the left button) down, while pluging in the USB-C cable
    - Press the `QK_BOOT` keycode (if present on a flashed keyboard)
    - Double-tap the `Reset` button (if flashed and was compiled with `RP2040_BOOTLOADER_DOUBLE_TAP_RESET` option)
