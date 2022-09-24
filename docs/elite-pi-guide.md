@@ -74,15 +74,25 @@ To repeat the information there, here's the steps:
 
 1. Enter bootloader mode (use one of the following methods):
    - For a new Elite-Pi out of the packaging, it will already start in bootloader mode when plugged into the computer
+   - Double-tap the `Run/Reset` button (if flashed and was compiled with `RP2040_BOOTLOADER_DOUBLE_TAP_RESET` option)
+     - If you used the [converter](#converters) mentioned above, it will have this option enabled
    - Hold the `Boot` button (the left button) down, press the `Run` button (the right button), and release both buttons
    - Hold the `Boot` button (the left button) down, while pluging in the USB-C cable
    - Press the `QK_BOOT` keycode (if present on a flashed keyboard)
-   - Double-tap the `Reset` button (if flashed and was compiled with `RP2040_BOOTLOADER_DOUBLE_TAP_RESET` option)
 2. Wait for OS to detect the Elite-Pi
-3. Copy the `.uf2` file to the new USB disk
+    - It will show up as a USB mass-storage device named `RPI-RP2`
+3. Copy the `.uf2` file to the `RPI-RP2` USB drive
 
 If you have the Elite-Pi installed with the back facing towards you, and you need to press `Boot`, take a wire and connect the `Boot` pad on the back and a `GND` pad, as shown below:
 
 ![](assets/images/elite-pi/backside-boot.png)
 
 <!-- TODO: Add screenshots of Mac and Windows -->
+
+## Additional Info
+
+### Can I use this on just one half of a split keyboard and use a Pro Micro on the other half?
+
+No, you can not mix the Elite-Pi with a non-RP2040 controller like the Pro Micro or Elite-C.
+
+However, another RP2040 controller can be used with it.
