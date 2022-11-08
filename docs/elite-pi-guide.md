@@ -96,3 +96,9 @@ If you have the Elite-Pi installed with the back facing towards you, and you nee
 No, you can not mix the Elite-Pi with a non-RP2040 controller like the Pro Micro or Elite-C.
 
 However, another RP2040 controller can be used with it.
+
+### Accessing D10/D11 via side pads
+
+If you would like to access D10 and/or D11 via the pads on the side of the Elite-Pi, you will need to cut the traces connecting GND to the those pads, as by default, the side pads are connected to GND to match the normal Pro Micro pinout. After cutting the traces, add solder as shown below to jump D10/D11.
+
+![](assets/images/elite-pi/d10-d11-jump.png)
