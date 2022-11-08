@@ -21,10 +21,10 @@ First up, time to get your parts:
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * Switches (MX-compatible ones)
 * [SKUF Silicone Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet) (recommended)
+* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended)
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys (optional)
 * [3D-Printed Iris Case](https://treedogstudio.com/products/iris-3d-printed-case) (optional)
-* [FLAHNS Hotswap Bumers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
 
 ![](./assets/images/iris-rev6/IMG_7838.jpg)
 
@@ -67,9 +67,9 @@ Then flip the board over and solder all 5 pins. Make sure that they remain pushe
 
 If you have the Rev. 7, when installing the encoders, you will need to bend the legs of the rotary encoder slightly inwards, outwards, and/or to the side (depending on the pads on the PCB) in order for the encoders to fit onto the PCB.
 
-![](./assets/images/iris-rev7/IMG_2325.JPG)
+![](./assets/images/iris-rev7/IMG_2325.jpg)
 
-![](./assets/images/iris-rev7/IMG_2326.JPG)
+![](./assets/images/iris-rev7/IMG_2326.jpg)
 
 Once you've pushed the encoder pins through the PCB, make sure the encoder is flat against the top of the PCB.
 
@@ -77,7 +77,7 @@ Once you've pushed the encoder pins through the PCB, make sure the encoder is fl
 
 Add the 2u stabilizer if you have the Iris Rev. 7 PCBs and want a 2u key at the thumb. Do this before installing the switch plate and switches.
 
-![](./assets/images/iris-rev7/IMG_2323.JPG)
+![](./assets/images/iris-rev7/IMG_2323.jpg)
 
 ## Prepare Acrylic Plates
 
