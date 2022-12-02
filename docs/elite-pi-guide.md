@@ -100,3 +100,7 @@ However, another RP2040 controller can be used with it.
 If you would like to access D10 and/or D11 via the pads on the side of the Elite-Pi, you will need to cut the traces connecting GND to the those pads, as by default, the side pads are connected to GND to match the normal Pro Micro pinout. After cutting the traces, add solder as shown below to jump D10/D11.
 
 ![](assets/images/elite-pi/d10-d11-jump.png)
+
+### CircuitPython
+
+The Elite-Pi can be used with CircuitPython, and since the hardware is the same as that of the Raspberry Pi Pico, you can use CircuitPython build for it: [CircuitPython for Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/)
