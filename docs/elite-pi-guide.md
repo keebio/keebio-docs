@@ -40,20 +40,18 @@ The recommended way to use the Elite-Pi is using a converter in QMK. Note that y
 
 If you are using the Elite-Pi on a Pro Micro-compatible board, then you can use a [converter](https://docs.qmk.fm/#/feature_converters?id=converters) in QMK to map the pins correctly to the PCB.
 
-At the moment, the [converter for the Elite-Pi](https://github.com/qmk/qmk_firmware/blob/develop/docs/feature_converters.md#converters) (`elite_pi`) is only present in the `develop` branch of QMK. However, since the pinout is the same as the Pro Micro RP2040, you can use the `promicro_rp2040` converter instead in the meantime, until `develop` is merged into `master`.
-
 To use the converter, see the instructions here: [QMK converter usage](https://docs.qmk.fm/#/feature_converters?id=overview)
 
 ##### Examples:
 
 Using QMK CLI:
 ```js
-qmk flash -c -kb keebio/levinson/rev3 -km default -e CONVERT_TO=promicro_rp2040
+qmk flash -c -kb keebio/levinson/rev3 -km default -e CONVERT_TO=elite_pi
 ```
 
 Using `make`:
 ```js
-make keebio/levinson/rev3:default CONVERT_TO=promicro_rp2040
+make keebio/levinson/rev3:default CONVERT_TO=elite_pi
 ```
 
 #### Without Converter
