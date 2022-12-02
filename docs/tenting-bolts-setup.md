@@ -12,6 +12,7 @@ This guide is for the acrylic middle layers that have tenting holes on them.
     - [Levinson](https://keeb.io/products/levinson-keyboard-case-plates?variant=2150275579934)
 - Standoffs from acrylic middle layer kit
 - M6 or 1/4" diameter [carriage bolts](https://www.homedepot.com/b/Hardware-Fasteners-Bolts-Carriage-Bolts/1-4-in/N-5yc1vZc2fjZ1z0sg15), nuts, and wingnuts
+    - Not included in kits, you will need to purchase these from a hardware store
 
 ![](./assets/images/iris-rev6/IMG_7918.jpg)
 
