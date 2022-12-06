@@ -45,6 +45,7 @@ module.exports = {
         'flashing-firmware',
         'via',
         'via-technical',
+        'firmware-updates',
         'elite-pi-guide',
         'iris-rev6-rgb-via',
         'reprogramming-encoders',
