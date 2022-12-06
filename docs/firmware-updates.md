@@ -24,6 +24,8 @@ Here's the links to the updated firmware for your board.
 
 ## Upgrading the Firmware on the Keyboard
 
+Make sure you do this individually for each half, as just doing one half is not sufficient and flashing does not transfer over the cable connecting the two halves.
+
 ### Step 1 - Clear EEPROM
 
 First you will need to clear the EEPROM on each half of the board. Here's the prodcedure for that: [Resetting/Clearing EEPROM](https://docs.keeb.io/reset-eeprom)
@@ -34,13 +36,13 @@ After clearing the EEPROM, go ahead and flash each half with the new firmware fi
 
 ## Remapping Encoders
 
-### Step 1. Change layout to show encoder
+### Step 1 - Change layout to show encoder
 
 Now that you've updated the firmware, if you want your encoders to show up for remapping, click on `Layouts` on the left side of the window and then set the options to show the encoders. The encoder spots will show up as circles where the switch used to be.
 
 ![](./assets/images/via/iris-rev6b-encoder-layout.png)
 
-### Step 2. Click on encoder
+### Step 2 - Click on encoder
 
 To edit the mapping of the encoder, click on it, and the bottom half of the window will show the mappings for clockwise and counter-clockwise rotation, as well as pressing the encoder (if the encoder can be pressed).
 
