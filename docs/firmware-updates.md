@@ -12,10 +12,7 @@ The VIA firmware for various Keebio keyboards has been updated to support the ne
 ## Firmware Downloads
 Here's the links to the updated firmware for your board.
 
-- BDN9 Rev. 2
-- Iris Rev. 5
-- Quefrency Rev. 2
-- Sinc Rev. 1
+[https://github.com/keebio/keebio-firmware](https://github.com/keebio/keebio-firmware)
 
 ## Upgrading the Firmware on the Keyboard
 
