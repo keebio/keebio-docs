@@ -6,9 +6,9 @@ So you've decided that you'd like to reprogram/remap your encoders to do somethi
 
 ## Prerequisites
 
-### QMK Build Environment
+### QMK Build Environment or VIA Firmware Update
 
-First of all, at the moment, you won't be able to reassign the encoders using VIA or QMK Configurator. The only method right now is through a standard QMK build environment.
+First of all, at the moment, you won't be able to reassign the encoders using QMK Configurator. The only methods right now is through a standard QMK build environment or by using an updated version of firmware that includes encoder remapping support for VIA: [VIA Firmware Upgrades](firmware-updates).
 
 To setup a QMK build environment, see the [QMK Tutorial](https://docs.qmk.fm/#/newbs).
 

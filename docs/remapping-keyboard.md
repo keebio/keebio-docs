@@ -21,8 +21,8 @@ There are 3 main options for changing your board's keymap, ordered from least di
 Here are some pros and cons of each method:
 
 - [VIA Configurator](#via-configurator)
-    - Pros: Easist to use, instant keymap updates, no flashing firmware required, live lighting controls, layout option controls, macro editor
-    - Cons: Does not support every board, limit of 4 layers, infrequent updates, can't remap encoders (in most cases)
+    - Pros: Easist to use, instant keymap updates, no flashing firmware required, live lighting controls, layout option controls, macro editor, can remap encoders for some boards
+    - Cons: Does not support every board, limit of 4 layers
 - [QMK Configurator](#qmk-configurator)
     - Pros: Stays up to date with QMK firmware, all boards in QMK repository are supported
     - Cons: Need to reflash board to update keymap, can't remap encoders
@@ -33,6 +33,8 @@ Here are some pros and cons of each method:
 ## VIA Configurator
 
 ![](./assets/images/misc/via-configure.png)
+
+For some older Keebio boards, the VIA firmware pre-flashed to the board does not have encoder remapping enabled, as that feature didn't originally exist. However, new VIA firmware is available now, so check here to see if an update is available for your board: [VIA Firmware Upgrades](firmware-updates).
 
 For VIA usage instructions, see [VIA Usage Guide](via.md).
 
