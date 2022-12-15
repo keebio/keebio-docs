@@ -4,6 +4,7 @@ module.exports = {
       'Build Guides': [
         'main',
         'iris-rev6-build-guide',
+        'iris-aluminum-case-build-guide',
         'quefrency-hotswap-build-guide',
         'hotswap-switch-installation',
         'quefrency-rev2-sinc-build-guide',
