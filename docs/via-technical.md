@@ -38,7 +38,7 @@ VIA Configurator is a desktop app that talks to your VIA-enabled keyboard and al
 
 Do note that not all features of QMK are supported by the VIA Configurator, so if you want to use more advanced features of QMK like Tap Dance, then you'll need to setup a [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started). By default on most VIA-supported keyboards, there is a limit of 4 layers. This can sometimes be increased, but once again, this requires setting up a QMK build environment.
 
-The ability to change rotary encoder keycodes is also not currently present in VIA.
+The ability to change rotary encoder keycodes has been recently added to VIA, but not all keyboards have added support for it yet.
 
 ## Keyboards with VIA Support
 
