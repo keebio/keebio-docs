@@ -11,7 +11,7 @@ If you'd like to use the Lighting controls in VIA Configurator and/or remap your
   - Using the `rev6b` VIA .hex file will enable the Lighting controls and encoder remapping
   - The stock firmware on all Rev. 6 and 6.1 PCBs is `rev6`
 
-## Upgrading to `rev6a` firmware
+## Upgrading to `rev6b` firmware
 
 1. Download and flash this .hex file to each half: [Iris Rev. 6b VIA Firmware](https://docs.keeb.io/firmware.html?path=iris/keebio_iris_rev6b_via.hex)
 2. [Flash](flashing-firmware#flashing-atmega32u4-dfu-bootloader) the `rev6b` VIA .hex file individually to each half
