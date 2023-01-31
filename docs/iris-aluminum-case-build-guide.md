@@ -179,3 +179,10 @@ Add your keycaps and knob (if you have a rotary encoder)!
 ## Remapping/reprogramming Board
 
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).
+
+One thing to note is that because the case does not have a hole at the bottom to access the reset button on the PCB without disassembling the case, it's recommended to use one of the following options when remapping your Iris:
+
+1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
+2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
+
+![](./assets/images//iris-ae/qk-boot.png)
