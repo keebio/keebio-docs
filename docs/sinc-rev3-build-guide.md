@@ -73,3 +73,7 @@ First, you'll need to adjust the layout to be ISO Enter. Click on `Layouts` on t
 Next, click on `Keymap` on the left side bar, and then click on the ISO Enter key to select it. Then, click on `Enter` in the key selector at the bottom to change it to an Enter key.
 
 ![](./assets/images/sinc-rev3/via-keymap.jpg)
+
+## Reflashing Board
+
+If you'd like to reflash your Sinc, since it has a RP2040 controller on board, follow these instructions: [Flashing RP2040 Board](flashing-firmware#rp2040-board-uf2-bootloader)
