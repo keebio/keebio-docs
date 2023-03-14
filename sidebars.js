@@ -9,6 +9,7 @@ module.exports = {
         'sinc-rev3-build-guide',
         'hotswap-switch-installation',
         'quefrency-rev2-sinc-build-guide',
+        'waterfowl-build-guide',
         'bamfk-1-build-guide',
         'iris-rev3-build-guide',
         'nyquist-rev3-build-guide',
