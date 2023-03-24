@@ -32,7 +32,7 @@ The firmware is for the most part QMK with the `VIA_ENABLE` feature enabled. Not
 
 VIA Configurator is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
-![](./assets/images/misc/via-configure.png)
+![](./assets/images/via/01-keymap-default-screen.png)
 
 ### VIA Limitations
 

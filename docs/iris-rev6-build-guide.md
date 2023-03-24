@@ -131,15 +131,7 @@ Align the pins of the switches into the hotswap sockets.
 
 ![](./assets/images/iris-rev6/IMG_7851.jpg)
 
-### Support the Hotswap Socket
-
-Then push down on the hotswap socket onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
-
-:::info
-
-It's really important to be pressing on the hotswap socket during switch insertion, as sometimes, a slightly mis-aligned pin getting pushed off-center onto the socket can cause the socket to be ripped off of the PCB.
-
-:::
+Then push down the PCB onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
 
 ![](./assets/images/iris-rev6/IMG_7852.jpg)
 

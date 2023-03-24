@@ -4,7 +4,7 @@ title: VIA Usage Guide
 
 [VIA Configurator](https://www.caniusevia.com/) is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
-![](./assets/images/misc/via-configure.png)
+![](./assets/images/via/01-keymap-default-screen.png)
 
 For info on how VIA relates to the underlying QMK Firmware, see this for more details: [VIA and QMK Firmware](via-technical)
 
@@ -17,7 +17,7 @@ Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniu
 The VIA app now comes in two flavors:
 
 - [Desktop App](https://github.com/the-via/releases/releases)
-  - With the desktop app, you will have to re-download it if there is a new release with additional features, but the benefit is that you can use it offline without an internet connection.
+  - With the desktop app, since it is a wrapper for the web app, it will still need an internet connection to work, but it can be a little bit more reliable with detecting your keyboard
   - To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
 - [Web App](https://usevia.app)
   - With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID. (Sorry Firefox users)
@@ -53,7 +53,16 @@ Once you are connected your keyboard, you should see your keymap like below:
 
 If your keyboard does not load, then check again that the firmware flashed to your board has VIA support enabled.
 
+If you're using the desktop app, try plugging your keyboard in prior to launching VIA if you are having issues.
+
 You'll want to be on the **Configure** tab (at the top) to verify a few things before testing your keys.
+
+## Tabs
+
+There are 3-4 tab icons at the top, allowing you to switch between different tools.
+
+![](./assets/images/via/tab-icons.png)
+
 
 ## Configure Tab
 
@@ -170,11 +179,24 @@ You can verify if all your settings saved by clicking on the **Key Tester** tab 
 
 ## Macro
 
-![](./assets/images/via/03-macros.png)
-
 If you've added a macro keycode to your keymap, you can program the macro here.
 
 For example, you can program a macro to type out text for you. Not recommended to do this with passwords, albeit that is absolutely possible.
+
+There are two ways to configure a macro:
+
+- Macro Recorder
+- Keycode Entry
+- 
+### Macro Recorder
+
+![](./assets/images/via/macro-recording.png)
+
+This method allows you to record a macro, instead of trying to type in keycodes manually.
+
+### Keycode Entry
+
+![](./assets/images/via/03-macros.png)
 
 You can either type text directly without having to know anything about QMK keycode names, or if your put stuff in curly brackets (`{}`), you can use basic QMK keycodes.
 
@@ -232,10 +254,19 @@ For special keys, like layer keys that aren't on a normal keyboard, you can swit
 
 ![](./assets/images/via/via-key-tester.png)
 
+## Design Tab
+
+If you are developing your own keyboard and adding in VIA support, you'll need to enable the Design Tab.
+
+Here, you can load in various draft definition files to check that your keyboard loads in properly.
+
+Sometimes, some not so great keyboard vendors don't work with the VIA team on getting their definition files added to the app, so they'll make you download definition files and manually load them here.
+
 ## Settings Tab
 
 You generally won't need to use this tab unless needing to do some workarounds.
 
 - Show Design tab - Enables the Design tab, so you can load in custom keyboard definitions that haven't been merged into VIA yet
 - Fast Key Mapping - If enabled, when you remap a key, the key selection box to remap automatically moves to the next key
-- Allow remapping via keyboard - Allows you to type the key you want a key to be remapped to
+
+The rest of the options allow you to change the look of the app.
