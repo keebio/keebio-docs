@@ -102,17 +102,21 @@ If you are a macOS user, `Win/GUI` is equivalent to `Cmd/Command`, while `Alt` i
 If you're looking for volume and music/movie oriented controls, this section has you covered!
         
 ### Macro
+
 You have 16 macro keys to do with what you will! Select a layer, then a key above and then select what macro you'd like to apply.
 
 See the [Macros](#macro-1) section to configure the macro.
 
-### Layers
+### Layers/FN
+
 If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A Primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
+
+Layers are numbered starting from 0, where 0 is your main layer that is normally accessible without doing anything special.
 
 Some terms to know about turning layers on and off:
 
 #### MO(layer)
-Most commonly used layer keycode. This momentarily activates the desired layer while you are holding down the key. Once released, the keyboard goes back to its original layer.
+Most commonly used layer keycode, as this is basically the equivalent to an `Fn` key. This momentarily activates the desired layer while you are holding down the key. Once released, the keyboard goes back to its original layer.
 
 #### TG(layer)
 Toggles a layer on and off. Similar to Num Lock.
@@ -168,6 +172,10 @@ If your keyboard does support remapping of encoders in VIA, on the keymap, the e
 To edit the mapping of the encoder, click on it, and the bottom half of the window will show the mappings for clockwise and counter-clockwise rotation, as well as pressing the encoder (if the encoder can be pressed).
 
 ![](./assets/images/via/encoder-edit.png)
+
+### Where is FN?
+
+An `Fn` key is just a reduced version of layers where you only have 1 layer accessible to you. The equivalent to `Fn` is `MO(1)`, which is in the `Layers` area of keycodes. By setting a key to do `MO(1)`, you are telling the keyboard to go to Layer 1 (remember that the main layer is 0), so you can access additional keys on that layer.
 
 ## Layouts
 
