@@ -8,6 +8,7 @@ module.exports = {
         'quefrency-hotswap-build-guide',
         'sinc-rev3-build-guide',
         'hotswap-switch-installation',
+        'convolution-build-guide',
         'quefrency-rev2-sinc-build-guide',
         'waterfowl-build-guide',
         'bamfk-1-build-guide',
