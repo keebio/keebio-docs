@@ -264,11 +264,19 @@ For special keys, like layer keys that aren't on a normal keyboard, you can swit
 
 ## Design Tab
 
+![](./assets/images/via/sideloading.png)
+
 If you are developing your own keyboard and adding in VIA support, you'll need to enable the Design Tab.
 
-Here, you can load in various draft definition files to check that your keyboard loads in properly.
+### Sideloading VIA Definition Files
 
-Sometimes, some not so great keyboard vendors don't work with the VIA team on getting their definition files added to the app, so they'll make you download definition files and manually load them here.
+In the Design tab, you can load in various draft definition files to check that your keyboard loads in properly.
+
+Sometimes, some not so great keyboard vendors don't work with the VIA team on getting their definition files added to the app, so they'll make you download definition files and manually load them here. Another reason could be that preliminary VIA support has been added to a board for testing, and the designer is awaiting for QMK and/or VIA to merge in the PR for it.
+
+Click on the `Load` button to the right of `Load Draft Definition` and select the `.json` file given to you. This should not be the `info.json` file from the QMK repository, as that is not compatible with VIA since it is not a VIA keyboard definition file. Once loaded, VIA should be able to detect your keyboard, if you've flashed VIA-enabled firmware to it.
+
+VIA should remember the draft definition file that you loaded into it the next time you launch the app, so you won't have to load it again.
 
 ## Settings Tab
 
