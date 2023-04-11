@@ -40,7 +40,7 @@ After clearing the EEPROM, go ahead and flash each half with the new firmware fi
 
 Now that you've updated the firmware, if you want your encoders to show up for remapping, click on `Layouts` on the left side of the window and then set the options to show the encoders. The encoder spots will show up as circles where the switch used to be.
 
-![](./assets/images/via/iris-rev6b-encoder-layout.png)
+![](./assets/images/via/02-layouts.png)
 
 ### Step 2 - Click on encoder
 
