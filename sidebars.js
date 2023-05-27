@@ -51,6 +51,7 @@ module.exports = {
         'via-technical',
         'firmware-updates',
         'elite-pi-guide',
+        'stampy-usage-guide',
         'iris-rev6-rgb-via',
         'reprogramming-encoders',
         'reset-eeprom'
