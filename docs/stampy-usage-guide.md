@@ -42,6 +42,14 @@ Stampy has the following GPIO pins available: 0-8, 10, 11, 14-28.
 - Column 2 - GPIO15 (Right switch)
 - The reset button is connected to RST and 3.3V (not GND)
 
+GPIO9 is used for VBUS detection, so if you are using QMK, make sure you add the following line to your keyboard's `config.h`:
+
+```c
+#define USB_VBUS_PIN GP9
+```
+
+The rest of the pins (0-8, 16-28) can be used in whatever manner you'd like, such as additional rows/columns or devices like OLED screens and pointing devices.
+
 ## Switches
 
 Due to the tight spacing of components, if you are using 5-pin switches, you will need to clip both of the plastic pins for the Center switch and the left plastic pin for the Right switch.
