@@ -6,6 +6,7 @@ module.exports = {
         'iris-rev6-build-guide',
         'iris-aluminum-case-build-guide',
         'quefrency-hotswap-build-guide',
+        'cepstrum-build-guide',
         'sinc-rev3-build-guide',
         'hotswap-switch-installation',
         'convolution-build-guide',
