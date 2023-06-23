@@ -2,7 +2,7 @@
 title: Stampy Usage Guide
 ---
 
-The Stampy is a controller board meant to assist with the construction of a handwired keyboard. Instead of using some other daughterboard like the Pro Micro, Elite-C, etc., Stampy gets soldered directly to 3 switches, meaning that no extra space below the controller is needed.
+[The Stampy](https://keeb.io/products/stampy-rp2040-usb-c-controller-board-for-handwiring) is a controller board meant to assist with the construction of a handwired keyboard. Instead of using some other daughterboard like the Pro Micro, Elite-C, etc., Stampy gets soldered directly to 3 switches, meaning that no extra space below the controller is needed.
 
 ## Features
 
@@ -17,15 +17,20 @@ The Stampy is a controller board meant to assist with the construction of a hand
 
 ## Versions
 
-- Rev. 1 Prototype
+- Rev. 1 Prototype #1
   - Black PCB
   - 16Mbit (2MB) of flash memory
   - No VBUS detection circuit
   - Has access to GPIO9 (production version loses this pin due to it being used for VBUS detection)
   - Lack breakout pin for RST (Reset)
-- Rev. 1 Production
-  - Purple PCB marked with `X3` on top-side of PCB
+- Rev. 1 Prototype #2
+  - Purple PCB marked with `X3` on top-side of PCB without Elephant logo
   - 8Mbit (1MB) of flash memory
+  - Has VBUS detection pin on GPIO9
+  - 3.3V breakout pad is not connected to anything
+- Rev. 1 Production
+  - Purple PCB marked with `X3` on top-side of PCB with Elephant logo
+  - 16Mbit (2MB) of flash memory
   - Has VBUS detection pin on GPIO9
 
 ## Pinouts and Assignments
