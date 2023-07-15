@@ -55,6 +55,13 @@ GPIO9 is used for VBUS detection, so if you are using QMK, make sure you add the
 
 The rest of the pins (0-8, 16-28) can be used in whatever manner you'd like, such as additional rows/columns or devices like OLED screens and pointing devices.
 
+## Flash Mode
+
+To enter flash mode:
+* Short the two pins `RST` and `3.3V` for at least one second before release.
+* Alternatively, if QMK has been loaded, double tap the reset button.
+* The soft reset `QK_BOOT` in QMK works as usual.
+
 ## Switches
 
 Due to the tight spacing of components, if you are using 5-pin switches, you will need to clip both of the plastic pins for the Center switch and the left plastic pin for the Right switch.
