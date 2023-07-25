@@ -58,7 +58,7 @@ The rest of the pins (0-8, 16-28) can be used in whatever manner you'd like, suc
 ## Flash Mode
 
 To enter flash mode:
-* Short the two pins `RST` and `3.3V` for at least one second before release.
+* Short the two pins `RST` and `3.3V` or hold reset button for at least one second before release.
 * Alternatively, if QMK has been loaded, double tap the reset button.
 * The soft reset `QK_BOOT` in QMK works as usual.
 
