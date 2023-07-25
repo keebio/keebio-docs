@@ -17,12 +17,15 @@ First up, time to get your parts ready:
   * 16 O-rings
   * 16 M3 12mm screws
   * 8 M2 6mm screw
+  * Left and right half silicone tray inserts
+    * Included with cases after May 8, 2023
+    * Available here if you purchased it earlier: [Silicone Tray Insert](https://keeb.io/products/iris-aluminum-case-silicone-tray-insert)
 * Set of Iris PCBs (Rev. 5-7 are compatible)
   * [Iris Rev. 7 PCBs](https://keeb.io/products/iris-rev-7-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
   * [Iris Rev. 5 PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * Switches (MX-compatible ones)
-* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended)
+* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended if not using silicone tray insert)
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys (optional)
 
@@ -148,14 +151,13 @@ Place the switch plate into the top part of the case and screw it in. If using t
 
 ![](./assets/images/iris-ae/IMG_2469.jpeg)
 
+If your case doesn't already have the [silicone tray inserts](https://keeb.io/products/iris-aluminum-case-silicone-tray-insert) installed, insert them in now. The left and right half pieces are different, so make sure the flat side faces upwards, as the bottom side of the silicone pieces are designed to fit on to the curved ledge of the bottom case piece.
 
-(Optional) Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
+![](./assets/images/iris-ae/silicone-tray.jpg)
+
+(Optional) If you don't have the silicone tray inserts, add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
 ![](./assets/images/iris-ae/IMG_2470.jpeg)
-
-:::info
-In the future, we do plan on providing standoffs/screws to hold hotswap PCBs to the switch plate, which will remove the need for adding FLAHNS.
-:::
 
 ### Add Rubber Feet
 
@@ -179,3 +181,10 @@ Add your keycaps and knob (if you have a rotary encoder)!
 ## Remapping/reprogramming Board
 
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).
+
+One thing to note is that because the case does not have a hole at the bottom to access the reset button on the PCB without disassembling the case, it's recommended to use one of the following options when remapping your Iris:
+
+1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
+2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
+
+![](./assets/images//iris-ae/qk-boot.png)

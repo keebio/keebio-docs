@@ -131,7 +131,15 @@ Align the pins of the switches into the hotswap sockets.
 
 ![](./assets/images/iris-rev6/IMG_7851.jpg)
 
-Then push down the PCB onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
+### Support the Hotswap Socket
+
+Then push down on the hotswap socket onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
+
+:::info
+
+It's really important to be pressing on the hotswap socket during switch insertion, as sometimes, a slightly mis-aligned pin getting pushed off-center onto the socket can cause the socket to be ripped off of the PCB.
+
+:::
 
 ![](./assets/images/iris-rev6/IMG_7852.jpg)
 
@@ -203,6 +211,10 @@ Flip the board over and you're done! Or if you've got other case parts, continue
 
 ![](./assets/images/iris-rev6/IMG_7865.jpg)
 
+### Add keycaps and knob
+
+Add your keycaps and knob (if you have a rotary encoder)!
+
 ## Install Optional Case Parts
 
 ### Add Rubber Feet
@@ -262,6 +274,17 @@ Insert the long M2 screw through the bottom plate, then through the middle layer
 Done!
 
 ![](./assets/images/iris-rev6/IMG_7878.jpg)
+
+## Remapping/reprogramming Board
+
+Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).
+
+While the bottom plates have a hole at the bottom to allow you to access the reset button to allow your Iris to be reflashed, if you don't want to be flipping your board over to press reset, you can also use one of the following options when remapping your Iris:
+
+1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
+2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
+
+![](./assets/images//iris-ae/qk-boot.png)
 
 ## Turning off RGB LEDs
 

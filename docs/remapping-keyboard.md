@@ -32,7 +32,7 @@ Here are some pros and cons of each method:
 
 ## VIA Configurator
 
-![](./assets/images/misc/via-configure.png)
+![](./assets/images/via/01-keymap-default-screen.png)
 
 For some older Keebio boards, the VIA firmware pre-flashed to the board does not have encoder remapping enabled, as that feature didn't originally exist. However, new VIA firmware is available now, so check here to see if an update is available for your board: [VIA Firmware Upgrades](firmware-updates).
 

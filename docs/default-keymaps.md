@@ -6,6 +6,7 @@ Here are PDFs of the default keymaps for various keyboards:
 
 - [BDN9](../static/layouts/keymap_BDN9_rev2.pdf)
 - [BFO-9000](../static/layouts/keymap_BFO9000.pdf)
+- [Convolution](../static/layouts/keymap_convolution.pdf)
 - [Dilly](../static/layouts/keymap_Dilly_rev1.pdf)
 - [DSP40](../static/layouts/keymap_DSP40_rev1.pdf)
 - [FoldKB](../static/layouts/keymap_FoldKB_rev1.pdf)

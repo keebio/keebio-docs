@@ -26,7 +26,7 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 
 * PCBs:
     * [Set of Quefrency PCBs](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)
-    * [Set of Sinc PCBs](https://keeb.io/products/sinc-split-staggered-75-keyboard)
+    * [Set of Sinc PCBs](https://keeb.io/products/sinc-rev-2-split-staggered-75-keyboard)
     * [Set of KBO-5000 PCBs](https://keeb.io/products/kbo-5000-split-staggered-80-keyboard)
 * Plates:
     * [Plates for Quefrency](https://keeb.io/products/quefrency-rev-2-60-65-split-staggered-keyboard)

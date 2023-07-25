@@ -14,7 +14,9 @@ Here's the links to the updated firmware for your board.
 
 - [BDN9 Rev. 1](https://docs.keeb.io/firmware.html?path=bdn9/keebio_bdn9_rev1_via.hex)
 - [BDN9 Rev. 2](https://docs.keeb.io/firmware.html?path=bdn9/keebio_bdn9_rev2_via.bin)
+- [Iris Rev. 5](https://docs.keeb.io/firmware.html?path=iris/keebio_iris_rev5a_via.hex)
 - [Iris Rev. 6](https://docs.keeb.io/firmware.html?path=iris/keebio_iris_rev6b_via.hex)
+- [KBO-5000 Rev. 1](https://docs.keeb.io/firmware.html?path=kbo-5000/keebio_kbo5000_rev1a_via.hex)
 - [Quefrency Rev. 2](https://docs.keeb.io/firmware.html?path=quefrency/keebio_quefrency_rev3_via.hex) (Rev. 3 firmware can be flashed to Rev. 2)
 - [Quefrency Rev. 3](https://docs.keeb.io/firmware.html?path=quefrency/keebio_quefrency_rev3_via.hex)
 - [Quefrency Rev. 4](https://docs.keeb.io/firmware.html?path=quefrency/keebio_quefrency_rev4_via.hex)
@@ -40,7 +42,7 @@ After clearing the EEPROM, go ahead and flash each half with the new firmware fi
 
 Now that you've updated the firmware, if you want your encoders to show up for remapping, click on `Layouts` on the left side of the window and then set the options to show the encoders. The encoder spots will show up as circles where the switch used to be.
 
-![](./assets/images/via/iris-rev6b-encoder-layout.png)
+![](./assets/images/via/02-layouts.png)
 
 ### Step 2 - Click on encoder
 

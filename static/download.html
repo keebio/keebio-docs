@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script>
+        function fetchFile(url, saveas) {
+            fetch(url)
+                .then((result) => {
+                    if (result.status != 200) { throw new Error("Bad server response"); }
+                    return result.blob();
+                })
+                .then((data) => {
+                    console.log(data);
+                    var url = window.URL.createObjectURL(data),
+                        anchor = document.createElement("a");
+                    anchor.href = url;
+                    anchor.download = saveas;
+                    anchor.click();
+
+                    window.URL.revokeObjectURL(url);
+                    document.removeChild(anchor);
+                })
+                .catch((error) => { console.log(error); });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const filePath = urlParams.get('path');
+            if (filePath !== null) {
+                fetchFile(filePath, filePath.split('/').pop());
+            }
+        }, false);
+
+    </script>
+</head>
+
+<body></body>
+
+</html>

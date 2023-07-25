@@ -4,7 +4,7 @@ title: VIA Usage Guide
 
 [VIA Configurator](https://www.caniusevia.com/) is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
-![](./assets/images/misc/via-configure.png)
+![](./assets/images/via/01-keymap-default-screen.png)
 
 For info on how VIA relates to the underlying QMK Firmware, see this for more details: [VIA and QMK Firmware](via-technical)
 
@@ -17,7 +17,7 @@ Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniu
 The VIA app now comes in two flavors:
 
 - [Desktop App](https://github.com/the-via/releases/releases)
-  - With the desktop app, you will have to re-download it if there is a new release with additional features, but the benefit is that you can use it offline without an internet connection.
+  - With the desktop app, since it is a wrapper for the web app, it will still need an internet connection to work, but it can be a little bit more reliable with detecting your keyboard
   - To download the VIA Configurator app, you can go to the releases page here: [VIA Releases](https://www.github.com/the-via/releases/releases/latest). The app is available for Windows, macOS, and Linux.
 - [Web App](https://usevia.app)
   - With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID. (Sorry Firefox users)
@@ -53,7 +53,16 @@ Once you are connected your keyboard, you should see your keymap like below:
 
 If your keyboard does not load, then check again that the firmware flashed to your board has VIA support enabled.
 
+If you're using the desktop app, try plugging your keyboard in prior to launching VIA if you are having issues.
+
 You'll want to be on the **Configure** tab (at the top) to verify a few things before testing your keys.
+
+## Tabs
+
+There are 3-4 tab icons at the top, allowing you to switch between different tools.
+
+![](./assets/images/via/tab-icons.png)
+
 
 ## Configure Tab
 
@@ -93,17 +102,21 @@ If you are a macOS user, `Win/GUI` is equivalent to `Cmd/Command`, while `Alt` i
 If you're looking for volume and music/movie oriented controls, this section has you covered!
         
 ### Macro
+
 You have 16 macro keys to do with what you will! Select a layer, then a key above and then select what macro you'd like to apply.
 
 See the [Macros](#macro-1) section to configure the macro.
 
-### Layers
+### Layers/FN
+
 If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A Primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
+
+Layers are numbered starting from 0, where 0 is your main layer that is normally accessible without doing anything special.
 
 Some terms to know about turning layers on and off:
 
 #### MO(layer)
-Most commonly used layer keycode. This momentarily activates the desired layer while you are holding down the key. Once released, the keyboard goes back to its original layer.
+Most commonly used layer keycode, as this is basically the equivalent to an `Fn` key. This momentarily activates the desired layer while you are holding down the key. Once released, the keyboard goes back to its original layer.
 
 #### TG(layer)
 Toggles a layer on and off. Similar to Num Lock.
@@ -160,6 +173,10 @@ To edit the mapping of the encoder, click on it, and the bottom half of the wind
 
 ![](./assets/images/via/encoder-edit.png)
 
+### Where is FN?
+
+An `Fn` key is just a reduced version of layers where you only have 1 layer accessible to you. The equivalent to `Fn` is `MO(1)`, which is in the `Layers` area of keycodes. By setting a key to do `MO(1)`, you are telling the keyboard to go to Layer 1 (remember that the main layer is 0), so you can access additional keys on that layer.
+
 ## Layouts
 
 ![](./assets/images/via/02-layouts.png)
@@ -170,11 +187,24 @@ You can verify if all your settings saved by clicking on the **Key Tester** tab 
 
 ## Macro
 
-![](./assets/images/via/03-macros.png)
-
 If you've added a macro keycode to your keymap, you can program the macro here.
 
 For example, you can program a macro to type out text for you. Not recommended to do this with passwords, albeit that is absolutely possible.
+
+There are two ways to configure a macro:
+
+- Macro Recorder
+- Keycode Entry
+- 
+### Macro Recorder
+
+![](./assets/images/via/macro-recording.png)
+
+This method allows you to record a macro, instead of trying to type in keycodes manually.
+
+### Keycode Entry
+
+![](./assets/images/via/03-macros.png)
 
 You can either type text directly without having to know anything about QMK keycode names, or if your put stuff in curly brackets (`{}`), you can use basic QMK keycodes.
 
@@ -232,10 +262,27 @@ For special keys, like layer keys that aren't on a normal keyboard, you can swit
 
 ![](./assets/images/via/via-key-tester.png)
 
+## Design Tab
+
+![](./assets/images/via/sideloading.png)
+
+If you are developing your own keyboard and adding in VIA support, you'll need to enable the Design Tab.
+
+### Sideloading VIA Definition Files
+
+In the Design tab, you can load in various draft definition files to check that your keyboard loads in properly.
+
+Sometimes, some not so great keyboard vendors don't work with the VIA team on getting their definition files added to the app, so they'll make you download definition files and manually load them here. Another reason could be that preliminary VIA support has been added to a board for testing, and the designer is awaiting for QMK and/or VIA to merge in the PR for it.
+
+Click on the `Load` button to the right of `Load Draft Definition` and select the `.json` file given to you. This should not be the `info.json` file from the QMK repository, as that is not compatible with VIA since it is not a VIA keyboard definition file. Once loaded, VIA should be able to detect your keyboard, if you've flashed VIA-enabled firmware to it.
+
+VIA should remember the draft definition file that you loaded into it the next time you launch the app, so you won't have to load it again.
+
 ## Settings Tab
 
 You generally won't need to use this tab unless needing to do some workarounds.
 
 - Show Design tab - Enables the Design tab, so you can load in custom keyboard definitions that haven't been merged into VIA yet
 - Fast Key Mapping - If enabled, when you remap a key, the key selection box to remap automatically moves to the next key
-- Allow remapping via keyboard - Allows you to type the key you want a key to be remapped to
+
+The rest of the options allow you to change the look of the app.

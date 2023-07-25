@@ -9,7 +9,8 @@ module.exports = {
   organizationName: 'keebio', // Usually your GitHub org/user name.
   projectName: 'keebio-docs', // Usually your repo name.
   plugins: [
-    'plugin-image-zoom'
+    'plugin-image-zoom',
+    'docusaurus-plugin-clarity'
   ],
   themeConfig: {
     algolia: {
@@ -17,6 +18,9 @@ module.exports = {
       apiKey: 'b7c07d0e12d760d793776941414358d7',
       indexName: 'keeb',
       contextualSearch: true,
+    },
+    clarity: {
+      ID: "fjw3p9p2xf",
     },
     zoomSelector: '.markdown :not(em) > img',
     colorMode: {

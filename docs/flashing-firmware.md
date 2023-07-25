@@ -31,6 +31,10 @@ Here's the different possible bootloaders in use for Keebio boards:
     - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
 - UF2 Bootloader
     - Found on RP2040-based keyboards/controllers, such as the Elite-Pi and Sinc Rev. 3
+    - Currently, RP2040 is used on the following Keebio PCBs:
+        - Sinc Rev. 3
+        - Stampy
+        - Cepstrum
 
 ## Split Keyboards
 ### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
@@ -162,4 +166,13 @@ TODO: add info on HID console appearing in Toolbox output, and how it'll appear 
 
 ## RP2040 Board (UF2 Bootloader)
 
-Please see the directions here: [Elite-Pi Flashing](elite-pi-guide#flashing)
+If you're using an Elite-Pi, please see the directions here: [Elite-Pi Flashing](elite-pi-guide#flashing).
+
+Otherwise, if you're using a Keebio PCB with the RP2040 controller integrated in, here's the flashing steps:
+
+1. Enter bootloader mode (use one of the following methods):
+   - Double-tap the `Reset` button
+   - Hold the `Reset` button for at least 1 second and then let go
+2. Wait for OS to detect the board in bootloader mode
+    - It will show up as a USB mass-storage device named `RPI-RP2`
+3. Copy the `.uf2` file to the `RPI-RP2` USB drive
