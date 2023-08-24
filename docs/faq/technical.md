@@ -2,6 +2,16 @@
 title: Technical/Build Info
 ---
 
+## Usage
+
+### Do I need to install drivers/software to use my keyboard?
+
+No, your keyboard will work straight out of the box without needing to install drivers or special software. You will only need to use software if you want to change what each key does, but those settings will remain on the keyboard.
+
+### Can I just use one half of a split keyboard by itself?
+
+Yes! Each half can function on its own without needing to be connected to the other half.
+
 ## Flashing
 
 ### How do I flash my keyboard with Keyboard Firmware Builder (a.k.a kbfirmware.com)?
