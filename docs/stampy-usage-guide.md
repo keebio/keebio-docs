@@ -55,6 +55,52 @@ GPIO9 is used for VBUS detection, so if you are using QMK, make sure you add the
 
 The rest of the pins (0-8, 16-28) can be used in whatever manner you'd like, such as additional rows/columns or devices like OLED screens and pointing devices.
 
+## Flash Mode
+
+To enter flash mode:
+* Short the two pins `RST` and `3.3V` or hold reset button for at least one second before release.
+* Alternatively, if QMK has been loaded, double tap the reset button.
+* The soft reset `QK_BOOT` in QMK works as usual.
+
+## Audio
+
+In QMK, RP2040 requires extra configuration for audio:
+* In the HAL configuration `halconf.h`, enable the use of PWM: `#define HAL_USE_PWM TRUE`.
+* In the MCU configuration `mcuconf.h`, enable the use of corresponding PWM peripherial `#define RP_PWM_USE_PWM<peripheral_number> TRUE`.
+* In the firmware configuration `config.h` enable `AUDIO_PIN`, `AUDIO_PWM_DRIVER`, and `AUDIO_PWM_CHANNEL` accordingly.
+
+Do consult the [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=14) to enable the correct peripheral and channel for the chosen pin.
+
+For example, if the pin GPIO7 (which uses `PWM3 B`) is chosen to be used to connect a piezoeletric buzzer, then these are the configurations:
+
+```
+// config.h
+#define AUDIO_PIN GP7
+#define AUDIO_PWM_DRIVER PWMD3
+#define AUDIO_PWM_CHANNEL RP2040_PWM_CHANNEL_B
+```
+
+```
+// halconf.h
+#pragma once
+
+#define HAL_USE_PWM TRUE
+
+#include_next <halconf.h>
+```
+
+```
+//mcuconf.h
+#pragma once
+
+#include_next <mcuconf.h>
+
+#undef RP_PWM_USE_PWM3
+#define RP_PWM_USE_PWM3 TRUE
+```
+
+The [Adafruit's Macropad](https://github.com/qmk/qmk_firmware/tree/master/keyboards/adafruit/macropad) is an example of working audio for RP2040.
+
 ## Switches
 
 Due to the tight spacing of components, if you are using 5-pin switches, you will need to clip both of the plastic pins for the Center switch and the left plastic pin for the Right switch.

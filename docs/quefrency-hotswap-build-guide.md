@@ -22,7 +22,7 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 * Switches (MX-compatible ones)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11)
-* [FLAHNS Hotswap Bumers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
+* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
 
 ## Build Steps Summary
 
@@ -103,9 +103,7 @@ If you installed an encoder, you will need to add a [silicone bumper](https://ke
 ![](./assets/images/quefrency-rev4/IMG_5576.jpeg)
 
 
-(Optional) Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
-
-(TODO: Insert picture here for bumper installation)
+(Optional) Add FLAHNS bumpers to underside of PCB [(See this video)](https://youtu.be/M0lVrFJ1gDc?t=314) to help support it up. About 4-6 for each half with work fine.
 
 Put the bottom plate on top of the standoffs and screw it on.
 
