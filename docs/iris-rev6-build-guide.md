@@ -1,10 +1,10 @@
 ---
-title: Iris Rev. 6 & 7 Hotswap
+title: Iris Rev. 6-8 Hotswap
 ---
 
 ## Build Compatibility
 
-This build guide is exclusively for the Rev. 6 & 7 PCB of the Iris, which features pre-soldered components, including Kailh hotswap sockets. For previous revisions, please see the [Iris Rev. 3-5 guide](iris-rev3-build-guide).
+This build guide is exclusively for the Rev. 6-8 PCB of the Iris, which features pre-soldered components, including Kailh hotswap sockets. For previous revisions, please see the [Iris Rev. 3-5 guide](iris-rev3-build-guide).
 
 ### Build Tutorial Videos by Keebio
 
@@ -15,6 +15,7 @@ This build guide is exclusively for the Rev. 6 & 7 PCB of the Iris, which featur
 First up, time to get your parts:
 
 * Set of Iris Hotswap PCBs
+  * [Iris Rev. 8 PCBs](https://keeb.io/iris-keyboard-split-ergonomic-keyboard)
   * [Iris Rev. 7 PCBs](https://keeb.io/products/iris-rev-7-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
   * [Iris Rev. 6 PCBs](https://keeb.io/products/iris-rev-6-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
 * [Iris PE Plates](https://keeb.io/products/iris-keyboard-case-plates-phoenix-edition)
@@ -43,7 +44,7 @@ First up, time to get your parts:
 
 If you have the Iris Rev. 6.1 PCBs, you do not need to clip the two larger mounting pins on the encoder as mentioned below, since the PCB now has slots for it.
 
-If you have the Iris Rev. 6.0 or 7 PCBs, you will need to do this procedure.
+If you have the Iris Rev. 6.0, 7, or 8 PCBs, you will need to do this procedure.
 
 :::
 
@@ -63,9 +64,9 @@ Then flip the board over and solder all 5 pins. Make sure that they remain pushe
 
 ![](./assets/images/iris-rev6/IMG_7845.jpg)
 
-### Rev. 7
+### Rev. 7-8
 
-If you have the Rev. 7, when installing the encoders, you will need to bend the legs of the rotary encoder slightly inwards, outwards, and/or to the side (depending on the pads on the PCB) in order for the encoders to fit onto the PCB.
+If you have the Rev. 7-8, when installing the encoders, you will need to bend the legs of the rotary encoder slightly inwards, outwards, and/or to the side (depending on the pads on the PCB) in order for the encoders to fit onto the PCB.
 
 ![](./assets/images/iris-rev7/IMG_2325.jpg)
 
@@ -73,9 +74,9 @@ If you have the Rev. 7, when installing the encoders, you will need to bend the 
 
 Once you've pushed the encoder pins through the PCB, make sure the encoder is flat against the top of the PCB.
 
-## Add 2u stabilizers to PCB (Rev. 7 only)
+## Add 2u stabilizers to PCB (Rev. 7-8 only)
 
-Add the 2u stabilizer if you have the Iris Rev. 7 PCBs and want a 2u key at the thumb. Do this before installing the switch plate and switches.
+Add the 2u stabilizer if you have the Iris Rev. 7-8 PCBs and want a 2u key at the thumb. Do this before installing the switch plate and switches.
 
 ![](./assets/images/iris-rev7/IMG_2323.jpg)
 
