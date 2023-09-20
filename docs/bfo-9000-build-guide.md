@@ -12,6 +12,7 @@ Here's a list of parts needed for the build:
 - 2 Pro Micro-compatible Microcontrollers (you may mix-and-match controllers)
   - [Arduino Pro Micro](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
   - [Elite-C](https://keeb.io/products/elite-c-low-profile-version-usb-c-pro-micro-replacement-atmega32u4)
+  - [Elite-Pi](https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040) (can't mix-and-match these)
 - Up to 108 switches (MX-compatible, Alps, and Choc switches are supported)
 
 ![](./assets/images/bfo-9000/IMG_6032.jpg)
@@ -35,6 +36,14 @@ Here's a summary of the build steps:
 9. Insert standoffs into middle layer \(optional\)
 10. Screw standoffs into switch plate
 11. Attach bottom plate using screws
+
+## Rev. 1.3 PCBs
+
+If you've got the version of BFO-9000 PCBs with pre-soldered components (diodes, TRRS jacks, reset button, resistors), then you can skip ahead to [soldering on microcontroller headers](#add-pro-micro-header-pins).
+
+![](./assets/images/bfo-9000/bfo-9000-rev1.3.jpg)
+
+Both of the TRRS jacks on each PCB of this revision are connected to each other, so you may use either jack when connecting both halves together.
 
 ## Prepare components
 
