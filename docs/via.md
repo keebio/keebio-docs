@@ -195,7 +195,7 @@ There are two ways to configure a macro:
 
 - Macro Recorder
 - Keycode Entry
-- 
+ 
 ### Macro Recorder
 
 ![](./assets/images/via/macro-recording.png)
