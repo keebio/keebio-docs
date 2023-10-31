@@ -142,7 +142,7 @@ It's really important to be pressing on the hotswap socket during switch inserti
 
 :::
 
-![](./assets/images/iris-rev6/IMG_7852.jpg)
+![](./assets/images/hotswap/squeeze.jpg)
 
 Make sure that the switch remains flush with the plate.
 
