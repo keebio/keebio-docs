@@ -10,7 +10,7 @@ This build guide is for the Cepstrum Rev. 1, which features pre-soldered compone
 
 ### Build Tutorial Videos by Keebio
 
-Video in progress, subscribe to the [Keebio YouTube channel](https://www.youtube.com/keebio) to find out when it gets released!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1t3lqMeMS1g?si=J7YSc4-KaRIpBfvJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Parts List
 
