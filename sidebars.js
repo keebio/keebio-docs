@@ -8,6 +8,7 @@ module.exports = {
         'quefrency-hotswap-build-guide',
         'cepstrum-build-guide',
         'sinc-rev3-build-guide',
+        'breeze-build-guide',
         'hotswap-switch-installation',
         'convolution-build-guide',
         'quefrency-rev2-sinc-build-guide',
