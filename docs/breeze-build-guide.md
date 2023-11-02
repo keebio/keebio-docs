@@ -47,6 +47,13 @@ The first thing to do is unscrew the screws from the case. Keep the o-rings on t
 
 Test the microcontrollers first by flashing the firmware to them, as removing the controllers from the PCB is difficult if you have any problems with it and need to desolder them.
 
+Here's the firmware for the Breeze with support for VIA enabled for different microcontrollers:
+
+- [Breeze Firmware for Elite-Pi](https://docs.keeb.io/firmware.html?path=breeze/afternoonlabs_breeze_rev1_via_elite_pi.uf2)
+- [Breeze Firmware for Pro Micro and Elite-C](https://docs.keeb.io/firmware.html?path=breeze/afternoonlabs_breeze_rev1_via_pro_micro.hex)
+
+See [Flashing Firmware](flashing-firmware) for more info on flashing your controllers.
+
 ## Solder Microcontrollers
 
 Place both of the PCBs face up and insert the header pins into the holes for them.
