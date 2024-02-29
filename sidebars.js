@@ -5,6 +5,7 @@ module.exports = {
         'main',
         'iris-rev6-build-guide',
         'iris-aluminum-case-build-guide',
+        'iris-ce-build-guide',
         'quefrency-hotswap-build-guide',
         'cepstrum-build-guide',
         'sinc-rev3-build-guide',
