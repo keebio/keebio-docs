@@ -50,7 +50,13 @@ Out of the box, our boards do not have NKRO (N-Key Rollover) enabled in QMK, but
 
 You can enable NKRO with QMK using these instructions: <https://docs.qmk.fm/#/faq_misc?id=nkro-doesnt-work>
 
-You will need to have a [QMK Build Environment](../remapping-keyboard#qmk-firmware-build-environment) setup, set `NKRO_ENABLE = yes` in your `rules.mk`, and then pressing the `Magic N` command (`LShift+RShift+N` by default) to turn on NKRO.
+You will need to have a [QMK Build Environment](../remapping-keyboard#qmk-firmware-build-environment) setup and do the following:
+
+1. Enable NKRO in the configuration settings in one of the following two ways:
+   1. Set `NKRO_ENABLE = yes` in your `rules.mk`
+   2. Or Add `"nkro": true` in the `"features"` section of `info.json`
+2. Build the firmware and flash it
+3. Press the `Magic N` command (`LShift+RShift+N` by default) to turn on NKRO.
 
 ## Building
 
