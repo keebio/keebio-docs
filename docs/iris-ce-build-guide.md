@@ -100,6 +100,8 @@ While the bottom plates have a hole at the bottom to allow you to access the res
 
 ![](./assets/images/iris-ce/iris-ce-qk-boot.png)
 
+For reference, the Iris CE PCB uses a RP2040 microcontroller.
+
 ## Turning off RGB LEDs
 
 If you'd like to turn the RGB LEDs off, you can control the [RGB settings in VIA](via#lighting).
