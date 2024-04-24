@@ -71,11 +71,15 @@ First place the plate assembly into the tray.
 
 Add screws to each of the holes and screw them in.
 
-:::info
+:::warning
 
-Do not overtighten the screws, as this will cause the plate to bend, which will make the switches pop out.
+If you have the polycarbonate case, do not overtighten the screws.
+
+Doing so may damage the bottom of the case, causing indentations as seen here:
 
 :::
+
+![](./assets/images/iris-ce/pc-tray-damaged.jpg)
 
 ![](./assets/images/iris-ce/DSC00129.JPG)
 
