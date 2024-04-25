@@ -17,7 +17,7 @@ Get your parts ready:
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * [56 Kailh Choc Switches](https://keeb.io/products/kailh-choc-low-profile-switches-v1)
 
-TODO: Image here
+![](./assets/images/iris-ce/iris-ce-parts.jpg)
 
 ## Build Steps Summary
 
@@ -29,6 +29,8 @@ TODO: Image here
 ## Inspect/Test Parts
 
 Before starting assembly of the board, check if there's any issues with the parts in the keyboard kit.
+
+First, unscrew the switch plate from the tray, and remove the poron piece from the tray.
 
 See if silicone bumpers are installed on the bottom of the case trays.
 
