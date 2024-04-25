@@ -56,7 +56,7 @@ You will need to have a [QMK Build Environment](../remapping-keyboard#qmk-firmwa
    1. Set `NKRO_ENABLE = yes` in your `rules.mk`
    2. Or Add `"nkro": true` in the `"features"` section of `info.json`
 2. Build the firmware and flash it
-3. Press the `Magic N` command (`LShift+RShift+N` by default) to turn on NKRO.
+3. Use the `NK_TOGG` keycode to toggle NKRO.
 
 ## Building
 
