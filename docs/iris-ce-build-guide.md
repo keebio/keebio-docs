@@ -95,10 +95,10 @@ Repeat the same process for the other half of the keyboard.
 
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).
 
-While the bottom plates have a hole at the bottom to allow you to access the reset button to allow your Iris to be reflashed, if you don't want to be flipping your board over to press reset, you can also use one of the following options when remapping your Iris:
+While the bottom plates have a hole at the bottom to allow you to access the reset button to allow your Iris to be reflashed if you are using QMK, if you don't want to be flipping your board over to press reset, you can also use one of the following options when remapping your Iris:
 
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris CE already has VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
-2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `R` on the left half or `Raise` + `Del` on the right half as shown below:
+2. If you are not using VIA and are using QMK instead, use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `R` on the left half or `Raise` + `Del` on the right half as shown below:
 
 ![](./assets/images/iris-ce/iris-ce-qk-boot.png)
 
