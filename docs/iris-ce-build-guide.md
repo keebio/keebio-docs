@@ -19,6 +19,10 @@ Get your parts ready:
 
 ![](./assets/images/iris-ce/iris-ce-parts.jpg)
 
+### Build Tutorial Video by Keebio
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TNNVQpNd_j0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Build Steps Summary
 
 1. Inspect/Test Parts
