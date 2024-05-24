@@ -3,6 +3,7 @@ module.exports = {
     {
       'Build Guides': [
         'main',
+        'iris-keyboard',
         'iris-rev6-build-guide',
         'iris-aluminum-case-build-guide',
         'iris-ce-build-guide',
