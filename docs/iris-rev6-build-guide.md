@@ -88,7 +88,7 @@ You can skip this section if you are using FR4 plates or stainless steel plates.
 
 :::
 
-Peel up a corner of the protective paper film of the acrylic plate. You can use your fingernail or any other kind of object. Be cafeful to not scratch up the plate while doing so.
+Peel up a corner of the protective paper film of the acrylic plate. You can use your fingernail or any other kind of object. Be careful to not scratch up the plate while doing so.
 
 ![](./assets/images/iris-rev6/IMG_7839.jpg)
 
