@@ -35,6 +35,7 @@ Here's the different possible bootloaders in use for Keebio boards:
         - Sinc Rev. 3
         - Stampy
         - Cepstrum
+        - Iris CE 
 
 ## Split Keyboards
 ### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
