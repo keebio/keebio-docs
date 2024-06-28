@@ -160,9 +160,11 @@ Do not overtighten the screws, as this will cause bowing of the switch plate.
 
 Add keycaps to all of the switches.
 
-![](./assets/images/iris-ce/DSC00130.JPG)
+![](./assets/images/iris-se/IMG_1884.jpg)
 
 Repeat the same process for the other half of the keyboard.
+
+![](./assets/images/iris-se/IMG_1885.jpg)
 
 ## Remapping/reprogramming Board
 
