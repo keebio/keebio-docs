@@ -36,4 +36,4 @@ The Iris AE (Aluminum Case) is a premium, aluminum CNC'd case for the Iris PCB.
 
 The Iris SE is also an aluminum case, but is a simpler, tray-mount case for the Iris PCB.
 
-(Build guide still in developement)
+[Iris SE Build Guide](iris-se-build-guide)
