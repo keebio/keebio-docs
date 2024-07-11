@@ -8,7 +8,7 @@ A build guide for the Sinc Rev. 3-4 is in progress, but due to the similarity of
 
 Because of the limitations of where the hotswap sockets could be placed, only the ANSI Enter layout is supported out of the box.
 
-To convert the right half of the board to support ISO Enter, you'll need to desolder 2 of the hotswap sockets and relocated them to the appropriate locations for ISO Enter support.
+To convert the right half of the board to support ISO Enter, you'll need to desolder 2 of the hotswap sockets and relocate them to the appropriate locations for ISO Enter support.
 
 ### Tools Needed
 
