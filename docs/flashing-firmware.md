@@ -32,10 +32,12 @@ Here's the different possible bootloaders in use for Keebio boards:
 - UF2 Bootloader
     - Found on RP2040-based keyboards/controllers, such as the Elite-Pi and Sinc Rev. 3
     - Currently, RP2040 is used on the following Keebio PCBs:
-        - Sinc Rev. 3
+        - Sinc Rev. 3-4
         - Stampy
         - Cepstrum
-        - Iris CE 
+        - Iris CE
+        - Iris Rev. 8
+        - Chiri CE
 
 ## Split Keyboards
 ### Do I need to have the TRRS cable (or USB-C to USB-C cable) plugged in while trying to flash both halves?
