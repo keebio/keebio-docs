@@ -67,6 +67,14 @@ Add the rest of the switches.
 
 ![](./assets/images/iris-ce/DSC00126.JPG)
 
+## Test keys
+
+Before reassembling the case, plug the USB cable into the PCB and test all of the keys to make sure everything is working, as it'll be easier to fix switch issues now than later.
+
+It's best to test using the [Key Tester in VIA](via#key-tester-tab) with `Test Matrix` mode on, as this will let you test the Lower and Raise keys properly.
+
+![](./assets/images/iris-ce/iris-via-key-tester.png)
+
 ## Assemble Case
 
 Now that all of the switches have been inserted, it's time to assemble the case.
