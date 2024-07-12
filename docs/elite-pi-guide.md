@@ -46,7 +46,7 @@ To use the converter, see the instructions here: [QMK converter usage](https://d
 
 Using QMK CLI:
 ```js
-qmk flash -c -kb keebio/levinson/rev3 -km default -e CONVERT_TO=elite_pi
+qmk compile -c -kb keebio/levinson/rev3 -km default -e CONVERT_TO=elite_pi
 ```
 
 Using `make`:
