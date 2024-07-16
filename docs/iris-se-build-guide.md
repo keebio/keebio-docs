@@ -39,7 +39,7 @@ Coming Soon!
 
 Before starting assembly of the board, check if there's any issues with the parts in the keyboard kit.
 
-First, unscrew the switch plate from the tray, and remove the poron piece from the tray.
+First, unscrew the switch plate from the tray, and remove the silicone plate support piece from the tray.
 
 See if silicone bumpers are installed on the bottom of the case trays. A pack containing 2 spare feet have been included with the case.
 
