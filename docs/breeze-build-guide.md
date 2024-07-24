@@ -49,8 +49,8 @@ Test the microcontrollers first by flashing the firmware to them, as removing th
 
 Here's the firmware for the Breeze with support for VIA enabled for different microcontrollers:
 
-- [Breeze Firmware for Elite-Pi](https://docs.keeb.io/firmware.html?path=breeze/afternoonlabs_breeze_rev1_via_elite_pi.uf2)
-- [Breeze Firmware for Pro Micro and Elite-C](https://docs.keeb.io/firmware.html?path=breeze/afternoonlabs_breeze_rev1_via_pro_micro.hex)
+- [Breeze Firmware for Elite-Pi](https://docs.keeb.io/firmware.html?path=afternoonlabs_breeze_rev1_via_elite_pi.uf2)
+- [Breeze Firmware for Pro Micro and Elite-C](https://docs.keeb.io/firmware.html?path=afternoonlabs_breeze_rev1_via_pro_micro.hex)
 
 See [Flashing Firmware](flashing-firmware) for more info on flashing your controllers.
 
