@@ -79,7 +79,7 @@ This section only applies to Windows, skip this if you are on a Mac, as there ar
 
 If you open up QMK Toolbox, press the reset button on your ATmega32u4-based board, and see `(NO DRIVER)` on the line for `Atmel DFU device connected`, then you'll need to install the bootloader driver on Windows.
 
-To install the DFU Bootloader driver, right-click anywhere in the top part of the QMK Toolbox window as shown below and click on `Install Drivers...`. The ATmega32u4 DFU Bootloader driver along with other bootloader drivers will be installed.
+To install the DFU Bootloader driver, go to `Tools` on the menu bar and select `Install Drivers...`. The ATmega32u4 DFU Bootloader driver along with other bootloader drivers will be installed.
 
 ![](./assets/images/flashing/windows-install-drivers.png)
 
@@ -134,7 +134,7 @@ If you open up QMK Toolbox, press the reset button on your STM32-based board, an
 
 ![](./assets/images/flashing/windows-stm32-no-driver.png)
 
-To install the STM32 Bootloader driver, right-click anywhere in the top part of the QMK Toolbox window as shown below and click on `Install Drivers...`. The STM32 Bootloader driver along with other bootloader drivers will be installed.
+To install the STM32 Bootloader driver, go to `Tools` on the menu bar and select `Install Drivers...`. The STM32 Bootloader driver along with other bootloader drivers will be installed.
 
 ![](./assets/images/flashing/windows-install-drivers.png)
 
