@@ -8,6 +8,7 @@ module.exports = {
         'iris-aluminum-case-build-guide',
         'iris-ce-build-guide',
         'iris-se-build-guide',
+        'chiri-ce-build-guide',
         'quefrency-hotswap-build-guide',
         'cepstrum-build-guide',
         'sinc-rev3-build-guide',
