@@ -81,9 +81,13 @@ Insert screws through the plate to secure the PCB to the standoffs on the case.
 
 ![](./assets/images/wtf60/IMG_3191.jpeg)
 
+## Default Keymap
+
+Here's the default keymap if you need it: [WTF60 Default Keymap](../static/layouts/keymap_WTF60_rev1.pdf)
+
 ## Re-Programming Board Note
 
-Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware). 
+Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware).
 
 ## Rejoice!
 

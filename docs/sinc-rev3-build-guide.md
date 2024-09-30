@@ -74,6 +74,10 @@ Next, click on `Keymap` on the left side bar, and then click on the ISO Enter ke
 
 ![](./assets/images/sinc-rev3/via-keymap.jpg)
 
+## Default Keymap
+
+Here's the default keymap if you need it: [Sinc Default Keymap](../static/layouts/keymap_Sinc_rev2.pdf)
+
 ## Reflashing Board
 
 If you'd like to reflash your Sinc, since it has a RP2040 controller on board, follow these instructions: [Flashing RP2040 Board](flashing-firmware#rp2040-board-uf2-bootloader)

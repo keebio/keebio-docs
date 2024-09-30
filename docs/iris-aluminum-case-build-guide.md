@@ -178,6 +178,10 @@ Put the bottom part of the case on and then screw it to the top half.
 
 Add your keycaps and knob (if you have a rotary encoder)!
 
+## Default Keymap
+
+Here's the default keymap if you need it: [Iris Default Keymap](../static/layouts/Iris%20Default%20Keymap.pdf)
+
 ## Remapping/reprogramming Board
 
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).

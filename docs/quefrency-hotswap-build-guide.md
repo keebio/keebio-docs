@@ -192,6 +192,10 @@ All done now, repeat for the other half of the board!
 
 ![](./assets/images/quefrency-rev4/IMG_5577.jpeg)
 
+## Default Keymap
+
+Here's the default keymap if you need it: [Quefrency Default Keymap](../static/layouts/keymap_Quefrency_rev3.pdf)
+
 ## Re-Programming Board Note
 
 Oh, looking to re-program your board? Never fear! Come look [here](flashing-firmware).

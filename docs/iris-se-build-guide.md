@@ -174,6 +174,10 @@ Repeat the same process for the other half of the keyboard.
 
 ![](./assets/images/iris-se/IMG_1885.jpg)
 
+## Default Keymap
+
+Here's the default keymap if you need it: [Iris Default Keymap](../static/layouts/Iris%20Default%20Keymap.pdf)
+
 ## Remapping/reprogramming Board
 
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).

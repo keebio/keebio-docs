@@ -19,3 +19,7 @@ For the Rev. 1.0 PCB, a trace is missing on the left 1.5u thumb key for the left
 To fix this, after solder all of the switches, add a jumper wire between these two pins as shown below:
 
 ![](./assets/images/foldkb/jumper-1.5u.jpg)
+
+## Default Keymap
+
+Here's the default keymap if you need it: [FoldKB Default Keymap](../static/layouts/keymap_FoldKB_rev1.pdf)
