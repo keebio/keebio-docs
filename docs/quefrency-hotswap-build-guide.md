@@ -25,7 +25,7 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 * Switches (MX-compatible ones)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11)
-* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (optional)
+* [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended)
 
 ## Build Steps Summary
 
@@ -172,14 +172,17 @@ Now that all of the switches are in, install the standoffs. Insert a screw throu
 
 ![](./assets/images/quefrency-rev4/IMG_5573.jpeg)
 
-If you installed an encoder, you will need to add a [silicone bumper](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
+### Add FLAHNS (optional)
 
-![](./assets/images/quefrency-rev4/IMG_5575.jpeg)
+Add FLAHNS bumpers to underside of PCB to help support it up (see video below). About 4-6 for each half with work fine.
 
-![](./assets/images/quefrency-rev4/IMG_5576.jpeg)
+![](./assets/images/quefrency-rev4/IMG_2640.jpeg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M0lVrFJ1gDc?si=m9i3LTHaR7cesAt4&amp;start=314" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-(Optional) Add FLAHNS bumpers to underside of PCB [(See this video)](https://youtu.be/M0lVrFJ1gDc?t=314) to help support it up. About 4-6 for each half with work fine.
+### Supporting the Encoder
+
+If you installed an encoder, you will need to add one of the FLAHNS or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
 
 Put the bottom plate on top of the standoffs and screw it on.
 
