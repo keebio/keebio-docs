@@ -2,7 +2,7 @@
 title: Sinc Rev. 3-4 Hotswap Build Guide
 ---
 
-A build guide for the Sinc Rev. 3-4 is in progress, but due to the similarity of the PCBs to the Quefrency Rev. 4-5, see the build guide for that instead: [Quefrency Rev. 4-5 Hotswap Build Guide](quefrency-hotswap-build-guide.md)
+A build guide for the Sinc Rev. 3-4 is in progress, but due to the similarity of the PCBs to the Quefrency Rev. 4-6, see the build guide for that instead: [Quefrency Rev. 4-6 Hotswap Build Guide](quefrency-hotswap-build-guide.md)
 
 ## ANSI to ISO Enter Hotswap Conversion
 

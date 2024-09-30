@@ -1,10 +1,10 @@
 ---
-title: Quefrency Rev. 4-5 Hotswap Build Guide 
+title: Quefrency Rev. 4-6 Hotswap Build Guide 
 ---
 
 ## Build Compatibility
 
-This build guide is for the Quefrency Rev. 4-5, which has Kailh hotswap sockets. If you have the Quefrency Rev. 2 or 3 PCBs, see [Quefrency/Sinc/KBO-5000 Build Guide](quefrency-rev2-sinc-build-guide.md).
+This build guide is for the Quefrency Rev. 4-6, which has Kailh hotswap sockets. If you have the Quefrency Rev. 2 or 3 PCBs, see [Quefrency/Sinc/KBO-5000 Build Guide](quefrency-rev2-sinc-build-guide.md).
 
 ### Build Tutorial Videos by Keebio
 
@@ -15,9 +15,12 @@ This build guide is for the Quefrency Rev. 4-5, which has Kailh hotswap sockets.
 Now you've watched some cool videos and feel inspired! Get your parts:
 
 * Set of Quefrency PCBs
-  * [Rev. 4 PCB Kit](https://keeb.io/products/quefrency-rev-4-65-split-staggered-keyboard)
-  * [Rev. 5 PCB Kit](https://keeb.io/products/quefrency-rev-5-pcbs-hotswap-65-65xt-split-staggered-keyboard)
-* [Plates for Quefrency](https://keeb.io/products/quefrency-fr4-plates)
+  * [Rev. 4 PCB Kit](https://keeb.io/products/quefrency-rev-4-65-split-staggered-keyboard?utm_source=docs)
+  * [Rev. 5 PCB Kit](https://keeb.io/products/quefrency-rev-5-pcbs-hotswap-65-65xt-split-staggered-keyboard?utm_source=docs)
+  * [Rev. 6 PCB Kit](https://keeb.io/products/quefrency-rev-6-pcbs-hotswap-65-65xt-split-staggered-keyboard?utm_source=docs)
+* Plates for Quefrency
+  * [FR4 Plates](https://keeb.io/products/quefrency-fr4-plates)
+  * Aluminum Plates - Coming soon
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable) (for boards that use USB-C for interconnect)
 * Switches (MX-compatible ones)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u/2.25u/2.75u keys
@@ -27,14 +30,15 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 ## Build Steps Summary
 
 1. Break off PCB sections
-2. Solder [rotary encoder](glossary#rotary-encoder) (optional)
-3. Add 2u [stabilizers](glossary#stabilizers) to [PCB](glossary#pcb)
-4. Add switches
-5. Assemble!
+2. ANSI to ISO Enter Conversion (optional)
+3. Solder [rotary encoder](glossary#rotary-encoder) (optional)
+4. Add 2u [stabilizers](glossary#stabilizers) to [PCB](glossary#pcb)
+5. Add switches
+6. Assemble!
     * Screw [standoffs](glossary#standoffs) into switch plate
     * Attach bottom plate using screws
-6. Re-Programing Board Note
-7. Rejoice!
+7. Re-Programing Board Note
+8. Rejoice!
 
 ## Break Off PCB Sections
 
@@ -46,7 +50,79 @@ If you're going to go with a layout without the left macro section or right macr
   <source src="/videos/pcb-break.mp4" type="video/mp4" />
 </video>
 
-### Solder Rotary Encoder
+## ANSI to ISO Enter Hotswap Conversion
+
+If you are using a regular Enter key, then skip ahead: [Skip to Next Step](#solder-rotary-encoder)
+
+Because of the limitations of where the hotswap sockets could be placed, only the ANSI Enter layout is supported out of the box.
+
+To convert the right half of the board to support ISO Enter, you'll need to desolder 2 of the hotswap sockets and relocate them to the appropriate locations for ISO Enter support.
+
+### Tools Needed
+
+- Soldering iron
+- Solder
+- Tweezers, pen, or some other pointy object
+
+### Desolder Sockets
+
+Below is the location of the two sockets that will need to be moved.
+
+![](./assets/images/sinc-rev3/IMG_2813.jpg)
+
+#### Step 1 - Add solder to sockets
+
+The first thing you'll need to do is add solder to both pins of the socket. This will make the socket easier to desolder, as the temperature needed to melt the solder on the socket will be less, which makes it easier to work with. Be careful to not touch the iron to the plastic of the socket, but it's not a big deal if it accidentally happens.
+
+![](./assets/images/sinc-rev3/IMG_2814.jpg)
+
+![](./assets/images/sinc-rev3/IMG_2815.jpg)
+
+#### Step 2 - Heat pads and remove sockets
+
+You'll want to be careful here and not use too much force when removing the socket, as you might damage the pads. Heat up one pad with your soldering iron while putting a slight bit of force to start lifting it away from the PCB, try for about 1mm. Do the same for the other pad.
+
+Option 1: You can push up the socket from the top side of the PCB using something like a pen as shown here: 
+
+![](./assets/images/sinc-rev3/IMG_2816.jpg)
+
+Option 2: Or, you can use a pair of tweezers to pry up the socket as you're heating it up:
+
+![](./assets/images/sinc-rev3/IMG_2818.jpg)
+
+Repeat the process between the two pads until the socket is free.
+
+![](./assets/images/sinc-rev3/IMG_2817.jpg)
+
+### Resolder Sockets
+
+Here's where the desoldered sockets should be moved to:
+
+![](./assets/images/sinc-rev3/IMG_2824.jpg)
+
+To solder the sockets on, add solder to the top part and bottom parts of the socket pins.
+
+![](./assets/images/sinc-rev3/IMG_2824x.jpg)
+
+### Update Layout in VIA
+
+If you've using VIA for remapping your Sinc, update the layout selector for ISO Enter support.
+
+Since the ANSI Enter and ISO Enter are not connected together, make you update the keymapping for the ISO Enter key.
+
+#### Step 1 - Adjust layout
+
+First, you'll need to adjust the layout to be ISO Enter. Click on `Layouts` on the left side bar, and then toggle on `ISO Enter`.
+
+![](./assets/images/sinc-rev3/via-layout.jpg)
+
+#### Step 2 - Adjust keymap
+
+Next, click on `Keymap` on the left side bar, and then click on the ISO Enter key to select it. Then, click on `Enter` in the key selector at the bottom to change it to an Enter key.
+
+![](./assets/images/sinc-rev3/via-keymap.jpg)
+
+## Solder Rotary Encoder
 
 ![](./assets/images/quefrency-rev4/IMG_5559.jpeg)
 

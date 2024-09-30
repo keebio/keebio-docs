@@ -1,10 +1,10 @@
 ---
-title: Quefrency/Sinc/KBO-5000 
+title: Quefrency/Sinc/KBO-5000 (Solder Version)
 ---
 
 ## Build Compatibility
 
-This build guide is exclusively for Quefrency Rev. 2 or higher, Sinc, and KBO-5000! They both have pre-soldered components. If you have the Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md).
+This build guide is exclusively for Quefrency Rev. 2 or 3, Sinc Rev. 1 or 2, and KBO-5000 Rev. 1! They both have pre-soldered components. If you have the Quefrency Rev. 1 PCBs, see [Quefrency Rev. 1 Build Guide](quefrency-rev1-build-guide.md).
 
 ## Videos of Builds
 
