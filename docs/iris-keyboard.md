@@ -14,6 +14,15 @@ The Iris CE is the low-profile version that exclusively uses Kailh Choc V1 switc
 
 ![](./assets/images/iris-ce/iris-ce-parts.jpg)
 
+## Iris SE
+
+The Iris SE is also an aluminum case, but is a simpler, tray-mount case for the Iris PCB.
+
+[Iris SE Build Guide](iris-se-build-guide)
+
+![](./assets/images/iris-se/IMG_1885.jpg)
+
+
 ## Iris PE
 
 The Iris PE has a sandwich-style case and has options to use a hotswap version of the PCB (Rev. 6-8) or a solderable version (Rev. 5)
@@ -31,11 +40,3 @@ The Iris AE (Aluminum Case) is a premium, aluminum CNC'd case for the Iris PCB.
 [Iris AE Build Guide](iris-aluminum-case-build-guide)
 
 ![](./assets/images/iris-ae/IMG_2473.jpeg)
-
-## Iris SE
-
-The Iris SE is also an aluminum case, but is a simpler, tray-mount case for the Iris PCB.
-
-[Iris SE Build Guide](iris-se-build-guide)
-
-![](./assets/images/iris-se/IMG_1885.jpg)
