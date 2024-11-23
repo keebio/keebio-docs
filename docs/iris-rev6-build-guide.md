@@ -194,6 +194,22 @@ First step is to add the screws and standoffs to the switch plate. For each hole
 
 ![](./assets/images/iris-rev6/IMG_7860.jpg)
 
+### Add silicone tray liner
+
+:::info
+
+New! As of 11/23/2024, the Iris PE plate kits now come with a silicone tray liner. This liner is used to support the hotswap sockets when switches are being inserted and helps to prevent the sockets from being ripped off of the PCB.
+
+This replaces the use of FLAHNS as described a bit later.
+
+:::
+
+If your plate kit comes with a silicone tray liner, lay it over the bottom of the PCB.
+
+(TODO: Add pic here)
+
+### If you don't have the tray liner
+
 If you installed an encoder, you will need to add a [silicone bumper](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
 
 ![](./assets/images/iris-rev6/IMG_7861.jpg)
@@ -203,6 +219,8 @@ If you installed an encoder, you will need to add a [silicone bumper](https://ke
 ![](./assets/images/iris-rev6/flahns-top.jpg)
 
 ![](./assets/images/iris-rev6/flahns-side.jpg)
+
+### Add bottom plate
 
 Put the bottom plate on top of the standoffs and screw it on.
 
