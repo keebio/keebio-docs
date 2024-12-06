@@ -125,6 +125,16 @@ Flip the PCBs over and solder:
 
 ![](./assets/images/bfo-9000/IMG_6046.jpg)
 
+:::info For Low-Profile Builds:
+
+If you are doing a build with low-profile switches, you *must* do the following step to prevent the pins of the controller from shorting against each other. Otherwise, the switch plate will touch the header pins that are sticking out above the PCB.
+
+:::
+
+\(Optional for MX, Required for Low-Profile\) Trim down header pins on top-side of PCB:
+
+![](./assets/images/bfo-9000/IMG_3678.jpeg)
+
 \(Optional\) Remove plastic on header pins so Pro Micro port is flush with PCB:
 
 ![](./assets/images/levinson-rev3/IMG_3748.JPG)
@@ -136,6 +146,12 @@ Flip the PCBs over and solder:
 Don't solder on the Pro Micro yet.
 
 #### Installation of Peel-A-Way sockets \(optional\)
+
+:::danger For Low-Profile Builds:
+
+Do not install Peel-A-Way sockets for low-profile builds, as the sockets will stick out too much on the top-side of the PCB and touch the switch plate, which can cause shorts
+
+:::
 
 If using Peel-A-Way sockets instead, insert strips into the PCB:
 
