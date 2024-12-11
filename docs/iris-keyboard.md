@@ -14,6 +14,14 @@ The Iris CE is the low-profile version that exclusively uses Kailh Choc V1 switc
 
 ![](./assets/images/iris-ce/iris-ce-parts.jpg)
 
+## Iris LM
+
+The Iris LM is the MX-spaced low-profile version that uses Kailh Choc V1, Kailh Choc V2, or Gateron LP KS-33 switches.
+
+[Iris LM Build Guide](iris-lm-build-guide)
+
+![](./assets/images/iris-lm/iris-lm-completed.png)
+
 ## Iris SE
 
 The Iris SE is also an aluminum case, but is a simpler, tray-mount case for the Iris PCB.
