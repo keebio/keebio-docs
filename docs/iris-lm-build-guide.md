@@ -34,19 +34,29 @@ Get your parts ready:
 
 Before starting assembly of the board, check if there's any issues with the parts in the keyboard kit.
 
-First, unscrew the switch plate from the tray, and remove the foam piece from the tray.
+![](./assets/images/iris-lm/IMG_3739.jpeg)
+
+First, unscrew the switch plate from the tray, and remove the foam piece from the tray. You can leave the silicone liner in the tray.
 
 ![](./assets/images/iris-lm/IMG_3699.jpeg)
+
+:::caution Keep track of the o-rings
+
+On top of each of the 5 mounting points on each half, there is a small, clear o-ring on it. Be careful not to lose these o-rings.
+
+:::
+
+![](./assets/images/iris-lm/IMG_3720.jpeg)
 
 ![](./assets/images/iris-lm/IMG_3700.jpeg)
 
 See if silicone bumpers are installed on the bottom of the case trays.
 
-<!-- ![](./assets/images/iris-ce/DSC00120.JPG) -->
+![](./assets/images/iris-lm/IMG_3721.jpeg)
 
 Plug in the PCBs and make sure all the LEDs are working.
 
-<!-- ![](./assets/images/iris-ce/DSC00122.JPG) -->
+![](./assets/images/iris-lm/IMG_3737.jpeg)
 
 
 ## Add switches
@@ -85,7 +95,7 @@ Now that all of the switches have been inserted, it's time to assemble the case.
 
 (Option) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
 
-<!-- ![](./assets/images/iris-lm/IMG_3706.jpeg) -->
+![](./assets/images/iris-lm/IMG_3720.jpeg)
 
 Next, place the plate assembly into the tray.
 
@@ -100,6 +110,8 @@ Add keycaps to all of the switches.
 ![](./assets/images/iris-lm/IMG_3708.jpeg)
 
 Repeat the same process for the other half of the keyboard.
+
+![](./assets/images/iris-lm/IMG_3694.jpeg)
 
 ## Default Keymap
 
