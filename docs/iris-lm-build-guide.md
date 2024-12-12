@@ -15,10 +15,13 @@ Get your parts ready:
   * [Iris LM-G Rev. 1 PCBs](https://keeb.io/products/iris-lm-g-pcb-kit)
 * Iris LM Case
   * [Aluminum version](https://keeb.io/products/iris-lm-aluminum-case)
+  * 8mm M2 screws
+  * Silicone tray liners
+  * Switch plate support foam
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * [56 Low-Profile Switches](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=Choc+V1+Low-Profile&filter.p.m.keyboard.switch_compatibility=Choc+V2+Low-Profile&filter.p.m.keyboard.switch_compatibility=Gateron+Low-Profile&sort_by=best-selling)
 
-<!-- ![](./assets/images/iris-ce/iris-ce-parts.jpg) -->
+<!-- ![](./assets/images/iris-lm/iris-lm-parts.jpg) -->
 
 ## Build Steps Summary
 
@@ -80,7 +83,11 @@ It's best to test using the [Key Tester in VIA](via#key-tester-tab) with `Test M
 
 Now that all of the switches have been inserted, it's time to assemble the case.
 
-First place the plate assembly into the tray.
+(Option) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
+
+<!-- ![](./assets/images/iris-lm/IMG_3706.jpeg) -->
+
+Next, place the plate assembly into the tray.
 
 ![](./assets/images/iris-lm/IMG_3706.jpeg)
 
