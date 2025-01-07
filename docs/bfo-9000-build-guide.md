@@ -24,8 +24,8 @@ Here's a summary of the build steps:
 1. Prepare components
 2. Solder components
    1. Solder diodes
-   3. Solder I2C resistors \(optional\)
-   2. Solder push button and TRRS jack
+   2. Solder I2C resistors \(optional\)
+   3. Solder push button and TRRS jack
    4. Solder Pro Micro header pins
 3. Add switches to switch plate
 4. Solder switches
@@ -37,7 +37,7 @@ Here's a summary of the build steps:
 10. Screw standoffs into switch plate
 11. Attach bottom plate using screws
 
-## Rev. 1.3 PCBs
+## Rev. 1.3-1.5 PCBs
 
 If you've got the version of BFO-9000 PCBs with pre-soldered components (diodes, TRRS jacks, reset button, resistors), then you can skip ahead to [soldering on microcontroller headers](#add-pro-micro-header-pins).
 
@@ -240,3 +240,11 @@ Put bottom plate on and add screws:
 You did it!:
 
 ![](./assets/images/bfo-9000/IMG_6059.jpg)
+
+## Firmware
+
+Pre-compiled VIA-enabled firmware builds can be found below, choose the file corresponding to the controller you used:
+
+- [Pro Micro or Elite-C Build](https://docs.keeb.io/firmware.html?path=keebio_bfo9000_via.hex)
+- [Elite-Pi Build](https://docs.keeb.io/firmware.html?path=keebio_bfo9000_via_elite_pi.uf2)
+- [RP2040 Pro Micro Build](https://docs.keeb.io/firmware.html?path=keebio_bfo9000_via_rp2040_ce.uf2)
