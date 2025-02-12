@@ -19,8 +19,8 @@ First up, time to get your parts:
 - [Cepstrum Kit](https://keeb.io/products/cepstrum-choc-low-profile-65-65xt-split-staggered-keyboard) which includes:
   - Cepstrum Rev. 1 PCBs
   - Cepstrum Switch Plates and Bottom Plates
-  - 6mm M2 standoffs
-  - 4mm M2 screws
+  - Plate support foam (as of February 1, 2025)
+  - 6mm M2 standoffs & 4mm M2 screws (some kits included 5mm standoffs and 3mm screws instead)
   - Choc Stabilizers (partially-assembled)
   - SKUF Feet
 - [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
@@ -68,6 +68,11 @@ From underneath, it'll look like this:
 ![Stabs bottom](./assets/images/cepstrum/stabs-bottom.jpg)
 
 ## Add Switches
+
+If your kit includes the plate support foam, overlay it on top of the PCB first.
+
+![Plate over PCB](./assets/images/cepstrum/plate-foam.jpeg)
+
 
 Next, overlay the switch plate on top of the PCB and add some switches to the corners and middle.
 
