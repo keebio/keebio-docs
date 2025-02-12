@@ -41,7 +41,17 @@ Before starting assembly of the board, check if there's any issues with the part
 
 First, unscrew the switch plate from the tray, and remove the silicone plate support piece from the tray.
 
-See if silicone bumpers are installed on the bottom of the case trays. A pack containing 2 spare feet have been included with the case.
+
+
+:::caution Keep track of the o-rings
+
+On top of each of the 5 mounting points on each half, there is a small, clear o-ring on it. Be careful not to lose these o-rings.
+
+:::
+
+(Coming soon: picture of o-rings in tray here)
+
+See if silicone feet are installed on the bottom of the case trays. A pack containing 2 spare feet have been included with the case.
 
 ![](./assets/images/iris-se/IMG_1857.jpeg)
 
@@ -151,6 +161,11 @@ Now that all of the switches have been inserted, it's time to assemble the case.
 First, make sure the silicone tray insert is seated at the bottom of the tray.
 
 ![](./assets/images/iris-se/IMG_1866.jpeg)
+
+
+(Option) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
+
+(Coming soon: picture of o-rings in tray here)
 
 Next, place the plate/switches/PCB assembly into the tray.
 
