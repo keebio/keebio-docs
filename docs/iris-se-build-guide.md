@@ -49,7 +49,7 @@ On top of each of the 5 mounting points on each half, there is a small, clear o-
 
 :::
 
-(Coming soon: picture of o-rings in tray here)
+![](./assets/images/iris-se/IMG_4384.jpeg)
 
 See if silicone feet are installed on the bottom of the case trays. A pack containing 2 spare feet have been included with the case.
 
@@ -165,7 +165,7 @@ First, make sure the silicone tray insert is seated at the bottom of the tray.
 
 (Option) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
 
-(Coming soon: picture of o-rings in tray here)
+![](./assets/images/iris-se/IMG_4384.jpeg)
 
 Next, place the plate/switches/PCB assembly into the tray.
 
