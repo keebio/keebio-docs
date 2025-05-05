@@ -36,6 +36,12 @@ Before starting assembly of the board, check if there's any issues with the part
 
 First, unscrew the switch plate from the tray, and remove the poron piece from the tray.
 
+:::info
+
+In April 2025, we started including a silicone tray liner that sits at the bottom of the tray to provide physical support for hotswap sockets and to improve the sound of the keyboard.
+
+:::
+
 See if silicone bumpers are installed on the bottom of the case trays.
 
 ![](./assets/images/iris-ce/DSC00120.JPG)
