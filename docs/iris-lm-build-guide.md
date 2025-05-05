@@ -34,6 +34,15 @@ Get your parts ready:
 
 Before starting assembly of the board, check if there's any issues with the parts in the keyboard kit.
 
+:::info 3D-Printed Version of Case
+
+For the 3D-printed version of the case, there is no foam support piece for the switch plate, as the printed switch plate has been made thicker to replace the foam piece.
+
+There are also no o-rings for the case as well, since printing resolution is not high enough to print a spot to place an o-ring on.
+
+:::
+
+
 ![](./assets/images/iris-lm/IMG_3739.jpeg)
 
 First, unscrew the switch plate from the tray, and remove the foam piece from the tray. You can leave the silicone liner in the tray.
