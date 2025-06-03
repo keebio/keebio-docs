@@ -39,6 +39,8 @@ Since the center standoff of the 60% case will interfere with the stem of one of
 
 Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch for everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed after the switches have been soldered in.
 
+If you've never put together stabilizers before, see this guide on how to do it: [Stabilizer Handbook](https://imgur.com/gallery/machineabuses-stabilizer-handbook-v1-1-pHK0vhz)
+
 ![](./assets/images/wtf60/IMG_3184.jpeg)
 
 Afterwards, fit the plate over the stabilizer(s).
