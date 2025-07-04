@@ -11,7 +11,7 @@ This build guide is exclusively for the Iris SE case. It assumes usage of the ho
 Get your parts ready:
 
 * Iris PCBs
-  * [Iris Rev. 8 PCBs (Hotswap)](https://keeb.io/iris-keyboard-split-ergonomic-keyboard)
+  * [Iris Rev. 8 PCBs (Hotswap)](https://keeb.io/products/iris-rev-8-keyboard-split-ergonomic-keyboard)
   * [Iris Rev. 5 PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
 * Iris SE Case
   * [Aluminum version](https://keeb.io/products/iris-se-aluminum-case)

@@ -15,7 +15,7 @@ This build guide is exclusively for the Rev. 6-8 PCB of the Iris, which features
 First up, time to get your parts:
 
 * Set of Iris Hotswap PCBs
-  * [Iris Rev. 8 PCBs](https://keeb.io/iris-keyboard-split-ergonomic-keyboard)
+  * [Iris Rev. 8 PCBs](https://keeb.io/products/iris-rev-8-keyboard-split-ergonomic-keyboard)
   * [Iris Rev. 7 PCBs](https://keeb.io/products/iris-rev-7-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
   * [Iris Rev. 6 PCBs](https://keeb.io/products/iris-rev-6-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
 * [Iris PE Plates](https://keeb.io/products/iris-keyboard-case-plates-phoenix-edition)
