@@ -61,7 +61,7 @@ Insert the rest of the switches into the plate and PCB.
 
 ## Assemble Case
 
-If you soldered on encoders earlier, you'll need to place the included 3D-printed support piece over the hotswap sockets as shown below. This will also you to press down on the encoders without causing the switches to dislodge from the PCB.
+If you soldered on encoders earlier, you'll need to place the included 3D-printed support piece over the hotswap sockets as shown below. This will allow you to press down on the encoders without causing the switches to dislodge from the PCB.
 
 ![](./assets/images/bdn9-rev3/IMG_6184.jpeg)
 
