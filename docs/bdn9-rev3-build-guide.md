@@ -16,7 +16,7 @@ Here's a summary of the build steps:
 
 1. Prepare components
 2. Solder rotary encoders
-3. Solder switches
+3. Add switches
 4. Assemble case
 
 ## Prepare components
@@ -39,7 +39,7 @@ Insert the rotary encoders from the top-side of the PCB.
 
 Solder the rotary encoders in.
 
-## Solder Switches
+## Add Switches
 
 First, make sure the ESD pad is on the underside of the switch plate and that the plate is oriented with the pad towards the top of the board.
 
