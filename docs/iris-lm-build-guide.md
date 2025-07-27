@@ -42,6 +42,12 @@ There are also no o-rings for the case as well, since printing resolution is not
 
 :::
 
+::: info Polycarbonate Version of Case
+
+The polycarbonate version of the Iris LM does not have o-rings, as there is no inset on the mounting points of the tray for o-rings to sit in.
+
+:::
+
 
 ![](./assets/images/iris-lm/IMG_3739.jpeg)
 
