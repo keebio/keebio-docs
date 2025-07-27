@@ -55,7 +55,7 @@ First, unscrew the switch plate from the tray, and remove the foam piece from th
 
 ![](./assets/images/iris-lm/IMG_3699.jpeg)
 
-:::caution Keep track of the o-rings
+:::caution Keep track of the o-rings (Aluminum case only)
 
 On top of each of the 5 mounting points on each half, there is a small, clear o-ring on it. Be careful not to lose these o-rings.
 
