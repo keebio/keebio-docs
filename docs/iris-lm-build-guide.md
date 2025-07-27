@@ -14,7 +14,7 @@ Get your parts ready:
   * [Iris LM-K Rev. 1 PCBs](https://keeb.io/products/iris-lm-k-pcb-kit) or
   * [Iris LM-G Rev. 1 PCBs](https://keeb.io/products/iris-lm-g-pcb-kit)
 * Iris LM Case
-  * [Aluminum version](https://keeb.io/products/iris-lm-aluminum-case)
+  * [Aluminum version](https://keeb.io/products/iris-lm-aluminum-case) or [Polycarbonate version](https://keeb.io/products/iris-lm-polycarbonate-case)
   * 8mm M2 screws
   * Silicone tray liners
   * Switch plate support foam
@@ -42,7 +42,7 @@ There are also no o-rings for the case as well, since printing resolution is not
 
 :::
 
-::: info Polycarbonate Version of Case
+:::info Polycarbonate Version of Case
 
 The polycarbonate version of the Iris LM does not have o-rings, as there is no inset on the mounting points of the tray for o-rings to sit in.
 
