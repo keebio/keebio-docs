@@ -116,7 +116,7 @@ Next, place the plate assembly into the tray.
 
 ![](./assets/images/iris-lm/IMG_3706.jpeg)
 
-Add screws to each of the holes and screw them in. You do not need to overly tighten them.
+Add screws to each of the holes and screw them in. You do not need to overly tighten them. Doing so on the polycarbonate version of the case will damage the bottom of the case.
 
 ![](./assets/images/iris-lm/IMG_3707.jpeg)
 
