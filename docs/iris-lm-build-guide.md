@@ -108,7 +108,7 @@ It's best to test using the [Key Tester in VIA](via#key-tester-tab) with `Test M
 
 Now that all of the switches have been inserted, it's time to assemble the case.
 
-(Option) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
+(Optional) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
 
 ![](./assets/images/iris-lm/IMG_3720.jpeg)
 
