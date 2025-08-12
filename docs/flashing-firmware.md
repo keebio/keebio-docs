@@ -26,6 +26,7 @@ Here's the different possible bootloaders in use for Keebio boards:
     - Currently, STM32 is used on the following Keebio PCBs:
         - DSP40 Rev. 1
         - BDN9 Rev. 2
+        - Iris LM (Both G and K versions)
     - Also present on the Proton C
 - Caterina Bootloader
     - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
