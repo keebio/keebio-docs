@@ -1,0 +1,197 @@
+---
+title: Sinc Rev. 3-4 Hotswap Build Guide
+---
+
+A build guide for the Sinc Rev. 3-4 is in progress, but due to the similarity of the PCBs to the Quefrency Rev. 4-6, see the build guide for that instead: [Quefrency Rev. 4-6 Hotswap Build Guide](quefrency-hotswap-build-guide.md)
+
+This build guide is for the Sinc Rev. 3-4 which has Kailh hotswap sockets. If you have the Rev. 1 or 2 PCBs, see the [Sinc Rev.1 build guide](https://docs.keeb.io/quefrency-rev2-sinc-build-guide).
+
+## Parts List
+
+- set of Sinc Rev. 3-4 PCBs
+- Plates for Sinc
+- USB-C to USB-C Cable
+- Switches (MX-compatible ones)
+- 2u PCB mount MX stabilizers if using 2u/2.25u/2.75u keys
+- Rotary Encoder and Knob (optional)
+- FLAHNS Hotswap Bumpers (recommended)
+
+## Build Steps Summary
+
+1. Break off PCB sections (optional)
+2. ANSI to ISO Enter Hotswap Conversion (optional)
+3. Solder Rotary Encoder (optional)
+4. Add 2u stabilizers to PCB
+5. Add switches
+6. Assemble!
+7. Screw standoffs into bottom plate
+   1. Add FLAHNs under PCB
+8. Attach top plate using screws
+9. Re-Programming Board Note
+10. Rejoice!
+
+## Break Off PCB Sections
+
+If you want a layout without the left macro section, then break off that portion of the PCB now. No special tools or methods are required, you can just break it off with your hands as shown below:
+
+<video width="100%" controls muted loop>
+  <source src="/videos/pcb-break.mp4" type="video/mp4" />
+</video>
+
+If you're choosing a regular enter key, jump to [Solder Rotary Encoder](https://docs.keeb.io/sinc-rev4-build-guide#solder-rotary-encoder-(optional)). Not going for encoders? Jump down to [Add 2u stabilizers to PCB](https://docs.keeb.io/sinc-rev4-build-guide#add-2u-stabilizers-to-pcb). Need the conversion? Keep reading!
+
+## ANSI to ISO Enter Hotswap Conversion
+
+Because of the limitations of where the hotswap sockets could be placed, only the ANSI Enter layout is supported out of the box.
+
+To convert the right half of the board to support ISO Enter, you'll need to desolder 2 of the hotswap sockets and relocate them to the appropriate locations for ISO Enter support.
+
+### Tools Needed
+
+- Soldering iron
+- Solder
+- Tweezers, pen, or some other pointy object
+
+### Desolder Sockets
+
+Below is the location of the two sockets that will need to be moved.
+
+![](./assets/images/sinc-rev3/IMG_2813.jpg)
+
+#### Step 1 - Add solder to sockets
+
+The first thing you'll need to do is add solder to both pins of the socket. This will make the socket easier to desolder, as the temperature needed to melt the solder on the socket will be less, which makes it easier to work with. Be careful to not touch the iron to the plastic of the socket, but it's not a big deal if it accidentally happens.
+
+![](./assets/images/sinc-rev3/IMG_2814.jpg)
+
+![](./assets/images/sinc-rev3/IMG_2815.jpg)
+
+#### Step 2 - Heat pads and remove sockets
+
+You'll want to be careful here and not use too much force when removing the socket, as you might damage the pads. Heat up one pad with your soldering iron while putting a slight bit of force to start lifting it away from the PCB, try for about 1mm. Do the same for the other pad.
+
+Option 1: You can push up the socket from the top side of the PCB using something like a pen as shown here: 
+
+![](./assets/images/sinc-rev3/IMG_2816.jpg)
+
+Option 2: Or, you can use a pair of tweezers to pry up the socket as you're heating it up:
+
+![](./assets/images/sinc-rev3/IMG_2818.jpg)
+
+Repeat the process between the two pads until the socket is free.
+
+![](./assets/images/sinc-rev3/IMG_2817.jpg)
+
+### Resolder Sockets
+
+Here's where the desoldered sockets should be moved to:
+
+![](./assets/images/sinc-rev3/IMG_2824.jpg)
+
+To solder the sockets on, add solder to the top part and bottom parts of the socket pins.
+
+![](./assets/images/sinc-rev3/IMG_2824x.jpg)
+
+### Update Layout in VIA
+
+If you've using VIA for remapping your Sinc, update the layout selector for ISO Enter support.
+
+Since the ANSI Enter and ISO Enter are not connected together, make you update the keymapping for the ISO Enter key.
+
+#### Step 1 - Adjust layout
+
+First, you'll need to adjust the layout to be ISO Enter. Click on `Layouts` on the left side bar, and then toggle on `ISO Enter`.
+
+![](./assets/images/sinc-rev3/via-layout.jpg)
+
+#### Step 2 - Adjust keymap
+
+Next, click on `Keymap` on the left side bar, and then click on the ISO Enter key to select it. Then, click on `Enter` in the key selector at the bottom to change it to an Enter key.
+
+![](./assets/images/sinc-rev3/via-keymap.jpg)
+
+## Default Keymap
+
+Here's the default keymap if you need it: [Sinc Default Keymap](../static/layouts/keymap_Sinc_rev2.pdf)
+
+## Solder Rotary Encoder (optional)
+
+![] (./assets/images/sinc-rev4/IMG_1454)
+![] (./assets/images/sinc-rev4/IMG_1455)
+
+Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side.
+
+![] (./assets/images/sinc-rev4/IMG_1456)
+
+The 2 side legs do not need to be soldered to the PCB.
+
+## Add 2u Stabilizers to PCB
+Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed without needing to remove all the switches.
+
+![] (./assets/images/sinc-rev4/IMG_1459)
+Small note: The left half bottom row is arranged as 3x1.25u/2.25u/1.25u if it looks unfamiliar! You get options when you build or ask us to build.
+
+## Add Switches
+
+Now on to the exciting part: putting the switches in the switch plate.
+
+Add switches into the switch plate. It's a good idea to add switches to the corners first before installing the rest of them:
+
+![] (./assets/images/sinc-rev4/IMG_1461)
+
+Make sure all of the switch pins are straight, or else they will not fit into the hotswap sockets properly and will bend the switch pins and/or damage the hotswap socket and PCB.
+
+Align the PCB over the switch pins, checking again that everything is straight.
+
+![] (./assets/images/sinc-rev4/IMG_1464)
+
+Squeeze the switches into the hotswap sockets, it should not take very much force at all.
+
+## Assemble!
+
+![] (./assets/images/sinc-rev4/IMG_1465)
+
+If you encounter a bent switch pin like below, bend it back with your fingers or a tweezer.
+
+![] (./assets/images/sinc-rev4/IMG_5570 copy)
+
+## Screw Standoffs into Bottom Plate
+![] (./assets/images/sinc-rev4/IMG_1468)
+Before screws, check if your bottom plate is flat. If not, try bending like below.
+
+![] (./assets/images/sinc-rev4/IMG_1469)
+
+After achieving flatness, screw standoffs into the bottom plate.
+
+![] (./assets/images/sinc-rev4/IMG_1470)
+
+## Add SKUF
+
+![] (./assets/images/sinc-rev4/IMG_1472)
+
+Add your SKUF on the bottom of the bottom plate.
+
+![] (./assets/images/sinc-rev4/IMG_1476)
+
+If you need a SKUF alignment tool go [here](https://keeb.io/products/skuf-alignment-tool-guide).
+
+## Add FLAHNs
+
+Turn the assembly upside down and have your PCB face up. Place FLAHNs to support your PCB from beneath.
+
+![] (./assets/images/sinc-rev4/IMG_1477)
+
+## Attach Top Plate
+
+Just like it reads on the tin, set your top plate assembly on top top of your bottom plate standoffs. Then attach with screws.
+
+![] (./assets/images/sinc-rev4/IMG_1479)
+
+![] (./assets/images/sinc-rev4/IMG_1483)
+
+## Reflashing Board
+
+If you'd like to reflash your Sinc, since it has a RP2040 controller on board, follow these instructions: [Flashing RP2040 Board](flashing-firmware#rp2040-board-uf2-bootloader)
+
+## Rejoice!
+Happy typing!
