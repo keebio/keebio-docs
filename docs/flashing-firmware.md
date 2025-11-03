@@ -25,14 +25,21 @@ Here's the different possible bootloaders in use for Keebio boards:
     - This bootloader is on STM32-based keyboards
     - Currently, STM32 is used on the following Keebio PCBs:
         - DSP40 Rev. 1
-        - BDN9 Rev. 2
+        - BDN9 Rev. 2 & 3
+        - Iris LM-K
+        - Iris LM-G
+        - Demod LM
+        - Nyquist LM
+        - Quefrency LM
+        - Quefrency Rev. 6
+        - FoldKB Rev. 2
     - Also present on the Proton C
 - Caterina Bootloader
     - Found on Arduino Pro Micro controllers, so if you've built a board with a Pro Micro, you have the Caterina Bootloader
 - UF2 Bootloader
     - Found on RP2040-based keyboards/controllers, such as the Elite-Pi and Sinc Rev. 3
     - Currently, RP2040 is used on the following Keebio PCBs:
-        - Sinc Rev. 3-4
+        - Sinc Rev. 3-5
         - Stampy
         - Cepstrum
         - Iris CE
