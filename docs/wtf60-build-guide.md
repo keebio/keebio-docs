@@ -14,6 +14,7 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 * [Switches (MX-compatible ones)](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=MX&sort_by=best-selling&utm_source=docs)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer?utm_source=docs)
 * 6.25u or 7u PCB mount MX stabilizer
+* Keycaps
 
 ## Build Steps Summary
 
