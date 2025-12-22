@@ -8,11 +8,11 @@ title: WTF60
 
 Now you've watched some cool videos and feel inspired! Get your parts:
 
-* [WTF60 PCB](https://keeb.io/products/wtf60-mirrored-60-keyboard-pcb)
+* [WTF60 PCB](https://keeb.io/products/wtf60-mirrored-60-keyboard-pcb?utm_source=docs)
 * 60% keyboard case
-* 60% plate (optional)
-* Switches (MX-compatible ones)
-* [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer)
+* [60% plate (optional)](https://keeb.io/products/wtf60-switch-plate?utm_source=docs)
+* [Switches (MX-compatible ones)](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=MX&sort_by=best-selling&utm_source=docs)
+* [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer?utm_source=docs)
 * 6.25u or 7u PCB mount MX stabilizer
 
 ## Build Steps Summary
