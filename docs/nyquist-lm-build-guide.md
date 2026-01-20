@@ -10,7 +10,7 @@ This build guide is exclusively for the Nyquist LM, which can be configured with
 
 Get your parts ready:
 
-* [Nyquist LM Kit](https://keeb.io/products/nyquist-lm-keyboard-kit?utm_source=docs)
+* [Nyquist LM Kit](https://keeb.io/products/nyquist-lm-kit?utm_source=docs)
   * PCBs
   * Tray Case
   * Silicone liners
@@ -22,7 +22,7 @@ Get your parts ready:
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
 * [Low-Profile Kailh Choc Switches](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=Choc+V1+Low-Profile&filter.p.m.keyboard.switch_compatibility=Choc+V2+Low-Profile&sort_by=best-selling&utm_source=docs) - Choc V1 or V2
 
-![Nyquist Kit Parts](./assets/images/nyquist-lm/IMG_8129.jpeg)
+![Nyquist LM Kit Parts](./assets/images/nyquist-lm/IMG_8129.jpeg)
 
 ## Build Steps Summary
 

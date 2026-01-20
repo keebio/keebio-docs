@@ -29,7 +29,7 @@ List other blogs and websites that may include pointers or display support for t
 ## Parts List
 
 1. Have an image that showcases every item *needed* for the build. If there are optional items, include those in a separate image.
-2. List all the items included from required items starting at the top of the list and otional items listed and labeled "optional" after required items.
+2. List all the items included from required items starting at the top of the list and optional items listed and labeled "optional" after required items.
 
 ## Build Steps Summary
 
@@ -70,4 +70,4 @@ As in builds like the Quefrency Rev. 2, programming is required before concludin
 
 ## Rejoice!
 
-You have a brand-new mechanical keyboard to aid your quest of computer usage with less strain on yours wrists in style!
+You have a brand-new mechanical keyboard to aid your quest of computer usage with less strain on your wrists in style!

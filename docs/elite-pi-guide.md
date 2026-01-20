@@ -24,7 +24,7 @@ In comparison to the Pro Micro or Elite-C, the Elite-Pi provides a few advantage
 
 - Flash memory: Lots of space to compile in various QMK features without worry, as the Elite-Pi has much more flash memory 
 - Price: Since the RP2040 microcontroller costs less than the ATmega32u4, we can provide it at a lower price than the Elite-C
-- Flashing: Instead of using QMK Toolbox, you can just copy a complied `.uf2` file to the Elite-Pi to update the firmware
+- Flashing: Instead of using QMK Toolbox, you can just copy a compiled `.uf2` file to the Elite-Pi to update the firmware
 
 ## Pinout
 
@@ -75,7 +75,7 @@ To repeat the information there, here's the steps:
    - Double-tap the `Run/Reset` button (if flashed and was compiled with `RP2040_BOOTLOADER_DOUBLE_TAP_RESET` option)
      - If you used the [converter](#converters) mentioned above, it will have this option enabled
    - Hold the `Boot` button (the left button) down, press the `Run` button (the right button), and release both buttons
-   - Hold the `Boot` button (the left button) down, while pluging in the USB-C cable
+   - Hold the `Boot` button (the left button) down, while plugging in the USB-C cable
    - Press the `QK_BOOT` keycode (if present on a flashed keyboard)
 2. Wait for OS to detect the Elite-Pi
     - It will show up as a USB mass-storage device named `RPI-RP2`

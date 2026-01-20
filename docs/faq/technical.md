@@ -24,7 +24,7 @@ Flashing does not occur over the interconnect cable, so it does not matter if th
 
 ### Do I need to flash both halves of a split keyboard?
 
-This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
+This depends on the difference of how old the firmware is on each half of the board. Due to occasional protocol changes in QMK of how both halves communicate with each other, if it's been a while since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
 
 If both halves have been flashed recently, and you're doing something like updating a keymap, then you will only need to flash the half that will have the USB cable from the computer plugged into it.
 
@@ -40,7 +40,7 @@ Unless you explicitly do `#define EE_HANDS` in your keymap \(this is not the def
 
 So when you plug in the right board itself, it thinks it's the left one. The reason it's flipped is because the PCB has been physically flipped compared to the actual left board.
 
-When you plug the TRRS cable in, the right side now auto detects correctly as the right side, and the firmware also knows to flip the board.
+When you plug the TRRS cable in, the right side now auto-detects correctly as the right side, and the firmware also knows to flip the board.
 
 ## Firmware
 
@@ -121,7 +121,7 @@ Currently, the only open-sourced PCB design made by Keebio that has been release
 The repository for this website can be found here: [Keebio Docs on GitHub](https://github.com/keebio/keebio-docs/), we welcome any pull requests
 
 ### What the heck is I2C, and what do I need it for?
-The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
+The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allows for communication between two parts, which is fine for almost all builds.
 
 However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
 

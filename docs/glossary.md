@@ -26,4 +26,4 @@ These pieces attach to screws and allow space to be created between the keyboard
 
 ### TRRS cable
 
-This will let your split keyboard sides to talk with one another. The acronym stands for **T**ip **R**ing **R**ing **S**leeve. Usually used for audio, but in the context, is needed to connect split keyboards.
+This will let your split keyboard sides to talk with one another. The acronym stands for **T**ip **R**ing **R**ing **S**leeve. Usually used for audio, but in this context, is needed to connect split keyboards.

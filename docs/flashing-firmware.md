@@ -5,7 +5,7 @@ title: Flashing Firmware
 ## Flashing - why?
 You can flash the microcontrollers (ATmega32u4, Pro Micro, Elite-C, etc) in your kit prior to building your keyboard to ensure that they are undamaged and functioning normally.
 
-This might be a good practice to be sure you're starting out with gear that will perform as desired. While there are multiple methods of flashing, this guide with only address the usage of QMK Toolbox to perform flashing.
+This might be a good practice to be sure you're starting out with gear that will perform as desired. While there are multiple methods of flashing, this guide will only address the usage of QMK Toolbox to perform flashing.
 
 <!-- ## Customizing your keymap (rename)
 
@@ -51,11 +51,11 @@ Here's the different possible bootloaders in use for Keebio boards:
 
 Having the interconnect cable plugged in between the halves while flashing has zero effect on flashing. Having it plugged in will not flash both halves at the same time.
 
-Flashing does not does not send any signals over the interconnect cable, so it does not matter if the interconnect cable is plugged in or not while flashing. Each half needs to be plugged in individually one at a time to the USB port to be flashed.
+Flashing does not send any signals over the interconnect cable, so it does not matter if the interconnect cable is plugged in or not while flashing. Each half needs to be plugged in individually one at a time to the USB port to be flashed.
 
 ### Do I need to flash both halves of a split keyboard?
 
-This depends on the difference of how old the firmware is on each half of the board. Due to occaisional protocol changes in QMK of how both halves communicate with each other, if it's been a while (2 or more months) since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
+This depends on the difference of how old the firmware is on each half of the board. Due to occasional protocol changes in QMK of how both halves communicate with each other, if it's been a while (2 or more months) since you flashed your keyboard, go ahead and flash both halves individually with the same firmware file.
 
 If both halves have been flashed recently, and you're only updating a keymap and not adding features, then you will only need to flash the half that will have the USB cable from the computer plugged into it.
 
