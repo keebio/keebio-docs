@@ -8,6 +8,7 @@ module.exports = {
         'iris-lm-build-guide',
         'iris-se-build-guide',
         'nyquist-lm-build-guide',
+        'demod-lm-build-guide',
         'chiri-ce-build-guide',
         'quefrency-hotswap-build-guide',
         'cepstrum-build-guide',
