@@ -1,5 +1,5 @@
 ---
-title: FoldKB 
+title: FoldKB Rev. 1
 ---
 
 Due to the similarity of the FoldKB build to the Quefrency/Sinc/KBO-5000, see the build guide for that instead: [Quefrency/Sinc/KBO-5000  Build Guide](quefrency-rev2-sinc-build-guide.md).

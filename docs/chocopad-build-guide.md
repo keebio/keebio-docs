@@ -1,5 +1,5 @@
 ---
-title: Chocopad
+title: Chocopad Rev. 1
 ---
 
 ## Parts List
