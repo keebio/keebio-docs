@@ -8,7 +8,7 @@ Here's a list of parts needed for the build:
 
 * 1 [Dilly PCB & Bottom PCB Plate with M2 screws and standoffs](https://keeb.io/products/dilly-3x10-ortholinear-keyboard-for-kailh-choc-low-profile-switches?utm_source=docs)
 * 30 single-color LEDs \(optional, for LED backlight\)
-* WS2812B RGB LED strip \(optional, for underglow\)
+* [WS2812B RGB LED strip](https://keeb.io/products/rgb-led-strips-sk6812-ws2812b-compatible) \(optional, for underglow\)
 * 1 [Pro Micro Compatible Microcontroller](https://keeb.io/collections/microcontrollers?utm_source=docs)
 * 30 [Kailh Choc V1 Low Profile Switches](https://keeb.io/products/kailh-choc-low-profile-switches-v1?utm_source=docs)
 * 30 [Kailh Choc V1 Low Profile Keycaps](https://keeb.io/collections/keycaps?filter.p.m.keyboard.switch_compatibility=Choc+V1+Low-Profile&sort_by=manual&utm_source=docs)
@@ -105,6 +105,10 @@ Solder the remaining pins and clip the excess length of the legs of the header p
 Add tape over the microcontroller to prevent any short circuits from it touching the bottom plate.
 
 ![Add tape over microcontroller](./assets/images/dilly/IMG_8379.jpeg)
+
+## Add RGB Strip (Optional)
+
+Use the VCC/RGB/GND breakout pads on the PCB to connect the RGB strip to the microcontroller.
 
 ## Assemble Case
 
