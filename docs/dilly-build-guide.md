@@ -78,6 +78,12 @@ Flip the board over and solder them all in.
 
 Before soldering the microcontroller, flash the firmware to it and make sure it gets detected as a keyboard by your computer.
 
+You can find pre-compiled firmware QMK builds with VIA enabled for the Dilly here for some microcontrollers:
+
+* [RP2040 Pro Micro](https://docs.keeb.io/firmware.html?path=keebio_dilly_via_rp2040_ce.uf2)
+* [Elite-Pi](https://docs.keeb.io/firmware.html?path=keebio_dilly_via_elite_pi.uf2)
+* [Pro Micro ATmega32U4](https://docs.keeb.io/firmware.html?path=keebio_dilly_via.hex)
+
 If using the RP2040 Pro Micro, you'll need to short the `BOOT` and `GND` pins and then press the reset button on the PCB to get the microcontroller into bootloader mode.
 
 ![Flash firmware](./assets/images/dilly/IMG_8379.jpeg)
