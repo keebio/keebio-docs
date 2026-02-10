@@ -25,7 +25,7 @@ First up, time to get your parts:
 * [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended)
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys (optional)
-* [3D-Printed Iris Case](https://treedogstudio.com/products/iris-3d-printed-case) (optional)
+* [3D-Printed Iris Case](https://github.com/keebio/iris-case#iris-pe-phoenix-edition-parts) (optional)
 
 ![](./assets/images/iris-rev6/IMG_7838.jpg)
 
