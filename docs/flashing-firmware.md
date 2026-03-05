@@ -90,7 +90,7 @@ To install the DFU Bootloader driver, go to `Tools` on the menu bar and select `
 
 ![](./assets/images/flashing/windows-install-drivers.png)
 
-If you are having issues with driver installation, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig).
+If you are having issues with driver installation, see [Driver Installation with Zadig](https://docs.qmk.fm/driver_installation_zadig).
 
 ### Flashing
 If you're on Windows or Mac, you can follow the procedure below.
@@ -145,7 +145,7 @@ To install the STM32 Bootloader driver, go to `Tools` on the menu bar and select
 
 ![](./assets/images/flashing/windows-install-drivers.png)
 
-If you are having issues with driver installation, see [Driver Installation with Zadig](https://beta.docs.qmk.fm/using-qmk/guides/driver_installation_zadig).
+If you are having issues with driver installation, see [Driver Installation with Zadig](https://docs.qmk.fm/driver_installation_zadig).
 
 ### Flashing
 

@@ -110,7 +110,7 @@ See the [Macros](#macro-1) section to configure the macro.
 
 ### Layers/FN
 
-If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [A Primer on Layers](https://thomasbaart.nl/2018/12/06/qmk-basics-how-to-add-a-layer-to-your-keymap/#A_primer_on_Layers).
+If you hover over a layer option, VIA will give you a brief bit of information about what it does. For more in-depth knowledge about what a layer is and how to use them, see [How to Work with Small Keyboards](https://blog.splitkb.com/how-to-work-with-small-keyboards/).
 
 Layers are numbered starting from 0, where 0 is your main layer that is normally accessible without doing anything special.
 
