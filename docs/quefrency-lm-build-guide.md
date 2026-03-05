@@ -76,6 +76,28 @@ Plug it in and type away!
 
 ![All lit up](./assets/images/quefrency-lm/plugged-in.jpg)
 
+## Magnetic Tenting Stand Rings
+
+If you're using the magnetic tenting stands, you can attach the MagSafe sticker rings to the case in the circular insets on the bottom of the case.
+
+First peel off the backing of the sticker ring.
+
+![Peel off backing](./assets/images/quefrency-lm/IMG_8781.jpeg)
+
+Then stick it on the bottom plate.
+
+![Stick on bottom plate](./assets/images/quefrency-lm/IMG_8782.jpeg)
+
+Next peel off the blue protection film.
+
+![Remove protection film](./assets/images/quefrency-lm/IMG_8784.jpeg)
+
+![Completed ring attached](./assets/images/quefrency-lm/IMG_8785.jpeg)
+
+Adjust the tenting stand to however you'd like it an place the keyboard on it.
+
+![Place on tenting stand](./assets/images/quefrency-lm/IMG_8788.jpeg)
+
 ## Default Keymap
 
 Here's the default keymap if you need it: [Quefrency LM Default Keymap](https://github.com/nooges/qmk_userspace_via/blob/main/keyboards/keebio/quefrency_lm/keymaps/via/keymap.c)
