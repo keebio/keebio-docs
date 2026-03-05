@@ -23,7 +23,7 @@ Here's the links to the updated firmware for your board.
 - [Quefrency Rev. 5](https://docs.keeb.io/firmware.html?path=keebio_quefrency_rev5_via.hex)
 - [Sinc Rev. 1](https://docs.keeb.io/firmware.html?path=keebio_sinc_rev1_via.hex)
 - [Sinc Rev. 2](https://docs.keeb.io/firmware.html?path=keebio_sinc_rev2_via.hex)
-- More firmware downloads: <https://github.com/keebio/keebio-firmware>
+- More firmware downloads: [github.com/keebio/keebio-firmware](https://github.com/keebio/keebio-firmware)
 
 ## Upgrading the Firmware on the Keyboard
 

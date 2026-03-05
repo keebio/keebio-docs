@@ -2,6 +2,10 @@
 title: Recommended Keycaps
 ---
 
+import dropImg from './../assets/images/vendors/drop.png';
+import cannonkeysImg from './../assets/images/vendors/Cannonkeys-10_360x.png';
+import dailyclackImg from './../assets/images/vendors/dailyclack.png';
+
 While we don't sell keycaps here at Keebio other than an [ortho compatibility kit](https://keeb.io/products/gmk-n9-ortholinear-add-on-kit), we do have some vendors that we recommend.
 
 A fun part of the mechanical keyboard community is that we're found all over the world. You can support folks from all over with your purchases, if you like!
@@ -19,12 +23,12 @@ If you're *really* burning to put that last sweet touch of keycaps on your aweso
 [NovelKeys](https://novelkeys.xyz/collections/keycaps) keeps a pretty diverse array of keycaps. They range from a more neutral look to some of the intricate fandoms... like Star Wars! These folks are nice to work with.
 
 <a href="https://drop.com/mechanical-keyboards/drops/?sc=keycaps">
-<center><em><img src={require('./../assets/images/vendors/drop.png').default} alt="alternate_text" /></em></center></a>
+<center><em><img src={dropImg} alt="alternate_text" /></em></center></a>
 
 [Drop](https://drop.com/mechanical-keyboards/drops/?sc=keycaps) has various in-stock keycaps for sale, in various profiles like SA, GMK, as well as their own MT3 profile. The MT3 profile keycap sets they have typically have ortho sets/kits available for them too.
 
 <a href="https://cannonkeys.com/collections/cannonkeys-keycaps">
-<center><em><img src={require('./../assets/images/vendors/Cannonkeys-10_360x.png').default} alt="alternate_text" /></em></center></a>
+<center><em><img src={cannonkeysImg} alt="alternate_text" /></em></center></a>
 
 [CannonKeys](https://cannonkeys.com/collections/cannonkeys-keycaps) has various in-stock keycaps for sale, alongside group buys and pre-orders for GMK sets.
 
@@ -52,7 +56,7 @@ For a fun play on words, [DiviniKey](https://divinikey.com/collections/keycap-se
 
 ## Australia
 <a href="https://dailyclack.com/collections/keycaps">
-<center><em><img src={require('./../assets/images/vendors/dailyclack.png').default} alt="alternate_text" /></em></center></a>
+<center><em><img src={dailyclackImg} alt="alternate_text" /></em></center></a>
 
 [DailyClack](https://dailyclack.com/collections/keycaps) has some in-stock ePBT keysets for sale.
 

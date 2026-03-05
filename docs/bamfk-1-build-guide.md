@@ -117,7 +117,7 @@ You can reprogram the BAMFK-1 using QMK, QMK Configurator, or VIA Configurator. 
 
 ### QMK Configurator
 
-Here's the link for configuring the BAMFK-1 with QMK Configurator: <https://config.qmk.fm/#/keebio/bamfk1/LAYOUT>
+Here's the link for configuring the BAMFK-1 with QMK Configurator: [config.qmk.fm](https://config.qmk.fm/#/keebio/bamfk1/LAYOUT)
 
 ![](./assets/images/bamfk-1/bamfk-qmk-config.png)
 
