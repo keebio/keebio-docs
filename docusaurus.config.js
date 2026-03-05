@@ -4,8 +4,12 @@ module.exports = {
   url: 'https://docs.keeb.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/keebio-favicon.png',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   organizationName: 'keebio', // Usually your GitHub org/user name.
   projectName: 'keebio-docs', // Usually your repo name.
   plugins: [
