@@ -9,7 +9,7 @@ module.exports = {
   organizationName: 'keebio', // Usually your GitHub org/user name.
   projectName: 'keebio-docs', // Usually your repo name.
   plugins: [
-    'plugin-image-zoom',
+    'docusaurus-plugin-image-zoom',
     'docusaurus-plugin-clarity'
   ],
   themeConfig: {
@@ -22,7 +22,9 @@ module.exports = {
     clarity: {
       ID: "fjw3p9p2xf",
     },
-    zoomSelector: '.markdown :not(em) > img',
+    zoom: {
+      selector: '.markdown :not(em) > img',
+    },
     colorMode: {
       defaultMode: 'dark'
     },
