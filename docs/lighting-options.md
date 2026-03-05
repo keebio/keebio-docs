@@ -63,7 +63,7 @@ There are two ways that individually controlled LEDs can be used in QMK, as a st
 
 This is commonly used for when you have a strip of WS2812-compatible LEDs. One thing to note with using an LED strip is that if one LED along the strip is faulty, the rest of the LEDs following that one will not work, because it operates as a chain of LEDs. Lighting effects are limited to one-dimension.
 
-Further Reference: <https://docs.qmk.fm/#/feature_rgblight>
+Further Reference: [QMK RGB Light](https://docs.qmk.fm/#/feature_rgblight)
 
 #### Matrix
 
@@ -73,7 +73,7 @@ Below is a video demonstrating most of the effects available.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7f3usatOIKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Further Reference: <https://docs.qmk.fm/#/feature_rgb_matrix>
+Further Reference: [QMK RGB Matrix](https://docs.qmk.fm/#/feature_rgb_matrix)
 
 ## Additional References
 

@@ -48,7 +48,7 @@ When you plug the TRRS cable in, the right side now auto-detects correctly as th
 
 Out of the box, our boards do not have NKRO (N-Key Rollover) enabled in QMK, but 6KRO (6-Key Rollover) instead.
 
-You can enable NKRO with QMK using these instructions: <https://docs.qmk.fm/#/faq_misc?id=nkro-doesnt-work>
+You can enable NKRO with QMK using these instructions: [QMK NKRO docs](https://docs.qmk.fm/#/faq_misc?id=nkro-doesnt-work)
 
 You will need to have a [QMK Build Environment](../remapping-keyboard#qmk-firmware-build-environment) setup and do the following:
 

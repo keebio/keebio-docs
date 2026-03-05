@@ -116,19 +116,18 @@ module.exports = {
           trackingID: 'G-W0MR8DLK1C'
         },
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/keebio/keebio-docs/tree/master/',
           routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/keebio/keebio-docs/tree/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
       },
     ],

@@ -32,7 +32,7 @@ Your order will be shipped within 3-4 business days. We operate Monday through F
 
 ### My package was marked as delivered but I did not receive it, what should I do?
 
-For people in the U.S. using USPS, sometimes, USPS will mark a package as delivered but will end up delivering the next day instead, or the package was misdelivered to a neighbor. We recommend that you contact USPS directly by going to <https://usps.force.com/emailus/s/package-inquiry>. Someone from the post office should then be able to look into the issue and contact you.
+For people in the U.S. using USPS, sometimes, USPS will mark a package as delivered but will end up delivering the next day instead, or the package was misdelivered to a neighbor. We recommend that you contact USPS directly by going to [emailus.usps.com/s/](https://emailus.usps.com/s/). Someone from the post office should then be able to look into the issue and contact you.
 
 Please wait at least 3-4 business days before contacting us.
 
