@@ -104,6 +104,8 @@ Here's the default keymap if you need it: [Quefrency LM Default Keymap](https://
 
 ## Remapping/reprogramming Board
 
+![Quefrency LM in VIA](./assets/images/quefrency-lm/quefrency-lm-via.png)
+
 Looking to remap/reprogram your board? Check out our guide for [remapping your keyboard](remapping-keyboard).
 
 While the bottom plates have a hole at the bottom to allow you to access the reset button to allow your Quefrency LM to be reflashed if you are using QMK, if you don't want to be flipping your board over to press reset, you can also use one of the following options when remapping your Iris:
