@@ -27,6 +27,7 @@ A temperature-controlled soldering iron is recommended. Even though you can get 
 
 Here's a list of some suggested ones:
 
+- ★ [FNIRSI HS-02B 100W Portable Soldering Iron ($$)](https://amzn.to/4c9FKXT) - Uses USB-C power adapter, gets to temperature quickly and holds it well. Nice and compact.
 - ★ [TS100 Pocket-size Soldering Iron ($$)](https://www.amazon.com/UY-CHAN-Programmable-Pocket-size-Acceleration/dp/B01MDTO6X7/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=0c58d1029ca0228c71d9b6d7adb569e5&language=en_US) - Nice little soldering iron with a digitial readout of the temperature. Really portable and quick warm up time.
     - Recommended to print out this [Hakko Sleeve](https://amzn.to/3vzylMc) adapater ([thingiverse link](https://www.thingiverse.com/thing:4935962)), so you can use the [cheaper T12 iron tips](https://amzn.to/3F6qkSr) with it
 - ★ [KSGER T12 Soldering Iron Station ($$)](https://www.amazon.com/KSGER-Temperature-Controller-Electronic-Equipments/dp/B07PYFSCJ9/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=keebio-20&linkId=822712355244e8e266aa9f3a0e9cc199&language=en_US) - Recommended mid-tier option. Tips heat up to the right temperature fairly quickly and are hotswappable without needing to turn off the station. Handles soldering to ground planes well due to good thermal mass. Pro tip: Only thing to note is that when changing the tip, to get the station to recognize it properly, press in the control knob and turn it to select the correct tip.
