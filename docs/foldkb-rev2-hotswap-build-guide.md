@@ -61,21 +61,19 @@ Get hype! Now it's time to put your switches into the switch plate.
 
 We recommend you add switches to the corners **first** before installing the rest of them: 
 
-![](.assets/images/foldkb-rev2/IMG_3618.jpeg)
+![](./assets/images/foldkb-rev2/IMG_3618.jpeg)
 
 Make sure all of the switch pins are straight, or else they will not fit into the hotswap sockets properly and will bend the switch pins and/or damage the hotswap socket and PCB.
 
 If you encounter a bent switch pin like below, bend it back with your fingers or a tweezer.
 
-![](./assets/images/sinc-rev4/IMG_5570 copy.jpeg)
+![](./assets/images/sinc-rev4/IMG_5570-copy.jpeg)
 
 ![](./assets/images/quefrency-rev4/IMG_5571.jpeg)
 
 After you've inserted those first few switches, add the rest of them:
 
 ![](./assets/images/foldkb-rev2/IMG_3621.jpeg)
-
-
 
 ## Assemble!
 
