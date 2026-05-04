@@ -87,6 +87,8 @@ Add FLAHNS bumpers to underside of PCB to help support it up (see video below). 
 ![](./assets/images/foldkb-rev2/IMG_3630.jpeg)
 ![](./assets/images/foldkb-rev2/IMG_3631.jpeg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M0lVrFJ1gDc?si=m9i3LTHaR7cesAt4&amp;start=314" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Supporting the Encoder
 
 If you installed an encoder, you will need to add one of the FLAHNS or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
