@@ -17,7 +17,7 @@ This build guide is for the FoldKB Rev. 2 which has the Kailh hotswap sockets. I
 - Verify [conductive ESD foam Gaskets/Pads](https://keeb.io/products/conductive-esd-foam-gaskets-pads?_pos=1&_psq=esd&_ss=e&_v=1.0) did not fall off switch plates in transit
 - Verify [shroomies](https://keeb.io/products/shroomies-silicone-feet?_pos=1&_psq=shroomies&_ss=e&_v=1.0) are pushed in all the way
 
-![](./assets/images/foldkb-rev2/IMG_3610)
+![](./assets/images/foldkb-rev2/IMG_3610.jpeg)
 
 These are the conductive ESD foam Gaskets/Pads that should be present on your plates:
 
