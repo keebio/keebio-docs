@@ -41,12 +41,12 @@ These are the conductive ESD foam Gaskets/Pads that should be present on your pl
 
 If you want a layout without the rotary encoder, jump to [Add 2u stabilizers to PCB](https://docs.keeb.io/foldkb-rev2-build-guide#add-2u-stabilizers-to-pcb)
 
-![] (./assets/images/sinc-rev4/IMG_1454.jpeg)
-![] (./assets/images/sinc-rev4/IMG_1455.jpeg)
+![](./assets/images/sinc-rev4/IMG_1454.jpeg)
+![](./assets/images/sinc-rev4/IMG_1455.jpeg)
 
 Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side.
 
-![] (./assets/images/sinc-rev4/IMG_1456.jpeg)
+![](./assets/images/sinc-rev4/IMG_1456.jpeg)
 
 The 2 side legs do not need to be soldered to the PCB.
 
@@ -67,7 +67,7 @@ Make sure all of the switch pins are straight, or else they will not fit into th
 
 If you encounter a bent switch pin like below, bend it back with your fingers or a tweezer.
 
-![] (./assets/images/sinc-rev4/IMG_5570 copy.jpeg)
+![](./assets/images/sinc-rev4/IMG_5570 copy.jpeg)
 
 ![](./assets/images/quefrency-rev4/IMG_5571.jpeg)
 
