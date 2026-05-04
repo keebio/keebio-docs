@@ -64,7 +64,7 @@ Make sure all of the switch pins are straight, or else they will not fit into th
 
 If you encounter a bent switch pin like below, bend it back with your fingers or a tweezer.
 
-![](./assets/images/sinc-rev4/IMG_5570-copy.jpeg)
+![](./assets/images/quefrency-rev4/IMG_5570.jpeg)
 
 ![](./assets/images/quefrency-rev4/IMG_5571.jpeg)
 
