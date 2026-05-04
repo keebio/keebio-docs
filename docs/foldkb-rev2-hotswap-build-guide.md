@@ -82,12 +82,10 @@ Now that all of the switches are in, install the standoffs into the bottom plate
 
 ## Add FLAHNS (optional)
 
-Add FLAHNS bumpers to underside of PCB to help support it up (see video below). About 4-6 for each half with work fine.
+Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
 ![](./assets/images/foldkb-rev2/IMG_3630.jpeg)
 ![](./assets/images/foldkb-rev2/IMG_3631.jpeg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M0lVrFJ1gDc?si=m9i3LTHaR7cesAt4&amp;start=314" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Supporting the Encoder
 
