@@ -41,12 +41,9 @@ These are the conductive ESD foam Gaskets/Pads that should be present on your pl
 
 If you want a layout without the rotary encoder, jump to [Add 2u stabilizers to PCB](https://docs.keeb.io/foldkb-rev2-build-guide#add-2u-stabilizers-to-pcb)
 
-![](./assets/images/sinc-rev4/IMG_1454.jpeg)
-![](./assets/images/sinc-rev4/IMG_1455.jpeg)
+Install the encoder onto the PCB and solder the 3 pins at the top side of the encoder and the 2 pins at the bottom side.
 
-Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side.
-
-![](./assets/images/sinc-rev4/IMG_1456.jpeg)
+![](./assets/images/foldkb-rev2/IMG_3616.1.jpeg)
 
 The 2 side legs do not need to be soldered to the PCB.
 
