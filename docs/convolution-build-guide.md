@@ -85,67 +85,67 @@ An easy way to tell the smallest part of the foot is seeing which piece has the 
 
 ![Foot piece comparison](assets/images/convolution/08.png)
 
-![Alt text](assets/images/convolution/image4.png)
+![Peeling protective film off acrylic foot piece](assets/images/convolution/image4.png)
 
 ![Foot piece comparison](assets/images/convolution/09.png)
 
-![Alt text](assets/images/convolution/image28.png)
+![Acrylic foot piece laid flat with screws](assets/images/convolution/image28.png)
 
-![Alt text](assets/images/convolution/image24.png)
+![Positioning acrylic foot piece](assets/images/convolution/image24.png)
 
-![Alt text](assets/images/convolution/10.png)
+![Holding acrylic foot piece upright](assets/images/convolution/10.png)
 
 ### Connect Foot to Bottom Plate
 
 Line up the reset button with the hole in the acrylic.
 
-![Alt text](assets/images/convolution/11.a.png)
+![Reset button aligned with acrylic cutout](assets/images/convolution/11.a.png)
 
-![Alt text](assets/images/convolution/11.b.png)
+![Lining up reset button hole on acrylic with PCB](assets/images/convolution/11.b.png)
 
 Now, screw in the foot!
 
-![Alt text](assets/images/convolution/12.png)
+![Screwing foot into bottom plate](assets/images/convolution/12.png)
 
-![Alt text](assets/images/convolution/13.png)
+![Foot screwed onto bottom plate](assets/images/convolution/13.png)
 
 ### Stack Bottom Layers
 
 Now that the foot is attached, let’s attach the supports for the bottom layer pieces!
 
-![Alt text](assets/images/convolution/14.png)
+![Attaching standoffs to bottom layer](assets/images/convolution/14.png)
 
 Similar to the foot, you’ll attach a screw and standoff for every hole, and then stack layers. Grab the 15mm standoffs and the 6mm flat head screws for this step.
 
-![Alt text](assets/images/convolution/15.png)
+![Stacking bottom layer pieces with standoffs](assets/images/convolution/15.png)
 
 Now grab your next 2 layers. You’ll know you’ve got them in the right order if the small one is on the bottom.
 
-![Alt text](assets/images/convolution/16.png)
+![Two acrylic layers showing correct order](assets/images/convolution/16.png)
 
 Be sure to have the open slot at the top. It’s above the center screw of the foot.
 
-![Alt text](assets/images/convolution/17.png)
+![Pointing to open slot orientation on stacked layers](assets/images/convolution/17.png)
 
 It should look like this: smallest layer on bottom expanding with each layer.
 
-![Alt text](assets/images/convolution/18.png)
+![Stacked bottom layers, smallest on bottom](assets/images/convolution/18.png)
 
 ## Add Stabilizers
 
 Next, make your stabilizers.
 
-![Alt text](assets/images/convolution/19.png)
+![Stabilizers laid out](assets/images/convolution/19.png)
 
 There are a few different ways to place your spacebar stabilizers, but here is the way if you’d like two spacebars.
 
-![Alt text](assets/images/convolution/20.png)
+![Stabilizers installed on PCB for spacebar](assets/images/convolution/20.png)
 
 ## Add Rotary Encoders
 
 Next, if you’d like to have rotary encoders, now is the time to solder them on. The rotary encoder(s) must be present before putting the switch plate down.
 
-![Alt text](assets/images/convolution/21.png)
+![Soldering rotary encoder onto PCB](assets/images/convolution/21.png)
 
 ## Add Switches and Solder
 
@@ -153,29 +153,29 @@ Next, if you’d like to have rotary encoders, now is the time to solder them on
 
 Next, add the acrylic support layer (frosted or black depending on your build) that will go in between the PCB and the switch plate.
 
-![Alt text](assets/images/convolution/22.png)
+![Acrylic support layer placed over PCB](assets/images/convolution/22.png)
 
 Then the thinner flexible piece over that, which is the switch plate.
 
-![Alt text](assets/images/convolution/23.png)
+![Switch plate placed over support layer](assets/images/convolution/23.png)
 
 It is recommended that you test each of your stabilizers before adding switches and beginning to solder. That way, you’re sure everything is working prior to solder! 🙂
 
-![Alt text](assets/images/convolution/24.png)
+![Testing stabilizers before adding switches](assets/images/convolution/24.png)
 
 ### Insert Switches
 
 When pushing in the rest of your switches, be sure that you hear a click, so you know it’s fully settled into its slot.
 
-![Alt text](assets/images/convolution/25.png)
+![Inserting switches into switch plate](assets/images/convolution/25.png)
 
 It’s a good idea to solder a switch at each of the corners and make sure everything is still snug in place.
 
-![Alt text](assets/images/convolution/26.png)
+![Soldering switches at corners](assets/images/convolution/26.png)
 
 Place your soldered PCB on top of the standoffs. Almost done!
 
-![Alt text](assets/images/convolution/27.png)
+![PCB placed on top of standoffs](assets/images/convolution/27.png)
 
 ## Continue Case Assembly
 
@@ -183,26 +183,26 @@ Place your soldered PCB on top of the standoffs. Almost done!
 
 The three top pieces are all that remain! You know they’re in order if the layer closest to the PCB is the biggest.
 
-![Alt text](assets/images/convolution/28.png)
+![Three top acrylic pieces showing correct stacking order](assets/images/convolution/28.png)
 
 You’ll know the top piece by the holes for it being the smallest of the three.
 
-![Alt text](assets/images/convolution/29.png)
+![Smallest hole identifying the top acrylic piece](assets/images/convolution/29.png)
 
 Now, all that’s left is to tighten the top screws down.
 
-![Alt text](assets/images/convolution/30.png)
+![Screwing down top pieces](assets/images/convolution/30.png)
 
 It should look like this from the side when you’re done!
 
-![Alt text](assets/images/convolution/31.png)
+![Side view of completed stacked case](assets/images/convolution/31.png)
 
 ### Add SKUF Feet
 
 SKUF feet can go anywhere you like, but this arrangement we found works really well.
 
-![Alt text](assets/images/convolution/32.png)
+![SKUF feet placement on bottom of case](assets/images/convolution/32.png)
 
 Enjoy!
 
-![Alt text](assets/images/convolution/final-build.jpg)
+![Completed Convolution build](assets/images/convolution/final-build.jpg)
