@@ -6,20 +6,20 @@ This build guide is for the FoldKB Rev. 2 which has the Kailh hotswap sockets. I
 
 ## Parts List
 
-- set of [FoldKB Rev. 2 PCBs](https://keeb.io/products/foldkb-rev-2-hotswap-pcb-kit)
-- [Plates for FoldKB](https://keeb.io/products/foldkb-case-plates)
-- [USB-C to USB-C Cable](https://keeb.io/products/usb-c-to-usb-c-cable)
-- Switches (MX-compatible ones)
-- [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer?_pos=1&_psq=2u&_ss=e&_v=1.0&variant=43449871046) if using 2u/2.25u/2.75u keys (need between 2 and 6 stabilizers)
-- [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
-- [FLAHNs Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) (recommended)
+- [FoldKB Rev. 2 PCBs](https://keeb.io/products/foldkb-rev-2-hotswap-pcb-kit?utm_source=docs)
+- [Plates for FoldKB](https://keeb.io/products/foldkb-case-plates?utm_source=docs)
+- [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable?utm_source=docs)
+- [MX-compatible Switches](https://keeb.io/collections/switches?utm_source=docs&filter.p.m.keyboard.switch_compatibility=MX)
+- [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer?variant=43449871046&utm_source=docs) if using 2u/2.25u/2.75u keys (need between 2 and 6 stabilizers)
+- [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11?utm_source=docs) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11?utm_source=docs) (optional)
+- [FLAHNS Hotswap Bumpers](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers?utm_source=docs) (recommended)
 - Keycaps
-- Verify [conductive ESD foam Gaskets/Pads](https://keeb.io/products/conductive-esd-foam-gaskets-pads?_pos=1&_psq=esd&_ss=e&_v=1.0) did not fall off switch plates in transit
-- Verify [shroomies](https://keeb.io/products/shroomies-silicone-feet?_pos=1&_psq=shroomies&_ss=e&_v=1.0) are pushed in all the way
+- Verify [conductive ESD foam gaskets/pads](https://keeb.io/products/conductive-esd-foam-gaskets-pads?utm_source=docs) did not fall off switch plates in transit
+- Verify [shroomies](https://keeb.io/products/shroomies-silicone-feet?utm_source=docs) are pushed in all the way
 
 ![](./assets/images/foldkb-rev2/IMG_3610.jpeg)
 
-These are the conductive ESD foam Gaskets/Pads that should be present on your plates:
+These are the conductive ESD foam gaskets/pads that should be present on your plates:
 
 ![](./assets/images/foldkb-rev2/IMG_3611.jpeg)
 ![](./assets/images/foldkb-rev2/IMG_3613.jpeg)
@@ -31,8 +31,8 @@ These are the conductive ESD foam Gaskets/Pads that should be present on your pl
 2. Add 2u stabilizers to PCB
 3. Add switches (Durock Shrimp Tactiles used in photos)
 4. Assemble!
-   1. screw standoffs into bottom plate
-   2. add FLAHNs
+   1. Screw standoffs into bottom plate
+   2. Add FLAHNS
    3. Attach bottom plate using screws
 5. Reprogramming Board Note
 6. Rejoice!
@@ -48,6 +48,7 @@ Install the encoder onto the PCB and solder the 3 pins at the top side of the en
 The 2 side legs do not need to be soldered to the PCB.
 
 ## Add 2u Stabilizers to PCB
+
 Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed without needing to remove all the switches.
 
 ![](./assets/images/foldkb-rev2/IMG_3615.jpeg)
@@ -56,7 +57,7 @@ Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of
 
 Get hype! Now it's time to put your switches into the switch plate.
 
-We recommend you add switches to the corners **first** before installing the rest of them: 
+We recommend you add switches to the corners **first** before installing the rest of them:
 
 ![](./assets/images/foldkb-rev2/IMG_3618.jpeg)
 
