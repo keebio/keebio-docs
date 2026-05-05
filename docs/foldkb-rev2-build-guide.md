@@ -1,8 +1,8 @@
 ---
-title: FoldKB Rev. 2 Hotswap Build Guide
+title: FoldKB Rev. 2
 ---
 
-This build guide is for the FoldKB Rev. 2 which has the Kailh hotswap sockets. If you have the Rev. 1 PCBs, see the [FoldKB Rev.1 build guide](https://docs.keeb.io/foldkb-build-guide).
+This build guide is for the FoldKB Rev. 2 which has the Kailh hotswap sockets. If you have the Rev. 1 PCBs, see the [FoldKB Rev. 1 build guide](https://docs.keeb.io/foldkb-build-guide).
 
 ## Parts List
 
