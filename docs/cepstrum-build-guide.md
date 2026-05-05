@@ -43,7 +43,7 @@ First up, time to get your parts:
 
 Sometimes during the soldering process of the board, the RGB LEDs can be damaged since they are a bit sensitive to heat. So, you'll want to plug in your PCBs to make sure all of your LEDs are functioning properly before putting your board together.
 
-The easiest way to test is to open up VIA and then go the the Lighting options for the board. Next, change the Effect to `Solid Color` and go through different colors to detect any defective LEDs.
+The easiest way to test is to open up VIA and then go to the Lighting options for the board. Next, change the Effect to `Solid Color` and go through different colors to detect any defective LEDs.
 
 ![Lighting test](./assets/images/cepstrum/via-lighting.png)
 

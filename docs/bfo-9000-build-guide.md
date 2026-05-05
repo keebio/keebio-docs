@@ -6,7 +6,7 @@ title: BFO-9000
 
 Here's a list of parts needed for the build:
 
-- [Set of BFO-9000 PCBs](https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear)
+- [BFO-9000 PCBs](https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear)
 - [BFO-9000 Plates](https://keeb.io/products/bfo-9000-keyboard-customizable-full-size-split-ortholinear)
 - 1 [TRRS cable](https://keeb.io/products/trrs-cable)
 - 2 Pro Micro-compatible Microcontrollers (you may mix-and-match controllers)

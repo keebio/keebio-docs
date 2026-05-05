@@ -10,7 +10,7 @@ Coming soon!
 
 First up, time to get your parts ready:
 
-* [Iris Aluminum Case](https://keeb.io/products/iris-aluminum-case) which includes the these parts:
+* [Iris Aluminum Case](https://keeb.io/products/iris-aluminum-case) which includes these parts:
   * 10 [SKUF Silicone Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet)
   * Switch plates (FR4 and Stainsteel versions)
   * 1.5mm and 2.5mm Hex keys
@@ -20,7 +20,7 @@ First up, time to get your parts ready:
   * Left and right half silicone tray inserts
     * Included with cases after May 8, 2023
     * Available here if you purchased it earlier: [Silicone Tray Insert](https://keeb.io/products/iris-aluminum-case-silicone-tray-insert)
-* Set of Iris PCBs (Rev. 5-7 are compatible)
+* Iris PCBs (Rev. 5-7 are compatible)
   * [Iris Rev. 7 PCBs](https://keeb.io/products/iris-rev-7-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
   * [Iris Rev. 5 PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
 * [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
@@ -145,7 +145,7 @@ Next, insert the screw/o-ring combo through the switch plate mounting hole and a
 
 ![](./assets/images/iris-ae/IMG_2468.jpeg)
 
-## Ressemble Case
+## Reassemble Case
 
 Place the switch plate into the top part of the case and screw it in. If using the o-ring bumpers for burger mounting, you don't have to screw it in fully tight, as you can leave it a bit loose to allow for some flex while typing.
 
@@ -191,4 +191,4 @@ One thing to note is that because the case does not have a hole at the bottom to
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
 2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
 
-![](./assets/images//iris-ae/qk-boot.png)
+![](./assets/images/iris-ae/qk-boot.png)

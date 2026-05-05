@@ -14,7 +14,7 @@ This build guide is exclusively for the Rev. 6-8 PCB of the Iris, which features
 
 First up, time to get your parts:
 
-* Set of Iris Hotswap PCBs
+* Iris Hotswap PCBs
   * [Iris Rev. 8 PCBs](https://keeb.io/products/iris-rev-8-keyboard-split-ergonomic-keyboard)
   * [Iris Rev. 7 PCBs](https://keeb.io/products/iris-rev-7-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
   * [Iris Rev. 6 PCBs](https://keeb.io/products/iris-rev-6-keyboard-hotswap-pcbs-for-split-ergonomic-keyboard)
@@ -170,7 +170,7 @@ If you're using an acrylic plate, make sure the switches are centered properly w
 
 ![](./assets/images/iris-rev6/acrylic-uncentered.jpg)
 
-After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the the bottom of the socket while pressing the switches in.
+After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the bottom of the socket while pressing the switches in.
 
 ![](./assets/images/iris-rev6/IMG_7856.jpg)
 
@@ -307,7 +307,7 @@ While the bottom plates have a hole at the bottom to allow you to access the res
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
 2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
 
-![](./assets/images//iris-ae/qk-boot.png)
+![](./assets/images/iris-ae/qk-boot.png)
 
 ## Turning off RGB LEDs
 

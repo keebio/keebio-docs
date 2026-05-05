@@ -153,7 +153,7 @@ Bend the legs of the LEDs outwards a bit to hold them in place.
 
 ![](./assets/images/bdn9-rev1.3/IMG_9240.jpg)
 
-Solder the the LEDs in. Then clip the legs down.
+Solder the LEDs in. Then clip the legs down.
 
 ## Flash Pro Micro
 

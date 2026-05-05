@@ -21,7 +21,7 @@ This guide can also be used for the Nyquist Rev. 3, as it has a very similar con
 
 Here's a list of parts needed for the build:
 
-* [Set of Iris PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
+* [Iris PCBs](https://keeb.io/products/iris-rev-5-keyboard-pcbs-for-split-ergonomic-keyboard)
 * [Iris Case/Plates](https://keeb.io/products/iris-keyboard-case-plates-phoenix-edition)
 * Interconnect Cable:
     * 1 [TRRS cable](https://keeb.io/products/trrs-cable) (For Rev. 3 or 4)
