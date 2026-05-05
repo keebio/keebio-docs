@@ -17,12 +17,12 @@ This build guide is for the FoldKB Rev. 2 which has the Kailh hotswap sockets. I
 - Verify [conductive ESD foam gaskets/pads](https://keeb.io/products/conductive-esd-foam-gaskets-pads?utm_source=docs) did not fall off switch plates in transit
 - Verify [shroomies](https://keeb.io/products/shroomies-silicone-feet?utm_source=docs) are pushed in all the way
 
-![](./assets/images/foldkb-rev2/IMG_3610.jpeg)
+![FoldKB Rev. 2 parts laid out](./assets/images/foldkb-rev2/IMG_3610.jpeg)
 
 These are the conductive ESD foam gaskets/pads that should be present on your plates:
 
-![](./assets/images/foldkb-rev2/IMG_3611.jpeg)
-![](./assets/images/foldkb-rev2/IMG_3613.jpeg)
+![ESD foam gasket/pad on switch plate near encoder cutout](./assets/images/foldkb-rev2/IMG_3611.jpeg)
+![ESD foam gasket/pad on switch plate](./assets/images/foldkb-rev2/IMG_3613.jpeg)
 
 
 ## Build Steps Summary
@@ -43,7 +43,7 @@ If you want a layout without the rotary encoder, jump to [Add 2u stabilizers to 
 
 Install the encoder onto the PCB and solder the 3 pins at the top side of the encoder and the 2 pins at the bottom side.
 
-![](./assets/images/foldkb-rev2/IMG_3616.1.jpeg)
+![Rotary encoder soldered onto PCB](./assets/images/foldkb-rev2/IMG_3616.1.jpeg)
 
 The 2 side legs do not need to be soldered to the PCB.
 
@@ -51,7 +51,7 @@ The 2 side legs do not need to be soldered to the PCB.
 
 Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed without needing to remove all the switches.
 
-![](./assets/images/foldkb-rev2/IMG_3615.jpeg)
+![PCBs with 2u stabilizers installed](./assets/images/foldkb-rev2/IMG_3615.jpeg)
 
 ## Add switches
 
@@ -59,34 +59,34 @@ Get hype! Now it's time to put your switches into the switch plate.
 
 We recommend you add switches to the corners **first** before installing the rest of them:
 
-![](./assets/images/foldkb-rev2/IMG_3618.jpeg)
+![Switches inserted at corners first](./assets/images/foldkb-rev2/IMG_3618.jpeg)
 
 Make sure all of the switch pins are straight, or else they will not fit into the hotswap sockets properly and will bend the switch pins and/or damage the hotswap socket and PCB.
 
 If you encounter a bent switch pin like below, bend it back with your fingers or a tweezer.
 
-![](./assets/images/quefrency-rev4/IMG_5570.jpeg)
+![Switch with a bent pin](./assets/images/quefrency-rev4/IMG_5570.jpeg)
 
-![](./assets/images/quefrency-rev4/IMG_5571.jpeg)
+![Straightening a bent switch pin with tweezers](./assets/images/quefrency-rev4/IMG_5571.jpeg)
 
 After you've inserted those first few switches, add the rest of them:
 
-![](./assets/images/foldkb-rev2/IMG_3621.jpeg)
+![All switches installed](./assets/images/foldkb-rev2/IMG_3621.jpeg)
 
 ## Assemble!
 
 Now that all of the switches are in, install the standoffs into the bottom plate. Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
 
-![](./assets/images/foldkb-rev2/IMG_3624.jpeg)
-![](./assets/images/foldkb-rev2/IMG_3625.jpeg)
-![](./assets/images/foldkb-rev2/IMG_3626.jpeg)
+![Inserting screw to attach standoff](./assets/images/foldkb-rev2/IMG_3624.jpeg)
+![Standoff through bottom plate](./assets/images/foldkb-rev2/IMG_3625.jpeg)
+![Bottom plates with standoffs installed](./assets/images/foldkb-rev2/IMG_3626.jpeg)
 
 ## Add FLAHNS (optional)
 
 Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
-![](./assets/images/foldkb-rev2/IMG_3630.jpeg)
-![](./assets/images/foldkb-rev2/IMG_3631.jpeg)
+![FLAHNS bumpers on underside of PCB](./assets/images/foldkb-rev2/IMG_3630.jpeg)
+![PCB placed into plate assembly with FLAHNS bumpers](./assets/images/foldkb-rev2/IMG_3631.jpeg)
 
 ## Supporting the Encoder
 
@@ -94,11 +94,11 @@ If you installed an encoder, you will need to add one of the FLAHNS or piece of 
 
 Put the bottom plate on top of the standoffs and screw it on.
 
-![](./assets/images/foldkb-rev2/IMG_3633.jpeg)
+![Placing bottom plate onto standoffs](./assets/images/foldkb-rev2/IMG_3633.jpeg)
 
 All done now, repeat for the other half of the board!
 
-![](./assets/images/foldkb-rev2/IMG_3636.jpeg)
+![Completed FoldKB Rev. 2 build](./assets/images/foldkb-rev2/IMG_3636.jpeg)
 
 ## Re-Programming Board Note
 
