@@ -10,6 +10,7 @@ module.exports = {
         'quefrency-lm-build-guide',
         'nyquist-lm-build-guide',
         'demod-lm-build-guide',
+        'foldkb-rev2-build-guide',
         'dilly-build-guide',
         'chiri-ce-build-guide',
         'quefrency-hotswap-build-guide',
