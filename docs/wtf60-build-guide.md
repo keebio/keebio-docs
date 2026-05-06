@@ -2,7 +2,7 @@
 title: WTF60 
 ---
 
-![](./assets/images/wtf60/IMG_3180.jpeg)
+![WTF60 PCB, switch plate, and case laid out](./assets/images/wtf60/IMG_3180.jpeg)
 
 ## Parts List
 
@@ -32,9 +32,9 @@ Now you've watched some cool videos and feel inspired! Get your parts:
 
 Since the center standoff of the 60% case will interfere with the stem of one of the switches on the PCB, that standoff needs to be cutoff or shaved down, depending on the case material. The whole piece doesn't necessarily need to be cut off, just about 4-5mm so that the center switch stem won't hit it when the PCB is installed.
 
-![](./assets/images/wtf60/IMG_3182.jpeg)
+![Cutting down the center standoff with flush cutters](./assets/images/wtf60/IMG_3182.jpeg)
 
-![](./assets/images/wtf60/IMG_3183.jpeg)
+![Case with center standoff removed](./assets/images/wtf60/IMG_3183.jpeg)
 
 ## Add 2u stabilizers to PCB
 
@@ -42,7 +42,7 @@ Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of
 
 If you've never put together stabilizers before, see this guide on how to do it: [Stabilizer Handbook](https://imgur.com/gallery/machineabuses-stabilizer-handbook-v1-1-pHK0vhz)
 
-![](./assets/images/wtf60/IMG_3184.jpeg)
+![PCB with stabilizers installed](./assets/images/wtf60/IMG_3184.jpeg)
 
 Afterwards, fit the plate over the stabilizer(s).
 
@@ -50,11 +50,11 @@ Afterwards, fit the plate over the stabilizer(s).
 
 Add switches into the switch plate and into the PCB.
 
-![](./assets/images/wtf60/IMG_3185.jpeg)
+![Switches installed in switch plate](./assets/images/wtf60/IMG_3185.jpeg)
 
 Flip the PCB and plate combo over and solder the switches onto the PCB.
 
-![](./assets/images/wtf60/IMG_3186.jpeg)
+![Underside of PCB with switches soldered](./assets/images/wtf60/IMG_3186.jpeg)
 
 ## Optional Stuff!
 
@@ -64,17 +64,17 @@ If you'd like you keyboard to make some funny noises, then add a piezo speaker!
 
 First, tin both pads of the `LS1` spot on the PCB with solder. Then place the speaker on top of the pads and heat each pad one at a time to solder the speaker on.
 
-![](./assets/images/wtf60/IMG_3188.jpeg)
+![Piezo speaker soldered to LS1 pad](./assets/images/wtf60/IMG_3188.jpeg)
 
 ### Add RGB Strips
 
 The WTF60 PCB has 3 breakout pins for VCC, GND, and RGB. You can use these to add RGB underglow support.
 
-![](./assets/images/wtf60/IMG_3190.jpeg)
+![RGB strip wired to PCB breakout pins](./assets/images/wtf60/IMG_3190.jpeg)
 
 Make sure that the RGB breakout pad is connected to the first Di/Din pad of the RGB strip. VCC and GND can be connected to any part of the strip.
 
-![](./assets/images/wtf60/IMG_3189.jpeg)
+![RGB strips installed on PCB underside](./assets/images/wtf60/IMG_3189.jpeg)
 
 The default configuration for the WTF60 in QMK does not have RGB LEDs enabled, so you will have to turn that on yourself in rules.mk and compile the firmware. Also adjust the number of RGB LEDs that are using at this time.
 
@@ -82,7 +82,7 @@ The default configuration for the WTF60 in QMK does not have RGB LEDs enabled, s
 
 Insert screws through the plate to secure the PCB to the standoffs on the case.
 
-![](./assets/images/wtf60/IMG_3191.jpeg)
+![PCB assembled into case](./assets/images/wtf60/IMG_3191.jpeg)
 
 ## Default Keymap
 
@@ -96,4 +96,4 @@ Oh, looking to re-program your board? Never fear! Come look [here](flashing-firm
 
 You now have one of the wackiest keyboards out there now! Plug your keyboard in and start working on boosting your WPM.
 
-![](./assets/images/wtf60/IMG_3192.jpeg)
+![Completed WTF60 with keycaps and RGB underglow](./assets/images/wtf60/IMG_3192.jpeg)

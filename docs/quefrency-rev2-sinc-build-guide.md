@@ -79,10 +79,10 @@ If you're going to go with a layout without the left macro section or right macr
 
 Add the 2u stabilizers into the PCB. The stab wire will be on the bottom side of the switch for everywhere except for the bottom row. On the bottom row, the stab wire will be above the switch. Do this before installing the switch plate and switches, as stabilizers can not be removed after the switches have been soldered in.
 
-![](./assets/images/sinc/IMG_7935.jpeg)
+![PCB underside with stabilizers installed](./assets/images/sinc/IMG_7935.jpeg)
 
 Afterwards, fit the plate over the stabilizer(s).
-![](./assets/images/sinc/IMG_7936.jpeg)
+![Switch plate fitted over stabilizers](./assets/images/sinc/IMG_7936.jpeg)
 
 ## Add Switches
 
@@ -93,12 +93,12 @@ There is no cutout to insert in-switch LEDs, so the LEDs must be added *first*. 
 :::
 
 Add switches into the switch plate. It's a good idea to add switches to the corners **first** and then solder them before installing the rest of them:
-![](./assets/images/sinc/IMG_7937.jpeg)
+![Corner switches installed in switch plate](./assets/images/sinc/IMG_7937.jpeg)
 
 Solder the switches onto the PCB.
 
 Add the rest of the switches and solder them.
-![](./assets/images/sinc/IMG_7938.jpeg)
+![All switches installed in plate](./assets/images/sinc/IMG_7938.jpeg)
 
 ## Optional Stuff!
 
@@ -110,41 +110,41 @@ This step can be done after installing the switches. For the prototype plates, t
 
 Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side. The 2 side legs do not need to be soldered to the PCB.
 
-![](./assets/images/sinc/IMG_5707.jpeg)
+![Rotary encoder installed in switch plate](./assets/images/sinc/IMG_5707.jpeg)
 
 ### Solder in-switch LEDs
 
 Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the `+` sign of the LED pins on the PCB. The shorter leg will match the `-` sign.
-![](./assets/images/sinc/IMG_3419.jpeg)
+![LED held with tweezers showing polarity](./assets/images/sinc/IMG_3419.jpeg)
 
 Insert the LED through the switch and PCB:
-![](./assets/images/sinc/IMG_6013.jpeg)
+![LED inserted through switch and PCB](./assets/images/sinc/IMG_6013.jpeg)
 
 Bend the LED legs out so it doesn't fall out while soldering the LED in:
-![](./assets/images/sinc/IMG_4335.jpeg)
+![LED legs bent out on PCB underside](./assets/images/sinc/IMG_4335.jpeg)
 
 Solder the LED legs and then clip the excess length on the legs. Be careful to not damage the resistor next to the LED pads.
 
 Note that some of the switch layout options have the `-`/`+` markings swapped, so make sure to always put the longer leg through the `+` pad. If you are unsure, plug the PCB in and test the LED before soldering it in.
 
-![](./assets/images/sinc/IMG_9005.jpeg)
+![LED soldered with legs bent out](./assets/images/sinc/IMG_9005.jpeg)
 
 ## Assemble!
 
 If you are installing 3D-Printed pieces around the FR4 plates, then please see these instructions instead: [3D-Printed Case Parts Installation](3D-print-shell-installation)
 
 Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
-![](./assets/images/sinc/IMG_9889.jpeg)
+![Standoff attached to switch plate corner](./assets/images/sinc/IMG_9889.jpeg)
 
 Repeat the process for the rest of the plate.
-![](./assets/images/sinc/IMG_1101.jpeg)
+![Switch plate with standoffs attached](./assets/images/sinc/IMG_1101.jpeg)
 
 :::note
 If you have a middle layer, *now* is the time to insert it around the standoffs.
 :::
 
 Put bottom plate on and add screws:
-![](./assets/images/sinc/IMG_5390.jpeg)
+![Screwing bottom plate to standoffs](./assets/images/sinc/IMG_5390.jpeg)
 
 ## Re-Programming Board Note
 

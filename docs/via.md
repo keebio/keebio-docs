@@ -4,7 +4,7 @@ title: VIA Usage Guide
 
 [VIA Configurator](https://www.caniusevia.com/) is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
-![](./assets/images/via/01-keymap-default-screen.png)
+![VIA Keymap Default Screen](./assets/images/via/01-keymap-default-screen.png)
 
 For info on how VIA relates to the underlying QMK Firmware, see this for more details: [VIA and QMK Firmware](via-technical)
 
@@ -30,27 +30,27 @@ The VIA app now comes in two flavors:
 
 When you first launch the desktop app for VIA, you will see this screen:
 
-![](./assets/images/via/00-opening-VIA.png)
+![VIA App Opening Screen](./assets/images/via/00-opening-VIA.png)
 
-It is recommended that _after_ you open VIA to plug in your keyboard. 
+It is recommended that _after_ you open VIA to plug in your keyboard.
 
 ### Web App
 
 To launch the web app for VIA, go to this site [Keebio - VIA Web App](https://via.keeb.io).
 
-![](./assets/images/via/webapp-launch.png)
+![VIA Web App Launch Screen](./assets/images/via/webapp-launch.png)
 
 Next, you will need to give your web browser permission to connect to your keyboard, so click on `Authorize device +`. This will bring up a prompt to allow you select your keyboard.
 
 Select your keyboard and click `Connect`.
 
-![](./assets/images/via/webapp-connect.png)
+![Browser Device Connection Dialog](./assets/images/via/webapp-connect.png)
 
 ### Connected to Keyboard
 
 Once you are connected your keyboard, you should see your keymap like below:
 
-![](./assets/images/via/01-keymap-default-screen.png)
+![VIA Keymap Default Screen](./assets/images/via/01-keymap-default-screen.png)
 
 If your keyboard does not load, then check again that the firmware flashed to your board has VIA support enabled.
 
@@ -62,8 +62,7 @@ You'll want to be on the **Configure** tab (at the top) to verify a few things b
 
 There are 3-4 tab icons at the top, allowing you to switch between different tools.
 
-![](./assets/images/via/tab-icons.png)
-
+![VIA Tab Icons](./assets/images/via/tab-icons.png)
 
 ## Configure Tab
 
@@ -101,7 +100,7 @@ If you are a macOS user, `Win/GUI` is equivalent to `Cmd/Command`, while `Alt` i
 
 ### Media
 If you're looking for volume and music/movie oriented controls, this section has you covered!
-        
+
 ### Macro
 
 You have 16 macro keys to do with what you will! Select a layer, then a key above and then select what macro you'd like to apply.
@@ -145,7 +144,7 @@ The `Any` key can be used to do some more complex keycodes, like ones involving 
 
 Not all aliases are supported, for example `LCTL_T(kc)` can't be used, so `MT(MOD_LCTL, kc)` would have to be used instead.
 
-![](./assets/images/via/any-key.png)
+![VIA Any Key Entry Dialog](./assets/images/via/any-key.png)
 
 Here's some examples:
 
@@ -168,11 +167,11 @@ New in [Version 3 of VIA](https://www.caniusevia.com/docs/v3_changes) is the abi
 
 If your keyboard does support remapping of encoders in VIA, on the keymap, the encoder will be displayed as a dashed circle with nothing inside of it as shown below.
 
-![](./assets/images/via/encoder-keymap.png)
+![VIA Encoder Keymap View](./assets/images/via/encoder-keymap.png)
 
 To edit the mapping of the encoder, click on it, and the bottom half of the window will show the mappings for clockwise and counter-clockwise rotation, as well as pressing the encoder (if the encoder can be pressed).
 
-![](./assets/images/via/encoder-edit.png)
+![VIA Encoder Edit Panel](./assets/images/via/encoder-edit.png)
 
 ### Where is FN?
 
@@ -180,7 +179,7 @@ An `Fn` key is just a reduced version of layers where you only have 1 layer acce
 
 ## Layouts
 
-![](./assets/images/via/02-layouts.png)
+![VIA Layouts Tab](./assets/images/via/02-layouts.png)
 
 Once selected, the screen below the keyboard will allow you to change what your shift keys, left/right bottom row, backspace (split vs 2u) and enter key (ISO/ANSI) look like.
 
@@ -196,23 +195,22 @@ There are two ways to configure a macro:
 
 - Macro Recorder
 - Keycode Entry
- 
+
 ### Macro Recorder
 
-![](./assets/images/via/macro-recording.png)
+![VIA Macro Recording Interface](./assets/images/via/macro-recording.png)
 
 This method allows you to record a macro, instead of trying to type in keycodes manually.
 
 ### Keycode Entry
 
-![](./assets/images/via/03-macros.png)
+![VIA Macros Entry Tab](./assets/images/via/03-macros.png)
 
 You can either type text directly without having to know anything about QMK keycode names, or if your put stuff in curly brackets (`{}`), you can use basic QMK keycodes.
 
 ### Some terms to know
 **MO(layer):** This activates the layer when held down and you come back to your prior layer when you release the key. Similar to Shift and Fn keys in operation.
- 
-          
+
 **LM(layer, modifier):** This activates a layer and will also maintain a modifier for you while pressed.
 
 **LT(layer, keycode):** Press this and hold to activate a layer _and_ send the keycode when tapped briefly. Best use for keys you usually only press quickly like Tab or Space.
@@ -225,7 +223,7 @@ You can either type text directly without having to know anything about QMK keyc
 
 ## Lighting
 
-![](./assets/images/via/04-lighting.png)
+![VIA Lighting Tab](./assets/images/via/04-lighting.png)
 
 Depending on your board, not all of the options below will be availablee.
 
@@ -257,15 +255,15 @@ After getting your setting where you want them, it's good to test if all your ke
 
 You can see [Testing Your PCB](testing-pcb.md) for more details.
 
-![](./assets/images/via/via-key-tester-full.png)
+![VIA Key Tester Full View](./assets/images/via/via-key-tester-full.png)
 
 For special keys, like layer keys that aren't on a normal keyboard, you can switch to matrix mode by selecting `Test Matrix`. This will let you see if all of the physical locations of keys work.
 
-![](./assets/images/via/via-key-tester.png)
+![VIA Key Tester Screen](./assets/images/via/via-key-tester.png)
 
 ## Design Tab
 
-![](./assets/images/via/sideloading.png)
+![VIA Design Tab Sideloading](./assets/images/via/sideloading.png)
 
 If you are developing your own keyboard and adding in VIA support, you'll need to enable the Design Tab.
 

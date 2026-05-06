@@ -29,9 +29,9 @@ First up, time to get your parts ready:
 * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11) (optional)
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys (optional)
 
-![](./assets/images/iris-ae/IMG_2457.jpeg)
+![Iris aluminum case assembled top view](./assets/images/iris-ae/IMG_2457.jpeg)
 
-![](./assets/images/iris-ae/IMG_2458.jpeg)
+![FR4 switch plate with o-rings bag](./assets/images/iris-ae/IMG_2458.jpeg)
 
 ## Build Steps Summary
 
@@ -47,11 +47,11 @@ First up, time to get your parts ready:
 
 First, flip the board over and remove the 8 M3 12mm screws holding the top and bottom parts of the case together.
 
-![](./assets/images/iris-ae/IMG_2459.jpeg)
+![Case top and bottom halves separated](./assets/images/iris-ae/IMG_2459.jpeg)
 
 Next, unscrew the 4 M2 6mm screws that hold the switch plate to the top part of the case.
 
-![](./assets/images/iris-ae/IMG_2460.jpeg)
+![Case frame switch plate and screws disassembled](./assets/images/iris-ae/IMG_2460.jpeg)
 
 ## Solder Rotary Encoder
 
@@ -65,27 +65,27 @@ If you have the Iris Rev. 6.0 or 7 PCBs, you will need to do this procedure.
 
 If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB:
 
-![](./assets/images/iris-rev6/IMG_7842.jpg)
+![Clipping encoder mounting pins with flush cutters](./assets/images/iris-rev6/IMG_7842.jpg)
 
 It should look like this after clipping:
 
-![](./assets/images/iris-rev6/IMG_7843.jpg)
+![Encoder with mounting pins clipped](./assets/images/iris-rev6/IMG_7843.jpg)
 
 Insert the encoder onto the PCB and solder the 3 pins at the top side of the encoder and the 2 pins at the bottom side.
 
-![](./assets/images/iris-rev6/IMG_7844.jpg)
+![Encoder installed on PCB thumb section](./assets/images/iris-rev6/IMG_7844.jpg)
 
 Then flip the board over and solder all 5 pins. Make sure that they remain pushed in all the way through the board while soldering. Also be careful to not come in contact with the hotswap socket while soldering the side of the encoder that has 2 pins. Accidental contact with the black portion is okay, but try to avoid doing so.
 
-![](./assets/images/iris-rev6/IMG_7845.jpg)
+![PCB underside with encoder soldered](./assets/images/iris-rev6/IMG_7845.jpg)
 
 ### Rev. 7
 
 If you have the Rev. 7, when installing the encoders, you will need to bend the legs of the rotary encoder slightly inwards, outwards, and/or to the side (depending on the pads on the PCB) in order for the encoders to fit onto the PCB.
 
-![](./assets/images/iris-rev7/IMG_2325.jpg)
+![Encoder installed on Rev. 7 PCB](./assets/images/iris-rev7/IMG_2325.jpg)
 
-![](./assets/images/iris-rev7/IMG_2326.jpg)
+![Rev. 7 PCB with encoder pins soldered](./assets/images/iris-rev7/IMG_2326.jpg)
 
 Once you've pushed the encoder pins through the PCB, make sure the encoder is flat against the top of the PCB.
 
@@ -93,7 +93,7 @@ Once you've pushed the encoder pins through the PCB, make sure the encoder is fl
 
 Add the 2u stabilizer if you have the Iris Rev. 7 PCBs and want a 2u key at the thumb. Do this before installing the switch plate and switches.
 
-![](./assets/images/iris-rev7/IMG_2323.jpg)
+![Rev. 7 PCB with stabilizers installed](./assets/images/iris-rev7/IMG_2323.jpg)
 
 ## Add Switches
 
@@ -107,15 +107,15 @@ In this guide, we'll be using the stainless steel ones.
 
 Insert a few switches into the switch plate at the corners and at the middle. Make sure the switches are oriented so that they are south-facing (pins at the bottom).
 
-![](./assets/images/iris-ae/IMG_2463.jpeg)
+![Corner switches in stainless steel switch plate](./assets/images/iris-ae/IMG_2463.jpeg)
 
 Align the pins of the switches into the hotswap sockets.
 
-![](./assets/images/iris-ae/IMG_2464.jpeg)
+![Switch plate and PCB aligned with corner switches](./assets/images/iris-ae/IMG_2464.jpeg)
 
 Then push down the PCB onto the bottom of the switch, while pressing on the top of the switch, so basically, you are squeezing the PCB and the switch together.
 
-![](./assets/images/iris-ae/IMG_2465.jpeg)
+![Hands squeezing switch plate and PCB together](./assets/images/iris-ae/IMG_2465.jpeg)
 
 Make sure that the switch remains flush with the plate.
 
@@ -125,54 +125,53 @@ Don't attempt to insert switches with bent pins into the hotswap socket, as that
 
 :::
 
-![](./assets/images/iris-rev6/IMG_7854.jpg)
+![Switch with bent pin isolated](./assets/images/iris-rev6/IMG_7854.jpg)
 
 If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have something like a pair of tweezers to straighten out the pin.
 
-![](./assets/images/iris-rev6/IMG_7855.jpg)
+![Tweezers straightening bent switch pin](./assets/images/iris-rev6/IMG_7855.jpg)
 
 Insert the rest of the switches into the plate and PCB.
 
-![](./assets/images/iris-ae/IMG_2466.jpeg)
+![All switches inserted in stainless plate](./assets/images/iris-ae/IMG_2466.jpeg)
 
 ## Add o-ring bumpers
 
 To isolate the switch plate from the top part of the case for a softer feel and better sound, you can use the included o-rings. First put an o-ring on each screw.
 
-![](./assets/images/iris-ae/IMG_2467.jpeg)
+![Screws with o-rings attached](./assets/images/iris-ae/IMG_2467.jpeg)
 
 Next, insert the screw/o-ring combo through the switch plate mounting hole and add another o-ring to the other side of the plate.
 
-![](./assets/images/iris-ae/IMG_2468.jpeg)
+![O-ring screw through switch plate mounting hole](./assets/images/iris-ae/IMG_2468.jpeg)
 
 ## Reassemble Case
 
 Place the switch plate into the top part of the case and screw it in. If using the o-ring bumpers for burger mounting, you don't have to screw it in fully tight, as you can leave it a bit loose to allow for some flex while typing.
 
-![](./assets/images/iris-ae/IMG_2469.jpeg)
+![Switch plate screwed into aluminum case top](./assets/images/iris-ae/IMG_2469.jpeg)
 
 If your case doesn't already have the [silicone tray inserts](https://keeb.io/products/iris-aluminum-case-silicone-tray-insert) installed, insert them in now. The left and right half pieces are different, so make sure the flat side faces upwards, as the bottom side of the silicone pieces are designed to fit on to the curved ledge of the bottom case piece.
 
-![](./assets/images/iris-ae/silicone-tray.jpg)
+![Silicone tray liner inside case bottom](./assets/images/iris-ae/silicone-tray.jpg)
 
 (Optional) If you don't have the silicone tray inserts, add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
-![](./assets/images/iris-ae/IMG_2470.jpeg)
+![PCB underside with FLAHNS bumpers](./assets/images/iris-ae/IMG_2470.jpeg)
 
 ### Add Rubber Feet
 
 Remove the adhesive backing of the SKUF feet and add them to the bottom of the board to prevent the board from sliding around.
 
-![](./assets/images/iris-ae/IMG_2471.jpeg)
+![Bottom of case with SKUF rubber feet](./assets/images/iris-ae/IMG_2471.jpeg)
 
 ### Screw on bottom
 
 Put the bottom part of the case on and then screw it to the top half.
 
-![](./assets/images/iris-ae/IMG_2472.jpeg)
+![Bottom case piece placed on top half](./assets/images/iris-ae/IMG_2472.jpeg)
 
-![](./assets/images/iris-ae/IMG_2473.jpeg)
-
+![Completed assembled case bottom view](./assets/images/iris-ae/IMG_2473.jpeg)
 
 ### Add keycaps and knob
 
@@ -191,4 +190,4 @@ One thing to note is that because the case does not have a hole at the bottom to
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
 2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
 
-![](./assets/images/iris-ae/qk-boot.png)
+![Keymap showing Lower and Tab QK_BOOT keys](./assets/images/iris-ae/qk-boot.png)

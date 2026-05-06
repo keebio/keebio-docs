@@ -71,7 +71,7 @@ Before reassembling the case, plug the USB cable into the PCB and test all of th
 
 It's best to test using the [Key Tester in VIA](via#key-tester-tab) with `Test Matrix` mode on, as this will let you test the Lower and Raise keys properly.
 
-![](./assets/images/iris-ce/iris-via-key-tester.png)
+![VIA key tester with Test Matrix mode](./assets/images/iris-ce/iris-via-key-tester.png)
 
 If a key is not working, check that the switch is inserted properly and that the pins are aligned with the hotswap socket. Sometimes, a pin can get bent during insertion, which can cause the switch to not work.
 

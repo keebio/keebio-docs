@@ -42,22 +42,21 @@ Any 2u key (or wider) will need a 2u stabilizer.
 
 ## Prepare Components
 
-![](./assets/images/quefrency/x96LIyE.jpg)
+![Quefrency Rev. 1 kit parts laid out](./assets/images/quefrency/x96LIyE.jpg)
 
 Get your parts all set and make sure you have all the components.
 
-![](./assets/images/quefrency/h7aNdeq.jpg)
+![Calico cat sitting on workbench](./assets/images/quefrency/h7aNdeq.jpg)
 
 Make sure to let kitty know it's build time, if you don't she'll forget to disrupt you every step of the way.
 
-![](./assets/images/quefrency/NXZVbjx.jpg)
+![Hand bending diodes on paper strip](./assets/images/quefrency/NXZVbjx.jpg)
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger. Then tear the paper off carefully as not to bend them.
 
-
 ## Solder diodes, reset push buttons, TRRS jacks
 
-![](./assets/images/quefrency/NgokqZH.jpg)
+![Left PCB with diodes inserted and legs bent out](./assets/images/quefrency/NgokqZH.jpg)
 
 :::info It is recommended to install the diodes on the bottom of the PCB, instead of the top side as shown in these pictures
 This way, if a diode goes bad, it's very simple to replace. If you choose to install them on the top, should any go bad, you will regret this, as you won't be able to replace the faulty component easily.
@@ -67,17 +66,17 @@ Insert the diodes. The orientation of all the diodes are the same, they are vert
 
 Through-hole diodes will have a black band, SMD diodes have a white band.
 
-![](./assets/images/quefrency/XNP7s38.jpg)
+![Left PCB with all diodes installed](./assets/images/quefrency/XNP7s38.jpg)
 
 All the diodes installed on the left PCB.
 
-![](./assets/images/quefrency/Ed8bK7H.jpg)
+![PCB with diodes, TRRS jack, and resistors](./assets/images/quefrency/Ed8bK7H.jpg)
 
 After installing the diodes, add your TRRS jacks and reset buttons.
 
 ## Solder I2C resistors \(optional\)
 
-![](./assets/images/quefrency/Ed8bK7H.jpg)
+![PCB with diodes, TRRS jack, and resistors](./assets/images/quefrency/Ed8bK7H.jpg)
 
 Add your 4.7k ohm resistors for I2C on the left half. There are no resistors for the right half. Resistors also do not have a polarity, so the orientation doesn't matter when placing them.
 
@@ -85,37 +84,37 @@ Add your 4.7k ohm resistors for I2C on the left half. There are no resistors for
 The default firmware uses serial communication between the two halves using a single pin of the TRRS cable. Serial communication only allow for communication between two parts, which is fine for almost all builds.
 
 However, in the future, there might be additional parts that you can add, like a numpad, OLED screen, etc. To support this, the communication protocol would need to be switched over I2C, which can support multiple devices. Additionally, the latency between halves is lower using the I2C protocol, which can help if you are a fast typer.
-    
+
 To add support for I2C, all you need to do is add the 2 4.7kΩ resistors to one of the halves \(other half does not need them\). Also, it doesn't hurt to add these resistors if using serial communication.
 
 tl;dr: Adding this is optional, but you might as well do it as it's only 2 more components to solder.
 :::
 
-![](./assets/images/quefrency/cphn8ym.png)
+![Cat being petted on workbench](./assets/images/quefrency/cphn8ym.png)
 
 Repeat the same process with the diodes, TRRS jack, and reset switch with the right half. Remember no I2C resistor slots on this side, as they're only needed on one half. Then, take a moment to pet kitty before she hates you for ignoring her.
 
 ## Solder Pro Micro header pins
 
-![](./assets/images/quefrency/2Q538Hq.jpg)
+![PCB corner with Pro Micro header pins inserted](./assets/images/quefrency/2Q538Hq.jpg)
 
 Solder on the header pins for the Pro Micro.
 
-![](./assets/images/quefrency/Qh0KWho.jpg)
+![Pro Micro taped to PCB for header pin alignment](./assets/images/quefrency/Qh0KWho.jpg)
 
 You can use the PM to get the alignment set, and/or tape it there to keep it from rocking to one side or the other, then solder the 4 corner pins on the top of the board. Do not solder the pro micro to the PCB.
 
-![](./assets/images/quefrency/p7CfEY9.jpg)
+![PCB with 4 corner header pins soldered](./assets/images/quefrency/p7CfEY9.jpg)
 
 After the 4 corners are soldered in place, remove the PM. You don't want to space out and start soldering it to the pins, so just get it out of there.
 
-![](./assets/images/quefrency/V0mHYMG.jpg)
+![Both PCBs with header pins fully soldered](./assets/images/quefrency/V0mHYMG.jpg)
 
 Finish soldering the remaining pins on each half, with the PM safely set aside.
 
 ## Add stabilizers
 
-![](./assets/images/quefrency/dNWDczS.jpg)
+![PCB with stabilizers installed](./assets/images/quefrency/dNWDczS.jpg)
 
 Add stabilizers to the keys you want to stabilize.
 
@@ -124,36 +123,36 @@ For the Rev. 1.0 left PCB, one of the stabilizer mounts sits right next to a dio
 
 This issue has been fixed on the 1.1 PCB.
 
-![](./assets/images/quefrency/stab-diode-clip.jpg)
+![Stabilizer mount next to diode with clipping annotation](./assets/images/quefrency/stab-diode-clip.jpg)
 :::
 
 ## Add switches
 
-![](./assets/images/quefrency/bJlyXbw.jpg)
+![PCB and switch plate with corner switches inserted](./assets/images/quefrency/bJlyXbw.jpg)
 
 Time to add the switches. Put a few switches into the corners of the switch plate and then attach the switches to the PCB. Make sure the switches are pushed all the way down onto the PCB.
 
 Due to the multiple layout options, it may be helpful to put keycaps on the switches to make sure everything is in the correct slots, however, the layout options are labelled on the topside of the PCB.
 
-![](./assets/images/quefrency/Rzx33qt.jpg)
+![PCB with all switches and Pro Micro header pins](./assets/images/quefrency/Rzx33qt.jpg)
 
 All the switches installed and soldered in.
 
 ## Test/flash Pro Micro
 
-![](./assets/images/quefrency/J5FGu3J.jpg)
+![Pro Micro held with LEDs lit while flashing](./assets/images/quefrency/J5FGu3J.jpg)
 
 Time to install the Pro Micro now that the switches have been soldered in.
 
-![](./assets/images/quefrency/LLAJ1tE.jpg)
+![Kapton tape applied over header pins on PCB](./assets/images/quefrency/LLAJ1tE.jpg)
 
 [Flash those pro micros](flashing-firmware.md)! We want to be sure they work before we install them.
 
-![](./assets/images/quefrency/dYbFoZB.jpg)
+![Switch pins clipped with Kapton tape applied](./assets/images/quefrency/dYbFoZB.jpg)
 
 To make sure that the switch pins don't touch the Pro Micro, clip them flush with the PCB. Afterwards, add Kapton or electrical tape on top of it.
 
-![](./assets/images/quefrency/9GeXjZC.jpg)
+![Pro Micro soldered to PCB with Kapton tape](./assets/images/quefrency/9GeXjZC.jpg)
 
 ## Solder Pro Micros
 
@@ -161,7 +160,7 @@ Place the Pro Micro on the header pins. Match the PM pinouts to the pinouts on t
 
 Don't install it backwards, it won't work that way, and there's no software solution to fix that.
 
-![](./assets/images/quefrency/AFBcIes.jpg)
+![Pro Micro soldered to PCB with flush-cut pins](./assets/images/quefrency/AFBcIes.jpg)
 
 Trim down the pins with a flush cutter after it's soldered, then repeat on the other half.
 
@@ -169,14 +168,14 @@ Not shown in these pictures, but add electrical tape or Kapton tape on top of th
 
 ## Assemble case
 
-![](./assets/images/quefrency/nwlfdoH.jpg)
+![Assembled case with bottom plate and bumpons](./assets/images/quefrency/nwlfdoH.jpg)
 
 Assemble the case by adding screws, standoffs, and bottom plates.
 
-![](./assets/images/quefrency/3y6AzeE.jpg)
+![Left half assembled with standoffs and screws](./assets/images/quefrency/3y6AzeE.jpg)
 
 If you have some bumpons, stick one on each corner. Repeat on the other half and that's it!
 
-![](./assets/images/quefrency/cjNzAik.jpg)
+![Completed Quefrency with keycaps installed](./assets/images/quefrency/cjNzAik.jpg)
 
 If you haven't yet, slap some caps on your new board. Now clack away!

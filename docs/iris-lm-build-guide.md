@@ -48,12 +48,11 @@ The polycarbonate version of the Iris LM does not have o-rings, as there is no i
 
 :::
 
-
-![](./assets/images/iris-lm/IMG_3739.jpeg)
+![Iris LM kit parts laid out](./assets/images/iris-lm/IMG_3739.jpeg)
 
 First, unscrew the switch plate from the tray, and remove the foam piece from the tray. You can leave the silicone liner in the tray.
 
-![](./assets/images/iris-lm/IMG_3699.jpeg)
+![Switch plate removed from tray](./assets/images/iris-lm/IMG_3699.jpeg)
 
 :::caution Keep track of the o-rings (Aluminum case only)
 
@@ -61,40 +60,39 @@ On top of each of the 5 mounting points on each half, there is a small, clear o-
 
 :::
 
-![](./assets/images/iris-lm/IMG_3720.jpeg)
+![Case tray with o-rings on mounting points](./assets/images/iris-lm/IMG_3720.jpeg)
 
-![](./assets/images/iris-lm/IMG_3700.jpeg)
+![Switch plate support foam pieces](./assets/images/iris-lm/IMG_3700.jpeg)
 
 See if silicone bumpers are installed on the bottom of the case trays.
 
-![](./assets/images/iris-lm/IMG_3721.jpeg)
+![Case tray bottom with silicone bumpers](./assets/images/iris-lm/IMG_3721.jpeg)
 
 Plug in the PCBs and make sure all the LEDs are working.
 
-![](./assets/images/iris-lm/IMG_3737.jpeg)
-
+![PCB plugged in with LEDs lit](./assets/images/iris-lm/IMG_3737.jpeg)
 
 ## Add switches
 
 First overlay the foam piece over the PCB. Line up the screw holes with the holes in the piece.
 
-![](./assets/images/iris-lm/IMG_3701.jpeg)
+![Foam piece placed over PCB](./assets/images/iris-lm/IMG_3701.jpeg)
 
 Add the switch plate on top of the foam piece, checking alignment of the screw holes again with the PCB.
 
-![](./assets/images/iris-lm/IMG_3702.jpeg)
+![Switch plate placed over foam piece](./assets/images/iris-lm/IMG_3702.jpeg)
 
 Insert a switch at one of the inner thumb keys and check that things are still lined up correctly.
 
-![](./assets/images/iris-lm/IMG_3703.jpeg)
+![Inner thumb switch inserted in plate](./assets/images/iris-lm/IMG_3703.jpeg)
 
 Insert some switches are the corners and check again that things are still lined up correctly. The switches should be flush with the plate. If a couple of the switches don't sit flat on the plate, remove the plate, reposition the foam piece, and try again.
 
-![](./assets/images/iris-lm/IMG_3704.jpeg)
+![Corner switches inserted in plate](./assets/images/iris-lm/IMG_3704.jpeg)
 
 Add the rest of the switches.
 
-![](./assets/images/iris-lm/IMG_3705.jpeg)
+![All switches inserted in plate](./assets/images/iris-lm/IMG_3705.jpeg)
 
 ## Test keys
 
@@ -102,7 +100,7 @@ Before reassembling the case, plug the USB cable into the PCB and test all of th
 
 It's best to test using the [Key Tester in VIA](via#key-tester-tab) with `Test Matrix` mode on, as this will let you test the Lower and Raise keys properly.
 
-![](./assets/images/iris-ce/iris-via-key-tester.png)
+![VIA key tester with Test Matrix mode](./assets/images/iris-ce/iris-via-key-tester.png)
 
 ## Assemble Case
 
@@ -110,23 +108,23 @@ Now that all of the switches have been inserted, it's time to assemble the case.
 
 (Optional) Place an o-ring over each of the mounting points. This will provide some cushion between the top portion of the build from the tray bottom of the case.
 
-![](./assets/images/iris-lm/IMG_3720.jpeg)
+![Case tray with o-rings on mounting points](./assets/images/iris-lm/IMG_3720.jpeg)
 
 Next, place the plate assembly into the tray.
 
-![](./assets/images/iris-lm/IMG_3706.jpeg)
+![Plate assembly placed in case tray](./assets/images/iris-lm/IMG_3706.jpeg)
 
 Add screws to each of the holes and screw them in. You do not need to overly tighten them. Doing so on the polycarbonate version of the case will damage the bottom of the case.
 
-![](./assets/images/iris-lm/IMG_3707.jpeg)
+![Screws added to case tray](./assets/images/iris-lm/IMG_3707.jpeg)
 
 Add keycaps to all of the switches.
 
-![](./assets/images/iris-lm/IMG_3708.jpeg)
+![Keycaps added to left half](./assets/images/iris-lm/IMG_3708.jpeg)
 
 Repeat the same process for the other half of the keyboard.
 
-![](./assets/images/iris-lm/IMG_3694.jpeg)
+![Completed Iris LM both halves with RGB](./assets/images/iris-lm/IMG_3694.jpeg)
 
 ## Default Keymap
 
@@ -141,7 +139,7 @@ While the bottom plates have a hole at the bottom to allow you to access the res
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris LM already has VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
 2. If you are not using VIA and are using QMK instead, use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `R` on the left half or `Raise` + `Del` on the right half as shown below:
 
-![](./assets/images/iris-ce/iris-ce-qk-boot.png)
+![Keymap showing QK_BOOT key locations](./assets/images/iris-ce/iris-ce-qk-boot.png)
 
 For reference, the Iris LM PCB uses a STM32G431 microcontroller.
 
@@ -151,4 +149,4 @@ If you'd like to turn the RGB LEDs off, you can control the [RGB settings in VIA
 
 If you still have the default keymapping, you can also hold the `Lower` key and then press `Left Shift` as highlighted below:
 
-![](./assets/images/iris-ce/rgb-off.png)
+![Keymap showing Lower and Shift for RGB off](./assets/images/iris-ce/rgb-off.png)

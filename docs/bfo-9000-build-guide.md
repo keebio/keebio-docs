@@ -15,7 +15,7 @@ Here's a list of parts needed for the build:
   - [Elite-Pi](https://keeb.io/products/elite-pi-usb-c-pro-micro-replacement-rp2040) (can't mix-and-match these)
 - Up to 108 switches (MX-compatible, Alps, and Choc switches are supported)
 
-![](./assets/images/bfo-9000/IMG_6032.jpg)
+![BFO-9000 Kit Parts Laid Out](./assets/images/bfo-9000/IMG_6032.jpg)
 
 ## Build Steps
 
@@ -41,7 +41,7 @@ Here's a summary of the build steps:
 
 If you've got the version of BFO-9000 PCBs with pre-soldered components (diodes, TRRS jacks, reset button, resistors), then you can skip ahead to [soldering on microcontroller headers](#add-pro-micro-header-pins).
 
-![](./assets/images/bfo-9000/bfo-9000-rev1.3.jpg)
+![BFO-9000 Rev. 1.3 PCBs](./assets/images/bfo-9000/bfo-9000-rev1.3.jpg)
 
 Both of the TRRS jacks on each PCB of this revision are connected to each other, so you may use either jack when connecting both halves together.
 
@@ -49,23 +49,23 @@ Both of the TRRS jacks on each PCB of this revision are connected to each other,
 
 Bend the diodes, first technique, bend them around your finger:
 
-![](./assets/images/iris-rev2/rrey3ej.jpg)
+![Bending Diodes Around Finger](./assets/images/iris-rev2/rrey3ej.jpg)
 
 Second technique for bending diodes is to do it around a stack of plates:
 
-![](./assets/images/bfo-9000/IMG_6034.jpg)
+![Diodes Bent Around Switch Plate](./assets/images/bfo-9000/IMG_6034.jpg)
 
 Strip of diodes bent now:
 
-![](./assets/images/iris-rev2/2D39Ojx.jpg)
+![Strip of Bent Diodes](./assets/images/iris-rev2/2D39Ojx.jpg)
 
 Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
 
-![](./assets/images/iris-rev2/Ys0X30w.jpg)
+![Ripping Paper Strip off Diodes](./assets/images/iris-rev2/Ys0X30w.jpg)
 
 All separated from the paper, ready for insertion into PCB:
 
-![](./assets/images/iris-rev2/4cFrb2D.jpg)
+![Bent Diodes Separated from Paper](./assets/images/iris-rev2/4cFrb2D.jpg)
 
 ## Solder Components
 
@@ -77,41 +77,41 @@ Note that the two halves of the PCBs are identical. The only difference for each
 
 On the bottom side of the PCB, insert diodes with the black line towards the bottom. Square = Black line. All of the diodes are oriented vertically on the PCB:
 
-![](./assets/images/bfo-9000/IMG_6037.jpg)
+![Diodes Inserted in PCB](./assets/images/bfo-9000/IMG_6037.jpg)
 
 Sticking the diodes on the top side of the PCB is not recommended, because you can't replace them once everything is assembled using that method.
 
 Bend the legs out to hold the diodes in place for when you solder them in:
 
-![](./assets/images/bfo-9000/IMG_6038.jpg)
+![Diode Legs Bent Out on PCB](./assets/images/bfo-9000/IMG_6038.jpg)
 
 Solder the diodes and clip the diode legs off:
 
-![](./assets/images/bfo-9000/IMG_6039.jpg)
+![Diodes Soldered and Legs Clipped](./assets/images/bfo-9000/IMG_6039.jpg)
 
 ### Add I2C resistors \(optional\)
 
 Add the I2C resistors to the left PCB, orientation does not matter for resistors:
 
-![](./assets/images/bfo-9000/IMG_6040.jpg)
+![I2C Resistors Added to PCB](./assets/images/bfo-9000/IMG_6040.jpg)
 
 ### Add TRRS jack and reset button
 
 Add the reset button to the PCB:
 
-![](./assets/images/bfo-9000/IMG_6041.jpg)
+![Reset Button Added to PCB](./assets/images/bfo-9000/IMG_6041.jpg)
 
 Flip the board over and solder reset button:
 
-![](./assets/images/bfo-9000/IMG_6042.jpg)
+![Reset Button Soldered on PCB](./assets/images/bfo-9000/IMG_6042.jpg)
 
 Add the reset button to the other half and repeat:
 
-![](./assets/images/bfo-9000/IMG_6043.jpg)
+![Both Halves with Reset Buttons](./assets/images/bfo-9000/IMG_6043.jpg)
 
 Solder the TRRS jack for the left half away from the reset switch, and solder the TRRS jack for the right half next to the reset switch:
 
-![](./assets/images/bfo-9000/IMG_6044.jpg)
+![TRRS Jacks Soldered on Both PCBs](./assets/images/bfo-9000/IMG_6044.jpg)
 
 ### Add Pro Micro header pins
 
@@ -119,11 +119,11 @@ Solder the TRRS jack for the left half away from the reset switch, and solder th
 
 Insert the header pins into both PCBs:
 
-![](./assets/images/bfo-9000/IMG_6045.jpg)
+![Header Pins Inserted in Both PCBs](./assets/images/bfo-9000/IMG_6045.jpg)
 
 Flip the PCBs over and solder:
 
-![](./assets/images/bfo-9000/IMG_6046.jpg)
+![Header Pins Soldered from Below](./assets/images/bfo-9000/IMG_6046.jpg)
 
 :::info For Low-Profile Builds:
 
@@ -133,15 +133,15 @@ If you are doing a build with low-profile switches, you *must* do the following 
 
 \(Optional for MX, Required for Low-Profile\) Trim down header pins on top-side of PCB:
 
-![](./assets/images/bfo-9000/IMG_3678.jpeg)
+![Flush Cutters Trimming Header Pin Tops](./assets/images/bfo-9000/IMG_3678.jpeg)
 
 \(Optional\) Remove plastic on header pins so Pro Micro port is flush with PCB:
 
-![](./assets/images/levinson-rev3/IMG_3748.JPG)
+![Tweezers Removing Header Pin Plastic](./assets/images/levinson-rev3/IMG_3748.JPG)
 
 \(Optional\) Plastic all removed:
 
-![](./assets/images/levinson-rev3/IMG_3749.JPG)
+![Header Pins with Plastic Removed](./assets/images/levinson-rev3/IMG_3749.JPG)
 
 Don't solder on the Pro Micro yet.
 
@@ -155,37 +155,37 @@ Do not install Peel-A-Way sockets for low-profile builds, as the sockets will st
 
 If using Peel-A-Way sockets instead, insert strips into the PCB:
 
-![](./assets/images/levinson-rev3/IMG_3727.JPG)
+![Peel-A-Way Socket Strips in PCB](./assets/images/levinson-rev3/IMG_3727.JPG)
 
 Hold the strips down using tape:
 
-![](./assets/images/levinson-rev3/IMG_3728.JPG)
+![Tape Holding Socket Strips Down](./assets/images/levinson-rev3/IMG_3728.JPG)
 
 Flip the PCB over and solder the pins:
 
-![](./assets/images/levinson-rev3/IMG_3729.JPG)
+![Peel-A-Way Sockets Soldered from Below](./assets/images/levinson-rev3/IMG_3729.JPG)
 
 Soldering complete:
 
-![](./assets/images/levinson-rev3/IMG_3731.JPG)
+![Peel-A-Way Socket Soldering Complete](./assets/images/levinson-rev3/IMG_3731.JPG)
 
 Remove plastic covering around sockets:
 
-![](./assets/images/levinson-rev3/IMG_3732.JPG)
+![Peel-A-Way Socket Covers Removed](./assets/images/levinson-rev3/IMG_3732.JPG)
 
 ## Add switches to switch plate and solder
 
 Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them:
 
-![](./assets/images/bfo-9000/IMG_6047.jpg)
+![Corner Switches in Switch Plate](./assets/images/bfo-9000/IMG_6047.jpg)
 
 Add the rest of the switches:
 
-![](./assets/images/bfo-9000/IMG_6048.jpg)
+![All Switches Installed in Plate](./assets/images/bfo-9000/IMG_6048.jpg)
 
 Solder the rest of the switches:
 
-![](./assets/images/bfo-9000/IMG_6049.jpg)
+![PCB Underside with Switches Soldered](./assets/images/bfo-9000/IMG_6049.jpg)
 
 ## Flash Pro Micros
 
@@ -197,31 +197,31 @@ Flash both of the Pro Micros before soldering them to the board to ensure that t
 
 Clip the switch pins of the switches that will be covered up by the controller, so the pin don't come in contact with the controller:
 
-![](./assets/images/bfo-9000/IMG_6050.jpg)
+![Flush Cutters Clipping Switch Pins](./assets/images/bfo-9000/IMG_6050.jpg)
 
 Add a piece of electrical tape on top of the clipped pins:
 
-![](./assets/images/bfo-9000/IMG_6051.jpg)
+![Electrical Tape Over Clipped Pins](./assets/images/bfo-9000/IMG_6051.jpg)
 
 Place Pro Micro onto the header pins:
 
-![](./assets/images/bfo-9000/IMG_6052.jpg)
+![Pro Micro Placed on Header Pins](./assets/images/bfo-9000/IMG_6052.jpg)
 
 Solder the header pins to the Pro Micro:
 
-![](./assets/images/bfo-9000/IMG_6053.jpg)
+![Pro Micro Pins Being Soldered](./assets/images/bfo-9000/IMG_6053.jpg)
 
 Clip the excess length of the pins:
 
-![](./assets/images/bfo-9000/IMG_6054.jpg)
+![Flush Cutters Trimming Pro Micro Pins](./assets/images/bfo-9000/IMG_6054.jpg)
 
 All clean, now do the same for the other half.
 
-![](./assets/images/bfo-9000/IMG_6055.jpg)
+![Pro Micro Soldered on PCB](./assets/images/bfo-9000/IMG_6055.jpg)
 
 Add tape on top of the Pro Micros to prevent them from touching the bottom plate:
 
-![](./assets/images/bfo-9000/IMG_6056.jpg)
+![Tape Added Over Pro Micro](./assets/images/bfo-9000/IMG_6056.jpg)
 
 ## Solder RGB strip \(Optional\)
 
@@ -231,15 +231,15 @@ See the [Adding RGB Underglow Guide](adding-rgb-underglow.md):
 
 Insert the screws through the top of the switch plate and attach standoffs from the bottom side of the plate:
 
-![](./assets/images/bfo-9000/IMG_6057.jpg)
+![Standoffs Attached to Switch Plate](./assets/images/bfo-9000/IMG_6057.jpg)
 
 Put bottom plate on and add screws:
 
-![](./assets/images/bfo-9000/IMG_6058.jpg)
+![Screwdriver Adding Bottom Plate Screw](./assets/images/bfo-9000/IMG_6058.jpg)
 
 You did it!:
 
-![](./assets/images/bfo-9000/IMG_6059.jpg)
+![Completed BFO-9000 Both Halves](./assets/images/bfo-9000/IMG_6059.jpg)
 
 ## Firmware
 

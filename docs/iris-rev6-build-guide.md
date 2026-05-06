@@ -27,7 +27,7 @@ First up, time to get your parts:
 * [2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer) if using 2u keys (optional)
 * [3D-Printed Iris Case](https://github.com/keebio/iris-case#iris-pe-phoenix-edition-parts) (optional)
 
-![](./assets/images/iris-rev6/IMG_7838.jpg)
+![Iris Rev. 6 Kit Parts Laid Out](./assets/images/iris-rev6/IMG_7838.jpg)
 
 ## Build Steps Summary
 
@@ -39,7 +39,6 @@ First up, time to get your parts:
 
 ## Solder Rotary Encoder
 
-
 :::info
 
 If you have the Iris Rev. 6.1 PCBs, you do not need to clip the two larger mounting pins on the encoder as mentioned below, since the PCB now has slots for it.
@@ -50,27 +49,27 @@ If you have the Iris Rev. 6.0, 7, or 8 PCBs, you will need to do this procedure.
 
 If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB:
 
-![](./assets/images/iris-rev6/IMG_7842.jpg)
+![Clipping Encoder Mounting Pins with Flush Cutters](./assets/images/iris-rev6/IMG_7842.jpg)
 
 It should look like this after clipping:
 
-![](./assets/images/iris-rev6/IMG_7843.jpg)
+![Encoder with Mounting Pins Clipped](./assets/images/iris-rev6/IMG_7843.jpg)
 
 Insert the encoder onto the PCB and solder the 3 pins at the top side of the encoder and the 2 pins at the bottom side.
 
-![](./assets/images/iris-rev6/IMG_7844.jpg)
+![Encoder Installed on PCB Thumb Section](./assets/images/iris-rev6/IMG_7844.jpg)
 
 Then flip the board over and solder all 5 pins. Make sure that they remain pushed in all the way through the board while soldering. Also be careful to not come in contact with the hotswap socket while soldering the side of the encoder that has 2 pins. Accidental contact with the black portion is okay, but try to avoid doing so.
 
-![](./assets/images/iris-rev6/IMG_7845.jpg)
+![PCB Underside with Encoder Soldered](./assets/images/iris-rev6/IMG_7845.jpg)
 
 ### Rev. 7-8
 
 If you have the Rev. 7-8, when installing the encoders, you will need to bend the legs of the rotary encoder slightly inwards, outwards, and/or to the side (depending on the pads on the PCB) in order for the encoders to fit onto the PCB.
 
-![](./assets/images/iris-rev7/IMG_2325.jpg)
+![Encoder Installed on Rev. 7 PCB](./assets/images/iris-rev7/IMG_2325.jpg)
 
-![](./assets/images/iris-rev7/IMG_2326.jpg)
+![Rev. 7 PCB with Encoder Pins Soldered](./assets/images/iris-rev7/IMG_2326.jpg)
 
 Once you've pushed the encoder pins through the PCB, make sure the encoder is flat against the top of the PCB.
 
@@ -78,7 +77,7 @@ Once you've pushed the encoder pins through the PCB, make sure the encoder is fl
 
 Add the 2u stabilizer if you have the Iris Rev. 7-8 PCBs and want a 2u key at the thumb. Do this before installing the switch plate and switches.
 
-![](./assets/images/iris-rev7/IMG_2323.jpg)
+![Rev. 7 PCB with Stabilizers Installed](./assets/images/iris-rev7/IMG_2323.jpg)
 
 ## Prepare Acrylic Plates
 
@@ -90,29 +89,29 @@ You can skip this section if you are using FR4 plates or stainless steel plates.
 
 Peel up a corner of the protective paper film of the acrylic plate. You can use your fingernail or any other kind of object. Be careful to not scratch up the plate while doing so.
 
-![](./assets/images/iris-rev6/IMG_7839.jpg)
+![Acrylic Plate with Protective Paper Corner](./assets/images/iris-rev6/IMG_7839.jpg)
 
 Once the corner of the film is up, keep peeling the rest of the film off. It helps to peel it off diagonally as shown here.
 
-![](./assets/images/iris-rev6/IMG_7840.jpg)
+![Protective Paper Being Peeled Off Diagonally](./assets/images/iris-rev6/IMG_7840.jpg)
 
 One side complete, repeat the same process for the other side of the plate for all the plates in the set.
 
-![](./assets/images/iris-rev6/IMG_7841.jpg)
+![Acrylic Plate with Paper Fully Removed](./assets/images/iris-rev6/IMG_7841.jpg)
 
 Because the acrylic plate is 3mm thick instead of 1.5mm, the switch will not fully click into the plate. To prevent the plate from slipping off of the switches and onto the PCB, add some material between the bottom of the plate and the top of the PCB. You will need something about 2mm thick, such as rubber bumpons or rolled up electrical tape.
 
 If you have extra [SKUF Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet) not being used for the bottom plate, take one and cut it up into 6-8 pieces.
 
-![](./assets/images/iris-rev6/IMG_0690.jpg)
+![SKUF Foot Cut into Pieces](./assets/images/iris-rev6/IMG_0690.jpg)
 
 Then stick them on to the underside of the switch plate to provide the buffer. The locations don't have to exactly match what's shown below, but something like that is good.
 
-![](./assets/images/iris-rev6/IMG_0691.jpg)
+![SKUF Pieces on Switch Plate Underside](./assets/images/iris-rev6/IMG_0691.jpg)
 
 Here's the other option of using electrical tape if you don't have SKUF feet:
 
-![](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
+![Electrical Tape Buffer on Acrylic Plate](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
 
 ## Add Switches
 
@@ -122,15 +121,15 @@ Here's a video tutorial of the process:
 
 Insert a few switches into the switch plate at the corners.
 
-![](./assets/images/iris-rev6/IMG_7849.jpg)
+![Corner Switches Inserted in Switch Plate](./assets/images/iris-rev6/IMG_7849.jpg)
 
 Make sure the switches are oriented so that they are south-facing (pins at the bottom).
 
-![](./assets/images/iris-rev6/IMG_7850.jpg)
+![Corner Switches Installed South-Facing](./assets/images/iris-rev6/IMG_7850.jpg)
 
 Align the pins of the switches into the hotswap sockets.
 
-![](./assets/images/iris-rev6/IMG_7851.jpg)
+![Side View of Plate on PCB](./assets/images/iris-rev6/IMG_7851.jpg)
 
 ### Support the Hotswap Socket
 
@@ -142,11 +141,11 @@ It's really important to be pressing on the hotswap socket during switch inserti
 
 :::
 
-![](./assets/images/hotswap/squeeze.jpg)
+![Switch Level with Plate Top](./assets/images/hotswap/squeeze.jpg)
 
 Make sure that the switch remains flush with the plate.
 
-![](./assets/images/iris-rev6/IMG_7853.jpg)
+![Side View Plate PCB with Encoder](./assets/images/iris-rev6/IMG_7853.jpg)
 
 :::danger
 
@@ -154,27 +153,27 @@ Don't attempt to insert switches with bent pins into the hotswap socket, as that
 
 :::
 
-![](./assets/images/iris-rev6/IMG_7854.jpg)
+![Switch with Bent Pin Bottom View](./assets/images/iris-rev6/IMG_7854.jpg)
 
 If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have something like a pair of tweezers to straighten out the pin.
 
-![](./assets/images/iris-rev6/IMG_7855.jpg)
+![Tweezers Straightening Bent Switch Pin](./assets/images/iris-rev6/IMG_7855.jpg)
 
 If you're using an acrylic plate, make sure the switches are centered properly within the cutout. If they're not centered, then this will cause issues with putting in the switches for the thumb keys.
 
 #### Good (Centered)
 
-![](./assets/images/iris-rev6/acrylic-centered.jpg)
+![Switch Centered in Plate Cutout](./assets/images/iris-rev6/acrylic-centered.jpg)
 
 #### Bad (Not centered)
 
-![](./assets/images/iris-rev6/acrylic-uncentered.jpg)
+![Switch Not Centered in Cutout](./assets/images/iris-rev6/acrylic-uncentered.jpg)
 
 After you've installed the first few switches successfully, insert the rest of them in. As before, make sure you are supporting the bottom of the socket while pressing the switches in.
 
-![](./assets/images/iris-rev6/IMG_7856.jpg)
+![Hand Pressing Switches into PCB](./assets/images/iris-rev6/IMG_7856.jpg)
 
-![](./assets/images/iris-rev6/IMG_7858.jpg)
+![All Switches Installed in Plate](./assets/images/iris-rev6/IMG_7858.jpg)
 
 ## Assemble Case
 
@@ -188,11 +187,11 @@ If you have 3D-printed top shells that you are going to install, skip this secti
 
 First step is to add the screws and standoffs to the switch plate. For each hole, insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate.
 
-![](./assets/images/iris-rev6/IMG_7859.jpg)
+![Standoffs Inserted through Switch Plate](./assets/images/iris-rev6/IMG_7859.jpg)
 
 (Optional) If you've got an acrylic middle layer, put it over the standoffs.
 
-![](./assets/images/iris-rev6/IMG_7860.jpg)
+![Acrylic Middle Layer on Standoffs](./assets/images/iris-rev6/IMG_7860.jpg)
 
 ### Add silicone tray liner
 
@@ -212,23 +211,23 @@ If your plate kit comes with a silicone tray liner, lay it over the bottom of th
 
 If you installed an encoder, you will need to add a [silicone bumper](https://keeb.io/products/flahns-5mm-hotswap-silicone-bumpers) or piece of foam about 3-4mm thick that will sit in between the bottom of the PCB and the bottom plate. This will prevent the PCB from dislodging from the switches when pressing down on the encoder.
 
-![](./assets/images/iris-rev6/IMG_7861.jpg)
+![Foam Bumper Added to PCB Bottom](./assets/images/iris-rev6/IMG_7861.jpg)
 
 (Optional) Add FLAHNS bumpers to underside of PCB to help support it up. About 4-6 for each half with work fine.
 
-![](./assets/images/iris-rev6/flahns-top.jpg)
+![FLAHNS Bumpers on PCB Top View](./assets/images/iris-rev6/flahns-top.jpg)
 
-![](./assets/images/iris-rev6/flahns-side.jpg)
+![FLAHNS Bumpers PCB Side View](./assets/images/iris-rev6/flahns-side.jpg)
 
 ### Add bottom plate
 
 Put the bottom plate on top of the standoffs and screw it on.
 
-![](./assets/images/iris-rev6/IMG_7862.jpg)
+![Bottom Plate Screwed onto Standoffs](./assets/images/iris-rev6/IMG_7862.jpg)
 
 Flip the board over and you're done! Or if you've got other case parts, continue reading...
 
-![](./assets/images/iris-rev6/IMG_7865.jpg)
+![Completed Board with All Switches](./assets/images/iris-rev6/IMG_7865.jpg)
 
 ### Add keycaps and knob
 
@@ -240,33 +239,33 @@ Add your keycaps and knob (if you have a rotary encoder)!
 
 If you've got [SKUF Feet](https://keeb.io/products/skuf-silicone-rubber-keyboard-feet), add them to the bottom of the board. Alternatively, you can use any kind of rubber bumpons of your choice.
 
-![](./assets/images/iris-rev6/IMG_7864.jpg)
+![SKUF Feet on Case Bottom](./assets/images/iris-rev6/IMG_7864.jpg)
 
 A [3D-printed alignment guide](https://github.com/keebio/iris-case/blob/master/Iris%20Bottom%20Plate%20SKUF%20Alignment%20Guide.stl) is available if you'd like to place them in a more orderly fashion.
 
-![](./assets/images/iris-rev6/IMG_7863.jpg)
+![Case Bottom Angled with SKUF Feet](./assets/images/iris-rev6/IMG_7863.jpg)
 
 ### 3D-Printed Middle Layer (w/Ergodox Leg support) Installation
 
 Parts needed for this section are the Ergodox EZ Tenting Leg Kit, 6 M3 nuts, and a 3D-printed middle layer appropriate for your case plates.
 
-![](./assets/images/iris-rev6/IMG_7866.jpg)
+![Tenting Kit Parts Laid Out](./assets/images/iris-rev6/IMG_7866.jpg)
 
 Insert an M3 nut into the middle layer from the bottom. Put the spring over the thumbscrew and then insert them through the leg. Afterwards screw it into the nut and tighten.
 
-![](./assets/images/iris-rev6/IMG_7867.jpg)
+![Tenting Leg Attached to Frame Corner](./assets/images/iris-rev6/IMG_7867.jpg)
 
 Repeat for all of the legs.
 
-![](./assets/images/iris-rev6/IMG_7868.jpg)
+![Tenting Frame with Three Legs](./assets/images/iris-rev6/IMG_7868.jpg)
 
 If you are not going to install a top shell, then insert standoffs into the middle layer.
 
-![](./assets/images/iris-rev6/IMG_7869.jpg)
+![Tenting Leg with Standoff Inserts](./assets/images/iris-rev6/IMG_7869.jpg)
 
 Add bottom plate and screw it in.
 
-![](./assets/images/iris-rev6/IMG_7870.jpg)
+![Assembled Half with Tenting Leg](./assets/images/iris-rev6/IMG_7870.jpg)
 
 ### Acrylic Middle Layer (w/Tenting Holes) Installation
 
@@ -280,19 +279,19 @@ For 1.5mm plate sets (FR4 or Stainless Steel), you will need 18mm screws.
 
 For 3mm plate sets (Acrylic), you will need 20 or 22mm screws.
 
-![](./assets/images/iris-rev6/IMG_7871.jpg)
+![Tenting Leg Attachment Close-Up](./assets/images/iris-rev6/IMG_7871.jpg)
 
 Align the top shell over the switch plate and line it up with the middle layer and bottom plate.
 
-![](./assets/images/iris-rev6/IMG_7872.jpg)
+![Left and Right O-Ring Frames](./assets/images/iris-rev6/IMG_7872.jpg)
 
 Insert the long M2 screw through the bottom plate, then through the middle layer, then the switch plate, and finally into the top shell. Tighten the screw into the top shell. This may require some additional force of pushing the screw into the top shell to help if thread properly.
 
-![](./assets/images/iris-rev6/IMG_7874.jpg)
+![Hand Holding Case with Tenting Leg](./assets/images/iris-rev6/IMG_7874.jpg)
 
 Done!
 
-![](./assets/images/iris-rev6/IMG_7878.jpg)
+![Completed Half with Tenting Assembly](./assets/images/iris-rev6/IMG_7878.jpg)
 
 ## Default Keymap
 
@@ -307,10 +306,10 @@ While the bottom plates have a hole at the bottom to allow you to access the res
 1. Use [VIA](via.md) to remap your keys. The stock firmware on the Iris Rev. 6 & 7 PCBs already have VIA support enabled. This allows you to remap the keyboard without having to reflash the board.
 2. Use the `QK_BOOT` keycode to reset the keyboard to allow it to be reflashed without needing to physically press the reset button on the PCB. The default way of using `QK_BOOT` is by pressing `Lower` + `Tab` as shown below:
 
-![](./assets/images/iris-ae/qk-boot.png)
+![QK Boot Key Layout Diagram](./assets/images/iris-ae/qk-boot.png)
 
 ## Turning off RGB LEDs
 
 If you'd like to turn the RGB LEDs off and still have the default keymapping, hold the `MO(2)` key and then press `Tab` as highlighted below:
 
-![](./assets/images/iris-rev6/iris-rgb-off.jpg)
+![Iris RGB Toggle Key Layout](./assets/images/iris-rev6/iris-rgb-off.jpg)

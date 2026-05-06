@@ -14,11 +14,11 @@ A specific build guide for the FoldKB will be provided later here.
 
 For the Rev. 1.0 PCB, a trace is missing on the left 1.5u thumb key for the left half as marked here:
 
-![](./assets/images/foldkb/bad-1.5u.jpg)
+![Layout diagram showing missing trace on left 1.5u thumb key](./assets/images/foldkb/bad-1.5u.jpg)
 
 To fix this, after solder all of the switches, add a jumper wire between these two pins as shown below:
 
-![](./assets/images/foldkb/jumper-1.5u.jpg)
+![Jumper wire soldered between pins to fix missing trace](./assets/images/foldkb/jumper-1.5u.jpg)
 
 ## Default Keymap
 

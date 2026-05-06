@@ -32,7 +32,7 @@ Here's a list of parts needed for the build:
     * [Rotary Encoder](https://keeb.io/products/rotary-encoder-ec11) and [Knob](https://keeb.io/products/rotary-encoder-knob-ec11)
     * [Iris Middle Layer](https://keeb.io/products/iris-keyboard-case-plates)
 
-![](./assets/images/iris-rev4/IMG_3637.JPG)
+![Iris Rev. 3 kit parts laid out](./assets/images/iris-rev4/IMG_3637.JPG)
 
 ## Build Steps Summary
 
@@ -65,31 +65,30 @@ These items are optional additions, but if you *do* want them included in your b
 ### Add 2u stabilizers to PCB 
 
 Add the 2u stabilizer if desired. Do this before installing the switch plate and switches:
-![](./assets/images/iris-rev4/IMG_3638.JPG)
+![PCB with stabilizer installed on thumb section](./assets/images/iris-rev4/IMG_3638.JPG)
 
 ### Solder rotary encoder
 
-![](./assets/images/iris-rev4/IMG_3639.JPG)
+![Rotary encoder next to PCB](./assets/images/iris-rev4/IMG_3639.JPG)
 
 If adding a rotary encoder, clip the two larger mounting pins on the encoder so it can fit onto the PCB:
-![](./assets/images/iris-rev4/IMG_3640.JPG)
+![Clipping encoder mounting pins with flush cutters](./assets/images/iris-rev4/IMG_3640.JPG)
 
 Next, add a small piece of electrical tape to cover up the clipped off pins:
-![](./assets/images/iris-rev4/IMG_8868.JPG)
+![Electrical tape applied to encoder clipped pins](./assets/images/iris-rev4/IMG_8868.JPG)
 
 Install the encoder onto the PCB:
-![](./assets/images/iris-rev4/IMG_3641.JPG)
+![Rotary encoder installed on PCB](./assets/images/iris-rev4/IMG_3641.JPG)
 
 Solder the encoder onto the PCB:
-![](./assets/images/iris-rev4/IMG_3642.JPG)
-
+![PCBs with encoder soldered in](./assets/images/iris-rev4/IMG_3642.JPG)
 
 ### Add buffer for acrylic plates
 
 If you are using acrylic plates, you may want to add something in between the bottom side of the plate and the top of the PCB. This prevents the plate from shifting around, since for a 3mm plate, the switches are unable to clip in.
 
 Here, rolled up pieces of electrical tape is being added to the bottom of the plate before being placed onto the PCB:
-![](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
+![Acrylic switch plate with electrical tape buffer pieces](./assets/images/iris-rev4/iris-acrylic-plate-buffer.jpg)
 
 ## Add switches
 :::note FOR KALIH BOX AND KAILH CHOC SWITCHES - INSTALL LEDS BEFORE THIS STEP
@@ -97,55 +96,54 @@ For Kailh Box and Kailh Choc switches, there is no cutout to insert in-switch LE
 :::
 
 Add switches into the switch plate. It's a good idea to add switches to the corners first and then solder them before installing the rest of them:
-![](./assets/images/iris-rev4/IMG_3643.JPG)
+![Corner switches inserted in switch plate](./assets/images/iris-rev4/IMG_3643.JPG)
 
 Fit the switches and plate onto the PCB:
-![](./assets/images/iris-rev4/IMG_3644.JPG)
+![Switch plate with corner switches placed on PCB](./assets/images/iris-rev4/IMG_3644.JPG)
 
 Solder the switches onto the PCB:
-![](./assets/images/iris-rev4/IMG_3645.JPG)
+![PCBs with switches fitted ready to solder](./assets/images/iris-rev4/IMG_3645.JPG)
 
 Add the rest of the switches:
-![](./assets/images/iris-rev4/IMG_3646.JPG)
+![All switches inserted in plate with encoder](./assets/images/iris-rev4/IMG_3646.JPG)
 
 Solder the rest of the switches onto the PCB:
-![](./assets/images/iris-rev4/IMG_3647.JPG)
+![Both PCB halves with all switches soldered](./assets/images/iris-rev4/IMG_3647.JPG)
 
 ## Optional additions! Part 2
 
 ### Solder in-switch LEDs
 
 Polarity of the in-switch LEDs is important. Match up the longer leg of the LED to the `+` sign of the LED pins on the PCB:
-![](./assets/images/iris-rev4/IMG_3648.JPG)
+![LED legs inserted into PCB + pad](./assets/images/iris-rev4/IMG_3648.JPG)
 
 Insert the LED through the switch and PCB:
-![](./assets/images/iris-rev4/IMG_3649.JPG)
+![Side view of LED inserted through PCB](./assets/images/iris-rev4/IMG_3649.JPG)
 
 Double check that the longer leg matches with the `+` sign:
-![](./assets/images/iris-rev4/IMG_3650.JPG)
+![LED leg aligned with + pad on PCB](./assets/images/iris-rev4/IMG_3650.JPG)
 
 Bend the LED legs out so it doesn't fall out while soldering the LED in:
-![](./assets/images/iris-rev4/IMG_3651.JPG)
+![LED legs bent out on PCB underside](./assets/images/iris-rev4/IMG_3651.JPG)
 
 Solder the LED legs and then clip the excess length on the legs:
-![](./assets/images/iris-rev4/IMG_3652.JPG)
+![LED legs soldered across PCB](./assets/images/iris-rev4/IMG_3652.JPG)
 
 ## Assemble!
 
 Insert a screw through the top of the switch plate and attach a standoff from the bottom side of the plate:
-![](./assets/images/iris-rev4/IMG_3653.JPG)
+![Standoff attached to switch plate edge](./assets/images/iris-rev4/IMG_3653.JPG)
 
 Repeat the process for the rest of the plate:
-![](./assets/images/iris-rev4/IMG_3654.JPG)
+![Switch plate with all standoffs attached](./assets/images/iris-rev4/IMG_3654.JPG)
 
 #### Assembly Option!
 
 If you have an acrylic middle layer, insert it now around the standoffs:
-![](./assets/images/iris-rev4/IMG_3655.JPG)
-
+![Acrylic middle layer around standoffs](./assets/images/iris-rev4/IMG_3655.JPG)
 
 Put the bottom plate on and add screws:
-![](./assets/images/iris-rev4/IMG_3656.JPG)
+![Bottom plate screwed onto standoffs](./assets/images/iris-rev4/IMG_3656.JPG)
 
 If you have an acrylic middle layer with tenting holes, here's a video on how to add bolts to it: [Tenting Your Iris with Bolts](https://youtu.be/kxwHtumvQmc)
 

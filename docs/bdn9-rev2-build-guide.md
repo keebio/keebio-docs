@@ -27,17 +27,17 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](./assets/images/bdn9-rev2/IMG_8814.jpg)
+![BDN9 Rev. 2 kit parts laid out](./assets/images/bdn9-rev2/IMG_8814.jpg)
 
 Parts from the kit.
 
 If you have acrylic plates and/or middle layers, peel off the protective backing from both sides.
 
-![](./assets/images/bdn9-rev2/IMG_2703.jpeg)
+![Acrylic plate with backing being peeled](./assets/images/bdn9-rev2/IMG_2703.jpeg)
 
-![](./assets/images/bdn9-rev2/IMG_2790.jpeg)
+![FR4 switch plate with backing being peeled](./assets/images/bdn9-rev2/IMG_2790.jpeg)
 
-![](./assets/images/bdn9-rev2/IMG_2821.jpeg)
+![Bottom plate with backing being peeled](./assets/images/bdn9-rev2/IMG_2821.jpeg)
 
 ## Solder Rotary Encoders
 
@@ -45,11 +45,11 @@ If you have acrylic plates and/or middle layers, peel off the protective backing
 It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
 :::
 
-![](./assets/images/bdn9-rev2/IMG_8816.jpg)
+![Three rotary encoders soldered to PCB](./assets/images/bdn9-rev2/IMG_8816.jpg)
 
 Insert the rotary encoders from the top-side of the PCB.
 
-![](./assets/images/bdn9-rev2/IMG_8817.jpg)
+![PCB top side showing encoder pins](./assets/images/bdn9-rev2/IMG_8817.jpg)
 
 Solder the rotary encoders in.
 
@@ -63,21 +63,21 @@ First, make sure that the plate is oriented correctly.
 
 For FR4 plates, the rectangular cutouts should have the wider portion oriented horizontally.
 
-![](./assets/images/bdn9-rev2/IMG_3496.jpg)
+![FR4 switch plate correct orientation](./assets/images/bdn9-rev2/IMG_3496.jpg)
 
 For acrylic plates, the 6 square cutouts should be oriented so they are for the middle and bottom row, while the larger holes are for the encoders. The wider part of these larger holes should be oriented vertically.
 
-![](./assets/images/bdn9-rev2/IMG_3495.jpg)
+![Acrylic switch plate correct orientation](./assets/images/bdn9-rev2/IMG_3495.jpg)
 
 Once you've figured out the correct orientation, add the switches to the switch plate.
 
-![](./assets/images/bdn9-rev2/IMG_8818.jpg)
+![Switches partially inserted in FR4 plate](./assets/images/bdn9-rev2/IMG_8818.jpg)
 
-![](./assets/images/bdn9-rev2/IMG_8821.jpg)
+![Switches and encoders in FR4 plate](./assets/images/bdn9-rev2/IMG_8821.jpg)
 
 Then, place it on top of the PCB.
 
-![](./assets/images/bdn9-rev2/IMG_8820.jpg)
+![Side view of switches seated in PCB](./assets/images/bdn9-rev2/IMG_8820.jpg)
 
 Make sure all the switches are seated firmly into the PCB.
 
@@ -85,18 +85,18 @@ Solder the switches onto the PCB.
 
 ## Assemble Case
 
-![](./assets/images/bdn9-rev2/IMG_8822.jpg) 
+![Standoffs attached to switch plate](./assets/images/bdn9-rev2/IMG_8822.jpg)
 
 Screw in the standoffs to the switch plate at all four corners.
 
-![](./assets/images/bdn9-rev2/IMG_8823.jpg) 
+![Side view of standoffs attached](./assets/images/bdn9-rev2/IMG_8823.jpg)
 
-![](./assets/images/bdn9-rev2/IMG_8824.jpg)
+![Bottom acrylic layer added to standoffs](./assets/images/bdn9-rev2/IMG_8824.jpg)
 
 Add the bottom plate and screw it in.
 
-![](./assets/images/bdn9-rev2/IMG_8825.jpg)
+![Bottom plate added to standoffs](./assets/images/bdn9-rev2/IMG_8825.jpg)
 
-![](./assets/images/bdn9-rev2/IMG_8826.jpg)
+![Completed BDN9 with keycaps and knobs](./assets/images/bdn9-rev2/IMG_8826.jpg)
 
 Plug it in and test. For the RGB underglow, the mode is controlled by the right-most key in the middle row. If the RGB LEDs don't light up, check your wiring or make sure the pads have enough solder.

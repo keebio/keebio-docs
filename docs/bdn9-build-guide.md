@@ -45,7 +45,7 @@ Here's a summary of the build steps:
 
 ## Prepare components
 
-![](./assets/images/bdn9/cwCKJL2.jpeg)
+![BDN9 Rev. 1 kit parts laid out](./assets/images/bdn9/cwCKJL2.jpeg)
 
 Parts from the kit. The encoders shown are optional and are not included as part of the kit.
 
@@ -53,51 +53,51 @@ Parts from the kit. The encoders shown are optional and are not included as part
 
 ### Solder resistors \(optional\)
 
-![](./assets/images/bdn9/BMyPYRZ.jpeg)
+![PCB with resistors soldered in](./assets/images/bdn9/BMyPYRZ.jpeg)
 
 Insert all of the resistors into the PCB and solder them in. Resistors don't have polarity, so orientation doesn't matter.
 
 Note: The resistor 'R1' can interfere with the placement of the switches on the other side if the leads poke through the PCB. Solder the resistor's leads on the same side the resistor is on and then trim the leads flush with the PCB on the other side.
 
-![](./assets/images/bdn9/resistor-r1.jpg)
+![R1 resistor location highlighted on PCB](./assets/images/bdn9/resistor-r1.jpg)
 
-![](./assets/images/bdn9/resistor-leads.jpg)
+![Annotation showing resistor leads to trim](./assets/images/bdn9/resistor-leads.jpg)
 
 ### Solder the MOSFET \(optional\)
 
-![](./assets/images/bdn9/F68sg1h.jpeg)
+![Solder added to one MOSFET pad](./assets/images/bdn9/F68sg1h.jpeg)
 
 Add a bit of solder to one leg of the MOSFET pad Q1.
 
-![](./assets/images/bdn9/qFuUi6O.jpeg)
+![Tweezers holding MOSFET on PCB pad](./assets/images/bdn9/qFuUi6O.jpeg)
 
 Using a pair of tweezers to hold the MOSFET, solder one leg of the MOSFET first, and make sure it is aligned properly before proceeding.
 
-![](./assets/images/bdn9/It0xzmD.jpeg)
- 
+![MOSFET soldered straight on PCB](./assets/images/bdn9/It0xzmD.jpeg)
+
 Now that the MOSFET is soldered on straight, solder the other two legs.
 
 ### Solder the reset button
 
-![](./assets/images/bdn9/DonYdta.jpeg)
+![Reset button soldered on PCB](./assets/images/bdn9/DonYdta.jpeg)
 
 Add the reset button to the bottom side of the PCB and solder.
 
 ### Solder Pro Micro header pins
 
-![](./assets/images/bdn9/hAyat56.jpeg)
+![Header pins inserted in PCB](./assets/images/bdn9/hAyat56.jpeg)
 
 Insert the header pins into the PCB. Due to the stagger of the header pin holes, they should be able to stand up on their own once inserted. You can go with not soldering the header pins in, but it is recommended to do so anyway for a more secure fit.
 
-![](./assets/images/bdn9/rurIIHH.jpeg)
+![Header pins inserted upside down method](./assets/images/bdn9/rurIIHH.jpeg)
 
 (Optional) An alternative method for soldering in the header pins is shown above. Flip the header pins upside down and solder them in. Then remove the plastic on the header pins by prying it off. The benefit of doing this method is that the Pro Micro Micro-USB port will be flush against the PCB, which helps from getting it ripped off.
 
-![](./assets/images/bdn9/kPCbZMO.jpeg)
+![Header pins soldered to PCB](./assets/images/bdn9/kPCbZMO.jpeg)
 
 Solder the header pins to the PCB.
 
-![](./assets/images/bdn9/17HrSn2.jpeg)
+![Plastic removed from header pins](./assets/images/bdn9/17HrSn2.jpeg)
 
 (Optional) Remove plastic from header pins
 
@@ -107,11 +107,11 @@ Solder the header pins to the PCB.
 It is difficult to put in the rotary encoders into the PCB pads if the switch plate and switches are already on, so make sure you add the encoders first.
 :::
 
-![](./assets/images/bdn9/nhXXWac.jpeg)
+![Rotary encoders inserted in PCB top](./assets/images/bdn9/nhXXWac.jpeg)
 
 Insert the rotary encoders from the top-side of the PCB.
 
-![](./assets/images/bdn9/5BKTw9W.jpeg)
+![Encoders soldered on PCB](./assets/images/bdn9/5BKTw9W.jpeg)
 
 Solder them in. Soldering in the side-clips of the encoders is optional, but recommended.
 
@@ -121,21 +121,21 @@ When using Choc low-profile switches, there is very little clearance between the
 
 ## Solder Switches
 
-![](./assets/images/bdn9/cKMXmXM.jpeg)
+![Switches in plate placed on PCB](./assets/images/bdn9/cKMXmXM.jpeg)
 
 Add the switches to the switch plate and then place it on top of the PCB.
 
-![](./assets/images/bdn9/QHaeyRN.jpeg)
+![Switches soldered onto PCB underside](./assets/images/bdn9/QHaeyRN.jpeg)
 
 Solder the switches onto the PCB.
 
 ## Solder LEDs \(optional\)
 
-![](./assets/images/bdn9/Ub5WBFn.jpeg)
+![LED legs inserted through switch](./assets/images/bdn9/Ub5WBFn.jpeg)
 
 Add LEDs through the switch. The longer leg of the LED (anode) should go through the circular pad, while the shorter leg (cathode) goes through the square pad.
 
-![](./assets/images/bdn9/OidJRMM.jpeg)
+![LED legs bent out ready to solder](./assets/images/bdn9/OidJRMM.jpeg)
 
 Bend the legs of the LEDs outwards a bit to hold them in place and solder them in. Then clip the legs down.
 
@@ -147,15 +147,15 @@ See [Flashing Firmware](flashing-firmware.md) for instructions on flashing the P
 
 Clip the switch legs and plastic pieces of the 2 switches that sit on top of the Pro Micro, so they don't interfere with the Pro Micro.
 
-![](./assets/images/bdn9/Rtlna8B.jpeg)
+![Kapton tape applied over switch area](./assets/images/bdn9/Rtlna8B.jpeg)
 
 Then put some electrical or Kapton tape on top of the area the Pro Micro will be.
 
-![](./assets/images/bdn9/oRuY7ZP.jpeg)
+![Pro Micro placed over header pins](./assets/images/bdn9/oRuY7ZP.jpeg)
 
 Insert Pro Micro over the header pins.
 
-![](./assets/images/bdn9/et1rVfF.jpeg)
+![Pro Micro soldered to header pins](./assets/images/bdn9/et1rVfF.jpeg)
 
 Solder the pins and clips the legs off.
 
@@ -163,7 +163,7 @@ Solder the pins and clips the legs off.
 
 :::info RGB LED pads
 The BDN9 Rev. 1.0 only has three breakout pads (RGB, GND, and VCC) to solder an RGB LED strip to.
-    
+
 The BDN9 Rev. 1.1 has RGB LED pads add another option for adding RGB underglow. Only strips or individual LEDs can be added to this boards (don't do both at the same time).
 :::
 
@@ -173,40 +173,40 @@ If using an RGB LED strip, see the [Adding RGB Underglow](adding-rgb-underglow) 
 
 ### Add individual RGB LEDs \(optional\)
 
-![](./assets/images/bdn9/ZqjaJRC.jpeg)
+![WS2812B RGB LEDs next to PCB](./assets/images/bdn9/ZqjaJRC.jpeg)
 
 WS2812B or SK6812 RGB LEDs can be added individually to the board.
 
-![](./assets/images/bdn9/XTy75GN.jpeg)
+![Solder added to one RGB LED pad each](./assets/images/bdn9/XTy75GN.jpeg)
 
 Add solder to one pad of each LED footprint.
 
-![](./assets/images/bdn9/EK6Bgn9.jpeg)
+![Tweezers placing RGB LED on pad](./assets/images/bdn9/EK6Bgn9.jpeg)
 
 Using a pair of tweezers, hold each LED in place and solder it in.
 
-![](./assets/images/bdn9/led-notches.jpg)
+![RGB LED notch orientation annotation](./assets/images/bdn9/led-notches.jpg)
 
 Note: Before soldering ensure each LED is properly aligned, with the corner notch on the top-right pad.
 
-![](./assets/images/bdn9/NbAWSPH.jpeg)
+![RGB LEDs with remaining pads soldered](./assets/images/bdn9/NbAWSPH.jpeg)
 
 Once the LEDs are aligned properly, solder the other 3 pads.
 
-![](./assets/images/bdn9/ZopCeNY.jpeg)
+![RGB LEDs fully soldered on PCB](./assets/images/bdn9/ZopCeNY.jpeg)
 
 Make sure each pad of the LED has enough solder on it.
 
 ## Assemble Case
 
-![](./assets/images/bdn9/baijfTC.jpeg)
+![Standoffs screwed into switch plate](./assets/images/bdn9/baijfTC.jpeg)
 
 Screw in the standoffs to the switch plate.
 
-![](./assets/images/bdn9/ccYIo1y.jpeg)
+![Bottom plate screwed onto standoffs](./assets/images/bdn9/ccYIo1y.jpeg)
 
 Add the bottom plate and screw it in.
 
-![](./assets/images/bdn9/H5IHy1L.jpeg)
+![Completed BDN9 with keycaps and RGB](./assets/images/bdn9/H5IHy1L.jpeg)
 
 Plug it in and test. For the RGB underglow, the mode is controlled by the right-most key in the middle row. If the RGB LEDs don't light up, check your wiring or make sure the pads have enough solder.

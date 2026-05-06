@@ -15,7 +15,7 @@ Here's a list of parts needed for the build:
 * 1 [Fourier Case Plates](https://keeb.io/collections/frontpage/products/fourier-keyboard-case-plates)
   * 28 M2 6mm screws \(included with plates\)
   * 14 M2 10mm standoffs \(included with plates\)
-  
+
 * 2 [Arduino Pro Micros](https://keeb.io/products/pro-micro-5v-16mhz-arduino-compatible-atmega32u4)
 * 1 [TRRS Cable](https://keeb.io/collections/frontpage/products/trrs-cable?variant=8131954704490)
 * 1 Micro USB Cable
@@ -38,162 +38,157 @@ Here's a list of parts needed for the build:
 
 ## Prepare Components
 
-![](./assets/images/fourier/6YMFVgg.jpg)
+![Two Fourier PCBs Bottom Side Up](./assets/images/fourier/6YMFVgg.jpg)
 
 Grab your PCBs. Pictured bottoms up -- left is on the left, right is on the right.
 
-![](./assets/images/fourier/rrey3ej.jpg)
-
+![Bending Diodes Around Finger](./assets/images/fourier/rrey3ej.jpg)
 
 If you're using through hole diodes, bend 'em up. Here, I'm just bending it around my finger
 
-![](./assets/images/fourier/sKo655O.jpg)
-
+![Resistors Bent in a Row](./assets/images/fourier/sKo655O.jpg)
 
 Another way to do it, resistors shown here
 
-![](./assets/images/fourier/2D39Ojx.jpg)
-
+![Strip of Diodes Bent on Paper](./assets/images/fourier/2D39Ojx.jpg)
 
 Strip of diodes bent
 
-![](./assets/images/fourier/Ys0X30w.jpg)
-
+![Hand Ripping Paper off Diodes](./assets/images/fourier/Ys0X30w.jpg)
 
 Ripping off the paper holding all the resistors together. Grip the diodes tightly so they don't bend as you're ripping the paper off.
 
-![](./assets/images/fourier/4cFrb2D.jpg)
-
+![Bent Diodes Separated from Strip](./assets/images/fourier/4cFrb2D.jpg)
 
 All separated from the paper
 
 ## Solder Components
 
-![](./assets/images/fourier/E6WgUsd.jpg)
+![Tweezers Placing SMD Diode on PCB](./assets/images/fourier/E6WgUsd.jpg)
 
 Install the diodes. SMD diodes are being used here, since they're a lot faster for me to install. The orientation of all the diodes are the same, they are vertically oriented, with the band on the diodes facing towards the bottom, square pad.
 
 SMD diodes have a white band as shown in this picture, through-hole diodes will have a black band.
 
-![](./assets/images/fourier/OQBgyna.jpg)
+![Left PCB with All Diodes Installed](./assets/images/fourier/OQBgyna.jpg)
 
 All the diodes installed on the left PCB.
 
-![](./assets/images/fourier/AUPBgyO.jpg)
+![Close-Up of SMD Diodes on PCB](./assets/images/fourier/AUPBgyO.jpg)
 
 Another close up of the diodes so you can be the bands.
 
-![](./assets/images/fourier/P0xUZWc.jpg)
+![Left PCB with TRRS Jack and Resistors](./assets/images/fourier/P0xUZWc.jpg)
 
 Install the I2C resistors (optional), the TRRS jack, and reset switch.
 
-![](./assets/images/fourier/Nw9aKdz.jpg)
+![Right PCB with TRRS Jack and Diodes](./assets/images/fourier/Nw9aKdz.jpg)
 
 Repeat the same process with the diodes, TRRS jack, and reset switch with the right half. Note that there's no I2C resistor slots on this side, as they're only needed on one half.
 
-![](./assets/images/fourier/AiDoJdn.jpg)
+![First Header Pin Row Soldered to PCB](./assets/images/fourier/AiDoJdn.jpg)
 
 Solder on the header pins for the Pro Micro.
 
 First technique: Put on first row of header pins and solder one pin. Then check to see if it's aligned properly before soldering the rest of the row.
 
-![](./assets/images/fourier/LKaHUuV.jpg)
+![PCB with First Header Row Aligned](./assets/images/fourier/LKaHUuV.jpg)
 
 Alignment after first row is good, solder the rest of the pins.
 
-![](./assets/images/fourier/NvHFYqh.jpg)
+![PCB with Second Header Pin Row](./assets/images/fourier/NvHFYqh.jpg)
 1
 
 Same thing with the other row of header pins, solder one pin first, check alignment, then solder the rest.
 
-![](./assets/images/fourier/62jgd90.jpg)
+![Header Pins Held with Masking Tape](./assets/images/fourier/62jgd90.jpg)
 
 Second technique for soldering header pins on: Tape row of pins so they stay in place while you solder them in.
 
-![](./assets/images/fourier/tRwjwFZ.jpg)
+![Second Row Header Pins Taped](./assets/images/fourier/tRwjwFZ.jpg)
 
 Repeat for the other row of pins.
 
-![](./assets/images/fourier/nU47rLi.jpg)
+![Right Half PCB Header Pin Area](./assets/images/fourier/nU47rLi.jpg)
 
-![](./assets/images/fourier/FMhd0WO.jpg)
+![Switch with Header Pin Interference](./assets/images/fourier/FMhd0WO.jpg)
 
 Due to the location of the stabilizers on the right half, the Pro Micro header pins needed to be situated a bit lower than usual. This interferes a bit with one of the switches, so the pins need to be trimmed down a bit on that side.
 
-![](./assets/images/fourier/JrxztrO.jpg)
+![Header Pins to Be Trimmed](./assets/images/fourier/JrxztrO.jpg)
 
 Another view which shows the pins that will need to be trimmed down.
 
-![](./assets/images/fourier/JUJuRle.jpg)
+![Flush Cutter Trimming Header Pins](./assets/images/fourier/JUJuRle.jpg)
 
 Take a flush cutter to trim the pins down.
 
-![](./assets/images/fourier/IQnHd0Y.jpg)
+![Switch Sitting Flat on PCB](./assets/images/fourier/IQnHd0Y.jpg)
 
 All good now, the switch sits flat on the PCB.
 
-![](./assets/images/fourier/ORDwvw1.jpg)
+![Both PCBs with Stabilizers Installed](./assets/images/fourier/ORDwvw1.jpg)
 
 Add stabilizers to the keys you want to stabilize.
 
-![](./assets/images/fourier/ysM9w7t.jpg)
+![Corner Switches in Switch Plate](./assets/images/fourier/ysM9w7t.jpg)
 
 Time to add the switches. Put a few switches into the corners of the switch plate and then attach the switches to the PCB. Make sure the switches are pushed all the way down onto the PCB.
 
 Due to the multiple layout options, it may be helpful to put keycaps on the switches to make sure everything is in the correct slots.
 
-![](./assets/images/fourier/ZcmuoHR.jpg)
+![Bottom Row Switch Layout Issue](./assets/images/fourier/ZcmuoHR.jpg)
 
 If you paid attention closely to the previous picture, the lower left switch was too close to the one to the right of it to properly do a 4x1u configuration on the bottom row. Turns out I forgot to expand the cutout width when I added support for that configuration. This has already been fixed in the next version of the plates.
 
-![](./assets/images/fourier/nOM9XWl.jpg)
+![All Switches Installed in Left Half](./assets/images/fourier/nOM9XWl.jpg)
 
 All the switches installed and soldered in.
 
-![](./assets/images/fourier/kaxSMbD.jpg)
+![PCB Underside with Header Pins](./assets/images/fourier/kaxSMbD.jpg)
 
 Time to install the Pro Micro now that the switches have been soldered in.
 
-![](./assets/images/fourier/Y8LYgMx.jpg)
+![Switch Pins Trimmed on PCB Underside](./assets/images/fourier/Y8LYgMx.jpg)
 
 To make sure that the switch pins don't touch the Pro Micro, clip them flush with the PCB.
 
-![](./assets/images/fourier/wD2B0Te.jpg)
+![Kapton Tape over Switch Area](./assets/images/fourier/wD2B0Te.jpg)
 
 Afterwards, add Kapton or electrical tape on top of it.
 
 Now go flash your Pro Micro before installing it on the board. Better to find out if it's defective or not before it's soldered on.
 
-![](./assets/images/fourier/Zjbn2GT.jpg)
+![Pro Micro Placed on Left PCB](./assets/images/fourier/Zjbn2GT.jpg)
 
 Place the Pro Micro on the header pins. On both PCBs, the component side of the Pro Micro will be hidden from you.
 
 Don't install it backwards, it doesn't flip the layout or anything like that, it doesn't work in that way.
 
-![](./assets/images/fourier/g5XCCqr.jpg)
+![Right PCB with Switches and Pro Micro](./assets/images/fourier/g5XCCqr.jpg)
 
 Repeat the process of stabilizer, switch, and Pro Micro installation on the right PCB.
 
-![](./assets/images/fourier/Qtoo3b9.jpg)
+![Right PCB Pro Micro Side View](./assets/images/fourier/Qtoo3b9.jpg)
 
 Once again, the component side of the Pro Micro will be hidden from you.
 
-![](./assets/images/fourier/DuXct1J.jpg)
+![Left PCB with RGB Strip Connected](./assets/images/fourier/DuXct1J.jpg)
 
 Optional, add RGB strip. For the left half here's what to connect:
-- RGB breakout goes to Din on strip
-- VCC breakout goes to +5V on strip
-- GND breakout goes to GND on strip
-- Extra Data goes to Do/Dout on strip
+* RGB breakout goes to Din on strip
+* VCC breakout goes to +5V on strip
+* GND breakout goes to GND on strip
+* Extra Data goes to Do/Dout on strip
 
-![](./assets/images/fourier/cJ1Czig.jpg)
+![Right PCB with RGB Strip Connected](./assets/images/fourier/cJ1Czig.jpg)
 
 Pro Micro added to the right PCB. Here's what to connect for the right half:
-- VCC breakout goes to +5V on strip
-- GND breakout goes to GND on strip
-- Extra Data goes to Din on strip
-- RGB breakout remains empty for now
+* VCC breakout goes to +5V on strip
+* GND breakout goes to GND on strip
+* Extra Data goes to Din on strip
+* RGB breakout remains empty for now
 
-![](./assets/images/fourier/DIqF3bf.jpg)
+![Completed Fourier Split Keyboard](./assets/images/fourier/DIqF3bf.jpg)
 
 Assemble the case by adding screws, standoffs, and bottom plates.

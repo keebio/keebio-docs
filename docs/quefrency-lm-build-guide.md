@@ -60,7 +60,7 @@ Add the rest of the switches.
 
 Before reassembling the case, plug the USB cable into the PCB and test all of the keys to make sure everything is working, as it'll be easier to fix switch issues now than later.
 
-![](./assets/images/quefrency-lm/via-switch-test.png)
+![VIA key tester](./assets/images/quefrency-lm/via-switch-test.png)
 
 Note that the `Fn` key won't show up in the switch tester, as a keycode isn't sent to the computer when pressed, so to test it, hold `Fn` while pressing another key. For example, holding down `Fn` while pressing `1` will output `F1` to a computer.
 

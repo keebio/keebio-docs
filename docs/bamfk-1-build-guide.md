@@ -13,7 +13,7 @@ title: BAMFK-1 Build Guide
 * 1.5mm and 2.5mm Hex Keys
 * M3 screws and rivet nuts
 
-![](./assets/images/bamfk-1/kit.jpg)
+![BAMFK-1 kit parts laid out](./assets/images/bamfk-1/kit.jpg)
 
 ## Video Tutorial
 
@@ -39,13 +39,13 @@ If your case has been fully disassembled, you'll need to reassemble the bottom p
 
 Unscrew the screws at the top of the case and remove the top 5 layers and switch plate. Don't unscrew the bottom portion of the case and leave it as is.
 
-![](./assets/images/bamfk-1/IMG_0366.jpeg)
+![Top case layers and switch plate disassembled](./assets/images/bamfk-1/IMG_0366.jpeg)
 
 ## Insert Switch into Plate
 
 Insert the Big Switch into the switch plate, making sure the holes are in the correct orientation as shown below.
 
-![](./assets/images/bamfk-1/IMG_0367.jpeg)
+![Big switch inserted in switch plate](./assets/images/bamfk-1/IMG_0367.jpeg)
 
 ## Solder Encoders
 
@@ -57,15 +57,15 @@ Make sure you insert the encoders from the bottom side of the PCB and solder the
 
 :::
 
-![](./assets/images/bamfk-1/IMG_0368.jpeg)
+![Encoders soldered on PCB bottom view](./assets/images/bamfk-1/IMG_0368.jpeg)
 
-![](./assets/images/bamfk-1/IMG_0369.jpeg)
+![Encoders soldered on PCB top view](./assets/images/bamfk-1/IMG_0369.jpeg)
 
 ## Install Knobs
 
 Install the knobs onto the rotary encoders and use the 1.5mm hex key to tighten them into place. It'll be more difficult if you screw on the knobs later, so do it now.
 
-![](./assets/images/bamfk-1/IMG_0370.jpeg)
+![Knobs installed on rotary encoders](./assets/images/bamfk-1/IMG_0370.jpeg)
 
 ## Solder Big Switch
 
@@ -73,19 +73,19 @@ Insert the switch legs of the Big Switch through the PCB and solder them on. Mak
 
 It's okay to use a generous amount of solder to get everything in place more firmly. If you don't use enough solder, the PCB might hang off of the switch at an angle.
 
-![](./assets/images/bamfk-1/IMG_0371.jpeg)
+![Big switch legs soldered on PCB top](./assets/images/bamfk-1/IMG_0371.jpeg)
 
-![](./assets/images/bamfk-1/IMG_0372.jpeg)
+![Big switch and PCB on case bottom](./assets/images/bamfk-1/IMG_0372.jpeg)
 
 ## Insert Plate into Case
 
 Take the plate/PCB/switch combo and angle in the knobs through the front panel first, and then lean the USB port back.
 
-![](./assets/images/bamfk-1/IMG_0373.jpeg)
+![Plate angled into case with knobs first](./assets/images/bamfk-1/IMG_0373.jpeg)
 
 Push the plate over the screw heads of the bottom half of the case.
 
-![](./assets/images/bamfk-1/IMG_0374.jpeg)
+![Plate placed over bottom case screws](./assets/images/bamfk-1/IMG_0374.jpeg)
 
 ## Reassemble Top Half of Case
 
@@ -95,21 +95,21 @@ If you need help with identifying the top 5 layers, see this: [Making Top Half o
 
 It helps to do 2 opposite corners first, and then the last 2 corners.
 
-![](./assets/images/bamfk-1/IMG_0375.jpeg)
+![Top case layers screwed together](./assets/images/bamfk-1/IMG_0375.jpeg)
 
 ## Finishing It
 
 Add keycap.
 
-![](./assets/images/bamfk-1/IMG_0376.jpeg)
+![Completed BAMFK-1 with keycap](./assets/images/bamfk-1/IMG_0376.jpeg)
 
 Plug in USB-C Cable.
 
-![](./assets/images/bamfk-1/IMG_0377.jpeg)
+![Completed BAMFK-1 with USB cable](./assets/images/bamfk-1/IMG_0377.jpeg)
 
 Turn the lights off and enjoy.
 
-![](./assets/images/bamfk-1/IMG_0378.jpeg)
+![Completed BAMFK-1 with RGB lit](./assets/images/bamfk-1/IMG_0378.jpeg)
 
 ## Reprogramming the BAMFK-1
 
@@ -119,11 +119,11 @@ You can reprogram the BAMFK-1 using QMK, QMK Configurator, or VIA Configurator. 
 
 Here's the link for configuring the BAMFK-1 with QMK Configurator: [config.qmk.fm](https://config.qmk.fm/#/keebio/bamfk1/LAYOUT)
 
-![](./assets/images/bamfk-1/bamfk-qmk-config.png)
+![QMK Configurator layout for BAMFK-1](./assets/images/bamfk-1/bamfk-qmk-config.png)
 
 ### VIA Configurator
 
-![](./assets/images/bamfk-1/bamfk-via-config.png)
+![VIA Configurator layout for BAMFK-1](./assets/images/bamfk-1/bamfk-via-config.png)
 
 ## Full Reassembly of Case
 
@@ -139,58 +139,58 @@ We are going to assemble the case, starting from the bottom plate.
 
 Make sure the registration dot is aligned to the left. Then add rivet nuts on the underside of the plate in the spots indicated below.
 
-![](./assets/images/bamfk-1/b7.png)
+![Bottom plate with rivet nut locations](./assets/images/bamfk-1/b7.png)
 
 Find the piece with 2 dots and stack it on top of the bottom plate.
 
-![](./assets/images/bamfk-1/b6.png)
+![2-dot layer stacked on bottom plate](./assets/images/bamfk-1/b6.png)
 
 Do the same with the piece with 3 dots.
 
-![](./assets/images/bamfk-1/b5.png)
+![3-dot layer added to bottom stack](./assets/images/bamfk-1/b5.png)
 
 There will be two pieces with 4 dots.
 
-![](./assets/images/bamfk-1/b4.png)
+![Two 4-dot layers added to stack](./assets/images/bamfk-1/b4.png)
 
 Then put on the two pieces with 5 dots.
 
-![](./assets/images/bamfk-1/b3.png)
+![Two 5-dot layers added to stack](./assets/images/bamfk-1/b3.png)
 
 Add the piece with 6 dots.
 
-![](./assets/images/bamfk-1/b2.png)
+![6-dot layer added to bottom stack](./assets/images/bamfk-1/b2.png)
 
 Add the piece with 7 dots.
 
-![](./assets/images/bamfk-1/b1.png)
+![7-dot layer added to bottom stack](./assets/images/bamfk-1/b1.png)
 
 Insert the front panel piece, making sure the registration dot is aligned to the top left.
 
-![](./assets/images/bamfk-1/fp.png)
+![Front panel piece placed on bottom stack](./assets/images/bamfk-1/fp.png)
 
 Take the 35mm M3 screws and slot them through all the pieces stacked so far and screw them into the rivet nuts.
 
-![](./assets/images/bamfk-1/rivets1.png)
+![M3x35mm screws through bottom stack](./assets/images/bamfk-1/rivets1.png)
 
 ### Make Top Half of Case
 
 Add the switch plate.
 
-![](./assets/images/bamfk-1/sp.png)
+![Switch plate added on bottom stack](./assets/images/bamfk-1/sp.png)
 
 Add the piece with 2 dots.
 
-![](./assets/images/bamfk-1/t1.png)
+![2-dot top layer added to stack](./assets/images/bamfk-1/t1.png)
 
 Add the piece with 1 dot.
 
-![](./assets/images/bamfk-1/t2.png)
+![1-dot top layer added to stack](./assets/images/bamfk-1/t2.png)
 
 The last three pieces are all the same size and have no dots.
 
-![](./assets/images/bamfk-1/t3-5.png)
+![Three remaining top layers added](./assets/images/bamfk-1/t3-5.png)
 
 Add the remaining rivet nuts to the bottom plate and screw in the 70mm M3 screws into them.
 
-![](./assets/images/bamfk-1/rivets2.png)
+![M3x70mm screws through completed stack](./assets/images/bamfk-1/rivets2.png)
