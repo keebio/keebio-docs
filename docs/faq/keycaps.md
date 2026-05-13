@@ -2,7 +2,6 @@
 title: Recommended Keycaps
 ---
 
-import dropImg from './../assets/images/vendors/drop.png';
 import cannonkeysImg from './../assets/images/vendors/Cannonkeys-10_360x.png';
 import dailyclackImg from './../assets/images/vendors/dailyclack.png';
 
@@ -21,11 +20,6 @@ If you're *really* burning to put that last sweet touch of keycaps on your aweso
 <center><em><img src="https://i.imgur.com/4soycXr.png" alt="alternate_text"  width="380" height="78" /></em></center></a>
 
 [NovelKeys](https://novelkeys.xyz/collections/keycaps) keeps a pretty diverse array of keycaps. They range from a more neutral look to some of the intricate fandoms... like Star Wars! These folks are nice to work with.
-
-<a href="https://drop.com/mechanical-keyboards/drops/?sc=keycaps">
-<center><em><img src={dropImg} alt="alternate_text" /></em></center></a>
-
-[Drop](https://drop.com/mechanical-keyboards/drops/?sc=keycaps) has various in-stock keycaps for sale, in various profiles like SA, GMK, as well as their own MT3 profile. The MT3 profile keycap sets they have typically have ortho sets/kits available for them too.
 
 <a href="https://cannonkeys.com/collections/cannonkeys-keycaps">
 <center><em><img src={cannonkeysImg} alt="alternate_text" /></em></center></a>
