@@ -19,7 +19,7 @@ For Keebio keyboards, VIA-enabled firmware files can be found here: [Keebio Firm
 The VIA app now comes in two flavors:
 
 - [Web App](https://via.keeb.io) (Preferred)
-  - With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID. (Sorry Firefox users)
+  - With the web app, you don't have to do any updates on your end when new features are released. However, you are limited to Chrome-based browsers that support WebHID. (Sorry Firefox users). Brave Browser is also not fully-compatible and has issues with detecting keyboards.
   - To launch the web app for VIA, go to this site [Keebio - VIA Web App](https://via.keeb.io).
   - Note: The link above is for a version of the VIA app hosted by us with additional support for Keebio boards. For the original VIA app, go here: [VIA Configurator](https://usevia.app).
 - [Desktop App](https://github.com/the-via/releases/releases)
