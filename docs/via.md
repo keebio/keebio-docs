@@ -2,7 +2,7 @@
 title: VIA Usage Guide
 ---
 
-[VIA Configurator](https://www.caniusevia.com/) is a desktop app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
+[VIA Configurator](https://via.keeb.io/) is an app that talks to your VIA-enabled keyboard and allows you to remap keys on-the-fly, as well as toggling layout options, programming macros, and controlling lighting.
 
 ![VIA Keymap Default Screen](./assets/images/via/01-keymap-default-screen.png)
 
@@ -11,6 +11,8 @@ For info on how VIA relates to the underlying QMK Firmware, see this for more de
 ## Is my keyboard supported by VIA?
 
 Here's a list of keyboards with VIA support: [Supported Keyboards](https://caniusevia.com/docs/supported_keyboards). Note that just because your keyboard is listed there doesn't mean that you can immediately use VIA Configurator with it. The firmware flashed to the keyboard must have VIA support enabled, and you can find pre-compiled .hex/.bin firmware files with VIA support here: [VIA Firmware Downloads](https://caniusevia.com/docs/download_firmware).
+
+For Keebio keyboards, VIA-enabled firmware files can be found here: [Keebio Firmware](https://github.com/keebio/keebio-firmware)
 
 ## Getting VIA
 
