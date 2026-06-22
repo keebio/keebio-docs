@@ -4,6 +4,8 @@ title: Sinc Rev. 3-4 Hotswap Build Guide
 
 A build guide for the Sinc Rev. 3-4 is in progress, but due to the similarity of the PCBs to the Quefrency Rev. 4-6, see the build guide for that instead: [Quefrency Rev. 4-6 Hotswap Build Guide](quefrency-hotswap-build-guide.md)
 
+This build guide is for the Sinc Rev. 3-4 which has Kailh hotswap sockets. If you have the Rev. 1 or 2 PCBs, see the [Sinc Rev.1 build guide](https://docs.keeb.io/quefrency-rev2-sinc-build-guide).
+
 ## ANSI to ISO Enter Hotswap Conversion
 
 Because of the limitations of where the hotswap sockets could be placed, only the ANSI Enter layout is supported out of the box.
@@ -77,6 +79,14 @@ Next, click on `Keymap` on the left side bar, and then click on the ISO Enter ke
 ## Default Keymap
 
 Here's the default keymap if you need it: [Sinc Default Keymap](../static/layouts/keymap_Sinc_rev2.pdf)
+
+## Solder Rotary Encoder (optional)
+
+![] (./assets/images/sinc-rev4/IMG_1454)
+![] (./assets/images/sinc-rev4/IMG_1455)
+
+Install the encoder onto the PCB and solder the 2 pins at the top side of the encoder and the 3 pins at the bottom side.
+
 
 ## Reflashing Board
 
