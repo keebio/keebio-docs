@@ -11,6 +11,7 @@ module.exports = {
         'nyquist-lm-build-guide',
         'demod-lm-build-guide',
         'foldkb-rev2-build-guide',
+        'breeze-rev1.4-build-guide',
         'dilly-build-guide',
         'chiri-ce-build-guide',
         'quefrency-hotswap-build-guide',
