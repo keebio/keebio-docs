@@ -17,7 +17,6 @@ module.exports = {
         'cepstrum-build-guide',
         'sinc-rev3-build-guide',
         'bdn9-rev3-build-guide',
-        'breeze-build-guide',
         'hotswap-switch-installation',
         'bamfk-1-build-guide',
         'bfo-9000-build-guide',
@@ -29,6 +28,7 @@ module.exports = {
         {
           'Archive of Older Models': [
             'iris-rev6-build-guide',
+            'breeze-rev1.3-build-guide',
             'iris-aluminum-case-build-guide',
             'quefrency-rev1-build-guide',
             'quefrency-rev2-sinc-build-guide',
