@@ -34,9 +34,9 @@ First up, time to get your parts:
     - 11 10mm M2 Screws
     - Shroomie Feet
   - [USB-C to USB-C cable](https://keeb.io/products/usb-c-to-usb-c-cable)
-    - [2x 2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer)
-    - [70 MX-compatbile Switches](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=MX)
-    - [MX-compatible Keycaps](https://keeb.io/collections/keycaps?filter.p.m.keyboard.switch_compatibility=MX)
+  - [2x 2u PCB mount MX stabilizers](https://keeb.io/products/cherry-mx-stabilizer)
+  - [70 MX-compatbile Switches](https://keeb.io/collections/switches?filter.p.m.keyboard.switch_compatibility=MX)
+  - [MX-compatible Keycaps](https://keeb.io/collections/keycaps?filter.p.m.keyboard.switch_compatibility=MX)
 
   ![Breeze MX Kit Contents](./assets/images/breeze/breeze-1.4-mx-kit.jpg)
   </TabItem>
