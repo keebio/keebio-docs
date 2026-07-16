@@ -56,10 +56,6 @@ For a fun play on words, [DiviniKey](https://divinikey.com/collections/keycap-se
 [DailyClack](https://dailyclack.com/collections/keycaps) has some in-stock ePBT keysets for sale.
 
 ## Europe
-<a href="https://candykeys.com/category:keycaps">
-<center><em><img src="https://i.imgur.com/6uQ0wUo.png" alt="alternate_text"  width="350" height="75" /></em></center></a>
-
-[CandyKeys](https://candykeys.com/category:keycaps) offers some beautiful sets. You need to be a close follower to snag some of the sets, as they disappear pretty quick!
 
 <a href="https://mechboards.co.uk/product-category/keycaps/">
 <center><em><img src="https://i.imgur.com/3jhDvsZ.png" alt="alternate_text"  width="200" height="120" /></em></center></a>
