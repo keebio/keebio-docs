@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
   ![Fully Built Breeze MX Version](./assets/images/breeze/IMG_0363.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-  ![Fully Built Breeze MX Version](./assets/images/breeze/breeze-1.4-choc-build.jpg)
+  ![Fully Built Breeze MX Version](./assets/images/breeze/IMG_0449.jpeg)
   </TabItem>
 </Tabs>
 
@@ -62,7 +62,7 @@ First up, time to get your parts:
 ## Build Steps Summary
 
 1. Disassemble Case
-2. Test Microcontrollers
+2. Flash Microcontrollers
 3. Solder Microcontrollers
 4. Add Stabilizers
 5. Add Switches
@@ -76,16 +76,16 @@ The first thing to do is unscrew the screws from the case.
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-  ![Unscrew MX case](./assets/images/breeze/IMG_0084.jpeg)
+  ![Unscrew MX case](./assets/images/breeze/IMG_0453.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-  ![Unscrew Choc case](./assets/images/breeze/IMG_0084.jpeg)
+  ![Unscrew Choc case](./assets/images/breeze/IMG_0427.jpeg)
   </TabItem>
 </Tabs>
 
-## Test Microcontrollers
+## Flash Microcontrollers
 
-Test the microcontrollers first by flashing the firmware to them, as removing the controllers from the PCB is difficult if you have any problems with it and need to desolder them. The Boot button on some controllers are also difficult to access when soldered to the PCBs, so that's another reason to flash and test them upfront.
+Flash the firmware to the microcontrollers first before soldering them to the PCB, as removing the controllers from the PCB is difficult if you have any problems with it and need to desolder them. The Boot button on some controllers are also difficult to access when soldered to the PCBs, so that's another reason to flash and test them upfront.
 
 Here's the firmware for the Breeze with support for VIA enabled for different microcontrollers:
 
@@ -108,19 +108,37 @@ Place both of the PCBs face up and insert the header pins into the holes for the
 
 If your controller has 2 columns of 12 pins instead of 13 pins, use insert the header pins into the lower 12 pins, as the top 2 pins are for battery usage.
 
-![Insert header pins](./assets/images/breeze/IMG_0070.jpeg)
+### 12 pin columns
+
+![Insert header pins - 12 pins](./assets/images/breeze/IMG_0428.jpeg)
+
+### 13 pin columns
+
+![Insert header pins - 13 pins](./assets/images/breeze/IMG_0429.jpeg)
 
 Flip the PCBs over and solder the header pins.
 
-![Solder header pins](./assets/images/breeze/IMG_0071.jpeg)
+![Solder header pins](./assets/images/breeze/IMG_0430.jpeg)
 
 Flip the PCBs back over and put the controllers over the header pins. The chip side of the controller should be facing down.
 
-![Insert controllers](./assets/images/breeze/IMG_0072.jpeg)
+![Insert controllers](./assets/images/breeze/IMG_0436.jpeg)
 
-Solder the controllers to the header pins, and then clip the extra length of the header pins off.
+:::danger
 
-![Solder controllers](./assets/images/breeze/IMG_0073.jpeg)
+Don't insert the microcontroller with the chip side face up, it won't work probably that way.
+
+:::
+
+![Wrong way](./assets/images/breeze/IMG_0437.jpeg)
+
+Solder the controllers to the header pins.
+
+![Solder controllers](./assets/images/breeze/IMG_0438.jpeg)
+
+Then clip the extra length of the header pins off.
+
+![Solder controllers](./assets/images/breeze/IMG_0439.jpeg)
 
 <Tabs groupId="controller-type">
   <TabItem value="wired" label="Wired Build">
@@ -139,13 +157,15 @@ If you have purchased Li-ion batteries from Keebio, they have a Pico-EZmate conn
 
 First slide the battery power switch down, which is the Off position.
 
-![Power Switch](./assets/images/breeze/power-switch-and-ezmate.jpeg)
+![Power Switch](./assets/images/breeze/IMG_0462.jpeg)
 
 Next, press the connector onto the PCB where the Pico-EZmate connector is.
 
-![Battery with EZmate Connector](./assets/images/breeze/battery-ezmate-connected.jpeg)
+![Power Switch](./assets/images/breeze/IMG_0463.jpeg)
 
 Add a piece of tape to hold the battery in-place.
+
+![Power Switch](./assets/images/breeze/IMG_0464.jpeg)
 
 ### Option 2: Battery without connector
 
@@ -153,13 +173,19 @@ If you are bringing your own batteries that don't have Pico-EZmate connectors, y
 
 First slide the battery power switch down, which is the Off position.
 
-![Power Switch](./assets/images/breeze/power-switch-and-ezmate.jpeg)
+![Power Switch](./assets/images/breeze/IMG_0462.jpeg)
 
 Next, if there's a pre-existing connector at the end of the battery, cut it off and strip the ends of the wires.
 
+(TODO: Add picture of battery here)
+
 Then solder the black wire to the negative (`-`) pad and red wire to the positive (`+`) pad.
 
+(TODO: Add picture of soldered battery here)
+
 Add a piece of tape to hold the battery in-place.
+
+(TODO: Add picture of soldered battery taped down here)
   </TabItem>
 </Tabs>
 
@@ -169,7 +195,7 @@ Add a piece of tape to hold the battery in-place.
   <TabItem value="mx" label="MX Version">
 Assemble the MX stabilizers and insert them into the PCB. If you are unfamiliar with assembling and inserting stabilizers, here's a guide for that: [Stabilizer Handbook](https://imgur.com/gallery/pHK0vhz)
 
-![Add MX stabilizers](./assets/images/breeze/IMG_0074.jpeg)
+![Add MX stabilizers](./assets/images/breeze/IMG_0458.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
 
@@ -177,7 +203,9 @@ For Choc V2, stabilizers have already been installed into the plate, so you don'
 
 ![Choc V2 Stabilizer Pre-Installed](./assets/images/breeze/choc-v2-stabilizer.jpeg)
 
-If you are using Choc V1 switches instead, the pre-installed V2 stabilizers will need to be removed, as it's not compatible with V1 keycaps. From the underside of plate, push up on the stabilizer to remove it. As a result, you'll need to use the thumb key without a stabilizer.
+If you are using Choc V1 switches instead, the pre-installed V2 stabilizers will need to be removed, as it's not compatible with V1 keycaps. From the underside of plate, push in the two tabs marked below on the stabilizer to unhook it from the switch plate. As a result, you'll need to use the thumb key without a stabilizer.
+
+![Choc V2 Stabilizer Pre-Installed](./assets/images/breeze/IMG_0440.jpeg)
 
   </TabItem>
 </Tabs>
@@ -189,10 +217,10 @@ Start off by inserting switches into the switch plate at the corners and a coupl
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-![Add switches to plate](./assets/images/breeze/IMG_0075.jpeg)
+![Add switches to plate](./assets/images/breeze/IMG_0455.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Add switches to plate](./assets/images/breeze/IMG_0075.jpeg)
+![Add switches to plate](./assets/images/breeze/IMG_0442.jpeg)
   </TabItem>
 </Tabs>
 
@@ -207,7 +235,7 @@ Don't attempt to insert switches with bent pins into the hotswap socket, as that
 ![Bent pin](./assets/images/iris-rev6/IMG_7854.jpg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Bent pin](./assets/images/iris-rev6/IMG_7854.jpg)
+![Add switches to plate](./assets/images/breeze/IMG_0443.jpeg)
   </TabItem>
 </Tabs>
 
@@ -218,7 +246,7 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
 ![Unbend pin](./assets/images/iris-rev6/IMG_7855.jpg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Unbend pin](./assets/images/iris-rev6/IMG_7855.jpg)
+![Add switches to plate](./assets/images/breeze/IMG_0444.jpeg)
   </TabItem>
 </Tabs>
 
@@ -226,19 +254,23 @@ Overlay the switch plate with switches combo onto the PCB and push them together
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-![Add switch plate](./assets/images/breeze/IMG_0076.jpeg)
+![Add switch plate](./assets/images/breeze/IMG_0459.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Add switch plate](./assets/images/breeze/IMG_0076.jpeg)
+![Add switch plate](./assets/images/breeze/IMG_0445.jpeg)
   </TabItem>
 </Tabs>
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-![Add switch plate](./assets/images/breeze/IMG_0077.jpeg)
+When together, there should be a 3.5mm gap between the switch plate and the PCB.
+
+![Add switch plate](./assets/images/breeze/IMG_0460.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Add switch plate](./assets/images/breeze/IMG_0077.jpeg)
+When together, there should be a 1mm gap between the switch plate and the PCB.
+
+![Add switch plate](./assets/images/breeze/IMG_0446.jpeg)
   </TabItem>
 </Tabs>
 
@@ -246,10 +278,10 @@ Add the rest of the switches to the plate/PCB.
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-![Add rest of switches](./assets/images/breeze/IMG_0078.jpeg)
+![Add rest of switches](./assets/images/breeze/IMG_0466.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Add rest of switches](./assets/images/breeze/IMG_0078.jpeg)
+![Add rest of switches](./assets/images/breeze/IMG_0447.jpeg)
   </TabItem>
 </Tabs>
 
@@ -259,10 +291,10 @@ Line up the PCB/plate into the case and screw it in with the screws. Do not scre
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
-![Add screws](./assets/images/breeze/IMG_0080.jpeg)
+![Add screws](./assets/images/breeze/IMG_0467.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-![Add screws](./assets/images/breeze/IMG_0080.jpeg)
+![Add screws](./assets/images/breeze/IMG_0448.jpeg)
   </TabItem>
 </Tabs>
 
@@ -275,7 +307,7 @@ Finally, add your keycaps to your board.
   ![Fully Built Breeze MX Version](./assets/images/breeze/IMG_0363.jpeg)
   </TabItem>
   <TabItem value="choc" label="Choc Version">
-  ![Fully Built Breeze MX Version](./assets/images/breeze/breeze-1.4-choc-build.jpg)
+  ![Fully Built Breeze MX Version](./assets/images/breeze/IMG_0449.jpeg)
   </TabItem>
 </Tabs>
 
@@ -292,11 +324,15 @@ On the bottom of the case is a hole to that allows access to the reset button on
 ### Connect the Halves
 
 Use the USB-C to USB-C cable to connect the two halves together using the pre-soldered USB-C port on the Breeze PCB (not the ones on the controllers).
+
+![Fully Built Breeze MX Version](./assets/images/breeze/IMG_0363.jpeg)
   </TabItem>
   <TabItem value="wireless" label="Wireless Build">
 ### Battery Power Switch
 
 The batteries are connected to the microcontrollers when the slide switch on the bottom of the board is moved to the Up position. Slide it to the Down position if you want to disconnect the battery from the microncontroller to save power.
+
+(TODO: Add picture of power switch here)
 
   </TabItem>
 </Tabs>
