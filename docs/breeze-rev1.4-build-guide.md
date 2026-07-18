@@ -106,7 +106,7 @@ See [Flashing Firmware](flashing-firmware) for more info on flashing your contro
 
 Place both of the PCBs face up and insert the header pins into the holes for them.
 
-If your controller has 2 columns of 12 pins instead of 13 pins, use insert the header pins into the lower 12 pins, as the top 2 pins are for battery usage.
+If your controller has 2 columns of 12 pins instead of 13 pins, insert the header pins into the lower 12 pins, as the top 2 pins are for battery usage.
 
 ### 12 pin columns
 
@@ -126,7 +126,7 @@ Flip the PCBs back over and put the controllers over the header pins. The chip s
 
 :::danger
 
-Don't insert the microcontroller with the chip side face up, it won't work probably that way.
+Don't insert the microcontroller with the chip side face up, it won't work properly that way.
 
 :::
 
@@ -224,6 +224,17 @@ Start off by inserting switches into the switch plate at the corners and a coupl
   </TabItem>
 </Tabs>
 
+Overlay the switch plate with switches combo onto the PCB and push them together.
+
+<Tabs groupId="switch-type">
+  <TabItem value="mx" label="MX Version">
+![Add switch plate](./assets/images/breeze/IMG_0459.jpeg)
+  </TabItem>
+  <TabItem value="choc" label="Choc Version">
+![Add switch plate](./assets/images/breeze/IMG_0445.jpeg)
+  </TabItem>
+</Tabs>
+
 :::danger
 
 Don't attempt to insert switches with bent pins into the hotswap socket, as that can push the socket off of the PCB and damage it.
@@ -247,17 +258,6 @@ If you have a switch with a bent pin, unbend the pin. Sometimes it helps to have
   </TabItem>
   <TabItem value="choc" label="Choc Version">
 ![Add switches to plate](./assets/images/breeze/IMG_0444.jpeg)
-  </TabItem>
-</Tabs>
-
-Overlay the switch plate with switches combo onto the PCB and push them together.
-
-<Tabs groupId="switch-type">
-  <TabItem value="mx" label="MX Version">
-![Add switch plate](./assets/images/breeze/IMG_0459.jpeg)
-  </TabItem>
-  <TabItem value="choc" label="Choc Version">
-![Add switch plate](./assets/images/breeze/IMG_0445.jpeg)
   </TabItem>
 </Tabs>
 
@@ -287,7 +287,7 @@ Add the rest of the switches to the plate/PCB.
 
 ## Assemble Case
 
-Line up the PCB/plate into the case and screw it in with the screws. Do not screw in the screws too tightly, as the threaded inserts may get ripped out.
+Line up the PCB/plate into the case and screw it in with the screws. Do not screw in the screws too tightly, as this will bring the plate too close to the PCB and the switches will pop out.
 
 <Tabs groupId="switch-type">
   <TabItem value="mx" label="MX Version">
