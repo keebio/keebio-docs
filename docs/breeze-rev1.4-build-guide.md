@@ -332,7 +332,7 @@ Use the USB-C to USB-C cable to connect the two halves together using the pre-so
 
 The batteries are connected to the microcontrollers when the slide switch on the bottom of the board is moved to the Up position. Slide it to the Down position if you want to disconnect the battery from the microncontroller to save power.
 
-(TODO: Add picture of power switch here)
+![Power switch On](./assets/images/breeze/on-off-back.jpg)
 
   </TabItem>
 </Tabs>
