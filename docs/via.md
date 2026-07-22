@@ -287,3 +287,39 @@ You generally won't need to use this tab unless needing to do some workarounds.
 - Fast Key Mapping - If enabled, when you remap a key, the key selection box to remap automatically moves to the next key
 
 The rest of the options allow you to change the look of the app.
+
+## Troubleshooting/FAQ
+
+### Linux
+
+If you're on Linux, for your keyboard to be detected within VIA, you'll need to set up udev rules.
+
+See this page for more info: [Configuring udev rules for VIA and Vial on Linux](https://get.vial.today/manual/linux-udev.html#generalized-via-udev-rule)
+
+### My keyboard isn't being detected. What should I do?
+
+- Your keyboard must be in wired mode and connected with a USB cable
+- Make sure you are **not** using a usb hub
+- Disable software like OpenRGB and/or SignalRGB
+- Check `chrome://usb-internals` (for Chrome) or `edge://usb-internals` (for Edge) in the devices tab and check if your keyboard is being detected.
+
+If your keyboard is NOT in the supported list:
+- Find the VIA .json that the manufacturer provides either on their website or ask their support
+- Check that the VID (vendor ID) and PID (product ID) match in the JSON file that you are provided with
+- Load it into the [Design tab](#sideloading-via-definition-files)
+
+#### For Monsgeek Keyboard Users
+
+The devs made a fork of VIA, an unofficial "clone" if you can call it that. Please visit [here instead and ask questions in their Discord](https://via.evove.top)
+
+### Remapping a key doesn't work. What should I do?
+
+Make sure you're editing the correct layer. If you have a Keychron keyboard, check your specific quick reference guide/manual or the generic one here ([Keychron VIA usage](https://www.keychron.com/blogs/archived/how-to-use-via-to-program-your-keyboard)) which tells you if you how the layers are set up.
+
+### Can the VIA team please add support for "a specific keyboard"?
+
+The VIA team only supplies the software, and accepts [pull requests by maintainers](https://github.com/the-via/keyboards/pulls). They do not add support by themselves. Please contact the designer/manufacturer of your keyboard and ask them to add official VIA support.
+
+### How do I change per-key RGB, i.e. specific keys to a specific color?
+
+Currently VIA doesn't offer this functionality at the moment. The only work around now is going into QMK source and coding it up yourself.
