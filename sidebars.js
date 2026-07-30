@@ -8,6 +8,7 @@ module.exports = {
         'iris-lm-build-guide',
         'iris-se-build-guide',
         'quefrency-lm-build-guide',
+        'sinc-lm-build-guide',
         'nyquist-lm-build-guide',
         'demod-lm-build-guide',
         'foldkb-rev2-build-guide',
