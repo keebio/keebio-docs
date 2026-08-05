@@ -54,7 +54,7 @@ Then push down on the part of the switch that is above the pins until it clicks 
 
 Add the rest of the switches.
 
-![All switches added](./assets/images/quefrency-lm/IMG_8769.jpeg)
+![All switches added](./assets/images/sinc-lm/IMG_0604.jpeg)
 
 ## Test keys
 
@@ -70,11 +70,11 @@ If a key is not working, check that the switch is inserted properly and that the
 
 Add keycaps to all of the switches.
 
-![All keycaps added](./assets/images/quefrency-lm/IMG_8771.jpeg)
+![All keycaps added](./assets/images/sinc-lm/IMG_0606.jpeg)
 
 Plug it in and type away!
 
-![All lit up](./assets/images/quefrency-lm/plugged-in.jpg)
+![All lit up](./assets/images/sinc-lm/IMG_0614.jpeg)
 
 ## Magnetic Tenting Stand Rings
 
@@ -82,21 +82,21 @@ If you're using the magnetic tenting stands, you can attach the MagSafe sticker 
 
 First peel off the backing of the sticker ring.
 
-![Peel off backing](./assets/images/quefrency-lm/IMG_8781.jpeg)
+![Peel off backing](./assets/images/sinc-lm/IMG_0623.jpeg)
 
 Then stick it on the bottom plate.
 
-![Stick on bottom plate](./assets/images/quefrency-lm/IMG_8782.jpeg)
+![Stick on bottom plate](./assets/images/sinc-lm/IMG_0624.jpeg)
 
 Next peel off the blue protection film.
 
-![Remove protection film](./assets/images/quefrency-lm/IMG_8784.jpeg)
+![Remove protection film](./assets/images/sinc-lm/IMG_0625.jpeg)
 
-![Completed ring attached](./assets/images/quefrency-lm/IMG_8785.jpeg)
+![Completed ring attached](./assets/images/sinc-lm/IMG_0626.jpeg)
 
 Adjust the tenting stand to however you'd like it an place the keyboard on it.
 
-![Place on tenting stand](./assets/images/quefrency-lm/IMG_8788.jpeg)
+![Place on tenting stand](./assets/images/sinc-lm/IMG_0627.jpeg)
 
 ## Default Keymap
 
