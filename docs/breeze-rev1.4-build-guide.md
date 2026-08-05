@@ -161,11 +161,11 @@ First slide the battery power switch down, which is the Off position.
 
 Next, press the connector onto the PCB where the Pico-EZmate connector is.
 
-![Power Switch](./assets/images/breeze/IMG_0463.jpeg)
+![Press in connector](./assets/images/breeze/IMG_0463.jpeg)
 
 Add a piece of tape to hold the battery in-place.
 
-![Power Switch](./assets/images/breeze/IMG_0464.jpeg)
+![Tape Battery](./assets/images/breeze/IMG_0464.jpeg)
 
 ### Option 2: Battery without connector
 
@@ -177,15 +177,15 @@ First slide the battery power switch down, which is the Off position.
 
 Next, if there's a pre-existing connector at the end of the battery, cut it off and strip the ends of the wires.
 
-(TODO: Add picture of battery here)
+![Prep battery wires](./assets/images/breeze/IMG_0736.jpeg)
 
 Then solder the black wire to the negative (`-`) pad and red wire to the positive (`+`) pad.
 
-(TODO: Add picture of soldered battery here)
+![Soldered battery wires](./assets/images/breeze/IMG_0737.jpeg)
 
 Add a piece of tape to hold the battery in-place.
 
-(TODO: Add picture of soldered battery taped down here)
+![Tape Battery](./assets/images/breeze/IMG_0738.jpeg)
   </TabItem>
 </Tabs>
 
