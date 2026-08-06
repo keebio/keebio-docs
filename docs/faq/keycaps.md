@@ -2,7 +2,6 @@
 title: Recommended Keycaps
 ---
 
-import dropImg from './../assets/images/vendors/drop.png';
 import cannonkeysImg from './../assets/images/vendors/Cannonkeys-10_360x.png';
 import dailyclackImg from './../assets/images/vendors/dailyclack.png';
 
